@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label" ],
+	"name" : "SPOConnectorMorph",
+	"pools" : [
+		 ],
+	"super" : "NCAAConnectorMorph",
+	"type" : "normal" }

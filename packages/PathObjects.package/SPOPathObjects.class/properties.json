@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectDiagramMorph" ],
+	"name" : "SPOPathObjects",
+	"pools" : [
+		 ],
+	"super" : "STool",
+	"type" : "normal" }

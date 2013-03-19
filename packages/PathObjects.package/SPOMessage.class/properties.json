@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"senderId",
+		"receiverId",
+		"selector" ],
+	"name" : "SPOMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

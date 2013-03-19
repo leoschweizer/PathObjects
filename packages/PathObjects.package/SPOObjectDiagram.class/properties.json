@@ -1,0 +1,18 @@
+{
+	"category" : "PathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callgraphModel",
+		"objects",
+		"messages",
+		"objectMorphs",
+		"connectors" ],
+	"name" : "SPOObjectDiagram",
+	"pools" : [
+		 ],
+	"super" : "SPasteUpMorph",
+	"type" : "normal" }

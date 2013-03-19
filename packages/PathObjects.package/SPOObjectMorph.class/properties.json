@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOObjectMorph",
+	"pools" : [
+		 ],
+	"super" : "NCUMLDiagramMorph",
+	"type" : "normal" }
