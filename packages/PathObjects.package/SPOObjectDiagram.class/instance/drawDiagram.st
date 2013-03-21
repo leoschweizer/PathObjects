@@ -8,4 +8,4 @@ drawDiagram
 		createMessageMorphs;
 		markCurrentNode.
 	
-	NCGraphLayoutAlgorithm layoutMorph: self.
+	"NCGraphLayoutAlgorithm layoutMorph: self."
