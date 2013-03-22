@@ -1,5 +1,5 @@
 as yet unclassified
-drawEnabled
+showEnabled
 	
 	self
 		color: (Color r: 108 g: 157 b: 14 range: 255);

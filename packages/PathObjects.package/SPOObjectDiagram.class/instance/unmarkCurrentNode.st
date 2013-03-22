@@ -11,4 +11,4 @@ unmarkCurrentNode
 		self connectors at: (self connectors size min: self currentStep).
 	}.
 	connectors do: [:each | each hide].
-	connectors first connectedMorphs do: [:each | each drawDisabled].
+	connectors first connectedMorphs do: [:each | each showDisabled].

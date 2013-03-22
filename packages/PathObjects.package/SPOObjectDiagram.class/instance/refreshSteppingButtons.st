@@ -2,5 +2,5 @@ stepping
 refreshSteppingButtons
 
 	self
-		changed: #stepBackButtonEnabled;
+		changed: #stepBackwardButtonEnabled;
 		changed: #stepForwardButtonEnabled.

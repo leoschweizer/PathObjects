@@ -1,5 +1,5 @@
 as yet unclassified
-drawDisabled
+showDisabled
 	
 	self
 		color: (Color gray muchLighter alpha: 0.2);

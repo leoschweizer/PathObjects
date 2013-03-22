@@ -8,5 +8,5 @@ labeled: aString
 		"addTextBlock: '';"
 		lockText: true;
 		preferredConnection: #connectToNearestAttachmentPoint;
-		drawDisabled.
+		showDisabled.
 	^ instance

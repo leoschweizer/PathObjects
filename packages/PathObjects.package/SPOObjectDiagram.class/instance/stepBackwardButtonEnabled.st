@@ -1,4 +1,4 @@
 stepping
-stepBackButtonEnabled
+stepBackwardButtonEnabled
 
 	^ self currentStep >= 2

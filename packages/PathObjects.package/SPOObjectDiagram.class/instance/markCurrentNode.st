@@ -12,4 +12,4 @@ markCurrentNode
 	}.
 	connectors do: [:each | each showDisabled].
 	connectors first showEnabled.
-	connectors first connectedMorphs do: [:each | each drawEnabled].
+	connectors first connectedMorphs do: [:each | each showEnabled].

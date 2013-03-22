@@ -2,6 +2,6 @@ as yet unclassified
 historyButtons
 
 	^ #(
-		( '<<' #stepBack #stepBackButtonEnabled)
+		( '<<' #stepBackward #stepBackwardButtonEnabled)
 		( '>>' #stepForward #stepForwardButtonEnabled)
 	).
