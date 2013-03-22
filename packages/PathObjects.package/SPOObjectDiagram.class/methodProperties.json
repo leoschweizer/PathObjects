@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"displaying:" : "ls 3/21/2013 13:23:25.337",
+		"displaying:" : "ls 3/22/2013 15:07:51.591",
 		"displaying:inStep:" : "ls 3/22/2013 10:06:53.371" },
 	"instance" : {
 		"callgraphModel" : "ls 3/5/2013 15:49:06.017",
@@ -12,9 +12,9 @@
 		"createObjectMorphs" : "ls 3/19/2013 13:05:14.595",
 		"currentStep" : "ls 3/21/2013 13:19:47.885",
 		"currentStep:" : "ls 3/22/2013 10:06:35.21",
-		"drawDiagram" : "ls 3/21/2013 11:49:45.916",
+		"drawDiagram" : "ls 3/22/2013 14:36:50.952",
 		"initialize" : "ls 3/22/2013 09:33:52.515",
-		"markCurrentNode" : "ls 3/22/2013 11:34:36.575",
+		"markCurrentNode" : "ls 3/22/2013 14:48:37.437",
 		"messages" : "ls 3/6/2013 21:43:25.556",
 		"objectMorphs" : "ls 3/6/2013 18:12:45.877",
 		"objectOccurenceOrdering" : "ls 3/8/2013 11:56:07.186",
@@ -24,5 +24,5 @@
 		"stepBackwardButtonEnabled" : "ls 3/22/2013 11:33:08.256",
 		"stepForward" : "ls 3/22/2013 10:15:29.598",
 		"stepForwardButtonEnabled" : "ls 3/22/2013 10:09:52.934",
-		"unmarkCurrentNode" : "ls 3/22/2013 11:34:02.513",
+		"unmarkCurrentNode" : "ls 3/22/2013 14:48:46.567",
 		"windowLabel" : "ls 3/5/2013 15:52:18.646" } }
