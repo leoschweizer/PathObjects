@@ -1,7 +1,4 @@
 as yet unclassified
 displaying: aCallgraphModel
 	
-	^ self new
-		callgraphModel: aCallgraphModel;
-		drawDiagram;
-		yourself
+	^ self displaying: aCallgraphModel inStep: aCallgraphModel selectedItem id

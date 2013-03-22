@@ -1,5 +1,5 @@
 drawing
-markCurrentNode
+unmarkCurrentNode
 
 	| connectors |
 	connectors := {
@@ -10,6 +10,5 @@ markCurrentNode
 		"call after current call"
 		self connectors at: (self connectors size min: self currentStep).
 	}.
-	connectors do: [:each | each showDisabled].
-	connectors first showEnabled.
-	connectors first connectedMorphs do: [:each | each drawEnabled].
+	connectors do: [:each | each hide].
+	connectors first connectedMorphs do: [:each | each drawDisabled].

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 createMessageMorphs
 	
 	self messages withIndexDo: [:each :index | | connector callerMorph calleeMorph |

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 createObjectMorphs
 	
 	| morph positionX positionY |

@@ -1,4 +1,4 @@
 stepping
 stepForwardButtonEnabled
 	
-	^ self callgraphModel currentNode id <= self messages size
+	^ self currentStep < self messages size

@@ -1,4 +1,4 @@
-as yet unclassified
+collecting
 collectMessages
 	
 	| caller callerId |

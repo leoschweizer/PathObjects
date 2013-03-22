@@ -1,4 +1,4 @@
-as yet unclassified
+collecting
 collectObjects
 	
 	| id receiver |

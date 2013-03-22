@@ -3,10 +3,6 @@ buildWindowWith: aBuilder
 	
 	self 
 		buildWindowOn: aBuilder;
-		buildHistoryButtonsOn: aBuilder frame: (0.85 @ -0.01 corner: 1.0 @ 0.062);
+		buildHistoryButtonsOn: aBuilder frame: (0.45@0.89 corner: 0.55@0.95);
 		buildDiagramOn: aBuilder frame: (0@0 extent: 1@1).
-	self windowSpec
-		model: self objectDiagramMorph;
-		label: #windowLabel;
-		closeAction: nil.
 	super buildWith: aBuilder.
