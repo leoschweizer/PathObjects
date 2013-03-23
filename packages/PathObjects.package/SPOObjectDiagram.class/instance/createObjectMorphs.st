@@ -1,12 +1,11 @@
 drawing
 createObjectMorphs
 	
-	| morph positionX positionY |
-	positionX := 25.
-	positionY := 100.
+	| morph position |
+	position := -400@0.
 	self objectOccurenceOrdering do: [:objectId |
 		morph := SPOObjectMorph labeled: (self objects at: objectId) asString.
-		morph position: positionX@positionY.
+		morph position: (self translateOrigin: position).
 		self objectMorphs at: objectId put: morph.
 		self addMorph: morph.
-		positionX := positionX + morph width + 50].
+		position := position + ((morph width + 50)@0)].

@@ -1,10 +1,10 @@
 as yet unclassified
-buildHistoryButtonsOn: aBuilder frame: aRectangle
+buildSteppingButtonsOn: aBuilder frame: aRectangle
 	
 	| buttonSpec |
 	buttonSpec := self 
 		buildButtonsWith: aBuilder
-		from: self historyButtons
+		from: self steppingButtons
 		model: self objectDiagramMorph.
 	buttonSpec frame: aRectangle.
 	self windowSpec children add: buttonSpec.

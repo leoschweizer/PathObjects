@@ -3,11 +3,12 @@
 		"openDisplaying:" : "ls 3/5/2013 15:56:13.728" },
 	"instance" : {
 		"buildDiagramOn:frame:" : "ls 3/21/2013 12:16:44.601",
-		"buildHistoryButtonsOn:frame:" : "ls 3/21/2013 13:09:24.827",
-		"buildWindowWith:" : "ls 3/22/2013 09:28:32.506",
-		"buildWith:" : "ls 3/22/2013 09:30:02.441",
-		"historyButtons" : "ls 3/22/2013 11:32:53.996",
+		"buildSteppingButtonsOn:frame:" : "ls 3/23/2013 11:13:07.864",
+		"buildWindowWith:" : "ls 3/23/2013 11:12:53.397",
+		"buildWith:" : "ls 3/23/2013 11:22:47.441",
 		"initialExtent" : "ls 3/5/2013 17:24:05.824",
 		"initializeWith:" : "ls 3/19/2013 13:05:51.849",
+		"label" : "ls 3/23/2013 11:21:29.601",
 		"objectDiagramMorph" : "ls 3/5/2013 15:46:17.022",
-		"objectDiagramMorph:" : "ls 3/5/2013 15:46:29.363" } }
+		"objectDiagramMorph:" : "ls 3/5/2013 15:46:29.363",
+		"steppingButtons" : "ls 3/23/2013 11:14:15.187" } }

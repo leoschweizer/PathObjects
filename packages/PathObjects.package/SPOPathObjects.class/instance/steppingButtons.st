@@ -1,7 +1,7 @@
 as yet unclassified
-historyButtons
+steppingButtons
 
 	^ #(
 		( '<<' #stepBackward #stepBackwardButtonEnabled)
 		( '>>' #stepForward #stepForwardButtonEnabled)
-	).
+	)

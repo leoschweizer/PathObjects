@@ -7,5 +7,5 @@ drawDiagram
 		createObjectMorphs;
 		createMessageMorphs;
 		markCurrentNode.
-	self halt.
+	
 	"NCGraphLayoutAlgorithm layoutMorph: self."
