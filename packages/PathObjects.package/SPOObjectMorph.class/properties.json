@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"instVars" ],
 	"name" : "SPOObjectMorph",
 	"pools" : [
 		 ],
-	"super" : "NCUMLDiagramMorph",
+	"super" : "NCTextRectangleMorph",
 	"type" : "normal" }
