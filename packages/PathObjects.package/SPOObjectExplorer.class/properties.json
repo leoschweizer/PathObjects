@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explorer",
-		"explorerMorph" ],
-	"name" : "SPOObjectMorph",
+		 ],
+	"name" : "SPOObjectExplorer",
 	"pools" : [
 		 ],
-	"super" : "NCTextRectangleMorph",
+	"super" : "ObjectExplorer",
 	"type" : "normal" }
