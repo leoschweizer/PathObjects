@@ -1,5 +1,6 @@
 as yet unclassified
 explorerListMorphFor: anObject
+	
 	|  listMorph |
 	rootObject := anObject.
 	listMorph := SPluggableTreeMorph 
@@ -13,6 +14,7 @@ explorerListMorphFor: anObject
 	listMorph
 		autoDeselect: false;
 		color: Color white;
-		borderWidth: 0;
-		alwaysShowScrollBars: true.
+		borderWidth: 2;
+		borderColor: Color white;
+		alwaysShowScrollBars: false.
 	^ listMorph

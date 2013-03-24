@@ -6,6 +6,7 @@ labeled: aString
 	instance
 		caption: aString;
 		lockText: true;
+		addLine;
 		preferredConnection: #connectToNearestAttachmentPoint;
 		showDisabled.
 	^ instance
