@@ -7,10 +7,9 @@ explorerListMorphFor: anObject
 			on: self
 			list: #getList
 			selected: #getCurrentSelection
-			changeSelected: #noteNewSelection:
-			menu: #genericMenu:
+			changeSelected: nil
+			menu: nil
 			keystroke: #explorerKey:from:.
-	listMorph setSelectedSelector: #noteNewSelection:.
 	listMorph
 		autoDeselect: false;
 		color: Color white;

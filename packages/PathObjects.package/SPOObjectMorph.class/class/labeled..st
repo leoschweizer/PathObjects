@@ -9,4 +9,5 @@ labeled: aString
 		addLine;
 		preferredConnection: #connectToNearestAttachmentPoint;
 		showDisabled.
+	instance width < 151 ifTrue: [instance width: 151].
 	^ instance
