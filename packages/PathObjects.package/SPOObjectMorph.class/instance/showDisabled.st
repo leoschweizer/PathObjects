@@ -2,10 +2,10 @@ as yet unclassified
 showDisabled
 	
 	self
-		color: (Color gray muchLighter alpha: 0.2);
-		borderColor: (Color black alpha: 0.2);
+		color: (Color r: 250 g: 250 b: 250 range: 255);
+		borderColor: (Color r: 164 g: 164 b: 165 range: 255);
 		borderWidth: 1;
 		layoutChanged;
 		fullBounds.
 	(self textMorphAt: 1)
-		textColor: (Color black alpha: 0.4).
+		textColor: (Color r: 152 g: 152 b: 153 range: 255).
