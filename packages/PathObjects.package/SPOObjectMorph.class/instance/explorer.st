@@ -1,4 +1,4 @@
 accessing
 explorer
 
-	^ explorer ifNil: [explorer := SPOObjectExplorer new].
+	^ explorer ifNil: [explorer := SPOObjectExplorer new]

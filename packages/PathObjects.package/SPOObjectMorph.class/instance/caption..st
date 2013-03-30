@@ -1,6 +1,6 @@
 as yet unclassified
 caption: aString
 	
-	| fonts |
-	fonts := Preferences connectorsLabelFont textStyle.
-	fonts ifNotNil: [(self setTextAt: 1 to: aString) beAllFont: (fonts fontOfSize: 15)].
+	| font |
+	font := Preferences connectorsLabelFont textStyle.
+	font ifNotNil: [(self setTextAt: 1 toCentered: aString) beAllFont: (font fontOfSize: 15)].
