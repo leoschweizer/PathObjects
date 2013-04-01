@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"displaying:" : "ls 3/22/2013 15:07:51.591",
-		"displaying:inStep:" : "ls 3/22/2013 10:06:53.371" },
+		"displaying:inStep:" : "ls 3/22/2013 10:06:53.371",
+		"messageTailSize" : "ls 4/1/2013 18:16:03.889" },
 	"instance" : {
 		"callgraphModel" : "ls 3/5/2013 15:49:06.017",
 		"callgraphModel:" : "ls 3/5/2013 15:49:12.462",
@@ -17,7 +18,7 @@
 		"drawDiagram" : "ls 3/23/2013 12:31:07.989",
 		"initialize" : "ls 3/23/2013 11:15:39.068",
 		"isObjectDiagram" : "ls 3/30/2013 21:20:46.854",
-		"markCurrentNode" : "ls 3/23/2013 14:02:58.26",
+		"markCurrentNode" : "ls 4/1/2013 18:27:40.383",
 		"messages" : "ls 3/6/2013 21:43:25.556",
 		"objectMorphs" : "ls 3/6/2013 18:12:45.877",
 		"objectOccurenceOrdering" : "ls 3/8/2013 11:56:07.186",
@@ -28,4 +29,4 @@
 		"stepForward" : "ls 3/22/2013 10:15:29.598",
 		"stepForwardButtonEnabled" : "ls 3/22/2013 10:09:52.934",
 		"translateOrigin:" : "ls 3/22/2013 15:51:36.018",
-		"unmarkCurrentNode" : "ls 3/22/2013 14:48:46.567" } }
+		"unmarkCurrentNode" : "ls 4/1/2013 18:27:24.96" } }
