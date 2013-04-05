@@ -6,6 +6,6 @@ createMessageMorphs
 		calleeMorph := self objectMorphs at: each receiverId.
 		connector := SPOConnectorMorph new fromMorph: callerMorph toMorph: calleeMorph.
 		connector
-			addLabel: (index asString, '. ', each selector) near: 0@0;
+			addLabel: (index asString, '. ', each selector);
 			hide.
 		self connectors add: connector].
