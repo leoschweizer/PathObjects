@@ -2,6 +2,7 @@ as yet unclassified
 showDisabled
 	
 	self
+		show;
 		color: (Color r: 250 g: 250 b: 250 range: 255);
 		borderColor: (Color r: 164 g: 164 b: 165 range: 255);
 		borderWidth: 1;

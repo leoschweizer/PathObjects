@@ -8,4 +8,7 @@ createObjectMorphs
 		morph position: (self translateOrigin: position).
 		self objectMorphs at: objectId put: morph.
 		self addMorph: morph.
+		morph hide.
 		position := position + ((morph width + 50)@0)].
+	
+	(self objectsOccuringBefore: self currentStep) do: [:each | each showDisabled].
