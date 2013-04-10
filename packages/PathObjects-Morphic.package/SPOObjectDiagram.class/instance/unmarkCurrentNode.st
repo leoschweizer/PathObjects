@@ -7,6 +7,6 @@ unmarkCurrentNode
 	currentMessage hide.
 	self messageTail do: [:each | each hide].
 	
-	(self objectsOccuringAfter: self currentStep) 
+	((self objectsOccuringAfter: self currentStep) copyWithoutAll: (self objectsOccuringBefore: self currentStep))
 		collect: [:each | self objectMorphs at: each]
 		thenDo: [:each | each hide].
