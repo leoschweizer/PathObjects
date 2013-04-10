@@ -10,7 +10,7 @@
 		"collectObjects" : "ls 3/6/2013 21:51:02.622",
 		"connectors" : "ls 3/6/2013 23:46:28.174",
 		"createMessageMorphs" : "ls 4/5/2013 12:37:40.739",
-		"createObjectMorphs" : "ls 4/9/2013 15:41:24.306",
+		"createObjectMorphs" : "ls 4/10/2013 12:52:37.912",
 		"currentCallNode" : "ls 3/24/2013 18:27:28.112",
 		"currentObjectState" : "ls 3/23/2013 13:12:33.307",
 		"currentStep" : "ls 3/21/2013 13:19:47.885",
@@ -24,11 +24,12 @@
 		"objectMorphs" : "ls 3/6/2013 18:12:45.877",
 		"objectOccurenceOrdering" : "ls 3/8/2013 11:56:07.186",
 		"objects" : "ls 3/6/2013 21:50:52.67",
-		"objectsOccuringBefore:" : "ls 4/9/2013 15:37:24.757",
+		"objectsOccuringAfter:" : "ls 4/10/2013 13:00:20.466",
+		"objectsOccuringBefore:" : "ls 4/10/2013 12:51:56.405",
 		"refreshSteppingButtons" : "ls 3/22/2013 11:33:19.322",
 		"stepBackward" : "ls 3/22/2013 11:32:40.449",
 		"stepBackwardButtonEnabled" : "ls 3/22/2013 11:33:08.256",
 		"stepForward" : "ls 3/22/2013 10:15:29.598",
 		"stepForwardButtonEnabled" : "ls 3/22/2013 10:09:52.934",
 		"translateOrigin:" : "ls 3/22/2013 15:51:36.018",
-		"unmarkCurrentNode" : "ls 4/9/2013 15:49:36.881" } }
+		"unmarkCurrentNode" : "ls 4/10/2013 12:54:40.818" } }

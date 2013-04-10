@@ -11,4 +11,6 @@ createObjectMorphs
 		morph hide.
 		position := position + ((morph width + 50)@0)].
 	
-	(self objectsOccuringBefore: self currentStep) do: [:each | each showDisabled].
+	(self objectsOccuringBefore: self currentStep)
+		collect: [:each | self objectMorphs at: each]
+		thenDo: [:each | each showDisabled].

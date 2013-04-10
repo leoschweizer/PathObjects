@@ -1,8 +1,9 @@
 collecting
 objectsOccuringBefore: anInteger
-
+	
+	self flag: #ls. "TODO: collect parameter objects as well"
 	^ (self messages copyFrom: 1 to: anInteger)
 		flatCollect: [:each | {
-			self objectMorphs at: each senderId. 
-			self objectMorphs at: each receiverId
+			each senderId. 
+			each receiverId.
 		}]
