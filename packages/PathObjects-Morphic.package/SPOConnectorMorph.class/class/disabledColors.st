@@ -4,6 +4,6 @@ disabledColors
 	
 	^ {
 		Color black alpha: 0.5.
-		Color black alpha: 0.7.
-		Color black alpha: 0.9.
+		Color black alpha: 0.3.
+		Color black alpha: 0.1.
 	}

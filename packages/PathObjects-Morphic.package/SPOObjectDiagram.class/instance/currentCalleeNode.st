@@ -1,5 +1,5 @@
 accessing
-currentCallNode
+currentCalleeNode
 
 	^ self callgraphModel 
 		findNodeInSubGraph: self currentStep + 1
