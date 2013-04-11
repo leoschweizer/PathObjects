@@ -10,3 +10,7 @@ unmarkCurrentNode
 	((self objectsOccuringAfter: self currentStep) copyWithoutAll: (self objectsOccuringBefore: self currentStep))
 		collect: [:each | self objectMorphs at: each]
 		thenDo: [:each | each hide].
+	
+	self currentCalleeNode nextCalls ifEmpty: 
+		[currentMessage connectedMorphs second upsertStateOf: ((self currentCalleeNode explore: #selfAfter) first).
+		(self objectMorphs at: (self currentCalleeNode fromSender views at: #identities)) upsertStateOf: ((self currentCalleeNode fromSender explore: #selfAfter) first)].

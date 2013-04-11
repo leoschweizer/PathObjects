@@ -7,3 +7,5 @@ markCurrentNode
 	self messageTail withIndexDo: [:each :index | each showDisabledForDistance: index].
 	currentMessage showEnabled.
 	currentMessage connectedMorphs do: [:each | each showEnabled].
+	
+	currentMessage connectedMorphs second upsertStateOf: ((self currentCalleeNode explore: #selfBefore) first)
