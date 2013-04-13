@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calleeObject" : "ls 4/13/2013 11:52:47.824",
+		"callerObject" : "ls 4/13/2013 11:52:39.383",
+		"parameterObjects" : "ls 4/13/2013 11:55:49.024",
+		"selector" : "ls 4/13/2013 14:47:14.732" } }

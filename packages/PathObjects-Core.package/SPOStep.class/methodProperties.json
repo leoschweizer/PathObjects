@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callNode" : "ls 4/13/2013 13:41:40.955",
+		"callNode:" : "ls 4/13/2013 13:41:32",
+		"involvedObjects" : "ls 4/13/2013 11:57:37.971",
+		"involvedObjects:" : "ls 4/13/2013 12:38:51.628",
+		"nextStep" : "ls 4/13/2013 11:51:10.763",
+		"nextStep:" : "ls 4/13/2013 11:51:19.482",
+		"previousStep" : "ls 4/13/2013 11:51:28.088",
+		"previousStep:" : "ls 4/13/2013 11:51:34.344" } }

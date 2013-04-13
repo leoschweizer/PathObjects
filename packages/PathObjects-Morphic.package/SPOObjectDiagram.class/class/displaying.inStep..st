@@ -1,8 +1,8 @@
 as yet unclassified
-displaying: aCallgraphModel inStep: anIndex
+displaying: anInteractionModel inStep: anIndex
+	
 	
 	^ self new
-		callgraphModel: aCallgraphModel;
-		currentStep: (1 max: anIndex);
+		interactionModel: anInteractionModel;
 		drawDiagram;
 		yourself

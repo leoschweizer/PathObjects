@@ -2,10 +2,8 @@ drawing
 drawDiagram
 	
 	self
-		collectObjects;
-		collectMessages;
-		createObjectMorphs;
-		createMessageMorphs;
-		markCurrentNode.
+		createObjectMorphs.
+		"createMessageMorphs;
+		markCurrentNode"
 	
 	"NCGraphLayoutAlgorithm layoutMorph: self."

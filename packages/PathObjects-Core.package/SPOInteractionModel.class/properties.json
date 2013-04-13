@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"steps",
+		"currentStep",
+		"callgraph",
+		"objects" ],
+	"name" : "SPOInteractionModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

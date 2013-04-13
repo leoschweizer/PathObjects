@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"returnTo" ],
+	"name" : "SPOReturnStep",
+	"pools" : [
+		 ],
+	"super" : "SPOStep",
+	"type" : "normal" }

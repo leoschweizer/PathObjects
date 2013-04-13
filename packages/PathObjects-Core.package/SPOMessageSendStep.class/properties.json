@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOMessageSendStep",
+	"pools" : [
+		 ],
+	"super" : "SPOStep",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectId",
+		"type" ],
+	"name" : "SPOObjectProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

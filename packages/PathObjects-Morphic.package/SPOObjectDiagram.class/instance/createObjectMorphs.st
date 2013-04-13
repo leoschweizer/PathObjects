@@ -3,14 +3,9 @@ createObjectMorphs
 	
 	| morph position |
 	position := -400@0.
-	self objectOccurenceOrdering do: [:objectId |
-		morph := SPOObjectMorph labeled: (self objects at: objectId) asString.
+	self interactionModel objects values do: [:object |
+		morph := SPOObjectMorph labeled: object type asString.
 		morph position: (self translateOrigin: position).
-		self objectMorphs at: objectId put: morph.
+		self objectMorphs at: object objectId put: morph.
 		self addMorph: morph.
-		morph hide.
 		position := position + ((morph width + 50)@0)].
-	
-	(self objectsOccuringBefore: self currentStep)
-		collect: [:each | self objectMorphs at: each]
-		thenDo: [:each | each showDisabled].

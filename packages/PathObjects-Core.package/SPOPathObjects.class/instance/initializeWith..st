@@ -1,5 +1,6 @@
 as yet unclassified
-initializeWith: aCallgraphModel
+initializeWith: anInteractionModel
 	
-	self objectDiagramMorph: (SPOObjectDiagram displaying: aCallgraphModel).
+	self interactionModel: anInteractionModel.  
+	self objectDiagramMorph: (SPOObjectDiagram displaying: anInteractionModel).
 	ToolBuilder open: self.

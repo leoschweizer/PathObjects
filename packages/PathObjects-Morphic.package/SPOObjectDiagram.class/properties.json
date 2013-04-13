@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"callgraphModel",
-		"objects",
-		"messages",
+		"interactionModel",
 		"objectMorphs",
-		"connectors",
-		"currentStep" ],
+		"connectors" ],
 	"name" : "SPOObjectDiagram",
 	"pools" : [
 		 ],

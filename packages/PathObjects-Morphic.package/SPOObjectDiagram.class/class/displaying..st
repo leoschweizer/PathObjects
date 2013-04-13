@@ -1,5 +1,4 @@
 as yet unclassified
-displaying: aCallgraphModel
+displaying: anInteractionModel
 	
-	self flag: #ls. "-1 since testRun is not in the list of messages - maybe ugly"
-	^ self displaying: aCallgraphModel inStep: aCallgraphModel selectedItem id - 1
+	^ self displaying: anInteractionModel inStep: 1

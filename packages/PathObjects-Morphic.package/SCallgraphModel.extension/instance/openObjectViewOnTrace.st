@@ -1,4 +1,4 @@
 *PathObjects-Morphic
 openObjectViewOnTrace
 	
-	SPOPathObjects openDisplaying: self.
+	SPOPathObjects openDisplaying: (SPOInteractionModel new initializeWith: self).

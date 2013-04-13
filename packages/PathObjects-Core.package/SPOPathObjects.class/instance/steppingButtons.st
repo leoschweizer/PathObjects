@@ -2,6 +2,6 @@ as yet unclassified
 steppingButtons
 
 	^ #(
-		( '<<' #stepBackward #stepBackwardButtonEnabled)
-		( '>>' #stepForward #stepForwardButtonEnabled)
+		( '<<' #stepBackward #canStepBackward)
+		( '>>' #stepForward #canStepForward)
 	)

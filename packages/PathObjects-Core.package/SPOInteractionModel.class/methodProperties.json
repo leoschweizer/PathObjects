@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callgraph" : "ls 4/13/2013 12:02:56.748",
+		"callgraph:" : "ls 4/13/2013 12:02:46.021",
+		"canStepBackward" : "ls 4/13/2013 17:10:09.431",
+		"canStepForward" : "ls 4/13/2013 17:10:21.795",
+		"collectObjects" : "ls 4/13/2013 19:08:03.042",
+		"currentStep" : "ls 4/13/2013 11:59:47.97",
+		"currentStep:" : "ls 4/13/2013 12:52:28.387",
+		"firstStep" : "ls 4/13/2013 14:56:41.201",
+		"hasNextStep" : "ls 4/13/2013 12:00:16.897",
+		"hasPreviousStep" : "ls 4/13/2013 12:00:30.728",
+		"initializeWith:" : "ls 4/13/2013 18:53:10.751",
+		"lastStep" : "ls 4/13/2013 14:56:55.246",
+		"objects" : "ls 4/13/2013 17:25:27.599",
+		"parse:on:" : "ls 4/13/2013 18:51:41.061",
+		"steps" : "ls 4/13/2013 14:48:24.241",
+		"steps:" : "ls 4/13/2013 14:48:15.897" } }
