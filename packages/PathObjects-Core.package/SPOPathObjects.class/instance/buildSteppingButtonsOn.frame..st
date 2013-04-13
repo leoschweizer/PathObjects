@@ -5,6 +5,6 @@ buildSteppingButtonsOn: aBuilder frame: aRectangle
 	buttonSpec := self 
 		buildButtonsWith: aBuilder
 		from: self steppingButtons
-		model: self interactionModel.
+		model: self objectDiagramMorph.
 	buttonSpec frame: aRectangle.
 	self windowSpec children add: buttonSpec.

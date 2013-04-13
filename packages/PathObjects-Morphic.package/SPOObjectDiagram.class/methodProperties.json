@@ -4,6 +4,8 @@
 		"displaying:inStep:" : "ls 4/13/2013 17:27:45.357",
 		"messageTailSize" : "ls 4/1/2013 18:16:03.889" },
 	"instance" : {
+		"canStepBackward" : "ls 4/13/2013 22:31:27.637",
+		"canStepForward" : "ls 4/13/2013 22:31:48.963",
 		"connectors" : "ls 3/6/2013 23:46:28.174",
 		"createMessageMorphs" : "ls 4/5/2013 12:37:40.739",
 		"createObjectMorphs" : "ls 4/13/2013 18:21:40.375",
