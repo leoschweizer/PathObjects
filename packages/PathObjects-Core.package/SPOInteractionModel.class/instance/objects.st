@@ -1,4 +1,4 @@
 accessing
 objects
 	
-	^ objects ifNil: [objects := Dictionary new]
+	^ objects ifNil: [objects := OrderedCollection new]

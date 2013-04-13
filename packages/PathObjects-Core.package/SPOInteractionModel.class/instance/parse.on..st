@@ -10,8 +10,8 @@ parse: aCallNode on: aCollection
 	"method send step"
 	step := SPOMessageSendStep new
 		involvedObjects: { 
-			self objects at: callerId. 
-			self objects at: calleeId.
+			self objectProxyFor: callerId.
+			self objectProxyFor: calleeId.
 		};
 		callNode: aCallNode.
 	aCollection add: step.
@@ -21,8 +21,8 @@ parse: aCallNode on: aCollection
 	"method return step"
 	aCollection add: (SPOReturnStep new
 		involvedObjects: { 
-			self objects at: callerId. 
-			self objects at: calleeId.
+			self objectProxyFor: callerId. 
+			self objectProxyFor: calleeId.
 		};
 		returnTo: step;
 		callNode: aCallNode fromSender;
