@@ -1,11 +1,14 @@
 drawing
 createMessageMorphs
 	
-	self messages withIndexDo: [:each :index | | connector callerMorph calleeMorph |
-		callerMorph := self objectMorphs at: each senderId.
-		calleeMorph := self objectMorphs at: each receiverId.
-		connector := SPOConnectorMorph new fromMorph: callerMorph toMorph: calleeMorph.
-		connector
-			addLabel: (index asString, '. ', each selector);
-			hide.
-		self connectors add: connector].
+	| connector callerMorph calleeMorph |
+	self interactionModel steps
+		select: [:each | each isMessageStep or: [each isReturnStep]]
+		thenDo: [:each | 
+			callerMorph := self objectMorphs at: each callerObject objectId.
+			calleeMorph := self objectMorphs at: each calleeObject objectId.
+			connector := SPOConnectorMorph new fromMorph: callerMorph toMorph: calleeMorph.
+			connector
+				addLabel: each label;
+				show.
+			self connectors add: connector].

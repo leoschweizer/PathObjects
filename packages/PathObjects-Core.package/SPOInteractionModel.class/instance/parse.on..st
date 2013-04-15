@@ -21,11 +21,11 @@ parse: aCallNode on: aCollection
 	"method return step"
 	aCollection add: (SPOReturnStep new
 		allInvolvedObjects: { 
-			self objectProxyFor: callerId. 
-			self objectProxyFor: calleeId.
+			self objectProxyFor: calleeId. 
+			self objectProxyFor: callerId.
 		} asOrderedCollection;
 		returnTo: step;
-		callNode: aCallNode fromSender;
+		callNode: aCallNode;
 		yourself).
 		
 	^ aCollection

@@ -4,5 +4,7 @@
 	"instance" : {
 		"calleeObject" : "ls 4/15/2013 13:56:55.242",
 		"callerObject" : "ls 4/15/2013 13:57:00.592",
+		"isMessageStep" : "ls 4/15/2013 14:18:16.169",
+		"label" : "ls 4/15/2013 14:24:55.912",
 		"parameterObjects" : "ls 4/15/2013 13:57:06.875",
 		"selector" : "ls 4/13/2013 14:47:14.732" } }
