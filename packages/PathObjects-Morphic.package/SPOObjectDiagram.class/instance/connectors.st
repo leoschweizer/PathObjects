@@ -1,4 +1,4 @@
 accessing
 connectors
 
-	^ connectors ifNil: [connectors := OrderedCollection new]
+	^ connectors ifNil: [connectors := Dictionary new]

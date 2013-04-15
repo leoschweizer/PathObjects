@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOMessageConnector",
+	"pools" : [
+		 ],
+	"super" : "SPOConnectorMorph",
+	"type" : "normal" }

@@ -1,8 +1,8 @@
 stepping
 stepForward
 
-	self 
-		unmarkCurrentNode;
-		currentStep: self currentStep + 1;
+	self unmarkCurrentNode.
+	self interactionModel stepForward.
+	self	
 		markCurrentNode;
 		refreshSteppingButtons.

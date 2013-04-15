@@ -3,7 +3,7 @@ drawDiagram
 	
 	self
 		createObjectMorphs;
-		createMessageMorphs.
-		"markCurrentNode"
+		createMessageMorphs;
+		markCurrentNode.
 	
 	"NCGraphLayoutAlgorithm layoutMorph: self."

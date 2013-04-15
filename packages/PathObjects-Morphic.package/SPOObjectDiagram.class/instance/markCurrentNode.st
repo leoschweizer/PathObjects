@@ -1,10 +1,9 @@
 drawing
 markCurrentNode
 
-	| currentMessage |
-	currentMessage := self connectors at: (1 max: self currentStep).
-	self messageTail withIndexDo: [:each :index | each showDisabledForDistance: index].
-	currentMessage showEnabled.
-	currentMessage connectedMorphs do: [:each | each showEnabled].
-	
-	currentMessage connectedMorphs second upsertStateOf: ((self currentCalleeNode explore: #selfBefore) first)
+	| currentStep |
+	currentStep := self interactionModel currentStep.
+	(self connectors at: currentStep) showEnabled.
+	currentStep involvedObjects
+		collect: [:each | self objectMorphs at: each objectId]
+		thenDo: [:each | each showEnabled].

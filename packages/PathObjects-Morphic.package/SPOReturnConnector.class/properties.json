@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOReturnConnector",
+	"pools" : [
+		 ],
+	"super" : "SPOConnectorMorph",
+	"type" : "normal" }
