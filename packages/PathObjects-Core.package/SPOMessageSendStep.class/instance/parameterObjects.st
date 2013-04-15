@@ -1,4 +1,4 @@
 as yet unclassified
 parameterObjects
 
-	^ self involvedObjects allButFirst: 2  
+	^ self allInvolvedObjects allButFirst: 2  

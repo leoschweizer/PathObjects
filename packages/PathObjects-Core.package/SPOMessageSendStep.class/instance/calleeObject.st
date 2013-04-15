@@ -1,4 +1,4 @@
 as yet unclassified
 calleeObject
 
-	^ self involvedObjects second
+	^ self allInvolvedObjects second
