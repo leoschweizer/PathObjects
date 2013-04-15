@@ -1,6 +1,8 @@
 as yet unclassified
 objectsOccurringUpToMe
-
-	^ self previousStep objectsOccurringUpToMe 
-		addAll: self involvedObjects;
+	
+	| previousObjects |
+	previousObjects := self previousStep objectsOccurringUpToMe.
+	^ previousObjects
+		addAll: (self involvedObjects reject: [:each | previousObjects includes: each]);
 		yourself
