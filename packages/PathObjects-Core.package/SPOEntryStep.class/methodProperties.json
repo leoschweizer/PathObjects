@@ -4,4 +4,5 @@
 	"instance" : {
 		"involvedObjects" : "ls 4/15/2013 11:17:18.672",
 		"isEntryStep" : "ls 4/15/2013 11:09:22.163",
-		"objectsOccurringUpToMe" : "ls 4/15/2013 11:19:11.681" } }
+		"objectsOccurringUpToMe" : "ls 4/15/2013 11:19:11.681",
+		"previousStep" : "ls 4/15/2013 12:15:29.144" } }

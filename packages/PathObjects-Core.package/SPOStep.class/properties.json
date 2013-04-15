@@ -8,8 +8,8 @@
 	"instvars" : [
 		"previousStep",
 		"nextStep",
-		"involvedObjects",
-		"callNode" ],
+		"callNode",
+		"allInvolvedObjects" ],
 	"name" : "SPOStep",
 	"pools" : [
 		 ],

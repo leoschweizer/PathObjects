@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isExitStep" : "ls 4/15/2013 11:09:30.915" } }
+		"involvedObjects" : "ls 4/15/2013 12:16:46.684",
+		"isExitStep" : "ls 4/15/2013 11:09:30.915",
+		"nextStep" : "ls 4/15/2013 12:15:19.866",
+		"objectsOccurringAfterMe" : "ls 4/15/2013 12:07:01.453" } }

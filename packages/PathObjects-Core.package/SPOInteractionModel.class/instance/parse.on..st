@@ -9,7 +9,7 @@ parse: aCallNode on: aCollection
 	
 	"method send step"
 	step := SPOMessageSendStep new
-		involvedObjects: { 
+		allInvolvedObjects: { 
 			self objectProxyFor: callerId.
 			self objectProxyFor: calleeId.
 		} asOrderedCollection;
@@ -20,7 +20,7 @@ parse: aCallNode on: aCollection
 	
 	"method return step"
 	aCollection add: (SPOReturnStep new
-		involvedObjects: { 
+		allInvolvedObjects: { 
 			self objectProxyFor: callerId. 
 			self objectProxyFor: calleeId.
 		} asOrderedCollection;
