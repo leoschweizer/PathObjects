@@ -10,5 +10,6 @@ createMessageMorphs
 			connector := each connectorClass new fromMorph: callerMorph toMorph: calleeMorph.
 			connector
 				addLabel: each label;
+				connectToNearestAttachmentPoint;
 				hide.
 			self connectors at: each put: connector].
