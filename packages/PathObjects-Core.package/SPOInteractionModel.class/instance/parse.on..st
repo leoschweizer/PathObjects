@@ -12,7 +12,7 @@ parse: aCallNode on: aCollection
 		involvedObjects: { 
 			self objectProxyFor: callerId.
 			self objectProxyFor: calleeId.
-		};
+		} asOrderedCollection;
 		callNode: aCallNode.
 	aCollection add: step.
 	
@@ -23,7 +23,7 @@ parse: aCallNode on: aCollection
 		involvedObjects: { 
 			self objectProxyFor: callerId. 
 			self objectProxyFor: calleeId.
-		};
+		} asOrderedCollection;
 		returnTo: step;
 		callNode: aCallNode fromSender;
 		yourself).

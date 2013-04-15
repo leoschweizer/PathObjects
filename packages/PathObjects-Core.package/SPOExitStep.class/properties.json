@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOExitStep",
+	"pools" : [
+		 ],
+	"super" : "SPOStep",
+	"type" : "normal" }

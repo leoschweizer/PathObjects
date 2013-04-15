@@ -1,4 +1,4 @@
 as yet unclassified
 canStepForward
 
-	^ self currentStep nextStep isNil not
+	^ self currentStep isExitStep not

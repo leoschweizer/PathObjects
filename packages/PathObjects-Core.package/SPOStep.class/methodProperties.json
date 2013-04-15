@@ -6,7 +6,10 @@
 		"callNode:" : "ls 4/13/2013 13:41:32",
 		"involvedObjects" : "ls 4/13/2013 11:57:37.971",
 		"involvedObjects:" : "ls 4/13/2013 12:38:51.628",
+		"isEntryStep" : "ls 4/15/2013 11:09:06.659",
+		"isExitStep" : "ls 4/15/2013 11:09:11.726",
 		"nextStep" : "ls 4/13/2013 11:51:10.763",
 		"nextStep:" : "ls 4/13/2013 11:51:19.482",
+		"objectsOccurringUpToMe" : "ls 4/15/2013 11:49:21.38",
 		"previousStep" : "ls 4/13/2013 11:51:28.088",
 		"previousStep:" : "ls 4/13/2013 11:51:34.344" } }
