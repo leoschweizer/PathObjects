@@ -1,0 +1,4 @@
+*PathObjects-Core
+isObjectProxy
+
+	^ false
