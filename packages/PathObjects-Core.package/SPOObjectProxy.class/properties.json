@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"interactionModel",
 		"objectId",
-		"type" ],
+		"type",
+		"shouldMonitorState" ],
 	"name" : "SPOObjectProxy",
 	"pools" : [
 		 ],

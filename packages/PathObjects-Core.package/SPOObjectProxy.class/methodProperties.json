@@ -1,9 +1,18 @@
 {
 	"class" : {
-		"id:type:" : "ls 4/13/2013 18:22:43.507" },
+		"model:id:type:" : "ls 4/16/2013 11:33:46.453" },
 	"instance" : {
+		"currentRoles" : "ls 4/16/2013 11:38:58.535",
+		"currentState" : "ls 4/16/2013 13:11:31.641",
+		"initialize" : "ls 4/16/2013 11:30:42.123",
+		"interactionModel" : "ls 4/16/2013 11:31:41.085",
+		"interactionModel:" : "ls 4/16/2013 11:31:41.102",
 		"objectId" : "ls 4/13/2013 12:11:46.094",
 		"objectId:" : "ls 4/13/2013 12:11:46.289",
 		"printOn:" : "ls 4/14/2013 15:50:15.517",
+		"rolesInStep:" : "ls 4/16/2013 11:48:06.961",
+		"shouldMonitorState" : "ls 4/16/2013 11:30:22.611",
+		"shouldMonitorState:" : "ls 4/16/2013 11:30:22.628",
+		"stateInStep:" : "ls 4/16/2013 13:14:32.25",
 		"type" : "ls 4/13/2013 18:03:08.744",
 		"type:" : "ls 4/14/2013 15:48:56.864" } }
