@@ -7,5 +7,5 @@ open
 		values: SProject current allTests
 		lines: #() 
 		title: 'Choose Test Case'.
-	
+	test ifNil: [^ nil].
 	^ self openOnClass: test actualClass selector: test methodSymbol
