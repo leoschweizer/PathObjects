@@ -8,7 +8,6 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 			viewString := self getViewString: anObject.
 			self tracer addView: viewString to: self selectedView.
 			self tracer addView: (self getAllIdentitiesOf: {
-					thisContext sender sender receiver. "sender"
 					anObject. "receiver"
 					anArrayOfObjects. "parameters"
 				} flatten asOrderedCollection) to: #allIdentities.
