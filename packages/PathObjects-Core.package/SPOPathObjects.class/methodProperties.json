@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"openDisplaying:" : "ls 3/5/2013 15:56:13.728" },
+		"initialize" : "ls 4/16/2013 17:24:14.651",
+		"open" : "ls 4/16/2013 17:30:56.808",
+		"openOnClass:selector:" : "ls 4/16/2013 17:31:45.634" },
 	"instance" : {
 		"buildDiagramOn:frame:" : "ls 3/21/2013 12:16:44.601",
 		"buildSteppingButtonsOn:frame:" : "ls 4/13/2013 22:30:52.385",
