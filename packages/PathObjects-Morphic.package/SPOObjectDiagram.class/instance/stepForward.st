@@ -5,4 +5,5 @@ stepForward
 	self interactionModel stepForward.
 	self	
 		markCurrentNode;
+		updateObjectStates;
 		refreshSteppingButtons.
