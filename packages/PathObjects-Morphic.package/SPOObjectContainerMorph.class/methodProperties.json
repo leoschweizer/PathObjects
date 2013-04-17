@@ -4,8 +4,9 @@
 	"instance" : {
 		"clicked" : "ls 4/17/2013 16:01:37.562",
 		"initialize" : "ls 4/17/2013 22:38:48.767",
-		"initializeConnectors" : "ls 4/17/2013 20:23:57.297",
+		"initializeConnectors" : "ls 4/17/2013 23:27:27.757",
 		"initializeWith:" : "ls 4/17/2013 22:28:05.268",
 		"mouseEntered" : "ls 4/17/2013 22:41:57.124",
 		"mouseLeft" : "ls 4/17/2013 22:29:29.144",
-		"ui" : "ls 4/17/2013 15:17:02.519" } }
+		"ui" : "ls 4/17/2013 15:17:02.519",
+		"updateShouldUpdateState" : "ls 4/17/2013 23:28:34.211" } }

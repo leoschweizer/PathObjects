@@ -8,9 +8,12 @@
 	"instvars" : [
 		"spacer",
 		"menuContainer",
+		"updateStateBtn",
 		"settingsBtn",
 		"objectMorph",
-		"indicatorContainer" ],
+		"indicatorContainer",
+		"receiverIndicator",
+		"returnIndicator" ],
 	"name" : "SPOObjectContainerUi",
 	"pools" : [
 		 ],

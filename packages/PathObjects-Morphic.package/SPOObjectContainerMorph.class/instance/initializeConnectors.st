@@ -1,6 +1,7 @@
 as yet unclassified
 initializeConnectors
 
-	self 
+	self
+		connect: self ui updateStateBtn signal: #clicked: toSelector: #updateShouldUpdateState;
 		connect: self ui settingsBtn signal: #clicked: toSelector: #clicked
 	

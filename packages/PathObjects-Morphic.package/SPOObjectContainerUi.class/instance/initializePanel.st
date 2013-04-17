@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -88,40 +88,41 @@ initializePanel
 	menuContainer borderStyle2: (#simple).
 	menuContainer borderColor: (Color black).
 	menuContainer setProperty: #objectName toValue: 'menuContainer'.
-	unnamedMorph1 := UiToolButton new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (18@18).
-	unnamedMorph1 position: (58@3).
-	unnamedMorph1 hResizing: (#shrinkWrap).
-	unnamedMorph1 vResizing: (#shrinkWrap).
-	unnamedMorph1 minWidth: (2).
-	unnamedMorph1 minHeight: (2).
-	unnamedMorph1 cellInset: (2).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (0@0 corner: 0@0).
-	unnamedMorph1 listCentering: (#topLeft).
-	unnamedMorph1 listDirection: (#leftToRight).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
-	unnamedMorph1 enabled: (true).
-	unnamedMorph1 setProperty: #iconByDesigner toValue: 'UiSilkIcons arrowRefreshSmallIcon'.
-	unnamedMorph1 icon: (UiSilkIcons arrowRefreshSmallIcon).
-	unnamedMorph1 text: ('ToolButton').
-	unnamedMorph1 color: ((Color r: 1.0 g: 0.871 b: 0.0)).
-	unnamedMorph1 checkable: (true).
-	unnamedMorph1 checked: (false).
-	unnamedMorph1 autoExclusive: (false).
-	unnamedMorph1 autoRaise: (true).
-	unnamedMorph1 buttonStyle: (#iconOnly).
-	menuContainer addChild: unnamedMorph1.
+	updateStateBtn := UiToolButton new.
+	updateStateBtn changeTableLayout.
+	updateStateBtn extent: (18@18).
+	updateStateBtn position: (58@3).
+	updateStateBtn hResizing: (#shrinkWrap).
+	updateStateBtn vResizing: (#shrinkWrap).
+	updateStateBtn minWidth: (2).
+	updateStateBtn minHeight: (2).
+	updateStateBtn cellInset: (2).
+	updateStateBtn cellPositioning: (#center).
+	updateStateBtn cellSpacing: (#none).
+	updateStateBtn layoutInset: (0@0 corner: 0@0).
+	updateStateBtn listCentering: (#topLeft).
+	updateStateBtn listDirection: (#leftToRight).
+	updateStateBtn listSpacing: (#none).
+	updateStateBtn maxCellSize: (1073741823).
+	updateStateBtn minCellSize: (0).
+	updateStateBtn wrapCentering: (#topLeft).
+	updateStateBtn wrapDirection: (#none).
+	updateStateBtn frameFractions: (0@0 corner: 1@1).
+	updateStateBtn frameOffsets: (0@0 corner: 0@0).
+	updateStateBtn balloonText: (nil).
+	updateStateBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	updateStateBtn enabled: (true).
+	updateStateBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons arrowRefreshSmallIcon'.
+	updateStateBtn icon: (UiSilkIcons arrowRefreshSmallIcon).
+	updateStateBtn text: ('ToolButton').
+	updateStateBtn color: ((Color r: 1.0 g: 0.871 b: 0.0)).
+	updateStateBtn checkable: (true).
+	updateStateBtn checked: (false).
+	updateStateBtn autoExclusive: (false).
+	updateStateBtn autoRaise: (true).
+	updateStateBtn buttonStyle: (#iconOnly).
+	updateStateBtn setProperty: #objectName toValue: 'updateStateBtn'.
+	menuContainer addChild: updateStateBtn.
 	settingsBtn := UiToolButton new.
 	settingsBtn changeTableLayout.
 	settingsBtn extent: (18@18).
@@ -212,10 +213,65 @@ initializePanel
 	indicatorContainer borderStyle2: (#simple).
 	indicatorContainer borderColor: (Color black).
 	indicatorContainer setProperty: #objectName toValue: 'indicatorContainer'.
+	unnamedMorph1 := UiLabel new.
+	unnamedMorph1 changeTableLayout.
+	unnamedMorph1 extent: (16@16).
+	unnamedMorph1 position: (40@62).
+	unnamedMorph1 hResizing: (#shrinkWrap).
+	unnamedMorph1 vResizing: (#shrinkWrap).
+	unnamedMorph1 minWidth: (2).
+	unnamedMorph1 minHeight: (2).
+	unnamedMorph1 cellInset: (0).
+	unnamedMorph1 cellPositioning: (#center).
+	unnamedMorph1 cellSpacing: (#none).
+	unnamedMorph1 layoutInset: (0).
+	unnamedMorph1 listCentering: (#topLeft).
+	unnamedMorph1 listDirection: (#leftToRight).
+	unnamedMorph1 listSpacing: (#none).
+	unnamedMorph1 maxCellSize: (1073741823).
+	unnamedMorph1 minCellSize: (0).
+	unnamedMorph1 wrapCentering: (#topLeft).
+	unnamedMorph1 wrapDirection: (#none).
+	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph1 balloonText: (nil).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	unnamedMorph1 text: ('Label').
+	unnamedMorph1 setProperty: #formByDesigner toValue: 'UiSilkIcons emailGoIcon'.
+	unnamedMorph1 form: (UiSilkIcons emailGoIcon).
+	indicatorContainer addChild: unnamedMorph1.
+	receiverIndicator := UiLabel new.
+	receiverIndicator changeTableLayout.
+	receiverIndicator extent: (16@16).
+	receiverIndicator position: (60@62).
+	receiverIndicator hResizing: (#shrinkWrap).
+	receiverIndicator vResizing: (#shrinkWrap).
+	receiverIndicator minWidth: (2).
+	receiverIndicator minHeight: (2).
+	receiverIndicator cellInset: (0).
+	receiverIndicator cellPositioning: (#center).
+	receiverIndicator cellSpacing: (#none).
+	receiverIndicator layoutInset: (0).
+	receiverIndicator listCentering: (#topLeft).
+	receiverIndicator listDirection: (#leftToRight).
+	receiverIndicator listSpacing: (#none).
+	receiverIndicator maxCellSize: (1073741823).
+	receiverIndicator minCellSize: (0).
+	receiverIndicator wrapCentering: (#topLeft).
+	receiverIndicator wrapDirection: (#none).
+	receiverIndicator frameFractions: (0@0 corner: 1@1).
+	receiverIndicator frameOffsets: (0@0 corner: 0@0).
+	receiverIndicator balloonText: (nil).
+	receiverIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
+	receiverIndicator text: ('Label').
+	receiverIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons emailOpenIcon'.
+	receiverIndicator form: (UiSilkIcons emailOpenIcon).
+	receiverIndicator setProperty: #objectName toValue: 'receiverIndicator'.
+	indicatorContainer addChild: receiverIndicator.
 	unnamedMorph2 := UiLabel new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (16@16).
-	unnamedMorph2 position: (40@62).
+	unnamedMorph2 position: (80@62).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -234,91 +290,38 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
 	unnamedMorph2 text: ('Label').
-	unnamedMorph2 setProperty: #formByDesigner toValue: 'UiSilkIcons emailGoIcon'.
-	unnamedMorph2 form: (UiSilkIcons emailGoIcon).
+	unnamedMorph2 setProperty: #formByDesigner toValue: 'UiSilkIcons disconnectIcon'.
+	unnamedMorph2 form: (UiSilkIcons disconnectIcon).
 	indicatorContainer addChild: unnamedMorph2.
-	unnamedMorph3 := UiLabel new.
-	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (16@16).
-	unnamedMorph3 position: (60@62).
-	unnamedMorph3 hResizing: (#shrinkWrap).
-	unnamedMorph3 vResizing: (#shrinkWrap).
-	unnamedMorph3 minWidth: (2).
-	unnamedMorph3 minHeight: (2).
-	unnamedMorph3 cellInset: (0).
-	unnamedMorph3 cellPositioning: (#center).
-	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (0).
-	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
-	unnamedMorph3 listSpacing: (#none).
-	unnamedMorph3 maxCellSize: (1073741823).
-	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
-	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
-	unnamedMorph3 text: ('Label').
-	unnamedMorph3 setProperty: #formByDesigner toValue: 'UiSilkIcons emailOpenIcon'.
-	unnamedMorph3 form: (UiSilkIcons emailOpenIcon).
-	indicatorContainer addChild: unnamedMorph3.
-	unnamedMorph4 := UiLabel new.
-	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (16@16).
-	unnamedMorph4 position: (80@62).
-	unnamedMorph4 hResizing: (#shrinkWrap).
-	unnamedMorph4 vResizing: (#shrinkWrap).
-	unnamedMorph4 minWidth: (2).
-	unnamedMorph4 minHeight: (2).
-	unnamedMorph4 cellInset: (0).
-	unnamedMorph4 cellPositioning: (#center).
-	unnamedMorph4 cellSpacing: (#none).
-	unnamedMorph4 layoutInset: (0).
-	unnamedMorph4 listCentering: (#topLeft).
-	unnamedMorph4 listDirection: (#leftToRight).
-	unnamedMorph4 listSpacing: (#none).
-	unnamedMorph4 maxCellSize: (1073741823).
-	unnamedMorph4 minCellSize: (0).
-	unnamedMorph4 wrapCentering: (#topLeft).
-	unnamedMorph4 wrapDirection: (#none).
-	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
-	unnamedMorph4 text: ('Label').
-	unnamedMorph4 setProperty: #formByDesigner toValue: 'UiSilkIcons disconnectIcon'.
-	unnamedMorph4 form: (UiSilkIcons disconnectIcon).
-	indicatorContainer addChild: unnamedMorph4.
-	unnamedMorph5 := UiLabel new.
-	unnamedMorph5 changeTableLayout.
-	unnamedMorph5 extent: (16@16).
-	unnamedMorph5 position: (100@62).
-	unnamedMorph5 hResizing: (#shrinkWrap).
-	unnamedMorph5 vResizing: (#shrinkWrap).
-	unnamedMorph5 minWidth: (2).
-	unnamedMorph5 minHeight: (2).
-	unnamedMorph5 cellInset: (0).
-	unnamedMorph5 cellPositioning: (#center).
-	unnamedMorph5 cellSpacing: (#none).
-	unnamedMorph5 layoutInset: (0).
-	unnamedMorph5 listCentering: (#topLeft).
-	unnamedMorph5 listDirection: (#leftToRight).
-	unnamedMorph5 listSpacing: (#none).
-	unnamedMorph5 maxCellSize: (1073741823).
-	unnamedMorph5 minCellSize: (0).
-	unnamedMorph5 wrapCentering: (#topLeft).
-	unnamedMorph5 wrapDirection: (#none).
-	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
-	unnamedMorph5 text: ('Label').
-	unnamedMorph5 setProperty: #formByDesigner toValue: 'UiSilkIcons arrowUndoIcon'.
-	unnamedMorph5 form: (UiSilkIcons arrowUndoIcon).
-	indicatorContainer addChild: unnamedMorph5.
+	returnIndicator := UiLabel new.
+	returnIndicator changeTableLayout.
+	returnIndicator extent: (16@16).
+	returnIndicator position: (100@62).
+	returnIndicator hResizing: (#shrinkWrap).
+	returnIndicator vResizing: (#shrinkWrap).
+	returnIndicator minWidth: (2).
+	returnIndicator minHeight: (2).
+	returnIndicator cellInset: (0).
+	returnIndicator cellPositioning: (#center).
+	returnIndicator cellSpacing: (#none).
+	returnIndicator layoutInset: (0).
+	returnIndicator listCentering: (#topLeft).
+	returnIndicator listDirection: (#leftToRight).
+	returnIndicator listSpacing: (#none).
+	returnIndicator maxCellSize: (1073741823).
+	returnIndicator minCellSize: (0).
+	returnIndicator wrapCentering: (#topLeft).
+	returnIndicator wrapDirection: (#none).
+	returnIndicator frameFractions: (0@0 corner: 1@1).
+	returnIndicator frameOffsets: (0@0 corner: 0@0).
+	returnIndicator balloonText: (nil).
+	returnIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	returnIndicator text: ('Label').
+	returnIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons arrowUndoIcon'.
+	returnIndicator form: (UiSilkIcons arrowUndoIcon).
+	returnIndicator setProperty: #objectName toValue: 'returnIndicator'.
+	indicatorContainer addChild: returnIndicator.
 	panel addChild: indicatorContainer.
 	panel setProperty: #uiClassName toValue: 'SPOObjectContainer'.
