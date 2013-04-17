@@ -1,13 +1,12 @@
 {
 	"class" : {
-		"labeled:" : "ls 3/30/2013 13:27:24.27" },
+		"on:" : "ls 4/17/2013 22:22:40.085" },
 	"instance" : {
-		"caption:" : "ls 3/30/2013 16:09:44.555",
-		"defaultAttachmentPointSpecs" : "ls 4/16/2013 00:39:02.706",
-		"explorer" : "ls 3/30/2013 16:20:31.807",
-		"explorerMorph" : "ls 3/24/2013 18:46:09.764",
-		"explorerMorph:" : "ls 3/24/2013 18:46:21.195",
-		"showDisabled" : "ls 4/9/2013 15:41:58.769",
-		"showEnabled" : "ls 4/9/2013 15:42:10.387",
-		"upsertStateOf:" : "ls 3/24/2013 19:20:58.151",
-		"wantsToBeDroppedInto:" : "ls 3/30/2013 21:21:03.338" } }
+		"defaultAttachmentPointSpecs" : "ls 4/17/2013 22:17:38.967",
+		"explorer" : "ls 4/17/2013 22:19:20.369",
+		"initialize" : "ls 4/17/2013 23:15:23.694",
+		"objectProxy" : "ls 4/17/2013 22:21:06.31",
+		"objectProxy:" : "ls 4/17/2013 22:33:33.936",
+		"ui" : "ls 4/17/2013 21:44:17.396",
+		"updateState" : "ls 4/17/2013 22:35:20.798",
+		"wantsToBeDroppedInto:" : "ls 4/17/2013 22:17:22.929" } }

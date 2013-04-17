@@ -6,4 +6,4 @@ markCurrentNode
 	(self connectors at: currentStep) showEnabled.
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each showEnabled].
+		thenDo: [:each | each ui indicatorContainer show].

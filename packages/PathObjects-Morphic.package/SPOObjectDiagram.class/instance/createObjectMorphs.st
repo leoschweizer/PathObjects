@@ -6,7 +6,7 @@ createObjectMorphs
 	self interactionModel objects 
 		collect: [:each | each value]
 		thenDo: [:object |
-			morph := SPOObjectMorph labeled: object asString.
+			morph := SPOObjectContainerMorph on: object.
 			morph position: (self translateOrigin: position).
 			self objectMorphs at: object objectId put: morph.
 			self addMorph: morph.

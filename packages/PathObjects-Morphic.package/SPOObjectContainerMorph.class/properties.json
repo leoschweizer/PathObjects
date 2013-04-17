@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explorer",
-		"ui",
-		"objectProxy" ],
-	"name" : "SPOObjectMorph",
+		"ui" ],
+	"name" : "SPOObjectContainerMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explorer",
-		"ui",
-		"objectProxy" ],
-	"name" : "SPOObjectMorph",
+		"spacer",
+		"menuContainer",
+		"settingsBtn",
+		"objectMorph",
+		"indicatorContainer" ],
+	"name" : "SPOObjectContainerUi",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UserInterface",
 	"type" : "normal" }

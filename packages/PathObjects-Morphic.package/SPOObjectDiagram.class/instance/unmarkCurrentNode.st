@@ -6,4 +6,4 @@ unmarkCurrentNode
 	(self connectors at: currentStep) hide.
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each showDisabled].
+		thenDo: [:each | each ui indicatorContainer hide].

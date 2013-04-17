@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"explorer",
-		"ui",
-		"objectProxy" ],
-	"name" : "SPOObjectMorph",
+		"explorerMorph" ],
+	"name" : "SPOObjectMorphOld",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "NCTextRectangleMorph",
 	"type" : "normal" }

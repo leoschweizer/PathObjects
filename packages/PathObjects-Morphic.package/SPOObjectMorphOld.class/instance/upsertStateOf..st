@@ -7,7 +7,8 @@ upsertStateOf: anObject
 	
 	itsWidth := self explorerMorph width.
 	self addMorphBack: self explorerMorph.
-	itsWidth > self width
-		ifTrue: [self width: itsWidth + 1]
-		ifFalse: [self adjustSubmorphPositions].
+	itsWidth >= self width
+		ifTrue: [self width: itsWidth]
+		ifFalse: [self explorerMorph width: self width - 2.
+			self adjustSubmorphPositions].
 	
