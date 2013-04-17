@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 |
+	|  |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -213,33 +213,34 @@ initializePanel
 	indicatorContainer borderStyle2: (#simple).
 	indicatorContainer borderColor: (Color black).
 	indicatorContainer setProperty: #objectName toValue: 'indicatorContainer'.
-	unnamedMorph1 := UiLabel new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (16@16).
-	unnamedMorph1 position: (40@62).
-	unnamedMorph1 hResizing: (#shrinkWrap).
-	unnamedMorph1 vResizing: (#shrinkWrap).
-	unnamedMorph1 minWidth: (2).
-	unnamedMorph1 minHeight: (2).
-	unnamedMorph1 cellInset: (0).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (0).
-	unnamedMorph1 listCentering: (#topLeft).
-	unnamedMorph1 listDirection: (#leftToRight).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
-	unnamedMorph1 text: ('Label').
-	unnamedMorph1 setProperty: #formByDesigner toValue: 'UiSilkIcons emailGoIcon'.
-	unnamedMorph1 form: (UiSilkIcons emailGoIcon).
-	indicatorContainer addChild: unnamedMorph1.
+	senderIndicator := UiLabel new.
+	senderIndicator changeTableLayout.
+	senderIndicator extent: (16@16).
+	senderIndicator position: (40@62).
+	senderIndicator hResizing: (#shrinkWrap).
+	senderIndicator vResizing: (#shrinkWrap).
+	senderIndicator minWidth: (2).
+	senderIndicator minHeight: (2).
+	senderIndicator cellInset: (0).
+	senderIndicator cellPositioning: (#center).
+	senderIndicator cellSpacing: (#none).
+	senderIndicator layoutInset: (0).
+	senderIndicator listCentering: (#topLeft).
+	senderIndicator listDirection: (#leftToRight).
+	senderIndicator listSpacing: (#none).
+	senderIndicator maxCellSize: (1073741823).
+	senderIndicator minCellSize: (0).
+	senderIndicator wrapCentering: (#topLeft).
+	senderIndicator wrapDirection: (#none).
+	senderIndicator frameFractions: (0@0 corner: 1@1).
+	senderIndicator frameOffsets: (0@0 corner: 0@0).
+	senderIndicator balloonText: (nil).
+	senderIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	senderIndicator text: ('Label').
+	senderIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons emailGoIcon'.
+	senderIndicator form: (UiSilkIcons emailGoIcon).
+	senderIndicator setProperty: #objectName toValue: 'senderIndicator'.
+	indicatorContainer addChild: senderIndicator.
 	receiverIndicator := UiLabel new.
 	receiverIndicator changeTableLayout.
 	receiverIndicator extent: (16@16).
@@ -262,39 +263,40 @@ initializePanel
 	receiverIndicator frameFractions: (0@0 corner: 1@1).
 	receiverIndicator frameOffsets: (0@0 corner: 0@0).
 	receiverIndicator balloonText: (nil).
-	receiverIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
+	receiverIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	receiverIndicator text: ('Label').
 	receiverIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons emailOpenIcon'.
 	receiverIndicator form: (UiSilkIcons emailOpenIcon).
 	receiverIndicator setProperty: #objectName toValue: 'receiverIndicator'.
 	indicatorContainer addChild: receiverIndicator.
-	unnamedMorph2 := UiLabel new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (16@16).
-	unnamedMorph2 position: (80@62).
-	unnamedMorph2 hResizing: (#shrinkWrap).
-	unnamedMorph2 vResizing: (#shrinkWrap).
-	unnamedMorph2 minWidth: (2).
-	unnamedMorph2 minHeight: (2).
-	unnamedMorph2 cellInset: (0).
-	unnamedMorph2 cellPositioning: (#center).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (0).
-	unnamedMorph2 listCentering: (#topLeft).
-	unnamedMorph2 listDirection: (#leftToRight).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
-	unnamedMorph2 text: ('Label').
-	unnamedMorph2 setProperty: #formByDesigner toValue: 'UiSilkIcons disconnectIcon'.
-	unnamedMorph2 form: (UiSilkIcons disconnectIcon).
-	indicatorContainer addChild: unnamedMorph2.
+	parameterIndicator := UiLabel new.
+	parameterIndicator changeTableLayout.
+	parameterIndicator extent: (16@16).
+	parameterIndicator position: (80@62).
+	parameterIndicator hResizing: (#shrinkWrap).
+	parameterIndicator vResizing: (#shrinkWrap).
+	parameterIndicator minWidth: (2).
+	parameterIndicator minHeight: (2).
+	parameterIndicator cellInset: (0).
+	parameterIndicator cellPositioning: (#center).
+	parameterIndicator cellSpacing: (#none).
+	parameterIndicator layoutInset: (0).
+	parameterIndicator listCentering: (#topLeft).
+	parameterIndicator listDirection: (#leftToRight).
+	parameterIndicator listSpacing: (#none).
+	parameterIndicator maxCellSize: (1073741823).
+	parameterIndicator minCellSize: (0).
+	parameterIndicator wrapCentering: (#topLeft).
+	parameterIndicator wrapDirection: (#none).
+	parameterIndicator frameFractions: (0@0 corner: 1@1).
+	parameterIndicator frameOffsets: (0@0 corner: 0@0).
+	parameterIndicator balloonText: (nil).
+	parameterIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	parameterIndicator text: ('Label').
+	parameterIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons disconnectIcon'.
+	parameterIndicator form: (UiSilkIcons disconnectIcon).
+	parameterIndicator setProperty: #objectName toValue: 'parameterIndicator'.
+	indicatorContainer addChild: parameterIndicator.
 	returnIndicator := UiLabel new.
 	returnIndicator changeTableLayout.
 	returnIndicator extent: (16@16).

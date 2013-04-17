@@ -8,5 +8,6 @@ rolesInStep: aStep
 	aStep callerObject == self ifTrue: [roles add: #sender].
 	aStep calleeObject == self ifTrue: [roles add: #receiver].
 	(aStep parameterObjects includes: self) ifTrue: [roles add: #parameter].
+	aStep allInvolvedObjects last == self ifTrue: [roles add: #return].
 	
 	^ roles

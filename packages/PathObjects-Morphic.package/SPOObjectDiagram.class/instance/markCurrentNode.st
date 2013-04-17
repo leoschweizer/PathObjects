@@ -8,4 +8,4 @@ markCurrentNode
 		collect: [:each | self objectMorphs at: each objectId]
 		thenDo: [:each | 
 			each ui objectMorph showEnabled.
-			each ui indicatorContainer show].
+			each updateRoleIndicators].

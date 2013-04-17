@@ -8,4 +8,5 @@ unmarkCurrentNode
 		collect: [:each | self objectMorphs at: each objectId]
 		thenDo: [:each | 
 			each ui objectMorph showDisabled.
-			each ui indicatorContainer hide].
+			each ui indicatorContainer hide.
+			each ui indicatorContainer submorphs do: [:indicator | indicator form: indicator form dimmed]].

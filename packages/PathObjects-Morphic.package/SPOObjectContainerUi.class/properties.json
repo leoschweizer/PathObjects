@@ -12,7 +12,9 @@
 		"settingsBtn",
 		"objectMorph",
 		"indicatorContainer",
+		"senderIndicator",
 		"receiverIndicator",
+		"parameterIndicator",
 		"returnIndicator" ],
 	"name" : "SPOObjectContainerUi",
 	"pools" : [
