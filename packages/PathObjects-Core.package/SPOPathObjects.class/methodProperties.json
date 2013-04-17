@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"initialize" : "ls 4/16/2013 17:24:14.651",
-		"open" : "ls 4/16/2013 17:46:59.379",
+		"open" : "ls 4/17/2013 11:20:04.623",
+		"openOn:class:selector:" : "ls 4/17/2013 11:07:25.78",
 		"openOnClass:selector:" : "ls 4/16/2013 17:31:45.634" },
 	"instance" : {
 		"buildDiagramOn:frame:" : "ls 3/21/2013 12:16:44.601",
