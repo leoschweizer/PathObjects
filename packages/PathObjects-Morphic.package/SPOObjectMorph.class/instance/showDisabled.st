@@ -7,7 +7,3 @@ showDisabled
 		borderWidth: 1.
 	self ui header color: (Color r: 250 g: 250 b: 250 range: 255).
 	self ui label color: (Color r: 152 g: 152 b: 153 range: 255).
-	
-	"self
-		layoutChanged;
-		fullBounds."

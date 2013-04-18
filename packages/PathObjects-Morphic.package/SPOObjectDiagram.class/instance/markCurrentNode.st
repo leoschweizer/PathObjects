@@ -7,5 +7,7 @@ markCurrentNode
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
 		thenDo: [:each | 
-			each ui objectMorph showEnabled.
+			each ui objectMorph 
+				showEnabled;
+				updateState.
 			each updateRoleIndicators].

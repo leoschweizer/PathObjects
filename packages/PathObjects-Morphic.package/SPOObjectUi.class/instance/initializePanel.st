@@ -6,14 +6,14 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (152@32).
+	panel extent: (152@152).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
 	panel minWidth: (0).
 	panel minHeight: (0).
 	panel cellInset: (0).
-	panel cellPositioning: (#center).
+	panel cellPositioning: (#topCenter).
 	panel cellSpacing: (#none).
 	panel layoutInset: (0).
 	panel listCentering: (#center).
@@ -26,8 +26,8 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
-	panel color: (Color red).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	panel color: (Color transparent).
 	panel borderWidth: (1).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
@@ -90,10 +90,10 @@ initializePanel
 	header addChild: label.
 	panel addChild: header.
 	stateContainer := UiContainer new.
-	stateContainer extent: (150@0).
+	stateContainer extent: (150@120).
 	stateContainer position: (1@31).
-	stateContainer hResizing: (#spaceFill).
-	stateContainer vResizing: (#shrinkWrap).
+	stateContainer hResizing: (#rigid).
+	stateContainer vResizing: (#rigid).
 	stateContainer minWidth: (2).
 	stateContainer minHeight: (0).
 	stateContainer cellInset: (4).
@@ -111,7 +111,7 @@ initializePanel
 	stateContainer frameOffsets: (0@0 corner: 0@0).
 	stateContainer balloonText: (nil).
 	stateContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
-	stateContainer color: (Color white).
+	stateContainer color: (Color transparent).
 	stateContainer borderWidth: (0).
 	stateContainer borderStyle2: (#simple).
 	stateContainer borderColor: (Color transparent).

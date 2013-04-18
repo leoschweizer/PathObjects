@@ -160,7 +160,6 @@ initializePanel
 	menuContainer addChild: settingsBtn.
 	spacer addChild: menuContainer.
 	objectMorph := SPOObjectMorph new.
-	objectMorph changeTableLayout.
 	objectMorph extent: (152@32).
 	objectMorph position: (2@24).
 	objectMorph hResizing: (#shrinkWrap).
@@ -181,7 +180,7 @@ initializePanel
 	objectMorph frameFractions: (0@0 corner: 1@1).
 	objectMorph frameOffsets: (0@0 corner: 0@0).
 	objectMorph balloonText: (nil).
-	objectMorph balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
+	objectMorph balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
 	objectMorph setProperty: #objectName toValue: 'objectMorph'.
 	spacer addChild: objectMorph.
 	panel addChild: spacer.
@@ -291,7 +290,7 @@ initializePanel
 	parameterIndicator frameFractions: (0@0 corner: 1@1).
 	parameterIndicator frameOffsets: (0@0 corner: 0@0).
 	parameterIndicator balloonText: (nil).
-	parameterIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	parameterIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	parameterIndicator text: ('Label').
 	parameterIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons disconnectIcon'.
 	parameterIndicator form: (UiSilkIcons disconnectIcon).
@@ -319,7 +318,7 @@ initializePanel
 	returnIndicator frameFractions: (0@0 corner: 1@1).
 	returnIndicator frameOffsets: (0@0 corner: 0@0).
 	returnIndicator balloonText: (nil).
-	returnIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	returnIndicator balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	returnIndicator text: ('Label').
 	returnIndicator setProperty: #formByDesigner toValue: 'UiSilkIcons arrowUndoIcon'.
 	returnIndicator form: (UiSilkIcons arrowUndoIcon).

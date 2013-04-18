@@ -3,7 +3,7 @@ explorerListMorphFor: anObject
 	
 	|  listMorph |
 	rootObject := anObject.
-	listMorph := SPluggableTreeMorph 
+	listMorph := PluggableTreeMorph 
 			on: self
 			list: #getList
 			selected: #getCurrentSelection

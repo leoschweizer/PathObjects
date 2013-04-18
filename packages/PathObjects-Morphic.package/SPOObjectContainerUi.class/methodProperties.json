@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"indicatorContainer" : "ls 4/18/2013 00:03:28.268",
-		"initializePanel" : "ls 4/18/2013 00:03:28.376",
-		"menuContainer" : "ls 4/18/2013 00:03:28.194",
-		"objectMorph" : "ls 4/18/2013 00:03:28.25",
-		"parameterIndicator" : "ls 4/18/2013 00:03:28.32",
-		"receiverIndicator" : "ls 4/18/2013 00:03:28.302",
-		"returnIndicator" : "ls 4/18/2013 00:03:28.337",
-		"senderIndicator" : "ls 4/18/2013 00:03:28.285",
-		"settingsBtn" : "ls 4/18/2013 00:03:28.231",
-		"spacer" : "ls 4/18/2013 00:03:28.175",
-		"updateStateBtn" : "ls 4/18/2013 00:03:28.212" } }
+		"indicatorContainer" : "ls 4/18/2013 14:42:47.381",
+		"initializePanel" : "ls 4/18/2013 14:42:47.482",
+		"menuContainer" : "ls 4/18/2013 14:42:47.315",
+		"objectMorph" : "ls 4/18/2013 14:42:47.365",
+		"parameterIndicator" : "ls 4/18/2013 14:42:47.431",
+		"receiverIndicator" : "ls 4/18/2013 14:42:47.414",
+		"returnIndicator" : "ls 4/18/2013 14:42:47.447",
+		"senderIndicator" : "ls 4/18/2013 14:42:47.397",
+		"settingsBtn" : "ls 4/18/2013 14:42:47.348",
+		"spacer" : "ls 4/18/2013 14:42:47.297",
+		"updateStateBtn" : "ls 4/18/2013 14:42:47.332" } }
