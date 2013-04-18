@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (152@152).
+	panel extent: (152@32).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -89,32 +89,4 @@ initializePanel
 	label setProperty: #objectName toValue: 'label'.
 	header addChild: label.
 	panel addChild: header.
-	stateContainer := UiContainer new.
-	stateContainer extent: (150@120).
-	stateContainer position: (1@31).
-	stateContainer hResizing: (#rigid).
-	stateContainer vResizing: (#rigid).
-	stateContainer minWidth: (2).
-	stateContainer minHeight: (0).
-	stateContainer cellInset: (4).
-	stateContainer cellPositioning: (#center).
-	stateContainer cellSpacing: (#none).
-	stateContainer layoutInset: (4).
-	stateContainer listCentering: (#topLeft).
-	stateContainer listDirection: (#topToBottom).
-	stateContainer listSpacing: (#none).
-	stateContainer maxCellSize: (1073741823).
-	stateContainer minCellSize: (0).
-	stateContainer wrapCentering: (#topLeft).
-	stateContainer wrapDirection: (#none).
-	stateContainer frameFractions: (0@0 corner: 1@1).
-	stateContainer frameOffsets: (0@0 corner: 0@0).
-	stateContainer balloonText: (nil).
-	stateContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
-	stateContainer color: (Color transparent).
-	stateContainer borderWidth: (0).
-	stateContainer borderStyle2: (#simple).
-	stateContainer borderColor: (Color transparent).
-	stateContainer setProperty: #objectName toValue: 'stateContainer'.
-	panel addChild: stateContainer.
 	panel setProperty: #uiClassName toValue: 'SPOObject'.

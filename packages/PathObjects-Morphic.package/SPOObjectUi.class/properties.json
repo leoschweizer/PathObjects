@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"header",
-		"label",
-		"stateContainer" ],
+		"label" ],
 	"name" : "SPOObjectUi",
 	"pools" : [
 		 ],
