@@ -6,8 +6,7 @@ markCurrentNode
 	(self connectors at: currentStep) showEnabled.
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | 
-			each ui objectMorph 
-				showEnabled;
-				updateState.
-			each updateRoleIndicators].
+		thenDo: [:each | each 
+			showEnabled;
+			updateState;
+			updateRoleIndicators].

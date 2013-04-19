@@ -7,8 +7,8 @@ createObjectMorphs
 		collect: [:each | each value]
 		thenDo: [:object |
 			morph := SPOObjectContainerMorph on: object.
-			morph showDisabled.
 			morph position: (self translateOrigin: position).
 			self objectMorphs at: object objectId put: morph.
 			self addMorph: morph.
+			morph hide.
 			position := position + ((morph width + 50)@0)].

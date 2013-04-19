@@ -2,14 +2,14 @@
 	"class" : {
 		"on:" : "ls 4/17/2013 22:24:00.311" },
 	"instance" : {
-		"clicked" : "ls 4/17/2013 16:01:37.562",
-		"initialize" : "ls 4/17/2013 23:59:38.45",
-		"initializeConnectors" : "ls 4/17/2013 23:27:27.757",
+		"initialize" : "ls 4/19/2013 11:35:34.007",
+		"initializeSignals" : "ls 4/19/2013 11:36:07.765",
 		"initializeWith:" : "ls 4/17/2013 22:28:05.268",
 		"mouseEntered" : "ls 4/17/2013 22:41:57.124",
 		"mouseLeft" : "ls 4/17/2013 22:29:29.144",
-		"showDisabled" : "ls 4/17/2013 23:37:35.901",
-		"showEnabled" : "ls 4/17/2013 23:37:43.44",
+		"showDisabled" : "ls 4/19/2013 11:34:28.63",
+		"showEnabled" : "ls 4/19/2013 11:34:34.724",
 		"ui" : "ls 4/17/2013 15:17:02.519",
 		"updateRoleIndicators" : "ls 4/18/2013 00:14:36.878",
-		"updateShouldUpdateState" : "ls 4/18/2013 15:40:13.824" } }
+		"updateShouldUpdateState" : "ls 4/18/2013 15:40:13.824",
+		"updateState" : "ls 4/19/2013 11:38:38.883" } }
