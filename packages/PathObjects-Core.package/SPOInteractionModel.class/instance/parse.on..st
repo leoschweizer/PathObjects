@@ -10,7 +10,8 @@ parse: aCallNode on: aCollection
 	
 	"method send step"
 	step := SPOMessageSendStep new
-		allInvolvedObjects: identities;
+		"don't include returned object here, since we have a dedicated return step"
+		allInvolvedObjects: identities allButLast;
 		callNode: aCallNode.
 	aCollection add: step.
 	
