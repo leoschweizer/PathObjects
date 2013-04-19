@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addSelfToTail:" : "ls 4/19/2013 14:38:02.32",
 		"allInvolvedObjects" : "ls 4/15/2013 13:53:32.877",
 		"allInvolvedObjects:" : "ls 4/15/2013 13:53:40.217",
 		"callNode" : "ls 4/13/2013 13:41:40.955",
 		"callNode:" : "ls 4/13/2013 13:41:32",
-		"connectorClass" : "ls 4/15/2013 15:15:52.249",
+		"interactionModel" : "ls 4/19/2013 14:39:09.35",
+		"interactionModel:" : "ls 4/19/2013 14:39:19.815",
 		"involvedObjects" : "ls 4/16/2013 16:52:54.797",
 		"isEntryStep" : "ls 4/15/2013 11:09:06.659",
 		"isExitStep" : "ls 4/15/2013 11:09:11.726",
@@ -21,4 +23,5 @@
 		"parameterObjects" : "ls 4/19/2013 11:08:21.374",
 		"previousStep" : "ls 4/13/2013 11:51:28.088",
 		"previousStep:" : "ls 4/13/2013 11:51:34.344",
-		"stateOf:" : "ls 4/17/2013 12:22:25.428" } }
+		"stateOf:" : "ls 4/17/2013 12:22:25.428",
+		"tail" : "ls 4/19/2013 14:36:35.362" } }

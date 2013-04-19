@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"returnTo" ],
-	"name" : "SPOReturnStep",
+		 ],
+	"name" : "SPOMetaStep",
 	"pools" : [
 		 ],
-	"super" : "SPOVisibleStep",
+	"super" : "SPOStep",
 	"type" : "normal" }

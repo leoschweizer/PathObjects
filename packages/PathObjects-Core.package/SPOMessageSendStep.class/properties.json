@@ -10,5 +10,5 @@
 	"name" : "SPOMessageSendStep",
 	"pools" : [
 		 ],
-	"super" : "SPOStep",
+	"super" : "SPOVisibleStep",
 	"type" : "normal" }

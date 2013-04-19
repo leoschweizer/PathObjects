@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calleeObject" : "ls 4/15/2013 14:24:10.77",
-		"callerObject" : "ls 4/15/2013 14:24:06.689",
 		"connectorClass" : "ls 4/15/2013 15:16:14.665",
 		"isReturnStep" : "ls 4/15/2013 14:18:24.425",
 		"label" : "ls 4/15/2013 14:27:57.945",

@@ -10,5 +10,5 @@
 	"name" : "SPOExitStep",
 	"pools" : [
 		 ],
-	"super" : "SPOStep",
+	"super" : "SPOMetaStep",
 	"type" : "normal" }

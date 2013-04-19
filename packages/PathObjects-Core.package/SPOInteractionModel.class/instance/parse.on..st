@@ -12,6 +12,7 @@ parse: aCallNode on: aCollection
 	step := SPOMessageSendStep new
 		"don't include returned object here, since we have a dedicated return step"
 		allInvolvedObjects: identities allButLast;
+		interactionModel: self;  
 		callNode: aCallNode.
 	aCollection add: step.
 	
@@ -21,6 +22,7 @@ parse: aCallNode on: aCollection
 	aCollection add: (SPOReturnStep new
 		allInvolvedObjects: identities;
 		returnTo: step;
+		interactionModel: self;  
 		callNode: aCallNode;
 		yourself).
 		

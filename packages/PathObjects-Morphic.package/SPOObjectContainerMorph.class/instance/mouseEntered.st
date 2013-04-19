@@ -1,4 +1,4 @@
 as yet unclassified
 mouseEntered
 
-	self ui menuContainer show.
+	self ui menuContainer fadeIn.
