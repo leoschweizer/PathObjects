@@ -1,4 +1,7 @@
 as yet unclassified
 displaying: anInteractionModel
 	
-	^ self displaying: anInteractionModel inStep: 1
+	^ self new
+		interactionModel: anInteractionModel;
+		drawDiagram;
+		yourself
