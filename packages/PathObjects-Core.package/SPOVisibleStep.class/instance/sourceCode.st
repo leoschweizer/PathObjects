@@ -1,4 +1,4 @@
 as yet unclassified
-getSource
+sourceCode
 
 	^ self callNode compiledMethod getSource
