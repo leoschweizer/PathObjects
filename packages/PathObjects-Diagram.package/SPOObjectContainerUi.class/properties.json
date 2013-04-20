@@ -1,0 +1,23 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"spacer",
+		"menuContainer",
+		"updateStateBtn",
+		"settingsBtn",
+		"objectMorph",
+		"indicatorContainer",
+		"senderIndicator",
+		"receiverIndicator",
+		"parameterIndicator",
+		"returnIndicator" ],
+	"name" : "SPOObjectContainerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

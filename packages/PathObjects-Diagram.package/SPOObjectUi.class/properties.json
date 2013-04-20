@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"header",
+		"label" ],
+	"name" : "SPOObjectUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

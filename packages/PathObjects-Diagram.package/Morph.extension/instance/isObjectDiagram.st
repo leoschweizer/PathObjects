@@ -1,0 +1,4 @@
+*PathObjects-Diagram
+isObjectDiagram
+
+	^ false

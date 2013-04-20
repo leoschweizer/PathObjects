@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOObjectExplorer",
+	"pools" : [
+		 ],
+	"super" : "ObjectExplorer",
+	"type" : "normal" }

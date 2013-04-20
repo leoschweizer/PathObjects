@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"explorer",
+		"ui",
+		"objectProxy" ],
+	"name" : "SPOObjectMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

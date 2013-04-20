@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Code",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOSourceCodeEdit",
+	"pools" : [
+		 ],
+	"super" : "UiTextEdit",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Code",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOCodeStyler",
+	"pools" : [
+		 ],
+	"super" : "SHTextStylerST80",
+	"type" : "normal" }
