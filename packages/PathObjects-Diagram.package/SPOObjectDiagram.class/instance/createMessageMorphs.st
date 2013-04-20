@@ -7,9 +7,8 @@ createMessageMorphs
 		thenDo: [:each | 
 			callerMorph := self objectMorphs at: each callerObject objectId.
 			calleeMorph := self objectMorphs at: each calleeObject objectId.
-			connector := each connectorClass new fromMorph: callerMorph ui objectMorph toMorph: calleeMorph ui objectMorph.
-			connector
-				addLabel: each label;
-				connectToNearestAttachmentPoint;
-				hide.
+			connector := each connectorClass
+				from: callerMorph ui objectMorph
+				to: calleeMorph ui objectMorph
+				step: each.
 			self connectors at: each put: connector].

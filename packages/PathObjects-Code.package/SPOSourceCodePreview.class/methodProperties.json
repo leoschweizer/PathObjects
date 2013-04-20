@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"displaying:fromClass:" : "ls 4/20/2013 14:03:09.151" },
+		"displaying:" : "ls 4/20/2013 14:25:07.616",
+		"displaying:inClass:" : "ls 4/20/2013 14:24:07.637" },
 	"instance" : {
 		"classOrMetaClass" : "ls 4/20/2013 13:04:27.113",
 		"classOrMetaClass:" : "ls 4/20/2013 13:04:32.683",
-		"initialize" : "ls 4/20/2013 14:03:29.649",
-		"optimalWidth" : "ls 4/20/2013 14:05:18.621",
+		"initialize" : "ls 4/20/2013 14:26:33.65",
+		"optimalWidth" : "ls 4/20/2013 17:33:01.56",
 		"sourceCode" : "ls 4/20/2013 12:27:54.746",
 		"sourceCode:" : "ls 4/20/2013 14:09:48.82" } }

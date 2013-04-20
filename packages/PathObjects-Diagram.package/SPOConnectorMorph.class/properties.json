@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"label" ],
+		"label",
+		"sourcePopup",
+		"interactionStep" ],
 	"name" : "SPOConnectorMorph",
 	"pools" : [
 		 ],

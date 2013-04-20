@@ -1,5 +1,5 @@
 as yet unclassified
-displaying: aSourceCode fromClass: aBehaviour
+displaying: aSourceCode inClass: aBehaviour
 
 	^ self new
 		classOrMetaClass: aBehaviour;

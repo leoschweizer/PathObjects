@@ -6,10 +6,9 @@ initialize
 	self textMorph
 		font: Preferences standardCodeFont;
 		styler: SPOCodeStyler new;
-		margins: (4@0 corner: 4@0).
+		margins: (8@8 corner: 8@8).
 		
 	self
-		width: 400;
 		readOnly: true;
 		scrollingMode: #limit;
 		scrollingLimit: 10;
