@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"getAllIdentitiesOf:" : "ls 4/16/2013 14:02:34.454",
-		"valueWithReceiver:arguments:" : "ls 4/16/2013 14:58:17.787" } }
+		"getAllReferencesOf:" : "ls 4/22/2013 12:54:52.078",
+		"valueWithReceiver:arguments:" : "ls 4/22/2013 12:55:01.621" } }
