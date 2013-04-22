@@ -1,6 +1,6 @@
 as yet unclassified
 collectObjects
-
+	
 	| id receiver proxy |
 	self objects add: (-1 -> (SPOObjectProxy model: self id: nil type: nil)).
 	self callgraph traverseCallGraph: self callgraph rootNode with: [:node |

@@ -1,4 +1,4 @@
 as yet unclassified
 stepForward
-
-	self currentStep: self currentStep nextStep.  
+	
+	self currentStep: self currentStep nextStep.

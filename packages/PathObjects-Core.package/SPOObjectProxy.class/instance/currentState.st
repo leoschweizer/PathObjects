@@ -1,6 +1,6 @@
 as yet unclassified
 currentState
-
-	^ self stateInStep: self interactionModel currentStep  
+	
+	^ self stateInStep: self interactionModel currentStep
 
 	

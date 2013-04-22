@@ -1,4 +1,4 @@
 as yet unclassified
 printOn: aStream
 	
-	aStream nextPutAll: 'Environment'.  
+	aStream nextPutAll: 'Environment'.

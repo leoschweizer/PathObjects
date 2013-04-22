@@ -1,6 +1,6 @@
 as yet unclassified
 initializeWith: aCallgraph
-
+	
 	| steps |
 	self 
 		callgraph: aCallgraph;

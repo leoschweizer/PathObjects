@@ -1,6 +1,6 @@
 as yet unclassified
 rolesInStep: aStep
-
+	
 	| roles |
 	(aStep isEntryStep or: [aStep isExitStep]) ifTrue: [^ OrderedCollection empty].
 	
