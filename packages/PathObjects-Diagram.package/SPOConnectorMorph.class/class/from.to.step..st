@@ -1,10 +1,13 @@
 as yet unclassified
 from: aMorph to: otherMorph step: aStep
-
-	^ self new 
+	
+	| instance |
+	instance := self new 
 		fromMorph: aMorph toMorph: otherMorph;
 		interactionStep: aStep;
-		addLabel: aStep label;
 		connectToNearestAttachmentPoint;
 		hide;
-		yourself
+		yourself.
+	instance label: (SPOSmartLabelMorph openOn: instance displaying: aStep label).
+	instance label hide.
+	^ instance

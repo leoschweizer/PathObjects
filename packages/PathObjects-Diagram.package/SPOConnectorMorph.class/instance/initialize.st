@@ -5,4 +5,5 @@ initialize
 	self
 		lineWidth: 1.0;
 		lineColor: Color black lighter;
-		makeForwardArrow.
+		makeForwardArrow;
+		initializeSignals.
