@@ -6,8 +6,8 @@ referencesInStep: aStep
 	(aStep callNode fromSender isKindOf: SRootCallNode) ifTrue: [^ Set new].  
 	
 	aStep isReturnStep 
-		ifTrue: [allReferences := aStep callNode fromSender views at: #allReferencesAfter]
-		ifFalse: [allReferences := allReferences := aStep callNode fromSender views at: #allReferencesBefore].
+		ifTrue: [allReferences := aStep callNode views at: #allReferencesAfter]
+		ifFalse: [allReferences := allReferences := aStep callNode views at: #allReferencesBefore].
 	
 	myReferences := allReferences
 		at: self objectId
