@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel",
-		"objectMorphs",
-		"messageConnectors" ],
-	"name" : "SPOObjectDiagram",
+		 ],
+	"name" : "SPOReferenceConnector",
 	"pools" : [
 		 ],
-	"super" : "SPasteUpMorph",
+	"super" : "SPOConnectorMorph",
 	"type" : "normal" }

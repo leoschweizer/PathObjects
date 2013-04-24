@@ -3,7 +3,7 @@ markCurrentNode
 
 	| currentStep |
 	currentStep := self interactionModel currentStep.
-	(self connectors at: currentStep) showEnabled.
+	(self messageConnectors at: currentStep) showEnabled.
 	
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
@@ -13,5 +13,5 @@ markCurrentNode
 			updateRoleIndicators].
 		
 	currentStep tail
-		collect: [:each | self connectors at: each]
+		collect: [:each | self messageConnectors at: each]
 		thenWithIndexDo: [:each :index | each showDisabledForDistance: index].

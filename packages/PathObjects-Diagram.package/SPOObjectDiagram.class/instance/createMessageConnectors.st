@@ -1,5 +1,5 @@
 drawing
-createMessageMorphs
+createMessageConnectors
 	
 	| connector callerMorph calleeMorph |
 	self interactionModel steps
@@ -11,4 +11,4 @@ createMessageMorphs
 				from: callerMorph ui objectMorph
 				to: calleeMorph ui objectMorph
 				step: each.
-			self connectors at: each put: connector].
+			self messageConnectors at: each put: connector].

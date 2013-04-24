@@ -3,7 +3,7 @@ unmarkCurrentNode
 
 	| currentStep |
 	currentStep := self interactionModel currentStep.
-	(self connectors at: currentStep) hide.
+	(self messageConnectors at: currentStep) hide.
 	
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
@@ -13,5 +13,5 @@ unmarkCurrentNode
 			each ui indicatorContainer submorphs do: [:indicator | indicator form: indicator form dimmed]].
 		
 	currentStep tail
-		collect: [:each | self connectors at: each]
+		collect: [:each | self messageConnectors at: each]
 		thenDo: [:each | each hide].
