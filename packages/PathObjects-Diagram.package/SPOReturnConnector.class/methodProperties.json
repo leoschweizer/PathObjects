@@ -1,5 +1,5 @@
 {
 	"class" : {
-		 },
+		"from:to:step:" : "ls 4/24/2013 12:10:33.362" },
 	"instance" : {
 		"initialize" : "ls 4/15/2013 15:28:19.538" } }

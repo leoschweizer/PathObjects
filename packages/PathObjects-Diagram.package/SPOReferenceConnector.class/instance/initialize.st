@@ -5,6 +5,6 @@ initialize
 	self
 		lineWidth: 2.0;
 		dashedLine: true;
-		lineColor: Color red lighter paler;
+		lineColor: Color red muchLighter paler;
 		makeNoArrows;
 		hide.

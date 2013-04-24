@@ -1,4 +1,4 @@
-as yet unclassified
+signals
 mouseLeft
-
-	self ui menuContainer hide.
+	
+	self emitAlways.

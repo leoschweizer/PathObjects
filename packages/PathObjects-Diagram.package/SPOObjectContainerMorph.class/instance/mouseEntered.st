@@ -1,4 +1,4 @@
-as yet unclassified
+signals
 mouseEntered
-
-	self ui menuContainer fadeIn.
+	
+	self emitAlways.

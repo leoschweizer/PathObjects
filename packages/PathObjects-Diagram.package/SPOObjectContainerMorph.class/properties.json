@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"ui",
+		"referenceConnectors",
+		"diagram" ],
 	"name" : "SPOObjectContainerMorph",
 	"pools" : [
 		 ],

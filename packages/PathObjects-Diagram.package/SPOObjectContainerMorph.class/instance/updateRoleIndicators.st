@@ -3,7 +3,7 @@ updateRoleIndicators
 
 	| roles |
 	self ui indicatorContainer show.
-	roles := self ui objectMorph objectProxy currentRoles.
+	roles := self objectProxy currentRoles.
 	(roles includes: #sender) ifTrue: [self ui senderIndicator form: UiSilkIcons emailGoIcon].
 	(roles includes: #receiver) ifTrue: [self ui receiverIndicator form: UiSilkIcons emailOpenIcon].
 	(roles includes: #parameter) ifTrue: [self ui parameterIndicator form: UiSilkIcons disconnectIcon].
