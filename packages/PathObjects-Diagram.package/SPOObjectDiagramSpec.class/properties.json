@@ -8,7 +8,8 @@
 	"instvars" : [
 		"viewAreaMorph",
 		"miniMap",
-		"scrollPane" ],
+		"scrollPane",
+		"controllerBar" ],
 	"name" : "SPOObjectDiagramSpec",
 	"pools" : [
 		 ],

@@ -7,4 +7,5 @@ buildDiagramOn: aBuilder frame: aRectangle
 		children: OrderedCollection new;
 		frame: aRectangle;
 		viewAreaMorph: self objectDiagramMorph.
+	
 	self windowSpec children add: diagramSpec.
