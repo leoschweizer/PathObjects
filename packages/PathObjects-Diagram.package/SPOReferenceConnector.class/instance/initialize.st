@@ -3,8 +3,8 @@ initialize
 
 	super initialize.
 	self
-		lineWidth: 2.0;
+		lineWidth: 1.5;
 		dashedLine: true;
-		lineColor: Color red muchLighter paler;
+		lineColor: Color red muchDarker paler;
 		makeNoArrows;
 		hide.

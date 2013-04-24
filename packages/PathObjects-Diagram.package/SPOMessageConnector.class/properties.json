@@ -10,5 +10,5 @@
 	"name" : "SPOMessageConnector",
 	"pools" : [
 		 ],
-	"super" : "SPOConnectorMorph",
+	"super" : "SPOLabeledConnector",
 	"type" : "normal" }

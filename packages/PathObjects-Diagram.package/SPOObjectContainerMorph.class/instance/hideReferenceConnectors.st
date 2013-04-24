@@ -1,4 +1,4 @@
 signals-callbacks
 hideReferenceConnectors
 
-	self referenceConnectors do: [:each | each delete].
+	self referenceConnectors do: [:each | each hide; delete].

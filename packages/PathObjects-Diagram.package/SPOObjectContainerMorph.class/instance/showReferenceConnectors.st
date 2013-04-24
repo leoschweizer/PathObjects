@@ -9,4 +9,4 @@ showReferenceConnectors
 			to: self ui objectMorph
 			step: self objectProxy interactionModel currentStep].
 	self referenceConnectors: connectors asOrderedCollection.
-	self referenceConnectors do: [:each | each fadeIn].
+	self referenceConnectors do: [:each | each show].

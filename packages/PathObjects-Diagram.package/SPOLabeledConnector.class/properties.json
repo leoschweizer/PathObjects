@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SPOReturnConnector",
+		"label",
+		"sourcePopup" ],
+	"name" : "SPOLabeledConnector",
 	"pools" : [
 		 ],
-	"super" : "SPOLabeledConnector",
+	"super" : "SPOConnectorMorph",
 	"type" : "normal" }

@@ -1,9 +1,9 @@
 as yet unclassified
 initialize
-
+	
 	super initialize.
+	
 	self
-		lineWidth: 1.0;
-		lineColor: Color black lighter;
-		makeForwardArrow;
-		initializeSignals.
+		on: #mouseEnter send: #mouseEnter: to: self;
+		on: #mouseLeave send: #mouseLeave: to: self;
+		on: #mouseMove send: #mouseMove: to: self.
