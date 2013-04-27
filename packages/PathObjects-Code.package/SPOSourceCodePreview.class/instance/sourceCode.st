@@ -1,4 +1,4 @@
 as yet unclassified
 sourceCode
 
-	^ self theText
+	^ self ui sourcePane theText

@@ -4,7 +4,7 @@ optimalWidth
 	| maxLineWidth |
 	maxLineWidth := 0.
 	
-	(self theText asString copyReplaceAll: String tab with: '    ') linesDo: [:line | 
-		maxLineWidth := maxLineWidth max: (self textMorph textStyle defaultFont widthOfString: line)].
+	(self ui sourcePane theText asString copyReplaceAll: String tab with: '    ') linesDo: [:line | 
+		maxLineWidth := maxLineWidth max: (self ui sourcePane textMorph textStyle defaultFont widthOfString: line)].
 	
-	^ maxLineWidth + self scrollBarThickness + 20
+	^ maxLineWidth + self ui sourcePane scrollBarThickness + 20

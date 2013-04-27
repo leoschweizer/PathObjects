@@ -3,7 +3,7 @@ sourcePopup
 
 	^ sourcePopup ifNil: [sourcePopup := SPOSourceCodePreview 
 		displaying: self interactionStep popupMethod.
-		sourcePopup 
+		sourcePopup ui sourcePane
 			select: self interactionStep sourceRange;
 			scrollToShowSelection.
 		sourcePopup]

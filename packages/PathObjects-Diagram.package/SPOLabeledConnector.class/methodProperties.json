@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"hide" : "ls 4/24/2013 13:01:55.932",
-		"hideSourcePopup" : "ls 4/24/2013 13:01:05.568",
+		"hideSourcePopup" : "ls 4/27/2013 22:52:31.607",
 		"initialize" : "ls 4/24/2013 13:06:03.414",
 		"initializeSignals" : "ls 4/24/2013 13:01:36.523",
 		"label" : "ls 4/24/2013 13:00:19.931",
@@ -13,4 +13,4 @@
 		"show" : "ls 4/24/2013 13:02:09.386",
 		"showDisabledForDistance:" : "ls 4/24/2013 13:02:22.936",
 		"showEnabled" : "ls 4/24/2013 13:02:30.822",
-		"sourcePopup" : "ls 4/27/2013 17:44:37.21" } }
+		"sourcePopup" : "ls 4/27/2013 22:10:24.39" } }

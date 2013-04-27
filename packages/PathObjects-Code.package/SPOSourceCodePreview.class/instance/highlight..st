@@ -1,7 +1,7 @@
 as yet unclassified
 highlight: aRange
 
-	self theText 
+	self ui sourcePane theText 
 		addAttribute: TextEmphasis underlined
 		from: aRange first 
 		to: aRange last.

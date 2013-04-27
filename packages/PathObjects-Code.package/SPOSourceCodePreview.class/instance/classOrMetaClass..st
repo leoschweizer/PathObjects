@@ -1,4 +1,4 @@
 as yet unclassified
 classOrMetaClass: aBehaviour
 
-	self textMorph styler classOrMetaClass: aBehaviour.    
+	self ui sourcePane textMorph styler classOrMetaClass: aBehaviour.    
