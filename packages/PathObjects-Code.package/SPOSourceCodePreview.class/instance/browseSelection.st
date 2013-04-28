@@ -1,4 +1,7 @@
 signals-callbacks
 browseSelection
 	
-	^ self
+	| class selector |
+	class := self currentMethod methodClass.
+	selector := self currentMethod selector.
+	Browser fullOnClass: class selector: selector.
