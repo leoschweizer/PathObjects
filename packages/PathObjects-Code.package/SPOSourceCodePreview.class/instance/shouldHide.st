@@ -1,0 +1,4 @@
+accessing
+shouldHide
+	
+	^ shouldHide

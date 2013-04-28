@@ -5,7 +5,9 @@
 		"connectorClass" : "ls 4/19/2013 14:45:38.397",
 		"isMessageStep" : "ls 4/15/2013 14:18:16.169",
 		"label" : "ls 4/15/2013 14:24:55.912",
+		"messageContextRange" : "ls 4/28/2013 09:58:52.506",
 		"parameterObjects" : "ls 4/19/2013 11:08:03.675",
-		"popupMethod" : "ls 4/22/2013 13:11:23.814",
+		"popupMessage" : "ls 4/28/2013 09:54:54.019",
+		"popupMessageContext" : "ls 4/28/2013 09:54:47.669",
 		"selector" : "ls 4/13/2013 14:47:14.732",
 		"stateOf:" : "ls 4/17/2013 12:37:01.819" } }

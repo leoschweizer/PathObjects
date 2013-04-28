@@ -7,6 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
+		"contextMethod",
+		"contextRange",
+		"method",
 		"shouldHide" ],
 	"name" : "SPOSourceCodePreview",
 	"pools" : [

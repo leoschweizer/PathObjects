@@ -1,4 +1,4 @@
 as yet unclassified
-popupMethod
+popupMessage
 
 	^ self subclassResponsibility

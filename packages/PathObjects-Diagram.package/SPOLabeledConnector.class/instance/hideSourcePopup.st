@@ -1,4 +1,4 @@
 signals-callbacks
 hideSourcePopup
 	
-	self owner removeMorph: self sourcePopup.  
+	self owner sourcePopup hideLater.

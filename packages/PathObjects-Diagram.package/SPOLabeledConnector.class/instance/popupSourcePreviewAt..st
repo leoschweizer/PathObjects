@@ -1,5 +1,6 @@
 signals-callbacks
 popupSourcePreviewAt: anEvent
 	
-	self owner addMorphFront: self sourcePopup.
-	self sourcePopup position: anEvent position.
+	self owner sourcePopup 
+		showContext: self interactionStep popupMessageContext range: self interactionStep messageContextRange method: self interactionStep popupMessage ;
+		position: anEvent position.

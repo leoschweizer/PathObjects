@@ -1,4 +1,4 @@
 signals-callbacks
 moveSourcePopupTo: anEvent
 
-	self sourcePopup position: anEvent position.
+	self owner sourcePopup position: anEvent position.

@@ -4,7 +4,9 @@ initialize
 	super initialize.
 	self ui setupUi: self.
 	self shouldHide: true.
-	self initializeSignals.
+	self 
+		initializeSignals;
+		updateButtons.
 	
 	self ui sourcePane textMorph
 		font: Preferences standardCodeFont;
