@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (302@110).
+	panel extent: (402@2).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -257,12 +257,12 @@ initializePanel
 	unnamedMorph1 addChild: unnamedMorph3.
 	panel addChild: unnamedMorph1.
 	sourcePane := UiTextEdit new.
-	sourcePane extent: (300@80).
+	sourcePane extent: (400@30).
 	sourcePane position: (1@29).
 	sourcePane hResizing: (#shrinkWrap).
 	sourcePane vResizing: (#shrinkWrap).
-	sourcePane minWidth: (300).
-	sourcePane minHeight: (80).
+	sourcePane minWidth: (2).
+	sourcePane minHeight: (2).
 	sourcePane cellInset: (0).
 	sourcePane cellPositioning: (#center).
 	sourcePane cellSpacing: (#none).
