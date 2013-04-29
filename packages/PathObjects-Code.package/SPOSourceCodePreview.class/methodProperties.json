@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"displaying:" : "ls 4/20/2013 14:25:07.616",
-		"displaying:inClass:" : "ls 4/20/2013 14:24:07.637" },
+		 },
 	"instance" : {
 		"browseSelection" : "ls 4/28/2013 10:40:09.768",
 		"classOrMetaClass" : "ls 4/27/2013 22:06:19.758",
@@ -30,9 +29,9 @@
 		"shouldHide" : "ls 4/27/2013 22:33:05.184",
 		"shouldHide:" : "ls 4/27/2013 22:33:00.512",
 		"showContext:range:method:range:" : "ls 4/29/2013 10:27:20.031",
-		"showMessage" : "ls 4/29/2013 10:26:33.335",
-		"showMessageContext" : "ls 4/28/2013 10:41:10.501",
+		"showMessage" : "ls 4/29/2013 11:16:10.134",
+		"showMessageContext" : "ls 4/29/2013 11:16:02.691",
 		"sourceCode" : "ls 4/27/2013 22:05:50.063",
 		"sourceCode:" : "ls 4/29/2013 10:49:51.205",
 		"ui" : "ls 4/27/2013 21:50:44.362",
-		"updateButtons" : "ls 4/28/2013 09:41:02.074" } }
+		"updateButtons" : "ls 4/29/2013 11:27:10.43" } }

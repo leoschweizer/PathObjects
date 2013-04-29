@@ -1,7 +1,7 @@
 signals-callbacks
 showMessage
 	
-	self method ifNil: [^ self].
+	self method ifNil: [^ self showMessageContext].
 	self 
 		classOrMetaClass: self method methodClass;
 		sourceCode: self method getSource;
