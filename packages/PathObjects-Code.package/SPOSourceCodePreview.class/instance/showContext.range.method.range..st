@@ -6,4 +6,5 @@ showContext: aMethod range: aRange method: otherMethod range: otherRange
 		contextRange: aRange;
 		method: otherMethod;
 		methodRange: otherRange;
-		show
+		show;
+		comeToFront.
