@@ -7,4 +7,6 @@ showMessage
 		sourceCode: self method getSource;
 		currentMethod: self method.  
 	self ui messageBtn checked: true.
-	self ui sourcePane select: (1 to: 0).
+	self ui sourcePane
+		select: self methodRange;
+		scrollToShowSelection.
