@@ -1,0 +1,13 @@
+conversion
+addPreambleTo: aStream
+
+	aStream 
+		nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>';
+		cr;  
+		nextPutAll: '<graphml xmlns="http://graphml.graphdrawing.org/xmlns" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+			http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">';
+		cr;
+		nextPutAll: '<graph id="G" edgedefault="directed">';
+		cr.

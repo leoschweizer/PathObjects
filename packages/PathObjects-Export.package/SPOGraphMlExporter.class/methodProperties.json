@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEpilogueTo:" : "ls 4/30/2013 17:41:12.235",
+		"addPreambleTo:" : "ls 4/30/2013 17:40:07.167",
+		"convertEntryStep:on:" : "ls 4/30/2013 20:40:33.754",
+		"convertExitStep:on:" : "ls 4/30/2013 20:40:50.818",
+		"convertMessageSendStep:on:" : "ls 4/30/2013 23:18:22.88",
+		"convertObjectProxy:on:" : "ls 4/30/2013 20:42:19.426",
+		"convertReturnStep:on:" : "ls 4/30/2013 23:18:15.457" } }

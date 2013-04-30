@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Export",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOGraphMlExporter",
+	"pools" : [
+		 ],
+	"super" : "SPOInteractionModelExporter",
+	"type" : "normal" }
