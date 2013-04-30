@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"collect:thenWithIndexDo:" : "ls 4/19/2013 15:11:51.122" } }
+		"collect:thenWithIndexDo:" : "ls 4/19/2013 15:11:51.122",
+		"select:thenWithIndexDo:" : "ls 4/30/2013 13:15:53.952" } }
