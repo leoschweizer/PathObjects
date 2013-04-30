@@ -27,6 +27,6 @@ exportAsGaml
 			nextPutAll: '" />';
 			nextPut: Character cr].
 	
-	xml nextPutAll: '</graphanimation></graph>'.
+	xml nextPutAll: '</graph></graphanimation>'.
 	
 	^ xml contents
