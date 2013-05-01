@@ -1,6 +1,6 @@
 conversion
-addEpilogueTo: aStream
+addEpilogue
 	
-	aStream
+	self output
 		nextPutAll: '</graph>';
 		nextPutAll: '</graphanimation>'.

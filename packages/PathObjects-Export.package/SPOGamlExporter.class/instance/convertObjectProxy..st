@@ -1,7 +1,7 @@
 conversion
-convertObjectProxy: aProxy on: aStream
+convertObjectProxy: aProxy
 	
-	aStream
+	self output
 		nextPutAll: '<node id="';
 		nextPutAll: aProxy objectId asString;
 		nextPutAll: '" label="';

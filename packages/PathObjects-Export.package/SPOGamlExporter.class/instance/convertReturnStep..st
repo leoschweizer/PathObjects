@@ -1,7 +1,7 @@
 conversion
-convertReturnStep: aStep on: aStream
+convertReturnStep: aStep
 	
-	aStream
+	self output
 		nextPutAll: '<edge id="';
 		nextPutAll: self nextUniqueId asString;
 		nextPutAll: '" sourceid="';

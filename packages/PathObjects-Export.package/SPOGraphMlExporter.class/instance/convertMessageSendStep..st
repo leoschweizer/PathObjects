@@ -1,7 +1,7 @@
 conversion
-convertMessageSendStep: aStep on: aStream
+convertMessageSendStep: aStep
 	
-	aStream
+	self output
 		nextPutAll: '<edge source="';
 		nextPutAll: aStep callerObject objectId asString;
 		nextPutAll: '" target="';

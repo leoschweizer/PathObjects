@@ -1,4 +1,4 @@
 conversion
-convertObjectProxy: aProxy on: aStream
+addEpilogue
 	
 	self subclassResponsibility.

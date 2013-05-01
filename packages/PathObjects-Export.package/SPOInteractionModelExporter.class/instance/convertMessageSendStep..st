@@ -1,4 +1,4 @@
 conversion
-addPreambleTo: aStream
+convertMessageSendStep: aStep
 	
 	self subclassResponsibility.

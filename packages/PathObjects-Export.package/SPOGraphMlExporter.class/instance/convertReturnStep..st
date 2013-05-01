@@ -1,7 +1,7 @@
 conversion
-convertReturnStep: aStep on: aStream
+convertReturnStep: aStep
 	
-	aStream
+	self output
 		nextPutAll: '<edge source="';
 		nextPutAll: aStep calleeObject objectId asString;
 		nextPutAll: '" target="';

@@ -1,7 +1,7 @@
 conversion
-addPreambleTo: aStream
+addPreamble
 
-	aStream 
+	self output 
 		nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>';
 		cr;  
 		nextPutAll: '<graphml xmlns="http://graphml.graphdrawing.org/xmlns" 

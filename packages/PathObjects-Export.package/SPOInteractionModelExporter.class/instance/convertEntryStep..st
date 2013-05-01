@@ -1,4 +1,4 @@
 conversion
-convertEntryStep: aStep on: aStream
+convertEntryStep: aStep
 	
 	self subclassResponsibility.

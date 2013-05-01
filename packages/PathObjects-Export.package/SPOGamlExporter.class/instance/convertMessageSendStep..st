@@ -1,7 +1,7 @@
 conversion
-convertMessageSendStep: aStep on: aStream
+convertMessageSendStep: aStep
 	
-	aStream
+	self output
 		nextPutAll: '<edge id="';
 		nextPutAll: self nextUniqueId asString;
 		nextPutAll: '" sourceid="';

@@ -1,4 +1,4 @@
 conversion
-convertExitStep: aStep on: aStream
+addPreamble
 	
 	self subclassResponsibility.

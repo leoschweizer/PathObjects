@@ -1,4 +1,4 @@
 conversion
-convertReturnStep: aStep on: aStream
+convertObjectProxy: aProxy
 	
 	self subclassResponsibility.

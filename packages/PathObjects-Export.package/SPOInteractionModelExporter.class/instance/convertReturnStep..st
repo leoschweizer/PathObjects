@@ -1,4 +1,4 @@
 conversion
-convertMessageSendStep: aStep on: aStream
+convertReturnStep: aStep
 	
 	self subclassResponsibility.

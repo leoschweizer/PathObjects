@@ -1,7 +1,7 @@
 conversion
-addPreambleTo: aStream
+addPreamble
 	
-	aStream
+	self output
 		nextPutAll: '<graphanimation>';
 		nextPutAll: '<graph>';
 		cr.

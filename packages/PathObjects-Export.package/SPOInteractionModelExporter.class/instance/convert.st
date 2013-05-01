@@ -1,19 +1,17 @@
 as yet unclassified
 convert
 	
-	| output |
-	output := WriteStream on: String new.
-	self addPreambleTo: output.
+	self addPreamble.
 	
 	self interactionModel objects
 		collect: [:each | each value]
-		thenDo: [:each | self convertObjectProxy: each on: output].
+		thenDo: [:each | self convertObjectProxy: each].
 	
 	self interactionModel steps do: [:each |
-		each isEntryStep ifTrue: [self convertEntryStep: each on: output].
-		each isExitStep ifTrue: [self convertExitStep: each on: output].
-		each isMessageStep ifTrue: [self convertMessageSendStep: each on: output].
-		each isReturnStep ifTrue: [self convertReturnStep: each on: output]].
+		each isEntryStep ifTrue: [self convertEntryStep: each].
+		each isExitStep ifTrue: [self convertExitStep: each].
+		each isMessageStep ifTrue: [self convertMessageSendStep: each].
+		each isReturnStep ifTrue: [self convertReturnStep: each]].
 	
-	self addEpilogueTo: output.
-	^ output contents
+	self addEpilogue.
+	^ self output contents

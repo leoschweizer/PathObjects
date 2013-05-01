@@ -1,7 +1,7 @@
 conversion
-addEpilogueTo: aStream
+addEpilogue
 	
-	aStream
+	self output
 		nextPutAll: '</graph>';
 		cr;
 		nextPutAll: '</graphml>'.

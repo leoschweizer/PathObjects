@@ -1,4 +1,4 @@
 conversion
-addEpilogueTo: aStream
+convertExitStep: aStep
 	
 	self subclassResponsibility.
