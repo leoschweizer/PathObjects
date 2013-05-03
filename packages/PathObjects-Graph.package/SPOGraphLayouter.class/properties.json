@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Graph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interactionModel" ],
+	"name" : "SPOGraphLayouter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

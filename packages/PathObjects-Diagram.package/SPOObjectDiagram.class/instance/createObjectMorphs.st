@@ -1,14 +1,13 @@
 drawing
 createObjectMorphs
 	
-	| morph position |
-	position := -400@0.
+	| layout morph |
+	layout := (SPOGraphLayouter on: self interactionModel) layout.
 	self interactionModel objects 
 		collect: [:each | each value]
 		thenDo: [:object |
 			morph := SPOObjectContainerMorph on: object diagram: self.
-			morph position: (position translateBy: (self extent x / 2)@(self extent y / 2)).
+			morph position: ((layout at: object objectId) translateBy: (self extent x / 2)@(self extent y / 2)).
 			self objectMorphs at: object objectId put: morph.
 			self addMorph: morph.
-			morph hide.
-			position := position + ((morph width + 50)@0)].
+			morph hide].
