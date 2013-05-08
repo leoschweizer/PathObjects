@@ -1,4 +1,4 @@
 accessing
 messageConnectors
 
-	^ messageConnectors ifNil: [messageConnectors := Dictionary new]
+	^ messageConnectors ifNil: [messageConnectors := OrderedCollection new]
