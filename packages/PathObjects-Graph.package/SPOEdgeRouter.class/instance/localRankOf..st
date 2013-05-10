@@ -1,6 +1,6 @@
 as yet unclassified
-localRankOf: anEdge
+localRankOf: aStep
 	
 	| group |
-	group := (self edgeToGroupMapping at: anEdge interactionStep) value.
-	^ group indexOf: anEdge
+	group := (self edgeToGroupMapping at: aStep) value.
+	^ group indexOf: aStep

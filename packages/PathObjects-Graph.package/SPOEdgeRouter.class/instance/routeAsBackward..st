@@ -2,12 +2,15 @@ edge routing
 routeAsBackward: anEdge
 	
 	| offset |
-	offset := 30 * (self localRankOf: anEdge).
-	
+	offset := 30 * (self localRankOf: anEdge interactionStep).
 	anEdge
 		straighten;
 		beSmoothCurve;
-		lineColor: Color red.  
+		makeBackArrow.
 	
-	anEdge line insertVertexAfterEndAt: anEdge midpoint + offset asPoint.
+	anEdge line setVertices: {
+		anEdge vertices first. 
+		anEdge midpoint + offset asPoint. 
+		anEdge vertices last
+	}.
 	anEdge changed.
