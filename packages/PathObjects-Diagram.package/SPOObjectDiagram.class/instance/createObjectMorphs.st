@@ -1,8 +1,10 @@
 drawing
 createObjectMorphs
 	
-	| layout morph |
-	layout := (SPOGraphLayouter on: self interactionModel) layout.
+	| layouter layout morph |
+	layouter := SPOGraphLayouter on: self interactionModel.
+	self edgeRouter: layouter edgeRouter mapEdgesToGroups.
+	layout := layouter layout.
 	self interactionModel objects 
 		collect: [:each | each value]
 		thenDo: [:object |

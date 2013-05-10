@@ -1,0 +1,4 @@
+edge routing
+routeAsSelfLoopBottom: anEdge
+	
+	

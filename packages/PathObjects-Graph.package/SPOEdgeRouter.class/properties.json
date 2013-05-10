@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Graph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interactionModel",
+		"nodePositions",
+		"superGroups",
+		"edgeToGroupMapping" ],
+	"name" : "SPOEdgeRouter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

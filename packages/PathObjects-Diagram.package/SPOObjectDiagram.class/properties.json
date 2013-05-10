@@ -9,7 +9,8 @@
 		"interactionModel",
 		"objectMorphs",
 		"messageConnectors",
-		"sourcePopup" ],
+		"sourcePopup",
+		"edgeRouter" ],
 	"name" : "SPOObjectDiagram",
 	"pools" : [
 		 ],

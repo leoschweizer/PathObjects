@@ -1,0 +1,4 @@
+edge routing
+routeAsForward: anEdge
+	
+	

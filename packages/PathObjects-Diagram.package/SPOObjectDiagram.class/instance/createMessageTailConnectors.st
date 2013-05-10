@@ -10,4 +10,5 @@ createMessageTailConnectors
 			to: calleeMorph ui objectMorph
 			step: each.
 		self messageConnectors add: connector.
-		connector showDisabledForDistance: index].
+		connector showDisabledForDistance: index.
+		self edgeRouter route: connector].
