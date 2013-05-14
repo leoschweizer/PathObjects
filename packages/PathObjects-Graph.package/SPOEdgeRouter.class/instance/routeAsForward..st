@@ -9,8 +9,8 @@ routeAsForward: anEdge
 		makeForwardArrow.
 	
 	anEdge line setVertices: {
-		anEdge vertices first. 
-		anEdge midpoint + offset asPoint. 
+		anEdge vertices first.
+		self archTopOf: anEdge inDistance: offset.  
 		anEdge vertices last
 	}.
 	anEdge changed.

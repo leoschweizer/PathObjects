@@ -10,7 +10,7 @@ routeAsBackward: anEdge
 	
 	anEdge line setVertices: {
 		anEdge vertices first. 
-		anEdge midpoint + offset asPoint. 
+		self archTopOf: anEdge inDistance: offset.
 		anEdge vertices last
 	}.
 	anEdge changed.
