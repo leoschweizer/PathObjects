@@ -1,4 +1,4 @@
-as yet unclassified
+partitioning
 add: anEdge toGroup: aSymbol inSuperGroup: aDictionary
 	
 	aDictionary at: aSymbol ifAbsentPut: OrderedCollection new.

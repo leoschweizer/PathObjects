@@ -1,0 +1,3 @@
+The BasicEdgeRouter partitions all edges into super groups and routes the edges within a supergroup under consideration of all other edges within the same group. Each node and each pair of connected nodes form supergroups.
+
+Within a supergroup, edges are mapped to top and bottom sub-.groups. Within those subgroups, the local rank of an edge determines the "height" of the curve, which prevents edge crossing within the same super group.

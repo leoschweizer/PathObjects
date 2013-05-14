@@ -1,4 +1,4 @@
-as yet unclassified
+partitioning
 localRankOf: aStep
 	
 	| group |

@@ -1,7 +1,7 @@
 as yet unclassified
 edgeRouter
 	
-	^ SPOEdgeRouter new
+	^ SPOBasicEdgeRouter new
 		interactionModel: self interactionModel;
 		nodePositions: self layout;
 		yourself    

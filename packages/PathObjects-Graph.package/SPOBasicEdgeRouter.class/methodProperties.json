@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"on:" : "ls 5/10/2013 14:40:01.647" },
+	"instance" : {
+		"add:toGroup:inSuperGroup:" : "ls 5/10/2013 16:02:06.661",
+		"archTopOf:inDistance:" : "ls 5/14/2013 12:48:53.876",
+		"edgeToGroupMapping" : "ls 5/10/2013 15:57:56.179",
+		"isLeftToRight:" : "ls 5/10/2013 15:40:10.408",
+		"isRightToLeft:" : "ls 5/10/2013 15:40:15.884",
+		"isSelfBottom:" : "ls 5/14/2013 13:08:53.3",
+		"isSelfTop:" : "ls 5/14/2013 13:09:15.472",
+		"localRankOf:" : "ls 5/10/2013 16:54:08.5",
+		"mapEdgesToGroups" : "ls 5/14/2013 14:17:36.86",
+		"route:" : "ls 5/14/2013 13:10:12.257",
+		"routeAsBackward:" : "ls 5/14/2013 12:49:34.242",
+		"routeAsForward:" : "ls 5/14/2013 12:49:54.531",
+		"routeAsSelfLoopBottom:" : "ls 5/10/2013 13:54:23.118",
+		"routeAsSelfLoopTop:" : "ls 5/10/2013 13:54:33.987",
+		"superGroups" : "ls 5/10/2013 15:29:09.754" } }

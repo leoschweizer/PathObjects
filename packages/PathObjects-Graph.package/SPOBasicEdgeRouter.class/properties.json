@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Graph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ls 5/14/2013 14:50:48.321",
+	"instvars" : [
+		"superGroups",
+		"edgeToGroupMapping" ],
+	"name" : "SPOBasicEdgeRouter",
+	"pools" : [
+		 ],
+	"super" : "SPOEdgeRouter",
+	"type" : "normal" }

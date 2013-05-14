@@ -1,22 +1,9 @@
 {
 	"class" : {
-		"on:" : "ls 5/10/2013 14:40:01.647" },
+		 },
 	"instance" : {
-		"add:toGroup:inSuperGroup:" : "ls 5/10/2013 16:02:06.661",
-		"archTopOf:inDistance:" : "ls 5/14/2013 12:48:53.876",
-		"edgeToGroupMapping" : "ls 5/10/2013 15:57:56.179",
-		"interactionModel" : "ls 5/10/2013 13:31:02.621",
-		"interactionModel:" : "ls 5/10/2013 13:31:09.043",
-		"isLeftToRight:" : "ls 5/10/2013 15:40:10.408",
-		"isRightToLeft:" : "ls 5/10/2013 15:40:15.884",
-		"isSelfTop:" : "ls 5/10/2013 16:16:29.541",
-		"localRankOf:" : "ls 5/10/2013 16:54:08.5",
-		"mapEdgesToGroups" : "ls 5/10/2013 16:17:06.667",
-		"nodePositions" : "ls 5/10/2013 14:49:58.892",
-		"nodePositions:" : "ls 5/10/2013 14:50:21.072",
-		"route:" : "ls 5/10/2013 16:09:15.679",
-		"routeAsBackward:" : "ls 5/14/2013 12:49:34.242",
-		"routeAsForward:" : "ls 5/14/2013 12:49:54.531",
-		"routeAsSelfLoopBottom:" : "ls 5/10/2013 13:54:23.118",
-		"routeAsSelfLoopTop:" : "ls 5/10/2013 13:54:33.987",
-		"superGroups" : "ls 5/10/2013 15:29:09.754" } }
+		"interactionModel" : "ls 5/14/2013 14:35:42.034",
+		"interactionModel:" : "ls 5/14/2013 14:35:43.985",
+		"nodePositions" : "ls 5/14/2013 14:35:46.748",
+		"nodePositions:" : "ls 5/14/2013 14:35:49.394",
+		"route:" : "ls 5/14/2013 14:36:30.168" } }
