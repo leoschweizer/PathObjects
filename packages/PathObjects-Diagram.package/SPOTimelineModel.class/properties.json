@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interactionModel",
+		"step" ],
+	"name" : "SPOTimelineModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

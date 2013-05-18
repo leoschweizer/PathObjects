@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"on:" : "ls 5/18/2013 23:02:32.717" },
+	"instance" : {
+		"childAt:inGroup:" : "ls 5/18/2013 23:33:27.261",
+		"childCountInGroup:" : "ls 5/18/2013 23:39:41.995",
+		"groups" : "ls 5/18/2013 23:38:30.228",
+		"interactionModel" : "ls 5/18/2013 23:03:00.089",
+		"interactionModel:" : "ls 5/18/2013 23:03:00.102",
+		"steps" : "ls 5/18/2013 23:39:52.175" } }

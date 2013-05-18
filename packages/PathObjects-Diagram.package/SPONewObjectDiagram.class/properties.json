@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPONewObjectDiagram",
+	"pools" : [
+		 ],
+	"super" : "UiWindow",
+	"type" : "normal" }

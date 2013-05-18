@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOTimelineItemSpec",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewSimpleColumnSpec",
+	"type" : "normal" }
