@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"interactionModel",
+		"objectMorphs",
+		"messageConnectors",
+		"sourcePopup",
+		"edgeRouter" ],
 	"name" : "SPONewObjectDiagram",
 	"pools" : [
 		 ],

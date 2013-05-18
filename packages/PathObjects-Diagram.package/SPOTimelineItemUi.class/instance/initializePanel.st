@@ -2,17 +2,17 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 unnamedMorph6 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (65@58).
+	panel extent: (200@54).
 	panel position: (0@0).
-	panel hResizing: (#shrinkWrap).
+	panel hResizing: (#rigid).
 	panel vResizing: (#shrinkWrap).
 	panel minWidth: (2).
 	panel minHeight: (2).
-	panel cellInset: (4).
+	panel cellInset: (0).
 	panel cellPositioning: (#topLeft).
 	panel cellSpacing: (#none).
 	panel layoutInset: (4).
@@ -26,16 +26,44 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	unnamedMorph1 := UiLabel new.
+	senderClass := UiLabel new.
+	senderClass changeTableLayout.
+	senderClass extent: (24@14).
+	senderClass position: (4@4).
+	senderClass hResizing: (#shrinkWrap).
+	senderClass vResizing: (#shrinkWrap).
+	senderClass minWidth: (2).
+	senderClass minHeight: (2).
+	senderClass cellInset: (0).
+	senderClass cellPositioning: (#center).
+	senderClass cellSpacing: (#none).
+	senderClass layoutInset: (0).
+	senderClass listCentering: (#topLeft).
+	senderClass listDirection: (#leftToRight).
+	senderClass listSpacing: (#none).
+	senderClass maxCellSize: (1073741823).
+	senderClass minCellSize: (0).
+	senderClass wrapCentering: (#topLeft).
+	senderClass wrapDirection: (#none).
+	senderClass frameFractions: (0@0 corner: 1@1).
+	senderClass frameOffsets: (0@0 corner: 0@0).
+	senderClass balloonText: (nil).
+	senderClass balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	senderClass text: ('Label').
+	senderClass setProperty: #formByDesigner toValue: 'nil'.
+	senderClass form: (nil).
+	senderClass setProperty: #objectName toValue: 'senderClass'.
+	panel addChild: senderClass.
+	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (24@14).
-	unnamedMorph1 position: (4@4).
+	unnamedMorph1 extent: (49@32).
+	unnamedMorph1 position: (4@18).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -54,15 +82,15 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
-	unnamedMorph1 text: ('Label').
-	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph1 form: (nil).
-	panel addChild: unnamedMorph1.
-	unnamedMorph2 := UiContainer new.
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
+	unnamedMorph1 color: (Color transparent).
+	unnamedMorph1 borderWidth: (0).
+	unnamedMorph1 borderStyle2: (#simple).
+	unnamedMorph1 borderColor: (Color black).
+	unnamedMorph2 := UiLabel new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (57@32).
-	unnamedMorph2 position: (4@22).
+	unnamedMorph2 extent: (16@16).
+	unnamedMorph2 position: (4@26).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -81,25 +109,25 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
-	unnamedMorph2 color: (Color transparent).
-	unnamedMorph2 borderWidth: (0).
-	unnamedMorph2 borderStyle2: (#simple).
-	unnamedMorph2 borderColor: (Color black).
-	unnamedMorph3 := UiLabel new.
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	unnamedMorph2 text: ('Label').
+	unnamedMorph2 setProperty: #formByDesigner toValue: 'UiFugueIcons arrowBranch270LeftIcon'.
+	unnamedMorph2 form: (UiFugueIcons arrowBranch270LeftIcon).
+	unnamedMorph1 addChild: unnamedMorph2.
+	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (16@16).
-	unnamedMorph3 position: (4@30).
+	unnamedMorph3 extent: (33@32).
+	unnamedMorph3 position: (20@18).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
 	unnamedMorph3 minHeight: (2).
 	unnamedMorph3 cellInset: (0).
-	unnamedMorph3 cellPositioning: (#center).
+	unnamedMorph3 cellPositioning: (#topLeft).
 	unnamedMorph3 cellSpacing: (#none).
 	unnamedMorph3 layoutInset: (0).
 	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
+	unnamedMorph3 listDirection: (#topToBottom).
 	unnamedMorph3 listSpacing: (#none).
 	unnamedMorph3 maxCellSize: (1073741823).
 	unnamedMorph3 minCellSize: (0).
@@ -108,92 +136,67 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
-	unnamedMorph3 text: ('Label').
-	unnamedMorph3 setProperty: #formByDesigner toValue: 'UiFugueIcons arrowBranch270LeftIcon'.
-	unnamedMorph3 form: (UiFugueIcons arrowBranch270LeftIcon).
-	unnamedMorph2 addChild: unnamedMorph3.
-	unnamedMorph4 := UiContainer new.
-	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (41@32).
-	unnamedMorph4 position: (20@22).
-	unnamedMorph4 hResizing: (#shrinkWrap).
-	unnamedMorph4 vResizing: (#shrinkWrap).
-	unnamedMorph4 minWidth: (2).
-	unnamedMorph4 minHeight: (2).
-	unnamedMorph4 cellInset: (0).
-	unnamedMorph4 cellPositioning: (#topLeft).
-	unnamedMorph4 cellSpacing: (#none).
-	unnamedMorph4 layoutInset: (0).
-	unnamedMorph4 listCentering: (#topLeft).
-	unnamedMorph4 listDirection: (#topToBottom).
-	unnamedMorph4 listSpacing: (#none).
-	unnamedMorph4 maxCellSize: (1073741823).
-	unnamedMorph4 minCellSize: (0).
-	unnamedMorph4 wrapCentering: (#topLeft).
-	unnamedMorph4 wrapDirection: (#none).
-	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
-	unnamedMorph4 color: (Color transparent).
-	unnamedMorph4 borderWidth: (0).
-	unnamedMorph4 borderStyle2: (#simple).
-	unnamedMorph4 borderColor: (Color black).
-	unnamedMorph5 := UiLabel new.
-	unnamedMorph5 changeTableLayout.
-	unnamedMorph5 extent: (32@14).
-	unnamedMorph5 position: (20@22).
-	unnamedMorph5 hResizing: (#shrinkWrap).
-	unnamedMorph5 vResizing: (#shrinkWrap).
-	unnamedMorph5 minWidth: (2).
-	unnamedMorph5 minHeight: (2).
-	unnamedMorph5 cellInset: (0).
-	unnamedMorph5 cellPositioning: (#center).
-	unnamedMorph5 cellSpacing: (#none).
-	unnamedMorph5 layoutInset: (0).
-	unnamedMorph5 listCentering: (#topLeft).
-	unnamedMorph5 listDirection: (#leftToRight).
-	unnamedMorph5 listSpacing: (#none).
-	unnamedMorph5 maxCellSize: (1073741823).
-	unnamedMorph5 minCellSize: (0).
-	unnamedMorph5 wrapCentering: (#topLeft).
-	unnamedMorph5 wrapDirection: (#none).
-	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
-	unnamedMorph5 text: ('Label').
-	unnamedMorph5 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph5 form: (nil).
-	unnamedMorph4 addChild: unnamedMorph5.
-	unnamedMorph6 := UiLabel new.
-	unnamedMorph6 changeTableLayout.
-	unnamedMorph6 extent: (41@18).
-	unnamedMorph6 position: (20@36).
-	unnamedMorph6 hResizing: (#shrinkWrap).
-	unnamedMorph6 vResizing: (#shrinkWrap).
-	unnamedMorph6 minWidth: (2).
-	unnamedMorph6 minHeight: (2).
-	unnamedMorph6 cellInset: (0).
-	unnamedMorph6 cellPositioning: (#center).
-	unnamedMorph6 cellSpacing: (#none).
-	unnamedMorph6 layoutInset: (0).
-	unnamedMorph6 listCentering: (#topLeft).
-	unnamedMorph6 listDirection: (#leftToRight).
-	unnamedMorph6 listSpacing: (#none).
-	unnamedMorph6 maxCellSize: (1073741823).
-	unnamedMorph6 minCellSize: (0).
-	unnamedMorph6 wrapCentering: (#topLeft).
-	unnamedMorph6 wrapDirection: (#none).
-	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.949)).
-	unnamedMorph6 text: ('Label').
-	unnamedMorph6 setProperty: #formByDesigner toValue: 'nil'.
-	unnamedMorph6 form: (nil).
-	unnamedMorph4 addChild: unnamedMorph6.
-	unnamedMorph2 addChild: unnamedMorph4.
-	panel addChild: unnamedMorph2.
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	unnamedMorph3 color: (Color transparent).
+	unnamedMorph3 borderWidth: (0).
+	unnamedMorph3 borderStyle2: (#simple).
+	unnamedMorph3 borderColor: (Color black).
+	receiverClass := UiLabel new.
+	receiverClass changeTableLayout.
+	receiverClass extent: (24@14).
+	receiverClass position: (20@18).
+	receiverClass hResizing: (#shrinkWrap).
+	receiverClass vResizing: (#shrinkWrap).
+	receiverClass minWidth: (2).
+	receiverClass minHeight: (2).
+	receiverClass cellInset: (0).
+	receiverClass cellPositioning: (#center).
+	receiverClass cellSpacing: (#none).
+	receiverClass layoutInset: (0).
+	receiverClass listCentering: (#topLeft).
+	receiverClass listDirection: (#leftToRight).
+	receiverClass listSpacing: (#none).
+	receiverClass maxCellSize: (1073741823).
+	receiverClass minCellSize: (0).
+	receiverClass wrapCentering: (#topLeft).
+	receiverClass wrapDirection: (#none).
+	receiverClass frameFractions: (0@0 corner: 1@1).
+	receiverClass frameOffsets: (0@0 corner: 0@0).
+	receiverClass balloonText: (nil).
+	receiverClass balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	receiverClass text: ('Label').
+	receiverClass setProperty: #formByDesigner toValue: 'nil'.
+	receiverClass form: (nil).
+	receiverClass setProperty: #objectName toValue: 'receiverClass'.
+	unnamedMorph3 addChild: receiverClass.
+	receiverMessage := UiLabel new.
+	receiverMessage changeTableLayout.
+	receiverMessage extent: (33@18).
+	receiverMessage position: (20@32).
+	receiverMessage hResizing: (#shrinkWrap).
+	receiverMessage vResizing: (#shrinkWrap).
+	receiverMessage minWidth: (2).
+	receiverMessage minHeight: (2).
+	receiverMessage cellInset: (0).
+	receiverMessage cellPositioning: (#center).
+	receiverMessage cellSpacing: (#none).
+	receiverMessage layoutInset: (0).
+	receiverMessage listCentering: (#topLeft).
+	receiverMessage listDirection: (#leftToRight).
+	receiverMessage listSpacing: (#none).
+	receiverMessage maxCellSize: (1073741823).
+	receiverMessage minCellSize: (0).
+	receiverMessage wrapCentering: (#topLeft).
+	receiverMessage wrapDirection: (#none).
+	receiverMessage frameFractions: (0@0 corner: 1@1).
+	receiverMessage frameOffsets: (0@0 corner: 0@0).
+	receiverMessage balloonText: (nil).
+	receiverMessage balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	receiverMessage text: ('Label').
+	receiverMessage setProperty: #formByDesigner toValue: 'nil'.
+	receiverMessage form: (nil).
+	receiverMessage setProperty: #objectName toValue: 'receiverMessage'.
+	unnamedMorph3 addChild: receiverMessage.
+	unnamedMorph1 addChild: unnamedMorph3.
+	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'SPOTimelineItem'.

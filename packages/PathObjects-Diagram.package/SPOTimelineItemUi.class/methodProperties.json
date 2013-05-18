@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "ls 5/18/2013 22:26:51.811" } }
+		"initializePanel" : "ls 5/19/2013 01:04:26.628",
+		"receiverClass" : "ls 5/19/2013 01:04:26.585",
+		"receiverMessage" : "ls 5/19/2013 01:04:26.597",
+		"senderClass" : "ls 5/19/2013 01:04:26.572" } }

@@ -2,9 +2,12 @@
 	"class" : {
 		"on:" : "ls 5/18/2013 23:02:32.717" },
 	"instance" : {
-		"childAt:inGroup:" : "ls 5/18/2013 23:33:27.261",
+		"childAt:inGroup:" : "ls 5/19/2013 00:53:19.792",
 		"childCountInGroup:" : "ls 5/18/2013 23:39:41.995",
 		"groups" : "ls 5/18/2013 23:38:30.228",
 		"interactionModel" : "ls 5/18/2013 23:03:00.089",
 		"interactionModel:" : "ls 5/18/2013 23:03:00.102",
+		"receiverClassAt:" : "ls 5/19/2013 00:52:46.67",
+		"receiverMessageAt:" : "ls 5/19/2013 00:52:57.007",
+		"senderClassAt:" : "ls 5/19/2013 00:51:46.063",
 		"steps" : "ls 5/18/2013 23:39:52.175" } }

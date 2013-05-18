@@ -1,7 +1,18 @@
 {
 	"class" : {
-		 },
+		"displaying:" : "ls 5/19/2013 00:31:12.525" },
 	"instance" : {
+		"edgeRouter" : "ls 5/19/2013 00:32:47.745",
+		"edgeRouter:" : "ls 5/19/2013 00:32:47.757",
+		"interactionModel" : "ls 5/19/2013 00:32:47.647",
+		"interactionModel:" : "ls 5/19/2013 00:32:47.661",
+		"messageConnectors" : "ls 5/19/2013 00:32:47.696",
+		"messageConnectors:" : "ls 5/19/2013 00:32:47.708",
+		"objectMorphs" : "ls 5/19/2013 00:32:47.673",
+		"objectMorphs:" : "ls 5/19/2013 00:32:47.685",
 		"open" : "ls 5/19/2013 00:18:41.737",
+		"openDisplaying:" : "ls 5/19/2013 00:37:21.642",
+		"sourcePopup" : "ls 5/19/2013 00:32:47.72",
+		"sourcePopup:" : "ls 5/19/2013 00:32:47.732",
 		"title" : "ls 5/19/2013 00:21:14.04",
 		"uiClass" : "ls 5/19/2013 00:11:35.213" } }

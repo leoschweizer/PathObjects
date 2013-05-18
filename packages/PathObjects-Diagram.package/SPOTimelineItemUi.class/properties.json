@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"senderClass",
+		"receiverClass",
+		"receiverMessage" ],
 	"name" : "SPOTimelineItemUi",
 	"pools" : [
 		 ],
