@@ -8,4 +8,5 @@ openDisplaying: anInteractionModel
 	self ui timeline 
 		listSpec: SPOTimelineItemSpec new;
 		model: (SPOTimelineModel on: self interactionModel).
+	self ui diagram widget: (SPOObjectDiagram displaying: anInteractionModel).
 	^ window
