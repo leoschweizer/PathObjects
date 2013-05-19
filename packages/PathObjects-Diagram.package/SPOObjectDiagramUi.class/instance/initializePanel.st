@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -53,10 +53,10 @@ initializePanel
 	diagram frameFractions: (0@0 corner: 1@1).
 	diagram frameOffsets: (0@0 corner: 0@0).
 	diagram balloonText: (nil).
-	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
 	diagram widgetResizable: (false).
-	diagram horizontalScrollBarPolicy: (#alwaysOn).
-	diagram verticalScrollBarPolicy: (#alwaysOn).
+	diagram horizontalScrollBarPolicy: (#asNeeded).
+	diagram verticalScrollBarPolicy: (#asNeeded).
 	diagram outerBorderWidth: (0).
 	diagram scrollBarThickness: (9).
 	diagram setProperty: #objectName toValue: 'diagram'.
@@ -83,7 +83,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -110,7 +110,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
 	unnamedMorph2 enabled: (true).
 	unnamedMorph2 setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetPreviousIcon'.
 	unnamedMorph2 icon: (UiSilkIcons resultsetPreviousIcon).
@@ -143,9 +143,9 @@ initializePanel
 	timeline frameFractions: (0@0 corner: 1@1).
 	timeline frameOffsets: (0@0 corner: 0@0).
 	timeline balloonText: (nil).
-	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
+	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
 	timeline widgetResizable: (true).
-	timeline horizontalScrollBarPolicy: (#alwaysOn).
+	timeline horizontalScrollBarPolicy: (#asNeeded).
 	timeline verticalScrollBarPolicy: (#alwaysOff).
 	timeline outerBorderWidth: (1).
 	timeline scrollBarThickness: (5).

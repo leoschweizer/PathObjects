@@ -3,5 +3,5 @@ edgeRouter
 	
 	^ SPOBasicEdgeRouter new
 		interactionModel: self interactionModel;
-		nodePositions: self layout;
+		nodePositions: (self layout at: #nodes);
 		yourself    
