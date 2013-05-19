@@ -7,4 +7,4 @@ stepTo: aStep
 		hideUnusedObjects;
 		markCurrentNode;
 		updateObjectStates.
-	self refreshSteppingButtons.
+	self refreshControllers.

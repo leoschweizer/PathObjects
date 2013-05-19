@@ -10,7 +10,7 @@ openDisplaying: anInteractionModel
 		listSpec: SPOTimelineItemSpec new;
 		model: (SPOTimelineModel on: self interactionModel).
 	self ui diagram widget: (SPOObjectDiagram displaying: anInteractionModel).
-	self 
-		refreshSteppingButtons;
-		initializeSignals.
+	self
+		initializeSignals;
+		stepTo: anInteractionModel currentStep.
 	^ window
