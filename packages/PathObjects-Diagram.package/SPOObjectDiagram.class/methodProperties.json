@@ -2,8 +2,6 @@
 	"class" : {
 		"displaying:" : "ls 4/19/2013 17:22:10.21" },
 	"instance" : {
-		"canStepBackward" : "ls 4/13/2013 22:31:27.637",
-		"canStepForward" : "ls 4/13/2013 22:31:48.963",
 		"createMessageConnector" : "ls 5/10/2013 16:08:26.553",
 		"createMessageTailConnectors" : "ls 5/10/2013 16:08:42.5",
 		"createObjectMorphs" : "ls 5/19/2013 15:44:28.987",
@@ -11,16 +9,13 @@
 		"edgeRouter" : "ls 5/10/2013 16:07:15.436",
 		"edgeRouter:" : "ls 5/10/2013 16:07:15.45",
 		"hideUnusedObjects" : "ls 4/19/2013 11:31:34.023",
-		"initialize" : "ls 4/11/2013 18:52:13.206",
+		"initialize" : "ls 5/19/2013 15:57:43.298",
 		"interactionModel" : "ls 4/13/2013 17:13:54.649",
 		"interactionModel:" : "ls 4/13/2013 17:14:13.721",
 		"isObjectDiagram" : "ls 3/30/2013 21:20:46.854",
 		"markCurrentNode" : "ls 5/8/2013 11:44:44.812",
 		"messageConnectors" : "ls 5/8/2013 11:39:28.726",
 		"objectMorphs" : "ls 3/6/2013 18:12:45.877",
-		"refreshSteppingButtons" : "ls 3/22/2013 11:33:19.322",
 		"sourcePopup" : "ls 4/28/2013 09:51:21.546",
-		"stepBackward" : "ls 4/19/2013 11:27:33.382",
-		"stepForward" : "ls 4/17/2013 12:38:16.972",
 		"unmarkCurrentNode" : "ls 5/8/2013 11:49:55.313",
 		"updateObjectStates" : "ls 4/17/2013 22:36:21.987" } }

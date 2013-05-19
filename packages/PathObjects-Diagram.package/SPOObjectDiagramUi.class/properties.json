@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"diagram",
-		"timeline" ],
+		"backwardBtn",
+		"timeline",
+		"forwardBtn" ],
 	"name" : "SPOObjectDiagramUi",
 	"pools" : [
 		 ],

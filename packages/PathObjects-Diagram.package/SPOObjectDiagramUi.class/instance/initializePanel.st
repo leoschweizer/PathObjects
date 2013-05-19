@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
 	panel color: (Color transparent).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -53,7 +53,7 @@ initializePanel
 	diagram frameFractions: (0@0 corner: 1@1).
 	diagram frameOffsets: (0@0 corner: 0@0).
 	diagram balloonText: (nil).
-	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
+	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
 	diagram widgetResizable: (false).
 	diagram horizontalScrollBarPolicy: (#asNeeded).
 	diagram verticalScrollBarPolicy: (#asNeeded).
@@ -83,45 +83,46 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
-	unnamedMorph2 := UiToolButton new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (56@72).
-	unnamedMorph2 position: (5@534).
-	unnamedMorph2 hResizing: (#rigid).
-	unnamedMorph2 vResizing: (#spaceFill).
-	unnamedMorph2 minWidth: (2).
-	unnamedMorph2 minHeight: (2).
-	unnamedMorph2 cellInset: (4).
-	unnamedMorph2 cellPositioning: (#center).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (4@0 corner: 2@0).
-	unnamedMorph2 listCentering: (#center).
-	unnamedMorph2 listDirection: (#topToBottom).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
-	unnamedMorph2 enabled: (true).
-	unnamedMorph2 setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetPreviousIcon'.
-	unnamedMorph2 icon: (UiSilkIcons resultsetPreviousIcon).
-	unnamedMorph2 text: ('Backward').
-	unnamedMorph2 color: ((Color r: 1.0 g: 0.871 b: 0.0)).
-	unnamedMorph2 checkable: (false).
-	unnamedMorph2 checked: (false).
-	unnamedMorph2 autoExclusive: (false).
-	unnamedMorph2 autoRaise: (true).
-	unnamedMorph2 buttonStyle: (#textUnderIcon).
-	unnamedMorph1 addChild: unnamedMorph2.
+	backwardBtn := UiToolButton new.
+	backwardBtn changeTableLayout.
+	backwardBtn extent: (56@72).
+	backwardBtn position: (5@534).
+	backwardBtn hResizing: (#rigid).
+	backwardBtn vResizing: (#spaceFill).
+	backwardBtn minWidth: (2).
+	backwardBtn minHeight: (2).
+	backwardBtn cellInset: (4).
+	backwardBtn cellPositioning: (#center).
+	backwardBtn cellSpacing: (#none).
+	backwardBtn layoutInset: (4@0 corner: 2@0).
+	backwardBtn listCentering: (#center).
+	backwardBtn listDirection: (#topToBottom).
+	backwardBtn listSpacing: (#none).
+	backwardBtn maxCellSize: (1073741823).
+	backwardBtn minCellSize: (0).
+	backwardBtn wrapCentering: (#topLeft).
+	backwardBtn wrapDirection: (#none).
+	backwardBtn frameFractions: (0@0 corner: 1@1).
+	backwardBtn frameOffsets: (0@0 corner: 0@0).
+	backwardBtn balloonText: (nil).
+	backwardBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
+	backwardBtn enabled: (true).
+	backwardBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetPreviousIcon'.
+	backwardBtn icon: (UiSilkIcons resultsetPreviousIcon).
+	backwardBtn text: ('Backward').
+	backwardBtn color: ((Color r: 1.0 g: 0.871 b: 0.0)).
+	backwardBtn checkable: (false).
+	backwardBtn checked: (false).
+	backwardBtn autoExclusive: (false).
+	backwardBtn autoRaise: (true).
+	backwardBtn buttonStyle: (#textUnderIcon).
+	backwardBtn setProperty: #objectName toValue: 'backwardBtn'.
+	unnamedMorph1 addChild: backwardBtn.
 	timeline := UiListView new.
 	timeline extent: (828@70).
 	timeline position: (66@535).
@@ -143,7 +144,7 @@ initializePanel
 	timeline frameFractions: (0@0 corner: 1@1).
 	timeline frameOffsets: (0@0 corner: 0@0).
 	timeline balloonText: (nil).
-	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
+	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
 	timeline widgetResizable: (true).
 	timeline horizontalScrollBarPolicy: (#asNeeded).
 	timeline verticalScrollBarPolicy: (#alwaysOff).
@@ -159,39 +160,40 @@ initializePanel
 	timeline vAlignment: (#top).
 	timeline setProperty: #objectName toValue: 'timeline'.
 	unnamedMorph1 addChild: timeline.
-	unnamedMorph3 := UiToolButton new.
-	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (56@72).
-	unnamedMorph3 position: (899@534).
-	unnamedMorph3 hResizing: (#rigid).
-	unnamedMorph3 vResizing: (#spaceFill).
-	unnamedMorph3 minWidth: (2).
-	unnamedMorph3 minHeight: (2).
-	unnamedMorph3 cellInset: (4).
-	unnamedMorph3 cellPositioning: (#center).
-	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (7@0 corner: 2@0).
-	unnamedMorph3 listCentering: (#center).
-	unnamedMorph3 listDirection: (#topToBottom).
-	unnamedMorph3 listSpacing: (#none).
-	unnamedMorph3 maxCellSize: (1073741823).
-	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
-	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
-	unnamedMorph3 enabled: (true).
-	unnamedMorph3 setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetNextIcon'.
-	unnamedMorph3 icon: (UiSilkIcons resultsetNextIcon).
-	unnamedMorph3 text: ('Forward').
-	unnamedMorph3 color: ((Color r: 1.0 g: 0.871 b: 0.0)).
-	unnamedMorph3 checkable: (false).
-	unnamedMorph3 checked: (false).
-	unnamedMorph3 autoExclusive: (false).
-	unnamedMorph3 autoRaise: (true).
-	unnamedMorph3 buttonStyle: (#textUnderIcon).
-	unnamedMorph1 addChild: unnamedMorph3.
+	forwardBtn := UiToolButton new.
+	forwardBtn changeTableLayout.
+	forwardBtn extent: (56@72).
+	forwardBtn position: (899@534).
+	forwardBtn hResizing: (#rigid).
+	forwardBtn vResizing: (#spaceFill).
+	forwardBtn minWidth: (2).
+	forwardBtn minHeight: (2).
+	forwardBtn cellInset: (4).
+	forwardBtn cellPositioning: (#center).
+	forwardBtn cellSpacing: (#none).
+	forwardBtn layoutInset: (7@0 corner: 2@0).
+	forwardBtn listCentering: (#center).
+	forwardBtn listDirection: (#topToBottom).
+	forwardBtn listSpacing: (#none).
+	forwardBtn maxCellSize: (1073741823).
+	forwardBtn minCellSize: (0).
+	forwardBtn wrapCentering: (#topLeft).
+	forwardBtn wrapDirection: (#none).
+	forwardBtn frameFractions: (0@0 corner: 1@1).
+	forwardBtn frameOffsets: (0@0 corner: 0@0).
+	forwardBtn balloonText: (nil).
+	forwardBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
+	forwardBtn enabled: (true).
+	forwardBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetNextIcon'.
+	forwardBtn icon: (UiSilkIcons resultsetNextIcon).
+	forwardBtn text: ('Forward').
+	forwardBtn color: ((Color r: 1.0 g: 0.871 b: 0.0)).
+	forwardBtn checkable: (false).
+	forwardBtn checked: (false).
+	forwardBtn autoExclusive: (false).
+	forwardBtn autoRaise: (true).
+	forwardBtn buttonStyle: (#textUnderIcon).
+	forwardBtn setProperty: #objectName toValue: 'forwardBtn'.
+	unnamedMorph1 addChild: forwardBtn.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'SPOObjectDiagram'.

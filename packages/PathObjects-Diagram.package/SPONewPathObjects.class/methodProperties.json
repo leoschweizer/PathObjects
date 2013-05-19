@@ -5,8 +5,13 @@
 		"openOn:class:selector:" : "ls 5/19/2013 15:21:48.297",
 		"openOnClass:selector:" : "ls 5/19/2013 15:21:24.668" },
 	"instance" : {
+		"diagram" : "ls 5/19/2013 15:53:14.096",
+		"initializeSignals" : "ls 5/19/2013 15:52:44.226",
 		"interactionModel" : "ls 5/19/2013 01:40:20.174",
 		"interactionModel:" : "ls 5/19/2013 00:32:47.661",
-		"openDisplaying:" : "ls 5/19/2013 01:21:54.471",
+		"openDisplaying:" : "ls 5/19/2013 16:01:31.649",
+		"refreshSteppingButtons" : "ls 5/19/2013 15:55:45.098",
+		"stepBackward" : "ls 5/19/2013 15:56:25.392",
+		"stepForward" : "ls 5/19/2013 15:56:35.304",
 		"title" : "ls 5/19/2013 00:21:14.04",
 		"uiClass" : "ls 5/19/2013 00:11:35.213" } }
