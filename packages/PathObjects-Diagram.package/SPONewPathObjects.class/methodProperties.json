@@ -1,6 +1,9 @@
 {
 	"class" : {
-		"displaying:" : "ls 5/19/2013 00:31:12.525" },
+		"initialize" : "ls 5/19/2013 15:22:22.207",
+		"open" : "ls 5/19/2013 15:22:02.574",
+		"openOn:class:selector:" : "ls 5/19/2013 15:21:48.297",
+		"openOnClass:selector:" : "ls 5/19/2013 15:21:24.668" },
 	"instance" : {
 		"interactionModel" : "ls 5/19/2013 01:40:20.174",
 		"interactionModel:" : "ls 5/19/2013 00:32:47.661",
