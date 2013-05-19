@@ -1,15 +1,14 @@
 {
-	"category" : "PathObjects-Core",
+	"category" : "PathObjects-Diagram",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objectDiagramMorph",
 		"interactionModel" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],
-	"super" : "STool",
+	"super" : "UiWindow",
 	"type" : "normal" }

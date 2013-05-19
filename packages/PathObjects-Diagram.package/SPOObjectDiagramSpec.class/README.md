@@ -1,1 +1,0 @@
-A SPathViewDiagramSpec is responsible for drawing the passed viewAreaMorph within a scroller and provide a MiniMap to go with it.
