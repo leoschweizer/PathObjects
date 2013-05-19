@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"displaying:" : "ls 4/19/2013 17:22:10.21" },
+		"displaying:" : "ls 5/19/2013 21:45:20.695" },
 	"instance" : {
 		"createMessageConnector" : "ls 5/10/2013 16:08:26.553",
 		"createMessageTailConnectors" : "ls 5/10/2013 16:08:42.5",
 		"createObjectMorphs" : "ls 5/19/2013 18:40:34.05",
-		"drawDiagram" : "ls 5/8/2013 11:29:37.948",
 		"edgeRouter" : "ls 5/10/2013 16:07:15.436",
 		"edgeRouter:" : "ls 5/10/2013 16:07:15.45",
 		"hideUnusedObjects" : "ls 4/19/2013 11:31:34.023",

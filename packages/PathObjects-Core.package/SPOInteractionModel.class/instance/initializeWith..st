@@ -18,5 +18,3 @@ initializeWith: aCallgraph
 	self
 		steps: steps;
 		currentStep: steps second.
-		
-	self explore.

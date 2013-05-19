@@ -3,5 +3,6 @@ displaying: anInteractionModel
 	
 	^ self new
 		interactionModel: anInteractionModel;
-		drawDiagram;
+		createObjectMorphs;
+		markCurrentNode;
 		yourself
