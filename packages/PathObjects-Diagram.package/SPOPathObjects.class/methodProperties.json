@@ -7,12 +7,14 @@
 	"instance" : {
 		"diagram" : "ls 5/19/2013 15:53:14.096",
 		"initialize" : "ls 5/19/2013 16:17:09.702",
-		"initializeSignals" : "ls 5/19/2013 15:52:44.226",
+		"initializeSignals" : "ls 5/19/2013 19:01:53.583",
 		"interactionModel" : "ls 5/19/2013 01:40:20.174",
 		"interactionModel:" : "ls 5/19/2013 00:32:47.661",
 		"openDisplaying:" : "ls 5/19/2013 16:18:40.105",
 		"refreshSteppingButtons" : "ls 5/19/2013 15:55:45.098",
-		"stepBackward" : "ls 5/19/2013 15:56:25.392",
-		"stepForward" : "ls 5/19/2013 15:56:35.304",
+		"stepBackward" : "ls 5/19/2013 19:02:38.359",
+		"stepForward" : "ls 5/19/2013 19:02:42.456",
+		"stepTo:" : "ls 5/19/2013 19:03:32.761",
+		"timelineClicked:" : "ls 5/19/2013 19:03:09.055",
 		"title" : "ls 5/19/2013 00:21:14.04",
 		"uiClass" : "ls 5/19/2013 00:11:35.213" } }
