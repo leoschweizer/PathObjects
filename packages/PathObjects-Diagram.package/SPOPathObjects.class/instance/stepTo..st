@@ -8,4 +8,7 @@ stepTo: aStep
 		showHistoryObjects;
 		markCurrentNode;
 		updateObjectStates.
+	self ui diagram 
+		scrollToShow: self diagram focusRect
+		duration: 200.
 	self refreshControllers.
