@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel" ],
+		"interactionModel",
+		"thumbnailDiagram",
+		"thumbnails" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],

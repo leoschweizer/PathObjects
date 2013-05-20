@@ -4,5 +4,5 @@ displaying: anInteractionModel
 	^ self new
 		interactionModel: anInteractionModel;
 		createObjectMorphs;
-		markCurrentNode;
+		stepTo: anInteractionModel currentStep;
 		yourself
