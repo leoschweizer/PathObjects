@@ -3,5 +3,5 @@ initialize
 	
 	super initialize.
 	self
-		color: Color white;
+		color: Color transparent;
 		borderColor: Color transparent.

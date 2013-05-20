@@ -7,5 +7,7 @@ thumbnailFor: aStep
 		ifAbsentPut:
 			[self thumbnailDiagram stepTo: aStep.
 			thumbnail := self thumbnailDiagram imageForm.
-			focusFrame := (thumbnail rectangleEnclosingPixelsNotOfColor: Color white) expandBy: 50 asPoint.
-			(thumbnail contentsOfArea: focusFrame) asMorph]
+			"rectangleEnclosing... only works with Color transparent"
+			focusFrame := (thumbnail rectangleEnclosingPixelsNotOfColor: Color transparent) expandBy: 50 asPoint.
+			thumbnail := thumbnail contentsOfArea: focusFrame.
+			thumbnail asMorph]
