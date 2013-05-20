@@ -5,6 +5,7 @@ stepTo: aStep
 	self interactionModel currentStep: aStep.
 	self diagram
 		hideUnusedObjects;
+		showHistoryObjects;
 		markCurrentNode;
 		updateObjectStates.
 	self refreshControllers.
