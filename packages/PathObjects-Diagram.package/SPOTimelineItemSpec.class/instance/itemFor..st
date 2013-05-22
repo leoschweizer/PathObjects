@@ -1,11 +1,17 @@
 as yet unclassified
 itemFor: aNode
 	
-	| item |
-	item := SPOTimelineItem new
-		senderClass: (aNode at: #senderClass);
-		receiverClass: (aNode at: #receiverClass);
-		receiverMessage: (aNode at: #receiverMessage);
-		yourself.
+	| step item |
+	step := aNode at: #step.
+	
+	step isMessageStep ifTrue: 
+		[item := SPOTimelineItemSend new
+			senderClass: (aNode at: #senderClass);
+			receiverClass: (aNode at: #receiverClass);
+			receiverMessage: (aNode at: #receiverMessage);
+			yourself].
+	
+	step isReturnStep ifTrue: [item := SPOTimelineItemReturn new].  
+	
 	item setProperty: #selectable toValue: true.
 	^ item  

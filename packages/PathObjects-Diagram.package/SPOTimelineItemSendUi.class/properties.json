@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"senderClass",
+		"receiverClass",
+		"receiverMessage" ],
+	"name" : "SPOTimelineItemSendUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

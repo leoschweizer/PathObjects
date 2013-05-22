@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOTimelineItemReturn",
+	"pools" : [
+		 ],
+	"super" : "SPOTimelineItem",
+	"type" : "normal" }

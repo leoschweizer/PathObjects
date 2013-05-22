@@ -1,4 +1,4 @@
 accessing
 steps
 	
-	^ self interactionModel steps select: [:each | each isMessageStep]
+	^ self interactionModel steps select: [:each | each isMetaStep not]
