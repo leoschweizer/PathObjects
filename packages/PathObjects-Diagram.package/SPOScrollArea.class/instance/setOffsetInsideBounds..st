@@ -1,4 +1,4 @@
-as yet unclassified
+scrolling
 setOffsetInsideBounds: anOffset
 	
-	self scrollInsideBoundsBy: anOffset - self scroller offset.
+	self scrollInsideBoundsBy: anOffset - self transformMorph offset.

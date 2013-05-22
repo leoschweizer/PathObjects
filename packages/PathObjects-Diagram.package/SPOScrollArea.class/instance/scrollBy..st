@@ -1,4 +1,4 @@
-as yet unclassified
+scrolling
 scrollBy: delta
 	"Move the contents in the direction delta."
 

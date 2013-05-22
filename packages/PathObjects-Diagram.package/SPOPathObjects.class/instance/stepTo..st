@@ -3,7 +3,7 @@ stepTo: aStep
 	
 	self diagram stepTo: aStep.
 	self ui diagram 
-		scrollToShow: self diagram focusRect
+		centerAround: self diagram focusRect center
 		duration: 200.
 	self refreshControllers.
 	
