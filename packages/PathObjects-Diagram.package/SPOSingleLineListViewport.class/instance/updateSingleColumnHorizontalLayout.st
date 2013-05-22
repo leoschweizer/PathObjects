@@ -12,20 +12,15 @@ updateSingleColumnHorizontalLayout
 	hOffset := 0.
 	previousItemWidth := nil.
 
-	self rowsDo: [:rowInfo | rowInfo visible ifTrue: [
-		| item |
-
+	self rowsDo: [:rowInfo | rowInfo visible ifTrue: [ | item |
 		cell := cell + (1 @ 0).
-		
 		item := rowInfo items first.
 		previousItemWidth ifNotNil: [:w | hOffset := hOffset + w].
-		previousItemWidth := item width.
-
-		"Special handling for hAlignment makes no sense here."		
+		previousItemWidth := item width.		
 		item topLeft: hOffset @ 0.
-
+		
 		"Fill bounds cache."
-		cellToBounds first at: cell x put: {hOffset@0.item extent x @ maxItemExtent y.rowInfo}]].
+		cellToBounds first at: cell x put: {hOffset@0. item extent x @ maxItemExtent y. rowInfo}]].
 			
 	"Update dynamically-sized dimension."
 	self width: self submorphBounds width.

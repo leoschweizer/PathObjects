@@ -2,4 +2,5 @@ as yet unclassified
 initialize
 	
 	super initialize.
-	self ui timeline color: (Color gray: 0.9).
+	"workaround for resizing bugs"
+	self extent: 20@64.

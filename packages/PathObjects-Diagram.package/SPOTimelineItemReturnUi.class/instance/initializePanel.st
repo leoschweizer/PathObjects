@@ -5,17 +5,17 @@ initializePanel
 	| unnamedMorph1 |
 	
 	panel := UiContainer new.
-	panel changeTableLayout.
-	panel extent: (30@24).
+	panel changeProportionalLayout.
+	panel extent: (20@64).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
-	panel vResizing: (#spaceFill).
+	panel vResizing: (#rigid).
 	panel minWidth: (2).
 	panel minHeight: (2).
 	panel cellInset: (0).
 	panel cellPositioning: (#center).
 	panel cellSpacing: (#none).
-	panel layoutInset: (4).
+	panel layoutInset: (0).
 	panel listCentering: (#center).
 	panel listDirection: (#topToBottom).
 	panel listSpacing: (#none).
@@ -26,16 +26,16 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	panel color: (Color transparent).
-	panel borderWidth: (0).
-	panel borderStyle2: (#simple).
-	panel borderColor: (Color black).
+	panel borderWidth: (1).
+	panel borderStyle2: (#raised).
+	panel borderColor: (#raised).
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiLabel new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (16@16).
-	unnamedMorph1 position: (4@4).
+	unnamedMorph1 position: (2@23).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	unnamedMorph1 text: ('Label').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'UiFugueIcons arrowMerge270LeftIcon'.
 	unnamedMorph1 form: (UiFugueIcons arrowMerge270LeftIcon).
