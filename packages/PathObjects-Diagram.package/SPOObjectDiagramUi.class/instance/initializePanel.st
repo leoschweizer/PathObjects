@@ -26,14 +26,14 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
 	panel color: ((Color r: 0.9 g: 0.9 b: 0.9)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	diagram := UiScrollArea new.
-	diagram extent: (952@522).
+	diagram := SPOScrollArea new.
+	diagram extent: (952@528).
 	diagram position: (4@4).
 	diagram hResizing: (#spaceFill).
 	diagram vResizing: (#spaceFill).
@@ -53,7 +53,7 @@ initializePanel
 	diagram frameFractions: (0@0 corner: 1@1).
 	diagram frameOffsets: (0@0 corner: 0@0).
 	diagram balloonText: (nil).
-	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.945)).
 	diagram widgetResizable: (false).
 	diagram horizontalScrollBarPolicy: (#asNeeded).
 	diagram verticalScrollBarPolicy: (#asNeeded).
@@ -63,8 +63,8 @@ initializePanel
 	panel addChild: diagram.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (952@79).
-	unnamedMorph1 position: (4@529).
+	unnamedMorph1 extent: (952@71).
+	unnamedMorph1 position: (4@536).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -83,15 +83,15 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	unnamedMorph1 color: ((Color r: 0.9 g: 0.9 b: 0.9)).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
 	backwardBtn := UiToolButton new.
 	backwardBtn changeTableLayout.
-	backwardBtn extent: (56@76).
-	backwardBtn position: (5@529).
+	backwardBtn extent: (56@70).
+	backwardBtn position: (5@536).
 	backwardBtn hResizing: (#rigid).
 	backwardBtn vResizing: (#spaceFill).
 	backwardBtn minWidth: (2).
@@ -110,7 +110,7 @@ initializePanel
 	backwardBtn frameFractions: (0@0 corner: 1@1).
 	backwardBtn frameOffsets: (0@0 corner: 0@0).
 	backwardBtn balloonText: (nil).
-	backwardBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
+	backwardBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
 	backwardBtn enabled: (true).
 	backwardBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons resultsetPreviousIcon'.
 	backwardBtn icon: (UiSilkIcons resultsetPreviousIcon).
@@ -125,7 +125,7 @@ initializePanel
 	unnamedMorph1 addChild: backwardBtn.
 	timeline := UiListView new.
 	timeline extent: (828@70).
-	timeline position: (66@532).
+	timeline position: (66@536).
 	timeline hResizing: (#spaceFill).
 	timeline vResizing: (#rigid).
 	timeline minWidth: (2).
@@ -144,7 +144,7 @@ initializePanel
 	timeline frameFractions: (0@0 corner: 1@1).
 	timeline frameOffsets: (0@0 corner: 0@0).
 	timeline balloonText: (nil).
-	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.925)).
+	timeline balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	timeline widgetResizable: (true).
 	timeline horizontalScrollBarPolicy: (#asNeeded).
 	timeline verticalScrollBarPolicy: (#alwaysOff).
@@ -162,8 +162,8 @@ initializePanel
 	unnamedMorph1 addChild: timeline.
 	forwardBtn := UiToolButton new.
 	forwardBtn changeTableLayout.
-	forwardBtn extent: (56@76).
-	forwardBtn position: (899@529).
+	forwardBtn extent: (56@70).
+	forwardBtn position: (899@536).
 	forwardBtn hResizing: (#rigid).
 	forwardBtn vResizing: (#spaceFill).
 	forwardBtn minWidth: (2).

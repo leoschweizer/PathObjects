@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOScrollArea",
+	"pools" : [
+		 ],
+	"super" : "UiScrollArea",
+	"type" : "normal" }

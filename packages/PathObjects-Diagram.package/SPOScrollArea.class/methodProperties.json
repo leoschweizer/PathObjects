@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"centerAround:" : "ls 5/22/2013 11:33:28.437",
+		"initialize" : "ls 5/22/2013 11:19:23.309",
+		"initializeSignals" : "ls 5/22/2013 11:21:21.703",
+		"scrollBy:" : "ls 5/22/2013 11:31:39.339",
+		"scrollInsideBoundsBy:" : "ls 5/22/2013 11:23:40.904",
+		"setOffsetInsideBounds:" : "ls 5/22/2013 11:32:46.277",
+		"startedDragging" : "ls 5/22/2013 11:22:09.259",
+		"transformerMoved:" : "ls 5/22/2013 11:22:38.46" } }
