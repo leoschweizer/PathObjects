@@ -10,3 +10,4 @@ initializeWith: anObjectDiagram
 			yourself.
 		self addMorph: morph.
 		morph]).
+	self initializeSignals.
