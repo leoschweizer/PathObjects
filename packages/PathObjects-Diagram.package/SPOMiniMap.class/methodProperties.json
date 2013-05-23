@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:" : "ls 5/23/2013 13:39:28.189" },
+	"instance" : {
+		"initialize" : "ls 5/23/2013 15:27:42.896",
+		"initializeWith:" : "ls 5/23/2013 15:26:13.868",
+		"objectMorphs" : "ls 5/23/2013 13:31:23.87",
+		"objectMorphs:" : "ls 5/23/2013 13:31:44.669",
+		"updateViewport:" : "ls 5/23/2013 15:26:29.557",
+		"updateViewportExtent:" : "ls 5/23/2013 15:24:48.292",
+		"viewportMorph" : "ls 5/23/2013 16:20:20.884" } }

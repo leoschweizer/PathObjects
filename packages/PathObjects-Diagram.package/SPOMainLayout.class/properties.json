@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOMainLayout",
+	"pools" : [
+		 ],
+	"super" : "LayoutPolicy",
+	"type" : "normal" }

@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel",
-		"thumbnailDiagram",
-		"thumbnails",
-		"miniMap" ],
-	"name" : "SPOPathObjects",
+		"objectMorphs",
+		"viewportMorph" ],
+	"name" : "SPOMiniMap",
 	"pools" : [
 		 ],
-	"super" : "UiWindow",
+	"super" : "Morph",
 	"type" : "normal" }
