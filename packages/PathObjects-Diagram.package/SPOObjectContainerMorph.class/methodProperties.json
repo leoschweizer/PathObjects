@@ -4,6 +4,7 @@
 	"instance" : {
 		"diagram" : "ls 4/24/2013 11:40:09.369",
 		"diagram:" : "ls 4/24/2013 11:40:18.811",
+		"hide" : "ls 5/23/2013 21:28:08.411",
 		"hideHoverMenu" : "ls 4/24/2013 11:31:26.471",
 		"hideReferenceConnectors" : "ls 4/24/2013 12:28:28.323",
 		"initialize" : "ls 4/24/2013 11:27:25.565",
@@ -14,12 +15,13 @@
 		"objectProxy" : "ls 4/24/2013 11:35:38.974",
 		"referenceConnectors" : "ls 4/24/2013 11:45:58.096",
 		"referenceConnectors:" : "ls 4/24/2013 11:37:48.51",
-		"showDisabled" : "ls 4/19/2013 11:34:28.63",
-		"showEnabled" : "ls 4/19/2013 11:34:34.724",
+		"showDisabled" : "ls 5/23/2013 21:28:23.065",
+		"showEnabled" : "ls 5/23/2013 21:28:32.758",
 		"showHoverMenu" : "ls 4/24/2013 11:31:14.346",
 		"showReferenceConnectors" : "ls 4/24/2013 13:10:25.005",
 		"ui" : "ls 4/17/2013 15:17:02.519",
 		"updateRoleIndicators" : "ls 4/24/2013 11:36:06.98",
 		"updateShouldUpdateState" : "ls 4/24/2013 11:35:57.56",
 		"updateState" : "ls 4/19/2013 11:38:38.883",
+		"visibilityChanged:" : "ls 5/23/2013 21:27:55.022",
 		"wantsToBeDroppedInto:" : "ls 4/19/2013 17:29:05.234" } }
