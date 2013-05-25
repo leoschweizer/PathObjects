@@ -2,8 +2,8 @@
 	"class" : {
 		"displaying:" : "ls 5/20/2013 14:28:26.825" },
 	"instance" : {
-		"createMessageConnector" : "ls 5/10/2013 16:08:26.553",
-		"createMessageTailConnectors" : "ls 5/10/2013 16:08:42.5",
+		"createMessageConnector" : "ls 5/25/2013 13:04:34.839",
+		"createMessageTailConnectors" : "ls 5/25/2013 13:04:47.838",
 		"createObjectMorphs" : "ls 5/19/2013 18:40:34.05",
 		"edgeRouter" : "ls 5/10/2013 16:07:15.436",
 		"edgeRouter:" : "ls 5/10/2013 16:07:15.45",

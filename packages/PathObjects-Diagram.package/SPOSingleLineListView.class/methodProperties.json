@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"widgetCategory" : "ls 5/25/2013 18:46:40.177",
+		"widgetClassName" : "ls 5/25/2013 18:48:27.599",
+		"widgetProperties" : "ls 5/25/2013 18:48:31.92" },
 	"instance" : {
 		"initialize" : "ls 5/22/2013 14:31:50.573",
 		"viewportClass" : "ls 5/22/2013 14:32:38.531" } }

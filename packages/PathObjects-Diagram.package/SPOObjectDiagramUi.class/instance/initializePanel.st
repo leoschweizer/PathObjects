@@ -15,7 +15,7 @@ initializePanel
 	panel cellInset: (4).
 	panel cellPositioning: (#center).
 	panel cellSpacing: (#none).
-	panel layoutInset: (4).
+	panel layoutInset: (0).
 	panel listCentering: (#topLeft).
 	panel listDirection: (#topToBottom).
 	panel listSpacing: (#none).
@@ -26,15 +26,15 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.937)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.929)).
 	panel color: ((Color r: 0.9 g: 0.9 b: 0.9)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	diagram := SPOScrollArea new.
-	diagram extent: (952@527).
-	diagram position: (4@4).
+	diagram extent: (960@535).
+	diagram position: (0@0).
 	diagram hResizing: (#spaceFill).
 	diagram vResizing: (#spaceFill).
 	diagram minWidth: (2).
@@ -53,23 +53,23 @@ initializePanel
 	diagram frameFractions: (0@0 corner: 1@1).
 	diagram frameOffsets: (0@0 corner: 0@0).
 	diagram balloonText: (nil).
-	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.933)).
+	diagram balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1.0 alpha: 0.922)).
 	diagram widgetResizable: (false).
 	diagram horizontalScrollBarPolicy: (#asNeeded).
 	diagram verticalScrollBarPolicy: (#asNeeded).
 	diagram outerBorderWidth: (0).
-	diagram scrollBarThickness: (9).
+	diagram scrollBarThickness: (4).
 	diagram widgetResizable: (false).
 	diagram horizontalScrollBarPolicy: (#asNeeded).
 	diagram verticalScrollBarPolicy: (#asNeeded).
 	diagram outerBorderWidth: (0).
-	diagram scrollBarThickness: (9).
+	diagram scrollBarThickness: (4).
 	diagram setProperty: #objectName toValue: 'diagram'.
 	panel addChild: diagram.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (952@72).
-	unnamedMorph1 position: (4@534).
+	unnamedMorph1 extent: (960@73).
+	unnamedMorph1 position: (0@538).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -95,8 +95,8 @@ initializePanel
 	unnamedMorph1 borderColor: (Color black).
 	backwardBtn := UiToolButton new.
 	backwardBtn changeTableLayout.
-	backwardBtn extent: (56@71).
-	backwardBtn position: (5@534).
+	backwardBtn extent: (56@72).
+	backwardBtn position: (1@538).
 	backwardBtn hResizing: (#rigid).
 	backwardBtn vResizing: (#spaceFill).
 	backwardBtn minWidth: (2).
@@ -129,8 +129,8 @@ initializePanel
 	backwardBtn setProperty: #objectName toValue: 'backwardBtn'.
 	unnamedMorph1 addChild: backwardBtn.
 	timeline := SPOSingleLineListView new.
-	timeline extent: (828@71).
-	timeline position: (66@534).
+	timeline extent: (836@71).
+	timeline position: (62@539).
 	timeline hResizing: (#spaceFill).
 	timeline vResizing: (#rigid).
 	timeline minWidth: (2).
@@ -167,8 +167,8 @@ initializePanel
 	unnamedMorph1 addChild: timeline.
 	forwardBtn := UiToolButton new.
 	forwardBtn changeTableLayout.
-	forwardBtn extent: (56@71).
-	forwardBtn position: (899@534).
+	forwardBtn extent: (56@72).
+	forwardBtn position: (903@538).
 	forwardBtn hResizing: (#rigid).
 	forwardBtn vResizing: (#spaceFill).
 	forwardBtn minWidth: (2).
