@@ -1,4 +1,4 @@
 as yet unclassified
 classOrMetaClass
-
-	^ self ui sourcePane textMorph styler classOrMetaClass    
+	
+	^ self ui sourcePane textMorph styler classOrMetaClass

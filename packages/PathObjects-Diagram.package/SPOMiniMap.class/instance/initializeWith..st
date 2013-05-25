@@ -8,6 +8,6 @@ initializeWith: anObjectDiagram
 			position: (each ui objectMorph position / 20) ceiling;
 			yourself.
 		self connect: each signal: #visibilityChanged: toSelector: #morph:hasChangedVisibilityTo: pattern: #(0 1).
-		self addMorph: morph.
+		self addMorphBack: morph.
 		morph]).
 	self initializeSignals.

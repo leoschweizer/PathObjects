@@ -4,9 +4,9 @@
 	"instance" : {
 		"clickedToScrollTo:" : "ls 5/23/2013 17:03:05.589",
 		"colorMapping" : "ls 5/23/2013 21:43:20.397",
-		"initialize" : "ls 5/23/2013 15:27:42.896",
+		"initialize" : "ls 5/25/2013 12:34:07.989",
 		"initializeSignals" : "ls 5/23/2013 16:58:36.74",
-		"initializeWith:" : "ls 5/23/2013 21:42:18.719",
+		"initializeWith:" : "ls 5/25/2013 12:34:17.633",
 		"morph:hasChangedVisibilityTo:" : "ls 5/23/2013 21:34:05.013",
 		"objectMorphs" : "ls 5/23/2013 13:31:23.87",
 		"objectMorphs:" : "ls 5/23/2013 13:31:44.669",
