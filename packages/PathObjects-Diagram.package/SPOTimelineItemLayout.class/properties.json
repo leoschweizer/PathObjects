@@ -1,14 +1,14 @@
 {
-	"category" : "PathObjects-Diagram-Designs",
+	"category" : "PathObjects-Diagram-Support",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"colorBar" ],
-	"name" : "SPOTimelineItemReturnUi",
+		 ],
+	"name" : "SPOTimelineItemLayout",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "LayoutPolicy",
 	"type" : "normal" }

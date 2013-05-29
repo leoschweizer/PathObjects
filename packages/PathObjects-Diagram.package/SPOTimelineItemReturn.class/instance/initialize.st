@@ -3,4 +3,6 @@ initialize
 	
 	super initialize.
 	"workaround for resizing bugs"
-	self extent: 20@64.
+	self layoutPolicy: SPOTimelineItemLayout new.
+	self extent: 3@64.
+	self ui colorBar extent: (2@self ui colorBar height).
