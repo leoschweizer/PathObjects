@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawOn:" : "ls 5/29/2013 15:49:44.992",
+		"initialize" : "ls 5/29/2013 15:59:11.847",
+		"initializeSignals" : "ls 5/29/2013 15:57:38.481",
+		"input" : "ls 5/29/2013 15:52:03.644",
+		"outerBorderWidth" : "ls 5/29/2013 14:47:32.153",
+		"outerBounds" : "ls 5/29/2013 15:49:10.086",
+		"updateFocusColor:" : "ls 5/29/2013 15:59:44.998" } }

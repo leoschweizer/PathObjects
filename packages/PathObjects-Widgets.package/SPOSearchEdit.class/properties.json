@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input" ],
+	"name" : "SPOSearchEdit",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

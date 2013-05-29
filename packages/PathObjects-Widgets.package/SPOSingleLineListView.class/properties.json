@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOSingleLineListView",
+	"pools" : [
+		 ],
+	"super" : "UiListView",
+	"type" : "normal" }

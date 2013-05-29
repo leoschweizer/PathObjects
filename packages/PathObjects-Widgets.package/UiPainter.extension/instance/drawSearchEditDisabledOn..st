@@ -1,0 +1,4 @@
+*PathObjects-Widgets
+drawSearchEditDisabledOn: aCanvas
+	
+	

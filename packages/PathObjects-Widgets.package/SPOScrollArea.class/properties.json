@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOScrollArea",
+	"pools" : [
+		 ],
+	"super" : "UiScrollArea",
+	"type" : "normal" }
