@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"originalForm",
-		"dimmedForm" ],
+		"dimmedForm",
+		"enabled" ],
 	"name" : "SPOFlatButton",
 	"pools" : [
 		 ],
