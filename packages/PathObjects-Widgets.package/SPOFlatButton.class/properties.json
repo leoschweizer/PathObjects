@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"input",
-		"backwardBtn",
-		"forwardBtn",
-		"clearBtn" ],
-	"name" : "SPOSearchEdit",
+		"originalForm",
+		"dimmedForm" ],
+	"name" : "SPOFlatButton",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UiLabel",
 	"type" : "normal" }

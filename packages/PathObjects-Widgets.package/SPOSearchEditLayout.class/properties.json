@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"input",
-		"backwardBtn",
-		"forwardBtn",
-		"clearBtn" ],
-	"name" : "SPOSearchEdit",
+		 ],
+	"name" : "SPOSearchEditLayout",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "LayoutPolicy",
 	"type" : "normal" }

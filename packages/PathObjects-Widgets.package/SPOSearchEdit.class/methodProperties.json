@@ -2,10 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"backwardBtn" : "ls 5/29/2013 16:27:43.613",
+		"clearBtn" : "ls 5/29/2013 16:44:29.138",
 		"drawOn:" : "ls 5/29/2013 15:49:44.992",
-		"initialize" : "ls 5/29/2013 15:59:11.847",
+		"forwardBtn" : "ls 5/29/2013 16:31:12.034",
+		"initialize" : "ls 5/29/2013 16:44:41.373",
 		"initializeSignals" : "ls 5/29/2013 15:57:38.481",
-		"input" : "ls 5/29/2013 15:52:03.644",
+		"input" : "ls 5/29/2013 16:37:02.828",
 		"outerBorderWidth" : "ls 5/29/2013 14:47:32.153",
 		"outerBounds" : "ls 5/29/2013 15:49:10.086",
 		"updateFocusColor:" : "ls 5/29/2013 15:59:44.998" } }

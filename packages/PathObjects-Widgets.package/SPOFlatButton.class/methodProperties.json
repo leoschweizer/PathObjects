@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clicked" : "ls 5/29/2013 16:46:42.899",
+		"dimmedForm" : "ls 5/29/2013 16:07:56.366",
+		"dimmedForm:" : "ls 5/29/2013 16:07:49.228",
+		"form:" : "ls 5/29/2013 16:23:50.176",
+		"initialize" : "ls 5/29/2013 16:19:24.833",
+		"initializeSignals" : "ls 5/29/2013 16:24:41.236",
+		"mouseEntered" : "ls 5/29/2013 16:22:15.08",
+		"mouseLeft" : "ls 5/29/2013 16:21:46.163",
+		"originalForm" : "ls 5/29/2013 16:14:13.312",
+		"originalForm:" : "ls 5/29/2013 16:14:25.368" } }
