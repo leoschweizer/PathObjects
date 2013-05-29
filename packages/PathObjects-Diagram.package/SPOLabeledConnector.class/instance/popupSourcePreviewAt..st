@@ -7,4 +7,4 @@ popupSourcePreviewAt: anEvent
 		method: self interactionStep popupMessage
 		range: self interactionStep messageRange.
 	
-	self owner sourcePopup position: anEvent position.
+	self owner sourcePopup position: anEvent hand position.

@@ -4,7 +4,9 @@ openDisplaying: anInteractionModel
 	| window |
 	self interactionModel: anInteractionModel.
 	window := self openInWindowLabeled: self title.
-	window setWindowColor: (Color r: 71 g: 157 b: 230 range: 255).
+	window 
+		client: self;
+		setWindowColor: (Color r: 71 g: 157 b: 230 range: 255).
 	self ui timeline 
 		listSpec: SPOTimelineItemSpec new;
 		model: (SPOTimelineModel on: self interactionModel).

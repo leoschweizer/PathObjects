@@ -2,6 +2,6 @@ accessing
 sourcePopup
 
 	^ sourcePopup ifNil: [sourcePopup := SPOSourceCodePreview new.
-		self addMorphFront: sourcePopup.
+		self currentWorld addMorphFront: sourcePopup.
 		sourcePopup hide.
 		sourcePopup]

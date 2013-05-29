@@ -4,7 +4,7 @@ initializeSignals
 	self
 		on: #mouseEnter send: #mouseEnter: to: self;
 		on: #mouseLeave send: #mouseLeave: to: self.
-		
+	
 	self 
 		connect: self signal: #mouseEntered: toSelector: #keepVisible;
 		connect: self signal: #mouseLeft: toSelector: #hideLater;

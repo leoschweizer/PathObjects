@@ -1,4 +1,4 @@
 signals-callbacks
 keepVisible
-
-	self shouldHide: false.  
+	
+	self shouldHide: false.

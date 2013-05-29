@@ -17,6 +17,5 @@ initialize
 		displayMode: #highlight;
 		colorFocusBackground: Color yellow muchLighter paler;
 		colorHighlightedBackground: Color yellow muchLighter paler;
-		"colorHighlightedBorder: (Color gray: 0.6);"
 		colorHighlightedBorder: Color yellow muchLighter paler;
 		updateFocusColor: false.
