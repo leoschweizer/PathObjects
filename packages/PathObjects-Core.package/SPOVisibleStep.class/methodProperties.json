@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"callDepth" : "ls 5/30/2013 19:48:46.676",
+		"callDepth:" : "ls 5/30/2013 19:49:03.779",
 		"calleeObject" : "ls 4/19/2013 14:44:58.333",
 		"callerObject" : "ls 4/19/2013 14:45:01.498",
 		"connectorClass" : "ls 4/19/2013 14:46:01.129",

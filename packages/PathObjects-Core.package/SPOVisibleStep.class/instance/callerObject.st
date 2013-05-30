@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 callerObject
 
 	^ self allInvolvedObjects first
