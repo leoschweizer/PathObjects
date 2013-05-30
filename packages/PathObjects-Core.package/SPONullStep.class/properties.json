@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOVisibleStep",
+	"name" : "SPONullStep",
 	"pools" : [
 		 ],
-	"super" : "SPOStep",
+	"super" : "SPOMetaStep",
 	"type" : "normal" }

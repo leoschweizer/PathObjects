@@ -10,6 +10,7 @@
 		"nextStep",
 		"interactionModel",
 		"callNode",
+		"callDepth",
 		"allInvolvedObjects" ],
 	"name" : "SPOStep",
 	"pools" : [
