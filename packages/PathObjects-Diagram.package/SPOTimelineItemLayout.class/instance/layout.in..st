@@ -3,5 +3,7 @@ layout: timelineItem in: newBounds
 	
 	timelineItem submorphsDo: [:s | s fullBounds].
 	
-	timelineItem ui colorBar extent: ((newBounds width - 1)@timelineItem ui colorBar height).
-	timelineItem ui colorBar bottomLeft: timelineItem bottomLeft.
+	timelineItem colorBar
+		extent: ((newBounds width - 2)@timelineItem colorBar height);
+		center: timelineItem center;
+		bottom: timelineItem bottom.

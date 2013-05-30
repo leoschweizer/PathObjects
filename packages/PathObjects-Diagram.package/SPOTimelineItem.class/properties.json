@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"colorBar" ],
 	"name" : "SPOTimelineItem",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "BorderedMorph",
 	"type" : "normal" }
