@@ -9,3 +9,5 @@ initializeSignals
 	self miniMap
 		connect: self ui diagram transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
 		connect: self ui diagram signal: #extentChanged: toSelector: #updateViewportExtent:.
+		
+	self connect: self ui metricSelect signal: #currentIndexChanged:text: toSelector: #metricChanged: pattern: #(1).
