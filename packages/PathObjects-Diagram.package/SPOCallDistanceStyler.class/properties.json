@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Stylers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOCallDistanceStyler",
+	"pools" : [
+		 ],
+	"super" : "SPOTimelineItemStyler",
+	"type" : "normal" }

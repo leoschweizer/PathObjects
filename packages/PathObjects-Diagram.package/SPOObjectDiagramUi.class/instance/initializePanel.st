@@ -146,7 +146,7 @@ initializePanel
 	backwardBtn buttonStyle: (#textUnderIcon).
 	backwardBtn setProperty: #objectName toValue: 'backwardBtn'.
 	unnamedMorph2 addChild: backwardBtn.
-	timeline := SPOSingleLineListView new.
+	timeline := SPOTimeline new.
 	timeline extent: (836@71).
 	timeline position: (62@536).
 	timeline hResizing: (#spaceFill).

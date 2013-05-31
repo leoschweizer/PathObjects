@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"permanentStylers" ],
+	"name" : "SPOTimeline",
+	"pools" : [
+		 ],
+	"super" : "SPOSingleLineListView",
+	"type" : "normal" }

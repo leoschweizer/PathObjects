@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Stylers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"styledMorphs" ],
+	"name" : "SPOStyler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
