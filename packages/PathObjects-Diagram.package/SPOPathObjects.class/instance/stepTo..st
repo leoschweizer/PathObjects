@@ -3,7 +3,7 @@ stepTo: aStep
 	
 	self diagram stepTo: aStep.
 	self diagramArea 
-		centerAround: self diagram focusRect center
+		centerAround: (self diagram focusRect center + (0@self timeline height))
 		duration: 200.
 	self refreshControllers.
 	
