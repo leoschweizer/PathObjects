@@ -10,7 +10,8 @@
 		"thumbnailDiagram",
 		"thumbnails",
 		"miniMap",
-		"toolbar" ],
+		"toolbar",
+		"timeline" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],
