@@ -11,9 +11,10 @@
 		"thumbnails",
 		"miniMap",
 		"toolbar",
-		"timeline" ],
+		"timeline",
+		"diagramArea" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],
-	"super" : "UiWindow",
+	"super" : "Morph",
 	"type" : "normal" }

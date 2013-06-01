@@ -1,4 +1,4 @@
 as yet unclassified
 viewportMoved: anEvent
 	
-	self owner ui diagram scrollInsideBoundsBy: (anEvent startPoint - anEvent position) negated * 20.
+	self owner diagramArea scrollInsideBoundsBy: (anEvent startPoint - anEvent position) negated * 20.

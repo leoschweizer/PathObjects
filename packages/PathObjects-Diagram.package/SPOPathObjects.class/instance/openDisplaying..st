@@ -10,9 +10,10 @@ openDisplaying: anInteractionModel
 	self timeline 
 		listSpec: SPOTimelineItemSpec new;
 		model: (SPOTimelineModel on: self interactionModel).
-	self ui diagram widget: (SPOObjectDiagram displaying: anInteractionModel).
+	self diagramArea widget: (SPOObjectDiagram displaying: anInteractionModel).
 	self
 		addMorph: self toolbar;
+		addMorph: self diagramArea;
 		addMorph: self miniMap;
 		addMorph: self timeline;
 		initializeSignals;

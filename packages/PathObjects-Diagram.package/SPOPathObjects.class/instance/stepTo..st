@@ -2,7 +2,7 @@ as yet unclassified
 stepTo: aStep
 	
 	self diagram stepTo: aStep.
-	self ui diagram 
+	self diagramArea 
 		centerAround: self diagram focusRect center
 		duration: 200.
 	self refreshControllers.

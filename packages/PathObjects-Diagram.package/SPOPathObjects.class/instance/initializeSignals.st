@@ -8,7 +8,7 @@ initializeSignals
 		connect: self timeline signal: #currentNodeChanged: toSelector: #timelineClicked:.
 	
 	self miniMap
-		connect: self ui diagram transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
-		connect: self ui diagram signal: #extentChanged: toSelector: #updateViewportExtent:.
+		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
+		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:.
 		
 	self connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #metricChanged: pattern: #(1).

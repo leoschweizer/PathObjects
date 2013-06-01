@@ -1,5 +1,5 @@
 accessing
 diagram
 	
-	self ui diagram ifNil: [^ nil].
-	^ self ui diagram widget
+	self diagramArea ifNil: [^ nil].
+	^ self diagramArea widget

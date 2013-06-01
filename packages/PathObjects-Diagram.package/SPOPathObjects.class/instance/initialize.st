@@ -2,4 +2,6 @@ as yet unclassified
 initialize
 	
 	super initialize.
-	self layoutPolicy: SPOMainLayout new.
+	self 
+		layoutPolicy: SPOMainLayout new;
+		extent: 960@570.
