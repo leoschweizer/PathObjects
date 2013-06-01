@@ -3,4 +3,6 @@ initialize
 	
 	super initialize.
 	self permanentStylers add: SPOInverseCallDepthStyler new.
-	self initializeSignals.
+	self 
+		scrollBarThickness: 6;
+		initializeSignals.
