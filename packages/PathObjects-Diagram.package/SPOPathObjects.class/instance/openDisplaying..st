@@ -12,6 +12,7 @@ openDisplaying: anInteractionModel
 		model: (SPOTimelineModel on: self interactionModel).
 	self ui diagram widget: (SPOObjectDiagram displaying: anInteractionModel).
 	self
+		addMorph: self toolbar;
 		addMorph: self miniMap;
 		initializeSignals;
 		stepTo: anInteractionModel currentStep.

@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metricSelect" ],
+	"name" : "SPOToolbar",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

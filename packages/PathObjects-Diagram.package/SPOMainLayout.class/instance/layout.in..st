@@ -3,5 +3,11 @@ layout: mainWindow in: newBounds
 	
 	mainWindow submorphsDo: [:s | s fullBounds].
 	
-	mainWindow ui panel extent: newBounds extent + (1@1).
+	mainWindow toolbar 
+		topLeft: mainWindow topLeft;
+		extent: mainWindow width @ mainWindow toolbar height.
+	
+	mainWindow ui panel 
+		topLeft: mainWindow toolbar bottomLeft;
+		extent: newBounds extent - (0@mainWindow toolbar height).
 	mainWindow miniMap ifNotNilDo: [:map | map topRight: (mainWindow ui panel topRight + (-15@15))].

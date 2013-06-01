@@ -9,7 +9,8 @@
 		"interactionModel",
 		"thumbnailDiagram",
 		"thumbnails",
-		"miniMap" ],
+		"miniMap",
+		"toolbar" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],

@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"diagram",
-		"metricSelect",
 		"backwardBtn",
 		"timeline",
 		"forwardBtn" ],

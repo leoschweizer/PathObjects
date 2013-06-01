@@ -6,14 +6,13 @@
 		"openOnClass:selector:" : "ls 5/19/2013 15:21:24.668" },
 	"instance" : {
 		"diagram" : "ls 5/31/2013 12:39:31.746",
-		"initialize" : "ls 5/31/2013 13:06:37.047",
-		"initializeMetricSelect" : "ls 5/31/2013 13:06:14.006",
-		"initializeSignals" : "ls 5/31/2013 13:15:54.212",
+		"initialize" : "ls 6/1/2013 14:16:04.124",
+		"initializeSignals" : "ls 6/1/2013 15:34:53.476",
 		"interactionModel" : "ls 5/19/2013 01:40:20.174",
 		"interactionModel:" : "ls 5/19/2013 00:32:47.661",
 		"metricChanged:" : "ls 5/31/2013 13:16:42.114",
 		"miniMap" : "ls 5/23/2013 15:55:10.49",
-		"openDisplaying:" : "ls 5/29/2013 20:37:06.229",
+		"openDisplaying:" : "ls 6/1/2013 14:07:59.065",
 		"openInWindowLabeled:inWorld:" : "ls 5/19/2013 21:43:34.687",
 		"refreshControllers" : "ls 5/19/2013 21:08:26.182",
 		"stepBackward" : "ls 5/19/2013 19:02:38.359",
@@ -25,4 +24,5 @@
 		"thumbnails" : "ls 5/20/2013 14:32:03.702",
 		"timelineClicked:" : "ls 5/19/2013 20:54:03.62",
 		"title" : "ls 5/19/2013 00:21:14.04",
+		"toolbar" : "ls 6/1/2013 14:06:54.427",
 		"uiClass" : "ls 5/19/2013 00:11:35.213" } }
