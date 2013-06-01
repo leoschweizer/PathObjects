@@ -12,7 +12,9 @@
 		"miniMap",
 		"toolbar",
 		"timeline",
-		"diagramArea" ],
+		"diagramArea",
+		"backwardBtn",
+		"forwardBtn" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],

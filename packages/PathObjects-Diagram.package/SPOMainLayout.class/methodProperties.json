@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"layout:in:" : "ls 6/1/2013 22:15:52.279" } }
+		"layout:in:" : "ls 6/1/2013 23:40:38.773",
+		"layoutDiagramAreaIn:" : "ls 6/1/2013 23:36:42.849",
+		"layoutMiniMapIn:" : "ls 6/1/2013 23:37:30.159",
+		"layoutSteppingButtonsIn:" : "ls 6/1/2013 23:46:28.725",
+		"layoutTimelineIn:" : "ls 6/1/2013 23:38:12.827",
+		"layoutToolbarIn:" : "ls 6/1/2013 23:35:49.907",
+		"window" : "ls 6/1/2013 23:35:02.734",
+		"window:" : "ls 6/1/2013 23:34:53.716" } }

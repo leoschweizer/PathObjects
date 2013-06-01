@@ -1,4 +1,7 @@
 as yet unclassified
 optimalHeight
 	
-	^ 64 + self scrollBarThickness + 2
+	| height |
+	height := 66.
+	self isHorizontalScrollBarVisible ifTrue: [height := height + self scrollBarThickness].
+	^ height

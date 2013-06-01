@@ -2,11 +2,11 @@ as yet unclassified
 refreshControllers
 	
 	| index |
-	"self ui backwardBtn enabled: self interactionModel canStepBackward."
+	self backwardBtn enabled: self interactionModel canStepBackward.
+	self forwardBtn enabled: self interactionModel canStepForward.
 	"fixes issue #6 https://github.com/leoschweizer/PathObjects/issues/6"
-	"self ui backwardBtn enabled ifFalse: [self ui backwardBtn flatten].  
-	self ui forwardBtn enabled: self interactionModel canStepForward.
-	self ui forwardBtn enabled ifFalse: [self ui forwardBtn flatten].  "
+	self backwardBtn enabled ifFalse: [self backwardBtn mouseLeft].
+	self forwardBtn enabled ifFalse: [self forwardBtn mouseLeft].
 	
 	index := self timeline model steps indexOf: self interactionModel currentStep.
 	index > 0 ifTrue: [self timeline currentRow: index].
