@@ -6,8 +6,8 @@ buildMetricSelect
 	box
 		width: 160;
 		balloonText: 'Select timeline item metric';
-		addIcon: UiFugueIcons paperPlaneIcon text: 'Inverse call depth';
-		addIcon: UiFugueIcons paperPlaneIcon text: 'Call depth';
-		addIcon: UiFugueIcons paperPlaneIcon text: 'Call distance';
-		addIcon: UiFugueIcons paperPlaneIcon text: 'Message length'.
+		addIcon: UiFugueIcons layersAlignmentBottomIcon text: 'Inverse call depth';
+		addIcon: UiFugueIcons layersAlignmentBottomIcon text: 'Call depth';
+		addIcon: UiFugueIcons layersAlignmentMiddleIcon text: 'Call distance';
+		addIcon: UiFugueIcons layersAlignmentMiddleIcon text: 'Message length'.
 	^ box
