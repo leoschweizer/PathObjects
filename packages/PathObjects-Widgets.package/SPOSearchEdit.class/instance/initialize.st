@@ -1,7 +1,12 @@
-as yet unclassified
+initialization
 initialize
 	
 	super initialize.
+	
+	self
+		initializeResultList;
+		initializeResultListDecorator.
+	
 	self
 		layoutPolicy: SPOSearchEditLayout new;  
 		color: Color white;

@@ -20,4 +20,6 @@ initialize
 		addSeparator;
 		addFilterIcons;
 		addSeparator;
+		addMiniMapToggle;
+		addSeparator;
 		addSearchBar.

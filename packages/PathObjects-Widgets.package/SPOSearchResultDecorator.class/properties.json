@@ -6,13 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"input",
-		"backwardBtn",
-		"forwardBtn",
-		"clearBtn",
-		"resultList",
-		"resultListDecorator" ],
-	"name" : "SPOSearchEdit",
+		 ],
+	"name" : "SPOSearchResultDecorator",
 	"pools" : [
 		 ],
 	"super" : "Morph",

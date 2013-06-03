@@ -11,7 +11,7 @@ indexClassOrInstance: anObjectProxy for: aStep
 	key := anObjectProxy type isMeta
 		"Remove class suffix"
 		ifTrue: [anObjectProxy type name asString allButLast: 6]
-		ifFalse: [anObjectProxy type name asString].
+		ifFalse: [anObjectProxy label asString].
 	
 	refs := index
 		at: key

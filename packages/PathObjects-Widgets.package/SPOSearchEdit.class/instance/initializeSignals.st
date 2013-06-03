@@ -1,6 +1,7 @@
-as yet unclassified
+initialization
 initializeSignals
 	
 	self 
-		connect: self input eventHandler signal: #focusReceived toSelector: #updateFocusColor: pattern: #(=true);
-		connect: self input eventHandler signal: #focusLost toSelector: #updateFocusColor: pattern: #(=false).
+		connect: self input eventHandler signal: #focusReceived toSelector: #onFocusReceived;
+		connect: self input eventHandler signal: #focusLost toSelector: #onFocusLost;
+		connect: self input signal: #textEdited: toSelector: #startSearch.
