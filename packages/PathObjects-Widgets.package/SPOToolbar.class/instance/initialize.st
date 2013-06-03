@@ -17,5 +17,7 @@ initialize
 		
 	self
 		addMetricSelect;
-		addMorphBack: self buildSeparator;
-		addSearchBar
+		addSeparator;
+		addFilterIcons;
+		addSeparator;
+		addSearchBar.

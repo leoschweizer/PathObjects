@@ -2,13 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addFilterIcons" : "ls 6/3/2013 15:35:21.258",
 		"addMetricSelect" : "ls 6/1/2013 15:34:28.263",
 		"addSearchBar" : "ls 6/1/2013 15:06:07.616",
+		"addSeparator" : "ls 6/3/2013 15:29:49.17",
+		"buildButtonWith:and:" : "ls 6/3/2013 15:20:27.683",
 		"buildGroup" : "ls 6/1/2013 14:58:33.574",
 		"buildMetricSelect" : "ls 6/1/2013 15:19:39.383",
 		"buildSeparator" : "ls 6/1/2013 14:58:46.112",
 		"buildSpacer:" : "ls 6/1/2013 15:04:34.885",
 		"drawBackground" : "ls 6/1/2013 13:51:51.367",
 		"gradient:" : "ls 6/1/2013 13:56:08.079",
-		"initialize" : "ls 6/1/2013 14:58:57.96",
+		"initialize" : "ls 6/3/2013 15:30:05.901",
 		"metricSelect" : "ls 6/1/2013 15:34:16.937" } }
