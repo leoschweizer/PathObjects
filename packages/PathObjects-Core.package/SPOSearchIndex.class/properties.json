@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interactionModel",
+		"classIndex",
+		"instanceIndex",
+		"messageIndex" ],
+	"name" : "SPOSearchIndex",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
