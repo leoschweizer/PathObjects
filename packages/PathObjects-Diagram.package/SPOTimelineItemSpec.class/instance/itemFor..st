@@ -1,9 +1,10 @@
 as yet unclassified
 itemFor: aNode
 	
-	| step item |
+	| step item stylers |
 	step := aNode at: #step.
+	stylers := aNode at: #stylers.
 	item := SPOTimelineItem new.
-	step isReturnStep ifTrue: [item colorBar color: (Color gray: 0.0)].
 	item setProperty: #selectable toValue: true.
+	stylers do: [:each | each applyTo: item representing: step].
 	^ item

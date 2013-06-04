@@ -7,5 +7,4 @@ metricChanged: anIndex
 	anIndex == 3 ifTrue: [newStyler := SPOCallDistanceStyler new].
 	anIndex == 4 ifTrue: [newStyler := SPOMessageLengthStyler new].
 	
-	self timeline permanentStylers: (OrderedCollection with: newStyler).
-	self timeline model reset.
+	self timeline model permanentStylers: (OrderedCollection with: newStyler).

@@ -1,0 +1,4 @@
+accessing
+searchResultStyler
+	
+	^ searchResultStyler

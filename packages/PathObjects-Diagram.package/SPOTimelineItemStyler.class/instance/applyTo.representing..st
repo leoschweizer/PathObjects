@@ -1,4 +1,4 @@
 as yet unclassified
-unapply
+applyTo: aMorph representing: aStep
 	
 	self subclassResponsibility.

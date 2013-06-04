@@ -1,8 +1,8 @@
 as yet unclassified
-applyTo: aMorph
+applyTo: aMorph representing: aStep
 	
 	| loc maxHeight height |
-	loc := aMorph step callNode compiledMethod linesOfCode.
+	loc := aStep callNode compiledMethod linesOfCode.
 	maxHeight := aMorph height - 10.
 	height := (loc * 2) min: maxHeight.
 	aMorph colorBar height: (10 + height).
