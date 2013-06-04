@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 wantsToBeDroppedInto: aMorph
 	
 	^ aMorph isObjectDiagram

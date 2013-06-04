@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 objectProxy
 	
 	^ self ui objectMorph objectProxy

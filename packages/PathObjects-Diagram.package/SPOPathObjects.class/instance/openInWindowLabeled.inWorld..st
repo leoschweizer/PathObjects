@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openInWindowLabeled: aString inWorld: aWorld
 	
 	| window extent |

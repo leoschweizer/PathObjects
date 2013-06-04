@@ -1,5 +1,5 @@
 signals-callbacks
-timelineClicked: aNode
+onTimelineClicked: aNode
 	
 	| step |
 	step := aNode at: #step.

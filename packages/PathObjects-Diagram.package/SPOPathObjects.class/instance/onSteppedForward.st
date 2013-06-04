@@ -1,4 +1,4 @@
 signals-callbacks
-stepForward
+onSteppedForward
 	
 	self stepTo: self interactionModel nextStep.

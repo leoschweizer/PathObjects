@@ -1,16 +1,16 @@
-signals-callbacks
+initialization
 initializeSignals
 	
 	self 
-		connect: self backwardBtn signal: #clicked toSelector: #stepBackward;
-		connect: self forwardBtn signal: #clicked toSelector: #stepForward;
-		connect: self timeline signal: #currentNodeChanged: toSelector: #timelineClicked:.
+		connect: self backwardBtn signal: #clicked toSelector: #onSteppedBackward;
+		connect: self forwardBtn signal: #clicked toSelector: #onSteppedForward;
+		connect: self timeline signal: #currentNodeChanged: toSelector: #onTimelineClicked:.
 	
 	self miniMap
 		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
 		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:.
 		
 	self 
-		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #metricChanged: pattern: #(1);
-		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #searchResultChanged:;
+		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #onMetricChanged: pattern: #(1);
+		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #onSearchResultChanged:;
 		connect: self toolbar signal: #miniMapToggled: toSelector: #onMiniMapToggled:.

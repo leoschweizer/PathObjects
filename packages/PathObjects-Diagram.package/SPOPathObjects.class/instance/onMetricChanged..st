@@ -1,5 +1,5 @@
 signals-callbacks
-metricChanged: anIndex
+onMetricChanged: anIndex
 	
 	| newStyler |
 	anIndex == 1 ifTrue: [newStyler := SPOInverseCallDepthStyler new].

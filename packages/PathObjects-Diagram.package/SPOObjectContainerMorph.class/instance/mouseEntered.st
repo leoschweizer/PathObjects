@@ -1,4 +1,0 @@
-signals
-mouseEntered
-	
-	self emitAlways.

@@ -1,4 +1,4 @@
-signals-callbacks
+as yet unclassified
 showReferenceConnectors
 
 	| connectors |

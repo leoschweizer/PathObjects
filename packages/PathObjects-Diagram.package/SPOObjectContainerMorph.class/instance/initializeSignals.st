@@ -1,15 +1,10 @@
-signals
+initialization
 initializeSignals
 	
-	self ui spacer
-		on: #mouseEnter send: #mouseEntered to: self;
-		on: #mouseLeave send: #mouseLeft to: self;
-		on: #mouseLeaveDragging send: #mouseLeft to: self.
+	self ui spacer eventHandler: UiEventHandler new.
 	
 	self 
-		connect: self signal: #mouseEntered toSelector: #showReferenceConnectors;
-		connect: self signal: #mouseLeft toSelector: #hideReferenceConnectors;
-		connect: self signal: #mouseEntered toSelector: #showHoverMenu;
-		connect: self signal: #mouseLeft toSelector: #hideHoverMenu;
+		connect: self ui spacer eventHandler signal: #mouseEntered: toSelector: #onMouseEntered;
+		connect: self ui spacer eventHandler signal: #mouseLeft: toSelector: #onMouseLeft;
+		connect: self ui spacer eventHandler signal: #mouseLeftDragging: toSelector: #onMouseLeft;
 		connect: self ui updateStateBtn signal: #clicked: toSelector: #updateShouldUpdateState.
-	

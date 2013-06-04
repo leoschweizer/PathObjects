@@ -1,13 +1,11 @@
-signals
+initialization
 initializeSignals
 	
-	self
-		on: #mouseEnter send: #mouseEnter: to: self;
-		on: #mouseLeave send: #mouseLeave: to: self.
+	self eventHandler: UiEventHandler new.
 	
 	self 
-		connect: self signal: #mouseEntered: toSelector: #keepVisible;
-		connect: self signal: #mouseLeft: toSelector: #hideLater;
+		connect: self eventHandler signal: #mouseEntered: toSelector: #keepVisible;
+		connect: self eventHandler signal: #mouseLeft: toSelector: #hideLater;
 		connect: self ui contextBtn signal: #clicked: toSelector: #showMessageContext;
 		connect: self ui messageBtn signal: #clicked: toSelector: #showMessage;
 		connect: self ui browseBtn signal: #clicked: toSelector: #browseSelection;

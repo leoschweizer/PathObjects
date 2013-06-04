@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 sourceCode: aText
 	
 	self ui sourcePane theText: aText.
