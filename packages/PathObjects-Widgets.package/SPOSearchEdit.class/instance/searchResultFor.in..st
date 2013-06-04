@@ -1,6 +1,6 @@
 as yet unclassified
 searchResultFor: key in: index
 	
-	index == #unknown 
-		ifTrue: [^ Set new]
+	index = #unknown 
 		ifFalse: [^ (self searchIndex perform: index) at: key]
+		ifTrue: [^ self searchIndex anythingMatching: key]

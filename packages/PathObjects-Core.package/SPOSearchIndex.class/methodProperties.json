@@ -2,6 +2,7 @@
 	"class" : {
 		"on:" : "ls 6/3/2013 20:02:25.082" },
 	"instance" : {
+		"anythingMatching:" : "ls 6/4/2013 14:02:54.412",
 		"buildIndex" : "ls 6/3/2013 20:28:59.643",
 		"classIndex" : "ls 6/3/2013 20:15:46.672",
 		"classesMatching:" : "ls 6/3/2013 20:37:16.95",
