@@ -5,9 +5,8 @@ onSearchCleared
 		theText: '';
 		releaseKeyboard.
 	
-	self 
-		searchTerm: nil;
-		searchTermChanged: nil;
+	self
+		searchResultChanged: nil;
 		hideResults.
 		
 	self clearBtn visible: false.

@@ -10,4 +10,6 @@ initializeSignals
 		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
 		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:.
 		
-	self connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #metricChanged: pattern: #(1).
+	self 
+		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #metricChanged: pattern: #(1);
+		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #searchResultChanged:.

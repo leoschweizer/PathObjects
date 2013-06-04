@@ -5,9 +5,5 @@ selectResultNode: aNode
 	
 	self hideResults.
 	self input theText: aNode key.
-		self searchTerm: (Dictionary newFrom: {
-			#key -> aNode key.
-			#index -> aNode index.
-		}).
-	self searchTermChanged: self searchTerm.
+	self searchResultChanged: (self searchResultFor: aNode key in: aNode index).
 	self clearBtn visible: true.
