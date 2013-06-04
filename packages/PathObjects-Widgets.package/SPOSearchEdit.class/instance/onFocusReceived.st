@@ -1,5 +1,5 @@
-as yet unclassified
+signals-callbacks
 onFocusReceived
 	
 	self updateFocusColor: true.
-	self showResults.
+	self startSearch.

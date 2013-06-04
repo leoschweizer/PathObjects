@@ -11,7 +11,8 @@
 		"forwardBtn",
 		"clearBtn",
 		"resultList",
-		"resultListDecorator" ],
+		"resultListDecorator",
+		"searchTerm" ],
 	"name" : "SPOSearchEdit",
 	"pools" : [
 		 ],

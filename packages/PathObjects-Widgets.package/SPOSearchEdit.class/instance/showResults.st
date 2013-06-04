@@ -6,6 +6,4 @@ showResults
 	
 	resultListDecorator owner ifNil: [resultListDecorator openInWorld].
 	
-	self
-		redrawLater;
-		startSearch.
+	self redrawLater.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 forwardBtn
 	
 	^ forwardBtn ifNil: [forwardBtn := SPOFlatButton new

@@ -1,4 +1,4 @@
-as yet unclassified
+signals-callbacks
 startSearch
 	
 	resultList model
@@ -13,3 +13,5 @@ startSearch
 		
 	(self searchIndex messagesMatching: self input theText)
 		do: [:each | self addMessageResult: each].
+		
+	self showResults.
