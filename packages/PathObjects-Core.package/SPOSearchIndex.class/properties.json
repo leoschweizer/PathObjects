@@ -7,9 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"interactionModel",
-		"classIndex",
-		"instanceIndex",
-		"messageIndex" ],
+		"indices" ],
 	"name" : "SPOSearchIndex",
 	"pools" : [
 		 ],

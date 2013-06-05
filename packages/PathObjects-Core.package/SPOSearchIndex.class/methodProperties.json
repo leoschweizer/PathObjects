@@ -2,18 +2,21 @@
 	"class" : {
 		"on:" : "ls 6/3/2013 20:02:25.082" },
 	"instance" : {
-		"anythingMatching:" : "ls 6/4/2013 14:02:54.412",
-		"buildIndex" : "ls 6/3/2013 20:28:59.643",
-		"classIndex" : "ls 6/3/2013 20:15:46.672",
+		"anythingMatching:" : "ls 6/5/2013 18:38:32.847",
+		"buildIndex" : "ls 6/5/2013 18:28:42.437",
+		"classIndex" : "ls 6/5/2013 18:25:55.717",
 		"classesMatching:" : "ls 6/3/2013 20:37:16.95",
-		"index" : "ls 6/3/2013 20:03:53.451",
 		"indexClassOrInstance:for:" : "ls 6/3/2013 21:51:06.625",
 		"indexMessageFor:" : "ls 6/3/2013 20:29:34.889",
+		"indexParametersFor:" : "ls 6/5/2013 18:35:36.76",
+		"indices" : "ls 6/5/2013 18:25:26.802",
 		"initializeWith:" : "ls 6/3/2013 20:09:56.431",
-		"instanceIndex" : "ls 6/3/2013 20:15:56.004",
+		"instanceIndex" : "ls 6/5/2013 18:27:05.425",
 		"instancesMatching:" : "ls 6/3/2013 20:51:57.586",
 		"interactionModel" : "ls 6/3/2013 20:01:34.823",
 		"interactionModel:" : "ls 6/3/2013 20:01:43.748",
-		"messageIndex" : "ls 6/3/2013 20:16:07.102",
+		"messageIndex" : "ls 6/5/2013 18:26:40.104",
 		"messagesMatching:" : "ls 6/3/2013 20:52:07.455",
-		"objectsIn:matching:" : "ls 6/3/2013 20:47:02.565" } }
+		"objectsIn:matching:" : "ls 6/3/2013 20:47:02.565",
+		"parameterIndex" : "ls 6/5/2013 18:27:45.695",
+		"parametersMatching:" : "ls 6/5/2013 18:37:21.48" } }

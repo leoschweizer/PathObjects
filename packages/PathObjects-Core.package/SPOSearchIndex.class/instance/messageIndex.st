@@ -1,4 +1,6 @@
 accessing
 messageIndex
 	
-	^ messageIndex ifNil: [messageIndex := Dictionary new]
+	^ self indices 
+		at: #messageIndex 
+		ifAbsentPut: Dictionary new

@@ -1,4 +1,6 @@
 accessing
 instanceIndex
 	
-	^ instanceIndex ifNil: [instanceIndex := Dictionary new]
+	^ self indices 
+		at: #instanceIndex
+		ifAbsentPut: Dictionary new

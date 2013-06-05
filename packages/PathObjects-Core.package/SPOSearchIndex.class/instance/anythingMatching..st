@@ -9,4 +9,6 @@ anythingMatching: aSearchString
 	result addAll: (keys flatCollect: [:each | self instanceIndex at: each]).
 	keys := self messagesMatching: aSearchString.
 	result addAll: (keys flatCollect: [:each | self messageIndex at: each]).
+	keys := self parametersMatching: aSearchString.
+	result addAll: (keys flatCollect: [:each | self parameterIndex at: each]).
 	^ result

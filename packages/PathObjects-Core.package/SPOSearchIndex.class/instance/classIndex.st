@@ -1,4 +1,6 @@
 accessing
 classIndex
 	
-	^ classIndex ifNil: [classIndex := Dictionary new]
+	^ self indices 
+		at: #classIndex
+		ifAbsentPut: Dictionary new
