@@ -10,12 +10,7 @@
 		"menuContainer",
 		"updateStateBtn",
 		"settingsBtn",
-		"objectMorph",
-		"indicatorContainer",
-		"senderIndicator",
-		"receiverIndicator",
-		"parameterIndicator",
-		"returnIndicator" ],
+		"objectMorph" ],
 	"name" : "SPOObjectContainerUi",
 	"pools" : [
 		 ],

@@ -11,5 +11,4 @@ markCurrentNode
 		collect: [:each | self objectMorphs at: each objectId]
 		thenDo: [:each | each 
 			showEnabled;
-			updateState;
-			updateRoleIndicators].
+			updateState].

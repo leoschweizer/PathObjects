@@ -7,7 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"header",
-		"label" ],
+		"label",
+		"indicatorContainer",
+		"senderIndicator",
+		"receiverIndicator",
+		"argumentIndicator",
+		"returnIndicator" ],
 	"name" : "SPOObjectUi",
 	"pools" : [
 		 ],
