@@ -2,5 +2,7 @@ signals-callbacks
 hideLater
 
 	self shouldHide: true.
-	[(Delay forMilliseconds: 500) wait.
-	self shouldHide ifTrue: [self hide]] fork.
+	self 
+		addAlarm: #hideNow:
+		withArguments: { false }
+		after: 500.

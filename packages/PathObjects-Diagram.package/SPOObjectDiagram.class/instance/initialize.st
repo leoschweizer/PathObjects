@@ -1,8 +1,9 @@
-as yet unclassified
+initialization
 initialize
 	
 	super initialize.
 	self
 		color: Color transparent;
 		borderColor: Color transparent;
-		addMorph: self label.
+		addMorph: self label;
+		initializeSignals.

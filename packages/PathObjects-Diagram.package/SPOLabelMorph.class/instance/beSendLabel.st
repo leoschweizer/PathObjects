@@ -2,4 +2,4 @@ as yet unclassified
 beSendLabel
 	
 	self returnContainer hide.
-	self indicatorLabel form: self sendIcon.
+	self indicatorButton icon: self sendIcon.

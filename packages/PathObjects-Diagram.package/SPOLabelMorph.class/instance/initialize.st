@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	
 	super initialize.
@@ -13,7 +13,9 @@ initialize
 		color: (Color white alpha: 0.9).
 		
 	self
-		addMorphBack: self indicatorLabel;
+		addMorphBack: self indicatorButton;
+		addMorphBack: self buildSeparator;
 		addMorphBack: (self buildSpacer: 6);
 		addMorphBack: self selectorContainer;
-		addMorphBack: self returnContainer.
+		addMorphBack: self returnContainer;
+		initializeSignals.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectorContainer
 	
 	^ selectorContainer ifNil: [selectorContainer := self buildGroup]

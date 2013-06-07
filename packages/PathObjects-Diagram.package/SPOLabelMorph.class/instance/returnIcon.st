@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 returnIcon
 	
 	^ UiFugueIcons mailReplyIcon

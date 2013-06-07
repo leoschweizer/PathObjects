@@ -2,8 +2,7 @@ as yet unclassified
 initialize
 
 	super initialize.
-	self 
-		initializeSignals;
+	self
 		makeForwardArrow;
 		lineWidth: 1.0;
 		lineColor: Color black lighter.
