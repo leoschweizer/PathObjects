@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"from:to:step:" : "ls 5/20/2013 17:12:37.386" },
+		 },
 	"instance" : {
 		"initialize" : "ls 4/15/2013 15:28:19.538",
 		"popupSourcePreviewAt:" : "ls 4/28/2013 10:09:55.91" } }

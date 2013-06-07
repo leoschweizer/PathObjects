@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	self
 		color: Color transparent;
-		borderColor: Color transparent.
+		borderColor: Color transparent;
+		addMorph: self label.

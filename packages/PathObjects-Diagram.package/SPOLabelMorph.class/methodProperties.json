@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"beReturnLabel" : "ls 6/7/2013 12:37:30.469",
+		"beSendLabel" : "ls 6/7/2013 12:37:48.43",
+		"buildButtonWith:" : "ls 6/7/2013 12:06:40.967",
+		"buildGroup" : "ls 6/7/2013 12:17:29.18",
+		"buildSpacer:" : "ls 6/7/2013 12:02:20.068",
+		"drawOn:" : "ls 6/7/2013 12:14:58.618",
+		"indicatorLabel" : "ls 6/7/2013 12:00:02.808",
+		"initialize" : "ls 6/7/2013 12:37:43.18",
+		"parameterIcon" : "ls 6/7/2013 12:08:58.464",
+		"returnContainer" : "ls 6/7/2013 12:30:10.656",
+		"returnIcon" : "ls 6/7/2013 12:35:13.069",
+		"selectorContainer" : "ls 6/7/2013 12:18:21.145",
+		"sendIcon" : "ls 6/7/2013 11:59:16.53",
+		"setSelector:" : "ls 6/7/2013 12:19:24.778" } }

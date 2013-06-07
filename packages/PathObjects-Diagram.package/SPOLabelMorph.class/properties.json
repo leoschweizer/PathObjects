@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SPOSmartLabelMorph",
+		"indicatorLabel",
+		"selectorContainer",
+		"returnContainer" ],
+	"name" : "SPOLabelMorph",
 	"pools" : [
 		 ],
-	"super" : "NCSmartLabelMorph",
+	"super" : "NCOffsetConstraintMorph",
 	"type" : "normal" }
