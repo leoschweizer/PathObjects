@@ -1,6 +1,6 @@
-as yet unclassified
-updateShouldUpdateState
-
+signals-callbacks
+onUpdateStateToggled
+	
 	self objectProxy shouldMonitorState: self ui updateStateBtn checked.
 	self objectProxy shouldMonitorState 
 		ifTrue: [self ui objectMorph updateState]

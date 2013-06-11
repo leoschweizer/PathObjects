@@ -9,7 +9,7 @@
 		"spacer",
 		"menuContainer",
 		"updateStateBtn",
-		"settingsBtn",
+		"searchBtn",
 		"objectMorph" ],
 	"name" : "SPOObjectContainerUi",
 	"pools" : [

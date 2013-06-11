@@ -123,41 +123,41 @@ initializePanel
 	updateStateBtn buttonStyle: (#iconOnly).
 	updateStateBtn setProperty: #objectName toValue: 'updateStateBtn'.
 	menuContainer addChild: updateStateBtn.
-	settingsBtn := UiToolButton new.
-	settingsBtn changeTableLayout.
-	settingsBtn extent: (18@18).
-	settingsBtn position: (80@3).
-	settingsBtn hResizing: (#shrinkWrap).
-	settingsBtn vResizing: (#shrinkWrap).
-	settingsBtn minWidth: (2).
-	settingsBtn minHeight: (2).
-	settingsBtn cellInset: (0).
-	settingsBtn cellPositioning: (#center).
-	settingsBtn cellSpacing: (#none).
-	settingsBtn layoutInset: (0@0 corner: 0@0).
-	settingsBtn listCentering: (#topLeft).
-	settingsBtn listDirection: (#leftToRight).
-	settingsBtn listSpacing: (#none).
-	settingsBtn maxCellSize: (1073741823).
-	settingsBtn minCellSize: (0).
-	settingsBtn wrapCentering: (#topLeft).
-	settingsBtn wrapDirection: (#none).
-	settingsBtn frameFractions: (0@0 corner: 1@1).
-	settingsBtn frameOffsets: (0@0 corner: 0@0).
-	settingsBtn balloonText: (nil).
-	settingsBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	settingsBtn enabled: (true).
-	settingsBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons cogIcon'.
-	settingsBtn icon: (UiSilkIcons cogIcon).
-	settingsBtn text: ('').
-	settingsBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
-	settingsBtn checkable: (false).
-	settingsBtn checked: (false).
-	settingsBtn autoExclusive: (false).
-	settingsBtn autoRaise: (true).
-	settingsBtn buttonStyle: (#iconOnly).
-	settingsBtn setProperty: #objectName toValue: 'settingsBtn'.
-	menuContainer addChild: settingsBtn.
+	searchBtn := UiToolButton new.
+	searchBtn changeTableLayout.
+	searchBtn extent: (18@18).
+	searchBtn position: (80@3).
+	searchBtn hResizing: (#shrinkWrap).
+	searchBtn vResizing: (#shrinkWrap).
+	searchBtn minWidth: (2).
+	searchBtn minHeight: (2).
+	searchBtn cellInset: (0).
+	searchBtn cellPositioning: (#center).
+	searchBtn cellSpacing: (#none).
+	searchBtn layoutInset: (0@0 corner: 0@0).
+	searchBtn listCentering: (#topLeft).
+	searchBtn listDirection: (#leftToRight).
+	searchBtn listSpacing: (#none).
+	searchBtn maxCellSize: (1073741823).
+	searchBtn minCellSize: (0).
+	searchBtn wrapCentering: (#topLeft).
+	searchBtn wrapDirection: (#none).
+	searchBtn frameFractions: (0@0 corner: 1@1).
+	searchBtn frameOffsets: (0@0 corner: 0@0).
+	searchBtn balloonText: (nil).
+	searchBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	searchBtn enabled: (true).
+	searchBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons magnifierIcon'.
+	searchBtn icon: (UiSilkIcons magnifierIcon).
+	searchBtn text: ('').
+	searchBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
+	searchBtn checkable: (false).
+	searchBtn checked: (false).
+	searchBtn autoExclusive: (false).
+	searchBtn autoRaise: (true).
+	searchBtn buttonStyle: (#iconOnly).
+	searchBtn setProperty: #objectName toValue: 'searchBtn'.
+	menuContainer addChild: searchBtn.
 	spacer addChild: menuContainer.
 	objectMorph := SPOObjectMorph new.
 	objectMorph changeTableLayout.

@@ -1,5 +1,5 @@
 accessing
-settingsBtn
+searchBtn
 	"No description given."
 	
-	^ settingsBtn
+	^ searchBtn
