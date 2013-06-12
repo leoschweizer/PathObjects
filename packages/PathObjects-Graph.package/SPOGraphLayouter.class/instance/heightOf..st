@@ -1,4 +1,4 @@
 as yet unclassified
 heightOf: aNode
 	
-	^ 36 / 72 asFloat
+	^ 36 / 94 asFloat

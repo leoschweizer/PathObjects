@@ -4,9 +4,9 @@
 	"instance" : {
 		"edgeRouter" : "ls 6/12/2013 21:04:43.037",
 		"edges" : "ls 6/12/2013 21:14:23.454",
-		"generateGraph" : "ls 6/12/2013 22:34:48.201",
+		"generateGraph" : "ls 6/13/2013 00:21:51.285",
 		"generateLayout" : "ls 6/12/2013 21:01:37.913",
-		"heightOf:" : "ls 6/12/2013 22:32:31.683",
+		"heightOf:" : "ls 6/12/2013 23:17:39.93",
 		"interactionModel" : "ls 5/3/2013 13:14:50.66",
 		"interactionModel:" : "ls 5/3/2013 13:14:50.679",
 		"layout" : "ls 6/12/2013 21:05:12.606",
@@ -14,4 +14,4 @@
 		"layoutedGraph:" : "ls 6/12/2013 20:59:06.439",
 		"openInWorld" : "ls 5/3/2013 13:31:39.47",
 		"preview" : "ls 5/3/2013 14:15:37.009",
-		"widthOf:" : "ls 6/12/2013 22:37:39.466" } }
+		"widthOf:" : "ls 6/12/2013 23:18:34.432" } }
