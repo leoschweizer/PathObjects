@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel",
-		"layoutedGraph",
-		"layout" ],
-	"name" : "SPOGraphLayouter",
+		"graphLayouter" ],
+	"name" : "SPOOrthogonalEdgeRouter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SPOEdgeRouter",
 	"type" : "normal" }

@@ -1,5 +1,5 @@
 as yet unclassified
-graph
+generateGraph
 	
 	| graph |
 	graph := GraphViz new.
@@ -9,14 +9,16 @@ graph
 		addAttribute: #rankdir -> #LR;
 		addAttribute: #overlap -> #false;
 		addAttribute: #forcelabels -> #true;
-		addAttribute: #ranksep -> 2;  
+		addAttribute: #ranksep -> 2;
 		addAttribute: #splines -> #ortho.
 	self interactionModel objects
 		collect: [:each | each value]
 		thenDo: [:each | graph add: each objectId with: {
-			#fillcolor -> #palegreen.
 			#label -> each label.
 			#shape -> #rectangle.
+			#width -> (self widthOf: each).
+			#height -> (self heightOf: each).
+			#fontsize -> 7.0.
 		}].
 	self interactionModel steps 
 		select: [:each | each isMessageStep]

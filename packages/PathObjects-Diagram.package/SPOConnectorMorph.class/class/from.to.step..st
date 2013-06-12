@@ -4,6 +4,5 @@ from: aMorph to: otherMorph step: aStep
 	^ self new 
 		fromMorph: aMorph toMorph: otherMorph;
 		interactionStep: aStep;
-		connectToNearestAttachmentPoint;
 		hide;
 		yourself

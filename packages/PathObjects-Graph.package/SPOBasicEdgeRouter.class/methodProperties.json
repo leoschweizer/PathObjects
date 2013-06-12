@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"on:" : "ls 5/10/2013 14:40:01.647" },
+		 },
 	"instance" : {
 		"add:toGroup:inSuperGroup:" : "ls 5/10/2013 16:02:06.661",
 		"archTopOf:inDistance:" : "ls 5/14/2013 12:48:53.876",
