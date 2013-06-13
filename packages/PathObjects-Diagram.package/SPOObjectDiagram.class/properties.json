@@ -15,5 +15,5 @@
 	"name" : "SPOObjectDiagram",
 	"pools" : [
 		 ],
-	"super" : "SPasteUpMorph",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
