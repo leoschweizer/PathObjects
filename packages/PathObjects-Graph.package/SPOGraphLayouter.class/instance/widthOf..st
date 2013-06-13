@@ -2,5 +2,5 @@ as yet unclassified
 widthOf: aNode
 	
 	| width |
-	width := 150 max: (UiLabel new textMorph textStyle defaultFont widthOfString: aNode label).
-	^ (width / 94) asFloat
+	width := 152 max: (UiLabel new textMorph textStyle defaultFont widthOfString: aNode label).
+	^ (width / GraphViz pointsPerInch) asFloat

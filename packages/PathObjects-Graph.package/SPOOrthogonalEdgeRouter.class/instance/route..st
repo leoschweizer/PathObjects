@@ -14,15 +14,24 @@ route: anEdge
 		splitBy: ' '
 		do: [:each | | newPoint |
 			newPoint := Compiler evaluate: (each copyReplaceAll: ',' with: '@').
-			(positions isEmpty or: [positions last ~= newPoint]) ifTrue: [positions add: newPoint]].
+			"(positions isEmpty or: [positions last ~= newPoint]) ifTrue:" [positions add: newPoint] value].
 	
-	anEdge
+	anEdge pasteUpMorph addMorph: (PolygonMorph vertices: positions
+			color: Color black borderWidth: 1 borderColor: Color red) makeOpen.
+			
+	"positions withIndexDo: [:each :index |
+		index > 1 ifTrue: [
+			anEdge pasteUpMorph canvas
+				line: (positions at: index - 1) 
+				to: each
+				width: 1
+				color: Color red]]."
+	
+	"anEdge
 		straighten;
 		makeForwardArrow.
 	
 	anEdge line setVertices: {
-		anEdge vertices first.
 		positions.
-		anEdge vertices last.
 	} flatten.
-	anEdge changed.
+	anEdge changed."
