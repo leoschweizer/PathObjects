@@ -7,8 +7,6 @@ generateGraph
 		name: 'PathObjects';
 		beDirected;
 		addAttribute: #rankdir -> #LR;
-		addAttribute: #overlap -> #false;
-		addAttribute: #forcelabels -> #true;
 		addAttribute: #ranksep -> 2;
 		addAttribute: #splines -> #ortho.
 	
@@ -29,6 +27,7 @@ generateGraph
 		thenDo: [:each | 
 			graph add: (each callerObject objectId -> each calleeObject objectId) with: {
 				"#xlabel -> each label."
+				#arrowhead -> #none.
 			}].
 	
 	^ graph
