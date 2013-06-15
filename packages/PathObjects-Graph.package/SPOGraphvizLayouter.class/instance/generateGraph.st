@@ -26,7 +26,6 @@ generateGraph
 		select: [:each | each isMessageStep]
 		thenDo: [:each | 
 			graph add: (each callerObject objectId -> each calleeObject objectId) with: {
-				"#xlabel -> each label."
 				#arrowhead -> #none.
 			}].
 	

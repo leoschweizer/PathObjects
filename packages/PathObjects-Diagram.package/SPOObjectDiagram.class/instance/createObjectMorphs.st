@@ -5,12 +5,13 @@ createObjectMorphs
 	self interactionModel objects 
 		collect: [:each | each value]
 		thenDo: [:object | 
-			morph := SPOObjectContainerMorph 
-				on: object 
-				diagram: self.
-			self layouter layout: morph in: self.
-			self objectMorphs at: object objectId put: morph.
+			morph := self objectMorphs
+				at: object objectId
+				put: (SPOObjectContainerMorph 
+					on: object 
+					diagram: self).
 			self addMorph: morph.
+			self layouter layout: morph in: self.
 			morph hide].
 	
 	self layouter updateCanvas: self.

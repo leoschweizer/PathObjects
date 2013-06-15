@@ -6,6 +6,7 @@ routeAsForward: anEdge
 	anEdge
 		straighten;
 		beSmoothCurve;
+		connectToNearestAttachmentPoint;
 		makeForwardArrow.
 	
 	anEdge line setVertices: {

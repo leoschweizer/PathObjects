@@ -6,6 +6,7 @@ routeAsBackward: anEdge
 	anEdge
 		straighten;
 		beSmoothCurve;
+		connectToNearestAttachmentPoint;
 		makeBackArrow.
 	
 	anEdge line setVertices: {
