@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 edges
 	
 	^ self layouter layoutedGraph edges

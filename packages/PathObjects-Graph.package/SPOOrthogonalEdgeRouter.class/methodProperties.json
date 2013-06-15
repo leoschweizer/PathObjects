@@ -2,5 +2,8 @@
 	"class" : {
 		"on:" : "ls 6/12/2013 20:52:07.331" },
 	"instance" : {
+		"addDebugConnector:to:" : "ls 6/15/2013 15:37:48.864",
+		"edgeSpecificationsFor:" : "ls 6/15/2013 15:26:21.495",
 		"edges" : "ls 6/15/2013 15:07:42.379",
-		"route:" : "ls 6/15/2013 15:07:47.671" } }
+		"removeConsecutiveDuplicatesFrom:" : "ls 6/15/2013 15:33:39.897",
+		"route:" : "ls 6/15/2013 15:38:30.212" } }
