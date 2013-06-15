@@ -2,11 +2,9 @@
 	"class" : {
 		"displaying:" : "ls 5/20/2013 14:28:26.825" },
 	"instance" : {
-		"createMessageConnector" : "ls 5/25/2013 13:04:34.839",
-		"createMessageTailConnectors" : "ls 5/25/2013 13:04:47.838",
-		"createObjectMorphs" : "ls 6/14/2013 13:50:51.436",
-		"edgeRouter" : "ls 5/10/2013 16:07:15.436",
-		"edgeRouter:" : "ls 5/10/2013 16:07:15.45",
+		"createMessageConnector" : "ls 6/15/2013 12:18:26.022",
+		"createMessageTailConnectors" : "ls 6/15/2013 12:18:31.548",
+		"createObjectMorphs" : "ls 6/15/2013 12:28:30.106",
 		"focusRect" : "ls 5/20/2013 11:51:11.89",
 		"hideUnusedObjects" : "ls 4/19/2013 11:31:34.023",
 		"initialize" : "ls 6/7/2013 13:10:51.152",
@@ -15,6 +13,7 @@
 		"interactionModel:" : "ls 4/13/2013 17:14:13.721",
 		"isObjectDiagram" : "ls 3/30/2013 21:20:46.854",
 		"label" : "ls 6/7/2013 12:20:40.713",
+		"layouter" : "ls 6/15/2013 12:18:16.818",
 		"markCurrentNode" : "ls 6/7/2013 12:34:25.581",
 		"messageConnectors" : "ls 5/8/2013 11:39:28.726",
 		"objectMorphs" : "ls 3/6/2013 18:12:45.877",

@@ -10,7 +10,7 @@
 		"objectMorphs",
 		"messageConnectors",
 		"sourcePopup",
-		"edgeRouter",
+		"layouter",
 		"label" ],
 	"name" : "SPOObjectDiagram",
 	"pools" : [

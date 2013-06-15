@@ -11,5 +11,5 @@ createMessageConnector
 		step: step.
 	self messageConnectors add: connector.
 	connector showEnabled.
-	self edgeRouter route: connector.  
+	self layouter edgeRouter route: connector.  
 	^ connector

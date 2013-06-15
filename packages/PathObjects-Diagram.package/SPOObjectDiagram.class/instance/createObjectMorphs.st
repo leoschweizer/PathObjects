@@ -1,25 +1,16 @@
 drawing
 createObjectMorphs
 	
-	| layouter layout morph |
-	layouter := SPOGraphLayouter on: self interactionModel.
-	self edgeRouter: layouter edgeRouter.
-	layout := layouter layout.
-
-	
-	self extent: (layout at: #extent) * 2.
+	| morph |
 	self interactionModel objects 
 		collect: [:each | each value]
-		thenDo: [:object | | position |
+		thenDo: [:object | 
 			morph := SPOObjectContainerMorph on: object diagram: self.
-			position := (layout at: #nodes) at: object objectId.
-			position := position translateBy: (self extent / 4).
-			morph center: position - (-1@11).  
+			self layouter layout: morph.
 			self objectMorphs at: object objectId put: morph.
 			self addMorph: morph.
 			morph hide].
-		
-		
+	
 	"layouter layoutedGraph nodes do: [:each | | dmorph pos |
 		dmorph := Morph new
 			color: (Color white);

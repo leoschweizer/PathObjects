@@ -1,0 +1,4 @@
+layouting
+initializeCanvas
+	
+	self subclassResponsibility.

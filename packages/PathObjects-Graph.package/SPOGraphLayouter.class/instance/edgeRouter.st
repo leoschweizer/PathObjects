@@ -1,7 +1,4 @@
-as yet unclassified
+layouting
 edgeRouter
 	
-	^ SPOOrthogonalEdgeRouter new
-		graphLayouter: self;
-		nodePositions: (self layout at: #nodes);
-		yourself
+	^ self subclassResponsibility.

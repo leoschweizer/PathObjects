@@ -11,4 +11,4 @@ createMessageTailConnectors
 			step: each.
 		self messageConnectors add: connector.
 		connector showDisabledForDistance: index.
-		self edgeRouter route: connector].
+		self layouter edgeRouter route: connector].
