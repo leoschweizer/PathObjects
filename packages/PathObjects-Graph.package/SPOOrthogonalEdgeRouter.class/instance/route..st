@@ -3,7 +3,7 @@ route: anEdge
 	
 	| step edgeSpecification posString positions |
 	step := anEdge interactionStep.
-	edgeSpecification := self graphLayouter edges select: [:each |
+	edgeSpecification := self layouter edges select: [:each |
 		(each id = (step callerObject objectId -> step calleeObject objectId))
 			and: [each attributes includesKey: 'pos']].
 	

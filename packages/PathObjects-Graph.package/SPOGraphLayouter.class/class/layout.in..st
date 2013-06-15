@@ -4,5 +4,5 @@ layout: anInteractionModel in: aCanvas
 	^ self new
 		interactionModel: anInteractionModel;
 		canvas: aCanvas;
-		initializeCanvas;
+		updateCanvas;
 		yourself

@@ -1,4 +1,4 @@
 layouting
 layout: aNode
 	
-	self subclassResponsibility.
+	self layout: aNode in: self canvas.

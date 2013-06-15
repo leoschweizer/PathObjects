@@ -1,7 +1,6 @@
 as yet unclassified
 edgeRouter
 	
-	^ SPOOrthogonalEdgeRouter new
-		graphLayouter: self;
-		nodePositions: (self layout at: #nodes);
-		yourself
+	^ router ifNil: [router := SPOOrthogonalEdgeRouter new
+		layouter: self;
+		yourself]

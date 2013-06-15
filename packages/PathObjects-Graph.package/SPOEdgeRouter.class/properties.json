@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel",
-		"nodePositions" ],
+		"layouter" ],
 	"name" : "SPOEdgeRouter",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 layouting
-initializeCanvas
+updateCanvas: aCanvas
 	
 	self subclassResponsibility.

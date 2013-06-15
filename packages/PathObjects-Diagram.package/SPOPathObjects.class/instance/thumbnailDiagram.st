@@ -1,4 +1,8 @@
 accessing
 thumbnailDiagram
 	
-	^ thumbnailDiagram ifNil: [thumbnailDiagram := SPOObjectDiagram displaying: self interactionModel]
+	^ thumbnailDiagram ifNil: [thumbnailDiagram := SPOObjectDiagram new
+		interactionModel: self interactionModel;
+		layouter: self diagram layouter;
+		createObjectMorphs;
+		yourself]
