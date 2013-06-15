@@ -1,4 +1,4 @@
 conversion
 addPreamble
 	
-	self subclassResponsibility.
+	
