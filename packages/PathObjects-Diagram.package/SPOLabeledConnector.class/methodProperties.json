@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "ls 6/7/2013 13:13:06.442",
-		"show" : "ls 6/7/2013 13:16:03.694",
+		"initialize" : "ls 6/15/2013 22:52:21.95",
 		"showDisabledForDistance:" : "ls 6/7/2013 13:16:14.111",
 		"showEnabled" : "ls 6/7/2013 13:16:20.928" } }

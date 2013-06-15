@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decoratedMorph" ],
+	"name" : "SPOObjectDiagramDecorator",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"type" : "normal" }

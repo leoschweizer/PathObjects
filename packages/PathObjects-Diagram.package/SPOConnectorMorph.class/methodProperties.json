@@ -1,16 +1,22 @@
 {
 	"class" : {
 		"disabledColors" : "ls 4/11/2013 18:54:19.505",
-		"from:to:step:" : "ls 6/12/2013 23:22:12.827" },
+		"from:to:step:" : "ls 6/15/2013 23:02:30.751",
+		"initializeArrowDictionary" : "ls 6/15/2013 23:08:16.406",
+		"spoOpenArrow" : "ls 6/15/2013 23:17:47.043",
+		"spoSimpleArrow" : "ls 6/15/2013 23:19:34.691" },
 	"instance" : {
+		"addBasicArrowMenuItemsTo:event:" : "ls 6/15/2013 22:39:30.023",
+		"allowsDetachmentOfConstraint:" : "ls 6/15/2013 22:39:23.068",
 		"initialize" : "ls 6/4/2013 14:57:34.039",
 		"interactionStep" : "ls 4/20/2013 17:54:44.771",
 		"interactionStep:" : "ls 4/20/2013 17:54:39.786",
 		"isSelfConnector" : "ls 3/8/2013 12:11:36.716",
+		"jumpToWorld" : "ls 6/15/2013 22:40:29.661",
 		"mouseEnter:" : "ls 4/20/2013 17:48:27.422",
 		"mouseEntered:" : "ls 4/20/2013 17:39:57.373",
 		"mouseLeave:" : "ls 4/20/2013 18:05:33.411",
 		"mouseLeft:" : "ls 4/20/2013 18:05:48.382",
 		"mouseMove:" : "ls 4/20/2013 18:10:33.988",
 		"mouseMoved:" : "ls 4/20/2013 18:10:42.506",
-		"wantsToDetachEnd:fromMorph:" : "ls 3/30/2013 21:00:33.482" } }
+		"wantsToDetachEnd:fromMorph:" : "ls 6/15/2013 22:42:41.692" } }

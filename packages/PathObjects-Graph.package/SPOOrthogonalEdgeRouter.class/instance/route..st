@@ -7,6 +7,5 @@ route: anEdge
 	
 	"self addDebugConnector: spec to: anEdge pasteUpMorph."
 	
-	anEdge makeForwardArrow.
 	anEdge line setVertices: spec.
-	anEdge changed.
+	anEdge beStraightSegments.

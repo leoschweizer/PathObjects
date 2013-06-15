@@ -3,7 +3,6 @@ initialize
 
 	super initialize.
 	self
-		lineWidth: 1.0;
-		dashedLine: true;
-		lineColor: Color black lighter;
-		makeForwardArrow.
+		lineWidth: 2.0;
+		arrowNames: self class arrowTypes;
+		lineColor: Color black lighter.
