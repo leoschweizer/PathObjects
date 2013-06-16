@@ -1,4 +1,4 @@
 accessing
 tailLength
 	
-	^ 0
+	^ 3

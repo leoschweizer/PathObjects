@@ -3,7 +3,8 @@
 		"on:" : "ls 6/12/2013 20:52:07.331" },
 	"instance" : {
 		"addDebugConnector:to:" : "ls 6/15/2013 15:37:48.864",
-		"edgeSpecificationsFor:" : "ls 6/15/2013 15:26:21.495",
+		"edgeSpecificationsFor:" : "ls 6/16/2013 21:50:06.615",
 		"edges" : "ls 6/15/2013 15:07:42.379",
 		"removeConsecutiveDuplicatesFrom:" : "ls 6/15/2013 15:33:39.897",
-		"route:" : "ls 6/15/2013 23:05:04.705" } }
+		"route:" : "ls 6/16/2013 22:12:56.367",
+		"slotIndexOf:" : "ls 6/16/2013 21:12:49.522" } }

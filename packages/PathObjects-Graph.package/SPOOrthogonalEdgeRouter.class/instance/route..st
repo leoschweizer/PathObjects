@@ -3,7 +3,8 @@ route: anEdge
 	
 	| edgeSpecifications spec |
 	edgeSpecifications := self edgeSpecificationsFor: anEdge.
-	spec := (self removeConsecutiveDuplicatesFrom: edgeSpecifications first).
+	spec := edgeSpecifications at: (self slotIndexOf: anEdge).
+	spec := (self removeConsecutiveDuplicatesFrom: spec).
 	
 	"self addDebugConnector: spec to: anEdge pasteUpMorph."
 	

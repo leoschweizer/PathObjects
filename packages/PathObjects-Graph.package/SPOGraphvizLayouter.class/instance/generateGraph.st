@@ -23,7 +23,7 @@ generateGraph
 		}].
 	
 	self interactionModel steps 
-		select: [:each | each isMessageStep]
+		select: [:each | each isMetaStep not]
 		thenDo: [:each | 
 			graph add: (each callerObject objectId -> each calleeObject objectId) with: {
 				#arrowhead -> #none.
