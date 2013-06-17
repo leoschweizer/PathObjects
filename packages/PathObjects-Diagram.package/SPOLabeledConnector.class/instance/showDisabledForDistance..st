@@ -2,4 +2,4 @@ as yet unclassified
 showDisabledForDistance: anInteger
 	
 	self show.
-	self lineColor: (self class disabledColors at: anInteger).
+	self lineColor: (Color black alpha: 0.1).
