@@ -12,21 +12,8 @@ generateGraph
 	
 	self interactionModel objects
 		collect: [:each | each value]
-		thenDo: [:each | graph add: each objectId with: {
-			#label -> each label.
-			#shape -> #none.
-			#width -> (self widthOf: each).
-			#height -> (self heightOf: each).
-			#fixedsize -> true.
-			#fontsize -> 12.0.
-			#style -> #filled.
-		}].
+		thenDo: [:each | self addNodeFor: each to: graph].
 	
-	self interactionModel steps 
-		select: [:each | each isMetaStep not]
-		thenDo: [:each | 
-			graph add: (each callerObject objectId -> each calleeObject objectId) with: {
-				#arrowhead -> #none.
-			}].
+	self interactionModel steps do: [:each | self addEdgeFor: each to: graph].
 	
 	^ graph
