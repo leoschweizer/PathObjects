@@ -5,6 +5,7 @@
 		"calleeObject" : "ls 4/19/2013 14:44:58.333",
 		"callerObject" : "ls 4/19/2013 14:45:01.498",
 		"connectorClass" : "ls 4/19/2013 14:46:01.129",
+		"isSelfLoop" : "ls 6/19/2013 11:35:01.468",
 		"messageContextRange" : "ls 4/28/2013 09:55:21.031",
 		"messageName" : "ls 6/3/2013 20:28:32.47",
 		"messageRange" : "ls 4/29/2013 10:29:07.539",
