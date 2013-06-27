@@ -1,19 +1,23 @@
 as yet unclassified
 openPathView
 	
-	| morph |
+	| morph messages classes |
 	morph := SPathView open classDiagramMorph.
 	
-	morph addClasses: (self objects
-		select: [:each | each value isEnvironment not]
-		thenCollect: [:each | each value type]).
+	messages := (self callgraph getMethodsFromTrace
+		collect: [:each | each actualClass -> each methodSymbol]) asSet.
+	classes := (messages collect: [:each | each key]) asSet.
 	
-	self callgraph getMethodsFromTrace
-		collect: [:each | each actualClass -> each methodSymbol]
-		thenDo: [:each | morph pinMethod: each].
-	
+	morph addClasses: classes.
+	messages do: [:each |  morph pinMethod: each].
+		
 	morph
 		expandAndToggleLabels;
 		layoutGraphForked.
+	
+	"workaround to select all methods when opening"
+	messages do: [:each |  (morph morphForMethod: each)
+			updatePinVisualization;
+			hoverOut].
 	
 	^ morph
