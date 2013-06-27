@@ -5,14 +5,14 @@ addSelfLoopFor: aStep to: aGraph
 	aStep isMessageStep ifTrue: 
 		[aGraph add: (aStep callerObject objectId -> aStep calleeObject objectId) with: {
 			#arrowhead -> #none.
-			#tailport -> #nw.
-			#headport -> #ne.
+			"#tailport -> #nw.
+			#headport -> #ne."
 		}].
 	
 	"route self returns below node from right to left"
 	aStep isReturnStep ifTrue:
 		[aGraph add: (aStep callerObject objectId -> aStep calleeObject objectId) with: {
 			#arrowhead -> #none.
-			#tailport -> #sw.
-			#headport -> #se.
+			"#tailport -> #sw.
+			#headport -> #se."
 		}].

@@ -4,7 +4,7 @@
 	"instance" : {
 		"addEdgeFor:to:" : "ls 6/19/2013 13:47:47.569",
 		"addNodeFor:to:" : "ls 6/18/2013 16:42:35.359",
-		"addSelfLoopFor:to:" : "ls 6/19/2013 13:51:23.619",
+		"addSelfLoopFor:to:" : "ls 6/26/2013 11:48:04.875",
 		"edgeRouter" : "ls 6/15/2013 15:11:41.869",
 		"generateGraph" : "ls 6/18/2013 16:42:58.132",
 		"generateLayout" : "ls 6/13/2013 20:03:11.338",

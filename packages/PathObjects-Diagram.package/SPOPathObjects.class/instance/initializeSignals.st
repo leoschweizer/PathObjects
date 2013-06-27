@@ -13,4 +13,5 @@ initializeSignals
 	self 
 		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #onMetricChanged: pattern: #(1);
 		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #onSearchResultChanged:;
-		connect: self toolbar signal: #miniMapToggled: toSelector: #onMiniMapToggled:.
+		connect: self toolbar signal: #miniMapToggled: toSelector: #onMiniMapToggled:;
+		connect: self toolbar signal: #editFilterClicked toSelector: #onEditFilterClicked.

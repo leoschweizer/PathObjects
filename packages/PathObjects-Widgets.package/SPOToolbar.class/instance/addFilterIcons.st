@@ -1,10 +1,10 @@
 as yet unclassified
 addFilterIcons
 	
-	| group |
+	| group button |
 	group := self buildGroup.
-	group
-		addMorphBack: (self buildButtonWith: UiFugueIcons funnelPencilIcon and: nil);
-		addMorphBack: (self buildButtonWith: UiFugueIcons funnelIcon and: nil).
+	button := self buildButtonWith: UiFugueIcons funnelPencilIcon and: nil.
+	group addMorphBack: button.
 	self addMorphBack: group.
-		
+	
+	self connect: button signal: #clicked: toSelector: #editFilterClicked.	
