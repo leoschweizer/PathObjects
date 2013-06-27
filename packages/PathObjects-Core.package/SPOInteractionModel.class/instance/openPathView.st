@@ -6,7 +6,9 @@ openPathView
 	
 	messages := (self callgraph getMethodsFromTrace
 		collect: [:each | each actualClass -> each methodSymbol]) asSet.
-	classes := (messages collect: [:each | each key]) asSet.
+	classes := (messages 
+		collect: [:each | each key]
+		thenSelect: [:each | each isMeta not]) asSet.
 	
 	morph addClasses: classes.
 	messages do: [:each |  morph pinMethod: each].
