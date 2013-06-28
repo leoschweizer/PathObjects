@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEdgeFor:to:" : "ls 6/19/2013 13:47:47.569",
+		"addEdgeFor:to:" : "ls 6/28/2013 10:51:51.275",
 		"addNodeFor:to:" : "ls 6/18/2013 16:42:35.359",
 		"addSelfLoopFor:to:" : "ls 6/26/2013 11:48:04.875",
 		"edgeRouter" : "ls 6/15/2013 15:11:41.869",
@@ -10,7 +10,7 @@
 		"generateLayout" : "ls 6/13/2013 20:03:11.338",
 		"heightOf:" : "ls 6/15/2013 12:32:45.909",
 		"layout" : "ls 6/12/2013 21:05:12.606",
-		"layout:in:" : "ls 6/15/2013 14:43:11.203",
+		"layout:in:" : "ls 6/28/2013 11:03:52.066",
 		"layoutedGraph" : "ls 6/12/2013 21:01:04.83",
 		"layoutedGraph:" : "ls 6/12/2013 20:59:06.439",
 		"updateCanvas:" : "ls 6/15/2013 14:44:52.534",

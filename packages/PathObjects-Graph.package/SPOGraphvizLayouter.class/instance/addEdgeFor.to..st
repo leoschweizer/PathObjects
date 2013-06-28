@@ -4,7 +4,7 @@ addEdgeFor: aStep to: aGraph
 	| slotUsers |
 	aStep isMetaStep ifTrue: [^ self].
 	
-	slotUsers := aStep previousSteps  count: [:each |
+	slotUsers := aStep previousSteps count: [:each |
 		each isMetaStep not and: 
 			[(each callerObject objectId == aStep callerObject objectId) &
 			(each calleeObject objectId == aStep calleeObject objectId)]].
@@ -15,6 +15,6 @@ addEdgeFor: aStep to: aGraph
 	
 	aStep isSelfLoop ifTrue: [^ self addSelfLoopFor: aStep to: aGraph].
 	
-	aGraph add: (aStep callerObject objectId -> aStep calleeObject objectId) with: {
-		#arrowhead -> #none.
-	}.
+	aGraph
+		add: (aStep callerObject objectId -> aStep calleeObject objectId) 
+		with: { #arrowhead -> #none }.
