@@ -10,7 +10,8 @@
 		"currentStep",
 		"callgraph",
 		"objects",
-		"searchIndex" ],
+		"searchIndex",
+		"filterChain" ],
 	"name" : "SPOInteractionModel",
 	"pools" : [
 		 ],

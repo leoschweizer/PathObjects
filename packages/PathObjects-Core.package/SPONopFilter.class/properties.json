@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPONopFilter",
+	"pools" : [
+		 ],
+	"super" : "SPOFilter",
+	"type" : "normal" }

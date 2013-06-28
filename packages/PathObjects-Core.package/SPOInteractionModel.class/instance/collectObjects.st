@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 collectObjects
 	
 	| id receiver proxy |

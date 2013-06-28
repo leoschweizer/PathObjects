@@ -1,4 +1,4 @@
-as yet unclassified
+stepping
 stepBackward
 	
 	self currentStep: self currentStep previousStep.

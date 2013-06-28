@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source" ],
+	"name" : "SPOFilter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

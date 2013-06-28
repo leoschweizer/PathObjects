@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedMessages" ],
+	"name" : "SPOPathViewFilter",
+	"pools" : [
+		 ],
+	"super" : "SPOFilter",
+	"type" : "normal" }

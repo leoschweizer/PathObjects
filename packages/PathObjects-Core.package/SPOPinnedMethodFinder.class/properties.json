@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pinnedMethods" ],
+	"name" : "SPOPinnedMethodFinder",
+	"pools" : [
+		 ],
+	"super" : "SClassMorphVisitor",
+	"type" : "normal" }

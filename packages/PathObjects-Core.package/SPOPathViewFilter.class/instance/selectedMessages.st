@@ -1,0 +1,4 @@
+accessing
+selectedMessages
+	
+	^ selectedMessages

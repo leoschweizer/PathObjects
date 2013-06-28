@@ -1,4 +1,4 @@
-as yet unclassified
+stepping
 canStepBackward
 	
 	^ self previousStep isEntryStep not

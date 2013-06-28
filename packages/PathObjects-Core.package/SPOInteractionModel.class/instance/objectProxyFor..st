@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 objectProxyFor: objectId
 	
 	^ self objects 
