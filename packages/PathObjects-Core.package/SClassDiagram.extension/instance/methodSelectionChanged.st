@@ -1,4 +1,4 @@
 *PathObjects-Core-Filters
-updateSelection
+methodSelectionChanged
 	
 	self methodSelectionChanged: self pinnedMethods.

@@ -3,4 +3,6 @@ findOrAddA: aFilterClass
 	
 	^ self filters
 		detect: [:each | each isKindOf: aFilterClass]
-		ifNone: [self add: aFilterClass new]
+		ifNone: 
+			[self add: aFilterClass new.
+			self filters first]
