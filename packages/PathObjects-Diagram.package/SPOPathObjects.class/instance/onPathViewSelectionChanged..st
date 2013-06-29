@@ -1,5 +1,5 @@
 signals-callbacks
-pathViewSelectionChanged: newSelection
+onPathViewSelectionChanged: newSelection
 	
 	| filter |
 	filter := self interactionModel filterChain findOrAddA: SPOPathViewFilter.
