@@ -5,7 +5,7 @@ openPathView
 	morph := SPathView open classDiagramMorph.
 	self connect: morph signal: #methodSelectionChanged: toSelector: #pathViewSelectionChanged:.
 	
-	messages := (self callgraph getMethodsFromTrace
+	messages := (self interactionModel callgraph getMethodsFromTrace
 		collect: [:each | each actualClass -> each methodSymbol]) asSet.
 	classes := (messages 
 		collect: [:each | each key]

@@ -1,5 +1,5 @@
 as yet unclassified
-findOrAdd: aFilterClass
+findOrAddA: aFilterClass
 	
 	^ self filters
 		detect: [:each | each isKindOf: aFilterClass]
