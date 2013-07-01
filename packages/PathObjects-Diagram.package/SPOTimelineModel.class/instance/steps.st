@@ -1,4 +1,4 @@
 accessing
 steps
 	
-	^ self interactionModel filteredView steps select: [:each | each isMetaStep not]
+	^ self interactionModel filterChain steps select: [:each | each isMetaStep not]

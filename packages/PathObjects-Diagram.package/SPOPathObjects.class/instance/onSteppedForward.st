@@ -1,4 +1,4 @@
 signals-callbacks
 onSteppedForward
 	
-	self stepTo: self interactionModel filteredView nextStep.
+	self stepTo: self filteredView nextStep.
