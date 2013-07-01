@@ -8,4 +8,4 @@ stepTo: aStep
 	self refreshControllers.
 	
 	"Create a thumbnail for the step if not already present"
-	[self thumbnailFor: aStep] forkAt: Processor userBackgroundPriority.
+	"[self thumbnailFor: aStep] forkAt: Processor userBackgroundPriority."
