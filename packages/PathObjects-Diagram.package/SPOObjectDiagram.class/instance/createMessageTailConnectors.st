@@ -2,7 +2,7 @@ drawing
 createMessageTailConnectors
 	
 	| callerMorph calleeMorph connector |
-	self interactionModel currentStep tail withIndexDo: [:each :index | 
+	self filteredView currentTail withIndexDo: [:each :index | 
 		callerMorph := self objectMorphs at: each callerObject objectId.
 		calleeMorph := self objectMorphs at: each calleeObject objectId.
 		connector := each connectorClass

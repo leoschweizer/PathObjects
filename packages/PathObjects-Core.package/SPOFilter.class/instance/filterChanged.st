@@ -1,0 +1,4 @@
+signals
+filterChanged
+	
+	self emit.
