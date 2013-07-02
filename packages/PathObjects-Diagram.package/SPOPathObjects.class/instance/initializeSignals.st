@@ -16,4 +16,4 @@ initializeSignals
 		connect: self toolbar signal: #miniMapToggled: toSelector: #onMiniMapToggled:;
 		connect: self toolbar signal: #editFilterClicked toSelector: #onEditFilterClicked.
 	
-	self connect: self filteredView signal: #sourceChanged toSelector: #onFilterChanged.
+	self connect: self interactionModel filterChain signal: #filterChanged toSelector: #onFilterChanged.

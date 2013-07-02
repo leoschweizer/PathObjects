@@ -2,7 +2,7 @@ drawing
 createObjectMorphs
 	
 	| morph |
-	self filteredView objects 
+	self interactionModel objects 
 		collect: [:each | each value]
 		thenDo: [:object | 
 			morph := self objectMorphs

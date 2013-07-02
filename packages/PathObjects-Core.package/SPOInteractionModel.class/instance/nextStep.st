@@ -1,4 +1,4 @@
 accessing
 nextStep
 	
-	^ self currentStep nextStep
+	^ (self steps copyAfter: self currentStep) first

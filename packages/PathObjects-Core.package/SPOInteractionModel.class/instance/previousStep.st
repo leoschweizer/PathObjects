@@ -1,4 +1,4 @@
 accessing
 previousStep
 	
-	^ self currentStep previousStep
+	^ (self steps copyUpTo: self currentStep) last

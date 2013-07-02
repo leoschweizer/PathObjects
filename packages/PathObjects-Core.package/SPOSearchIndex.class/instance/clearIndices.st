@@ -1,0 +1,4 @@
+indexing
+clearIndices
+	
+	indices := nil.

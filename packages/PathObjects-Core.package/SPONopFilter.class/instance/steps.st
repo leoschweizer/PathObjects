@@ -1,4 +1,4 @@
 as yet unclassified
 steps
 	
-	^ self source steps
+	^ self source allSteps

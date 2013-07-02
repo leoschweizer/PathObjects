@@ -3,7 +3,7 @@ showHistoryObjects
 	
 	| objects |
 	objects := self interactionModel currentStep objectsOccurringUpToMe
-		select: [:each | self filteredView objects anySatisfy: [:any | any key = each objectId]].
+		select: [:each | self interactionModel objects anySatisfy: [:any | any key = each objectId]].
 	
 	objects
 		collect: [:each | self objectMorphs at: each objectId]

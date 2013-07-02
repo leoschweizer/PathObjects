@@ -1,4 +1,4 @@
 accessing
 objects
 	
-	^ objects ifNil: [objects := OrderedCollection new]
+	^ self filterChain objects

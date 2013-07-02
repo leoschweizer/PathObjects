@@ -1,4 +1,4 @@
 as yet unclassified
 objects
 	
-	^ self source objects
+	^ self source allObjects

@@ -1,4 +1,4 @@
 accessing
 steps
 	
-	^ steps
+	^ self filterChain steps

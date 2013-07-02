@@ -1,4 +1,4 @@
 signals-callbacks
 onFilterChanged
 	
-	self filterChanged.
+	self modelChanged.

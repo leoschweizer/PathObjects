@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSelfToTail:" : "ls 4/19/2013 14:38:02.32",
 		"allInvolvedObjects" : "ls 4/15/2013 13:53:32.877",
 		"allInvolvedObjects:" : "ls 4/15/2013 13:53:40.217",
 		"callDepth" : "ls 5/30/2013 20:07:46.347",
@@ -18,14 +17,13 @@
 		"isMetaStep" : "ls 5/10/2013 13:36:37.446",
 		"isReturnStep" : "ls 4/15/2013 14:18:01.858",
 		"label" : "ls 4/15/2013 14:24:43.935",
-		"nextStep" : "ls 4/13/2013 11:51:10.763",
+		"nextStep" : "ls 7/2/2013 15:25:41.068",
 		"nextStep:" : "ls 4/13/2013 11:51:19.482",
 		"objectsOccurringAfterMe" : "ls 4/15/2013 12:15:05.552",
 		"objectsOccurringSolelyAfterMe" : "ls 4/19/2013 11:20:31.126",
 		"objectsOccurringUpToMe" : "ls 4/15/2013 12:01:25.704",
 		"parameterObjects" : "ls 4/19/2013 11:08:21.374",
-		"previousStep" : "ls 4/13/2013 11:51:28.088",
+		"previousStep" : "ls 7/2/2013 15:25:29.008",
 		"previousStep:" : "ls 4/13/2013 11:51:34.344",
-		"previousSteps" : "ls 6/16/2013 21:04:27.735",
-		"stateOf:" : "ls 4/17/2013 12:22:25.428",
-		"tail" : "ls 4/19/2013 14:36:35.362" } }
+		"previousSteps" : "ls 7/2/2013 15:23:43.808",
+		"stateOf:" : "ls 4/17/2013 12:22:25.428" } }

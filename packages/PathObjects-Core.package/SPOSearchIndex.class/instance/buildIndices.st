@@ -1,5 +1,5 @@
 indexing
-buildIndex
+buildIndices
 	
 	self interactionModel steps 
 		select: [:each | each isMetaStep not]
