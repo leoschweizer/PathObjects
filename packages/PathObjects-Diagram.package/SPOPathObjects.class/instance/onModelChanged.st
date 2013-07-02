@@ -1,5 +1,5 @@
 signals-callbacks
-onFilterChanged
+onModelChanged
 	
 	self timeline model reset.
 	self timeline width: self timeline optimalWidth.

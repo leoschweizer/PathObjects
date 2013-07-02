@@ -11,7 +11,6 @@ createObjectMorphs
 					on: object 
 					diagram: self).
 			self addMorph: morph.
-			self layouter layout: morph in: self.
 			morph hide].
 	
-	self layouter updateCanvas: self.
+	self layoutObjectMorphs.

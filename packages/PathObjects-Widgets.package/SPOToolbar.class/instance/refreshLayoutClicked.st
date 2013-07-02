@@ -1,0 +1,4 @@
+signals
+refreshLayoutClicked
+	
+	self emitAlways.

@@ -2,6 +2,7 @@
 	"class" : {
 		"on:diagram:" : "ls 4/24/2013 11:41:59.238" },
 	"instance" : {
+		"aboutToBeGrabbedBy:" : "ls 7/2/2013 17:17:06.668",
 		"diagram" : "ls 4/24/2013 11:40:09.369",
 		"diagram:" : "ls 4/24/2013 11:40:18.811",
 		"hide" : "ls 5/23/2013 21:28:08.411",
@@ -10,11 +11,16 @@
 		"initialize" : "ls 6/6/2013 15:10:51.738",
 		"initializeSignals" : "ls 6/11/2013 14:02:48.611",
 		"initializeWith:and:" : "ls 6/28/2013 10:58:41.634",
+		"isBeingDragged" : "ls 7/2/2013 17:15:15",
+		"isBeingDragged:" : "ls 7/2/2013 17:15:18.733",
+		"justDroppedInto:event:" : "ls 7/2/2013 17:22:02.879",
 		"objectProxy" : "ls 4/24/2013 11:35:38.974",
 		"onMouseEntered" : "ls 6/4/2013 14:51:39.277",
 		"onMouseLeft" : "ls 6/4/2013 14:51:48.204",
 		"onSearchClicked" : "ls 6/11/2013 14:17:58.101",
 		"onUpdateStateToggled" : "ls 6/11/2013 14:02:24.531",
+		"position:" : "ls 7/2/2013 17:22:13.974",
+		"positionChangedNonDragging:" : "ls 7/2/2013 17:18:05.004",
 		"referenceConnectors" : "ls 4/24/2013 11:45:58.096",
 		"referenceConnectors:" : "ls 4/24/2013 11:37:48.51",
 		"showDisabled" : "ls 5/23/2013 21:28:23.065",
@@ -22,6 +28,7 @@
 		"showHoverMenu" : "ls 4/24/2013 11:31:14.346",
 		"showReferenceConnectors" : "ls 4/24/2013 13:10:25.005",
 		"ui" : "ls 4/17/2013 15:17:02.519",
+		"ui:" : "ls 7/2/2013 17:14:57.376",
 		"updateState" : "ls 4/19/2013 11:38:38.883",
 		"visibilityChanged:" : "ls 5/23/2013 21:27:55.022",
 		"wantsToBeDroppedInto:" : "ls 4/19/2013 17:29:05.234" } }
