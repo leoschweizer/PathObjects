@@ -10,20 +10,18 @@ openPathView
 	
 	messages := (self interactionModel callgraph getMethodsFromTrace
 		collect: [:each | each actualClass -> each methodSymbol]) asSet.
-	classes := (messages 
-		collect: [:each | each key]
-		thenSelect: [:each | each isMeta not]) asSet.
+	classes := (messages collect: [:each | each key theNonMetaClass]) asSet.
 	
 	morph addClasses: classes.
 	messages do: [:each |  morph pinMethod: each].
-		
+	
 	morph
 		expandAndToggleLabels;
 		layoutGraphForked.
 	
 	"workaround to select all methods when opening"
 	messages do: [:each |  (morph morphForMethod: each)
-			updatePinVisualization;
-			hoverOut].
+		updatePinVisualization;
+		hoverOut].
 	
 	^ morph
