@@ -1,6 +1,6 @@
 drawing
 unmarkCurrentNode
-
+	
 	| currentStep |
 	currentStep := self interactionModel currentStep.
 	self messageConnectors 

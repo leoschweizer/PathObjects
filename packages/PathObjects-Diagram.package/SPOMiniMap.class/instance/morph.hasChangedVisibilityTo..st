@@ -1,4 +1,4 @@
-as yet unclassified
+signals-callbacks
 morph: aSender hasChangedVisibilityTo: newMode
 	
 	| targetMorph |

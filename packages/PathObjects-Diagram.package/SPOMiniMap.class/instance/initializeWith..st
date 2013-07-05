@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: anObjectDiagram
 	
 	self extent: (anObjectDiagram extent / 20) ceiling.

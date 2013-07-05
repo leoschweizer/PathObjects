@@ -1,4 +1,4 @@
-as yet unclassified
+signals-callbacks
 clickedToScrollTo: anEvent
 	
 	self owner diagramArea

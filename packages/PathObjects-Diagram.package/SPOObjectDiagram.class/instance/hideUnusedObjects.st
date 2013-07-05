@@ -1,8 +1,8 @@
 as yet unclassified
 hideUnusedObjects
 	
-	"self interactionModel currentStep objectsOccurringSolelyAfterMe
-		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each hide]."
-	
-	self objectMorphs do: [:each | each value hide].
+	"workaround to hide filtered objects fully on the minimap"
+	self objectMorphs do: [:each | each value fullyHide].
+	self objectMorphs 
+		select: [:each | self interactionModel objects anySatisfy: [:any | any key = each objectProxy objectId]]
+		thenDo: [:each | each hide].
