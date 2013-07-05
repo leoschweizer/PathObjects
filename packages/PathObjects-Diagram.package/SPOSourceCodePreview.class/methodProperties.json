@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"popUpOn:" : "ls 7/5/2013 13:49:24.678" },
 	"instance" : {
 		"browseSelection" : "ls 4/28/2013 10:40:09.768",
 		"classOrMetaClass" : "ls 5/25/2013 11:19:16.078",
@@ -12,7 +12,7 @@
 		"currentMethod" : "ls 4/28/2013 10:39:19.809",
 		"currentMethod:" : "ls 4/28/2013 10:39:19.82",
 		"hideLater" : "ls 6/7/2013 13:22:38.122",
-		"hideNow:" : "ls 6/7/2013 13:20:32.575",
+		"hideNow:" : "ls 7/5/2013 13:36:48.907",
 		"highlight:" : "ls 4/27/2013 22:06:32.93",
 		"initialize" : "ls 5/29/2013 20:30:16.317",
 		"initializeSignals" : "ls 6/7/2013 13:21:50.051",
@@ -24,7 +24,6 @@
 		"optimalWidth" : "ls 4/27/2013 22:05:40.088",
 		"shouldHide" : "ls 4/27/2013 22:33:05.184",
 		"shouldHide:" : "ls 4/27/2013 22:33:00.512",
-		"showContext:range:method:range:" : "ls 5/29/2013 20:14:46.323",
 		"showMessage" : "ls 4/29/2013 11:16:10.134",
 		"showMessageContext" : "ls 4/29/2013 11:16:02.691",
 		"sourceCode" : "ls 5/29/2013 20:15:03.891",

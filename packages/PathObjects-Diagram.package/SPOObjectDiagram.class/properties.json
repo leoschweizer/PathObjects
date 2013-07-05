@@ -9,7 +9,6 @@
 		"interactionModel",
 		"objectMorphs",
 		"messageConnectors",
-		"sourcePopup",
 		"layouter",
 		"label" ],
 	"name" : "SPOObjectDiagram",

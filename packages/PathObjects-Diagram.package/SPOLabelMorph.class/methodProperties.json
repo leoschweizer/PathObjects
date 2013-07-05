@@ -4,7 +4,6 @@
 	"instance" : {
 		"beReturnLabel" : "ls 6/7/2013 13:01:31.718",
 		"beSendLabel" : "ls 6/7/2013 13:01:36.826",
-		"browseActionClicked" : "ls 6/7/2013 13:03:58.19",
 		"buildButtonWith:" : "ls 6/7/2013 12:06:40.967",
 		"buildGroup" : "ls 6/7/2013 12:17:29.18",
 		"buildSeparator" : "ls 6/7/2013 13:07:42.087",
@@ -12,10 +11,13 @@
 		"drawOn:" : "ls 6/7/2013 13:30:10.686",
 		"indicatorButton" : "ls 6/7/2013 13:00:47.875",
 		"initialize" : "ls 6/7/2013 13:08:22.966",
-		"initializeSignals" : "ls 6/7/2013 13:04:09.526",
+		"initializeSignals" : "ls 7/5/2013 13:29:11.701",
+		"interactionModel" : "ls 7/5/2013 13:31:54.941",
+		"onBrowseClicked" : "ls 7/5/2013 13:50:36.89",
 		"parameterIcon" : "ls 6/7/2013 12:08:58.464",
 		"returnContainer" : "ls 6/7/2013 13:08:36.524",
 		"returnIcon" : "ls 6/7/2013 12:35:13.069",
 		"selectorContainer" : "ls 6/7/2013 12:18:21.145",
 		"sendIcon" : "ls 6/7/2013 11:59:16.53",
-		"setSelector:" : "ls 6/7/2013 12:19:24.778" } }
+		"setSelector:" : "ls 6/7/2013 12:19:24.778",
+		"sourcePopup" : "ls 7/5/2013 13:38:11.631" } }

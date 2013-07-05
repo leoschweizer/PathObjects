@@ -5,5 +5,4 @@ initialize
 	self
 		color: Color transparent;
 		borderColor: Color transparent;
-		addMorph: self label;
-		initializeSignals.
+		addMorph: self label.
