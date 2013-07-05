@@ -17,5 +17,5 @@ addFilterIcons
 	self addMorphBack: group.
 	
 	self
-		connect: button1 signal: #clicked: toSelector: #editFilterClicked;
-		connect: button2 signal: #clicked: toSelector: #refreshLayoutClicked.
+		connect: button1 signal: #clicked: toSelector: #actionTriggered: pattern: #(=editFilter);
+		connect: button2 signal: #clicked: toSelector: #actionTriggered: pattern: #(=refreshLayout).

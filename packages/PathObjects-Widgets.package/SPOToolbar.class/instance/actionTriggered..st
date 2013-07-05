@@ -1,4 +1,4 @@
 signals
-miniMapToggled: button
+actionTriggered: aSymbol
 	
 	self emitAlways.

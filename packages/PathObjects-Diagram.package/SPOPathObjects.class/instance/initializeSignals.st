@@ -14,8 +14,6 @@ initializeSignals
 	self 
 		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #onMetricChanged: pattern: #(1);
 		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #onSearchResultChanged:;
-		connect: self toolbar signal: #miniMapToggled: toSelector: #onMiniMapToggled:;
-		connect: self toolbar signal: #editFilterClicked toSelector: #onEditFilterClicked;
-		connect: self toolbar signal: #refreshLayoutClicked toSelector: #onRefreshLayoutClicked.
+		connect: self toolbar signal: #actionTriggered: toSelector: #onToolbarAction:.
 	
 	self connect: self interactionModel signal: #modelChanged toSelector: #onModelChanged.

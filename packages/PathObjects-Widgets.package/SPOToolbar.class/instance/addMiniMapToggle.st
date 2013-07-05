@@ -10,5 +10,5 @@ addMiniMapToggle
 		checked: true.
 	
 	self 
-		connect: button signal: #clicked: toSelector: #miniMapToggled: pattern: #(0);
+		connect: button signal: #clicked: toSelector: #actionTriggered: pattern: #(=toggleMiniMap);
 		addMorphBack: button.
