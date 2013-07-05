@@ -4,6 +4,7 @@ markCurrentNode
 	| currentStep connector |
 	currentStep := self interactionModel currentStep.
 	connector := self createMessageConnector.
+	self createMessageTailConnectors.
 	
 	self label 
 		attachUnobnoxiouslyTo: connector at: connector midpoint;
@@ -12,8 +13,6 @@ markCurrentNode
 	currentStep isMessageStep
 		ifTrue: [self label beSendLabel]
 		ifFalse: [self label beReturnLabel].
-	
-	self createMessageTailConnectors.
 	
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
