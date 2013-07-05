@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOReadOnlyTextEdit",
+	"pools" : [
+		 ],
+	"super" : "UiTextEdit",
+	"type" : "normal" }

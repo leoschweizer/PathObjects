@@ -256,7 +256,7 @@ initializePanel
 	unnamedMorph3 addChild: browseBtn.
 	unnamedMorph1 addChild: unnamedMorph3.
 	panel addChild: unnamedMorph1.
-	sourcePane := UiTextEdit new.
+	sourcePane := SPOReadOnlyTextEdit new.
 	sourcePane extent: (400@30).
 	sourcePane position: (1@29).
 	sourcePane hResizing: (#shrinkWrap).
