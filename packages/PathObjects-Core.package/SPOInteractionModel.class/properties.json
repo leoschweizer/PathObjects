@@ -11,7 +11,8 @@
 		"callgraph",
 		"objects",
 		"searchIndex",
-		"filterChain" ],
+		"filterChain",
+		"maxCallDepth" ],
 	"name" : "SPOInteractionModel",
 	"pools" : [
 		 ],

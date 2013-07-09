@@ -3,8 +3,8 @@ addEdgeFor: aStep to: aGraph
 	
 	| slotUsers |
 	slotUsers := aStep previousSteps count: [:each |
-			(each callerObject objectId == aStep callerObject objectId) &
-			(each calleeObject objectId == aStep calleeObject objectId)].
+			(each callerObject = aStep callerObject) &
+			(each calleeObject = aStep calleeObject)].
 	
 	"the graph already includes enough edges between the target nodes to display
 	the maximum number of edges at the same time"
