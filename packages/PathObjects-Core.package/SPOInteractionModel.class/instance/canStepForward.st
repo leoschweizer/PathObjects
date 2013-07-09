@@ -1,4 +1,4 @@
-stepping
+testing
 canStepForward
 	
-	^ self nextStep isExitStep not
+	^ self currentStep ~= self steps last

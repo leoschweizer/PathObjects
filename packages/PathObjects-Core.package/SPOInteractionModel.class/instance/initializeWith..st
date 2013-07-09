@@ -2,19 +2,21 @@ initialization
 initializeWith: aCallgraph
 	
 	| steps |
-	self 
+	self
 		callgraph: aCallgraph;
 		collectObjects.
-		
+	
 	steps := (self parse: aCallgraph rootNode on: OrderedCollection new) allButFirst allButLast.
 	steps
 		addFirst: SPOEntryStep new;
 		addLast: SPOExitStep new.
-	  
-	steps withIndexDo: [:step :index | 
+	
+	steps withIndexDo: [:step :index |
 		step previousStep: (steps at: index - 1 ifAbsent: nil).
-		step nextStep: (steps at: index + 1 ifAbsent: nil)].  
+		step nextStep: (steps at: index + 1 ifAbsent: nil)].
+	
+	steps := steps allButFirst allButLast.
 	
 	self
 		steps: steps;
-		currentStep: steps second.
+		currentStep: steps first.

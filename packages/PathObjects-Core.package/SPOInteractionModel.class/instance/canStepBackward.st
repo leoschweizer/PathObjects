@@ -1,4 +1,4 @@
-stepping
+testing
 canStepBackward
 	
-	^ self previousStep isEntryStep not
+	^ self currentStep ~= self steps first
