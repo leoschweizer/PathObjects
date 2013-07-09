@@ -4,6 +4,6 @@ slotIndexOf: anEdge
 	| step slotUsers |
 	step := anEdge interactionStep.
 	slotUsers := step previousSteps count: [:each |
-		(each callerObject = step callerObject) &
-		(each calleeObject = step calleeObject)].
+		each senderObject = step senderObject and:
+			[each receiverObject = step receiverObject]].
 	^ (slotUsers \\ (self interactionModel tailLength + 1)) + 1

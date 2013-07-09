@@ -5,8 +5,8 @@ convertMessageSendStep: aStep
 		nextPutAll: '<edge id="';
 		nextPutAll: self nextUniqueId asString;
 		nextPutAll: '" sourceid="';
-		nextPutAll: aStep callerObject objectId asString;
+		nextPutAll: aStep senderObject objectId asString;
 		nextPutAll: '" targetid="';
-		nextPutAll: aStep calleeObject objectId asString;
+		nextPutAll: aStep receiverObject objectId asString;
 		nextPutAll: '" />';
 		cr.

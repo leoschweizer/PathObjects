@@ -1,4 +1,4 @@
 partitioning
 isSelfBottom: aStep
 	
-	^ aStep isReturnStep and: [aStep callerObject objectId = aStep calleeObject objectId]
+	^ aStep isReturnStep and: [aStep senderObject = aStep receiverObject]

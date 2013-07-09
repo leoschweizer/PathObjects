@@ -3,8 +3,8 @@ convertMessageSendStep: aStep
 	
 	self output
 		nextPutAll: '<edge source="';
-		nextPutAll: aStep callerObject objectId asString;
+		nextPutAll: aStep senderObject objectId asString;
 		nextPutAll: '" target="';
-		nextPutAll: aStep calleeObject objectId asString;
+		nextPutAll: aStep receiverObject objectId asString;
 		nextPutAll: '" />';
 		cr.

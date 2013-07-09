@@ -1,4 +1,4 @@
 partitioning
 isSelfTop: aStep
 	
-	^ aStep isMessageStep and: [aStep callerObject objectId = aStep calleeObject objectId]
+	^ aStep isMessageStep and: [aStep senderObject = aStep receiverObject]

@@ -3,8 +3,8 @@ createMessageTailConnectors
 	
 	| callerMorph calleeMorph connector |
 	self interactionModel messageTail withIndexDo: [:each :index | 
-		callerMorph := self objectMorphs at: each callerObject objectId.
-		calleeMorph := self objectMorphs at: each calleeObject objectId.
+		callerMorph := self objectMorphs at: each senderObject objectId.
+		calleeMorph := self objectMorphs at: each receiverObject objectId.
 		connector := each connectorClass
 			from: callerMorph ui objectMorph
 			to: calleeMorph ui objectMorph

@@ -3,8 +3,8 @@ createMessageConnector
 	
 	| step callerMorph calleeMorph connector |
 	step := self interactionModel currentStep.
-	callerMorph := self objectMorphs at: step callerObject objectId.
-	calleeMorph := self objectMorphs at: step calleeObject objectId.
+	callerMorph := self objectMorphs at: step senderObject objectId.
+	calleeMorph := self objectMorphs at: step receiverObject objectId.
 	connector := step connectorClass
 		from: callerMorph ui objectMorph
 		to: calleeMorph ui objectMorph

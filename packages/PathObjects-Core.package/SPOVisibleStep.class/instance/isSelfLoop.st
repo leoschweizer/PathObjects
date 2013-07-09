@@ -1,4 +1,4 @@
 testing
 isSelfLoop
 	
-	^ self callerObject objectId == self calleeObject objectId
+	^ self senderObject = self receiverObject
