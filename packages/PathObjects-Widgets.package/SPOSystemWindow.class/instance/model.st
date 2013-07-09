@@ -1,4 +1,4 @@
 as yet unclassified
-client
+model
 	
-	^ client
+	^ self

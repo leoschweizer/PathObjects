@@ -11,6 +11,8 @@ openInWindowLabeled: aString inWorld: aWorld
 			(window borderWidth@window labelHeight) + window borderWidth.
 	window extent: extent.
 	aWorld addMorph: window.
-	window activate.
+	window 
+		activate
+		setWindowColor: (Color r: 71 g: 157 b: 230 range: 255).
 	aWorld startSteppingSubmorphsOf: window.
 	^ window
