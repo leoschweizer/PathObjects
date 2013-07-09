@@ -1,4 +1,4 @@
 signals-callbacks
 viewportMoved: anEvent
 	
-	self owner diagramArea scrollInsideBoundsBy: (anEvent startPoint - anEvent position) negated * 20.
+	self owner diagramArea scrollInsideBoundsBy: (anEvent startPoint - anEvent position) negated * self scale.

@@ -1,4 +1,5 @@
 signals-callbacks
 updateExtent: newExtent
 	
-	self extent: (newExtent / 20) ceiling.
+	self scale: (self scaleFactorFor: newExtent).
+	self extent: (newExtent / self scale) ceiling.

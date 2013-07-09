@@ -2,5 +2,5 @@ signals-callbacks
 clickedToScrollTo: anEvent
 	
 	self owner diagramArea
-		centerAround: (anEvent position - self topLeft) * 20
+		centerAround: (anEvent position - self topLeft) * self scale
 		duration: 200.
