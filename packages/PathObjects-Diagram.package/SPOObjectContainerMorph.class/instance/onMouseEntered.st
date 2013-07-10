@@ -2,5 +2,5 @@ signals-callbacks
 onMouseEntered
 	
 	self
-		showReferenceConnectors;
+		"showReferenceConnectors;"
 		showHoverMenu.

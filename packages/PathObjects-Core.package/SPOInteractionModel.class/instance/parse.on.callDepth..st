@@ -2,6 +2,8 @@ initialization
 parse: aCallNode on: aCollection callDepth: aNumber
 	
 	| identities step |
+	"ifAbsent blocks are reuiqred since the root node of a callgraph doesn't 
+	have an #allIdentities view"
 	identities := (aCallNode views at: #allIdentities ifAbsent: [{-1}]) asOrderedCollection.
 	aCallNode fromSender 
 		ifNil: [identities addFirst: -1]

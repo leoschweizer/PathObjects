@@ -2,5 +2,5 @@ signals-callbacks
 onMouseLeft
 	
 	self
-		hideReferenceConnectors;
+		"hideReferenceConnectors;"
 		hideHoverMenu.

@@ -12,13 +12,10 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 					anArrayOfObjects. "parameters"
 				} flatten asOrderedCollection.
 			self tracer addView: (self getAllIdentitiesOf: involvedObjects) to: #allIdentities.
-			self tracer addView: (self getAllReferencesOf: involvedObjects) to: #allReferencesBefore.
 			self tracer addView: (thisContext sender sender pc) to: #pc.
 			self tracer startTracing.
 			[result := self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.
 			(self tracer callgraphModel currentNode views at: #allIdentities) add: result identityHash.
-			involvedObjects add: result.
-			self tracer addView: (self getAllReferencesOf: involvedObjects) to: #allReferencesAfter.
 			^ result] ensure: [self afterMethod]]
 		
 	ifFalse: [^ self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects]
