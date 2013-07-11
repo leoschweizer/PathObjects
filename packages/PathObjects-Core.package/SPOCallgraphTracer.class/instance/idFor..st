@@ -1,4 +1,4 @@
 id generation
 idFor: anObject
 	
-	^  self idRegistry increasingIdFor: anObject
+	^  self idGenerator idFor: anObject

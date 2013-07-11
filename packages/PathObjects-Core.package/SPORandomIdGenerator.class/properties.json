@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objectIds",
-		"idCounter" ],
-	"name" : "SPOObjectIdRegistry",
+		 ],
+	"name" : "SPORandomIdGenerator",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SPOObjectIdGenerator",
 	"type" : "normal" }

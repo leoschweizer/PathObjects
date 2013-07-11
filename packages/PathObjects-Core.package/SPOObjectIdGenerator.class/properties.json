@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"idGenerator" ],
-	"name" : "SPOCallgraphTracer",
+		"objectIds" ],
+	"name" : "SPOObjectIdGenerator",
 	"pools" : [
 		 ],
-	"super" : "SCallgraphTracer",
+	"super" : "Object",
 	"type" : "normal" }
