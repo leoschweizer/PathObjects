@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"idRegistry" ],
+	"name" : "SPOCallgraphTracer",
+	"pools" : [
+		 ],
+	"super" : "SCallgraphTracer",
+	"type" : "normal" }

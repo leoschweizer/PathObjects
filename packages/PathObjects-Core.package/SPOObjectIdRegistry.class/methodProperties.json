@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"idCounter" : "ls 7/11/2013 20:33:12.147",
+		"idCounter:" : "ls 7/11/2013 20:32:46.179",
+		"increasingIdFor:" : "ls 7/11/2013 21:04:50.876",
+		"initialize" : "ls 7/11/2013 17:50:57.533",
+		"newIncreasingId" : "ls 7/11/2013 21:03:21.943",
+		"newRandomId" : "ls 7/11/2013 21:03:58.926",
+		"newRandomIdInRange:" : "ls 7/11/2013 21:05:47.661",
+		"objectIds" : "ls 7/11/2013 17:50:17.16",
+		"objectIds:" : "ls 7/11/2013 17:50:20.713",
+		"randomIdFor:inRange:" : "ls 7/11/2013 21:06:09.242" } }

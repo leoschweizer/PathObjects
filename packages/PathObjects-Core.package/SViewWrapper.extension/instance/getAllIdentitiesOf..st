@@ -1,4 +1,4 @@
 *PathObjects-Core
 getAllIdentitiesOf: anObjectCollection
 	
-	^ anObjectCollection collect: [:each | each identityHash]  
+	^ anObjectCollection collect: [:each | self tracer idFor: each]

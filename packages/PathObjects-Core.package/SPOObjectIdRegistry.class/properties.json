@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectIds",
+		"idCounter" ],
+	"name" : "SPOObjectIdRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

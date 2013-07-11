@@ -15,7 +15,7 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 			self tracer addView: (thisContext sender sender pc) to: #pc.
 			self tracer startTracing.
 			[result := self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.
-			(self tracer callgraphModel currentNode views at: #allIdentities) add: result identityHash.
+			(self tracer callgraphModel currentNode views at: #allIdentities) add: (self tracer idFor: result).
 			^ result] ensure: [self afterMethod]]
 		
 	ifFalse: [^ self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects]

@@ -2,7 +2,7 @@ as yet unclassified
 openOnClass: aTestClass selector: aSelector
 
 	| tracer |
-	tracer := SCallgraphTracer on: SProject current.
+	tracer := SPOCallgraphTracer on: SProject current.
 	tracer
 		callgraphModel: (SCallgraphModel on: tracer);
 		viewMode: #identities;
