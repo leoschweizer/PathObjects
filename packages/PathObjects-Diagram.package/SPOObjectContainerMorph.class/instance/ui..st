@@ -1,4 +1,4 @@
 accessing
 ui: anObject
-
-	ui := anObject
+	
+	ui := anObject.

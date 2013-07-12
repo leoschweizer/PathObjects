@@ -1,4 +1,4 @@
-as yet unclassified
+object state
 updateState
 	
 	| objectState morph |

@@ -1,6 +1,5 @@
-as yet unclassified
+dropping/grabbing
 aboutToBeGrabbedBy: aHand
 	
-	Transcript show: 'grabbed'; cr.
 	super aboutToBeGrabbedBy: aHand.
 	self isBeingDragged: true.

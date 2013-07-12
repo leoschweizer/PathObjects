@@ -1,4 +1,4 @@
-as yet unclassified
+dropping/grabbing
 justDroppedInto: aMorph event: anEvent
 	
 	self isBeingDragged: false.

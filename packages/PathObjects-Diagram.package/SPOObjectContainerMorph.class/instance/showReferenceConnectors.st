@@ -1,6 +1,6 @@
-as yet unclassified
+drawing
 showReferenceConnectors
-
+	
 	| connectors |
 	connectors := self objectProxy currentReferences 
 		select: [:each | each isKindOf: SPOObjectProxy]

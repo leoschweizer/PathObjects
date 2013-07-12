@@ -1,9 +1,13 @@
 accessing
 returnContainer
 	
-	^ returnContainer ifNil: [returnContainer := self buildGroup
-		addMorphBack: self buildSeparator;
-		addMorphBack: (self buildSpacer: 3);
-		addMorphBack: (UiLabel new text: 'returns:');
-		addMorphBack: (self buildButtonWith: self parameterIcon);
-		yourself]
+	| explorer |
+	^ returnContainer ifNil: 
+		[explorer := self buildButtonWith: self parameterIcon.
+		self connect: explorer signal: #clicked: toSelector: #onExploreClicked:exploreWhat: pattern: #(0 =return).
+		returnContainer := self buildGroup
+			addMorphBack: self buildSeparator;
+			addMorphBack: (self buildSpacer: 3);
+			addMorphBack: (UiLabel new text: 'returns:');
+			addMorphBack: explorer;
+			yourself]

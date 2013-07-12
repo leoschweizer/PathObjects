@@ -14,10 +14,11 @@
 		"initializeSignals" : "ls 7/5/2013 13:29:11.701",
 		"interactionModel" : "ls 7/5/2013 13:31:54.941",
 		"onBrowseClicked" : "ls 7/5/2013 13:50:36.89",
+		"onExploreClicked:exploreWhat:" : "ls 7/12/2013 10:08:51.048",
 		"parameterIcon" : "ls 6/7/2013 12:08:58.464",
-		"returnContainer" : "ls 6/7/2013 13:08:36.524",
+		"returnContainer" : "ls 7/12/2013 10:13:23.444",
 		"returnIcon" : "ls 6/7/2013 12:35:13.069",
 		"selectorContainer" : "ls 6/7/2013 12:18:21.145",
 		"sendIcon" : "ls 6/7/2013 11:59:16.53",
-		"setSelector:" : "ls 6/7/2013 12:19:24.778",
+		"setSelector:" : "ls 7/12/2013 09:55:22.36",
 		"sourcePopup" : "ls 7/5/2013 13:38:11.631" } }
