@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testCases" ],
-	"name" : "SPORuntimeBenchmark",
+		"testCases",
+		"results" ],
+	"name" : "SPOBenchmark",
 	"pools" : [
 		 ],
 	"super" : "Object",

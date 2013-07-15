@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"benchmark" ],
+	"name" : "SPOBenchmarkEvaluation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

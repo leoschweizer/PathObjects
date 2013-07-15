@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPORuntimeEvaluation",
+	"pools" : [
+		 ],
+	"super" : "SPOBenchmarkEvaluation",
+	"type" : "normal" }
