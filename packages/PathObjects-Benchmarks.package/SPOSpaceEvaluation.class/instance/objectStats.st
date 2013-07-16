@@ -5,6 +5,6 @@ objectStats
 	objectCounts := self benchmark counters collect: [:each | each value second asFloat].
 	^ Dictionary newFrom: {
 		#mean -> (objectCounts average).
-		#median -> (objectCounts average).
+		#median -> (objectCounts median).
 		#minMax -> (objectCounts minMax).
 	}

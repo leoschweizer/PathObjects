@@ -1,8 +1,8 @@
 as yet unclassified
-messageStats
+pointerStats
 	
 	| objectCounts |
-	objectCounts := self benchmark counters collect: [:each | each value first asFloat].
+	objectCounts := self benchmark counters collect: [:each | each value third asFloat].
 	^ Dictionary newFrom: {
 		#mean -> (objectCounts average).
 		#median -> (objectCounts median).
