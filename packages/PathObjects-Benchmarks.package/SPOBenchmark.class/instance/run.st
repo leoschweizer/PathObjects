@@ -13,9 +13,16 @@ run
 					Transcript show: each asString, ' errored'; cr.
 					SPOSystemWindow allInstances do: [:w | w delete]].
 		
-			window ifNotNilDo: [:w |
+			window ifNotNilDo: [:w | | model |
+				model := (w findA: SPOPathObjects) interactionModel.
 				w delete.
 				self runtimes add: (each -> time).
+				self counters add: (each -> {
+					model steps size.
+					model objects size.
+					(model steps collect: [:s | s allInvolvedObjects size])
+						inject: 0 into: [:a :c | a + c].
+				}).
 				Transcript show: each asString, ' time: ', time, 'ms'; cr].
 		
 			Smalltalk garbageCollect]
