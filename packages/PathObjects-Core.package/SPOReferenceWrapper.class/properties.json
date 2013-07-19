@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"references",
+		"tracer" ],
+	"name" : "SPOReferenceWrapper",
+	"pools" : [
+		 ],
+	"super" : "SSpecificWrapper",
+	"type" : "normal" }
