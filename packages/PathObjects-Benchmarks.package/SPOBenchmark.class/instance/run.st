@@ -8,7 +8,8 @@ run
 					openOn: SProject current 
 					class: each actualClass 
 					selector: each methodSymbol.
-				] timeToRunWithoutGC] on: Error do: [:error | 
+				] timeToRunWithoutGC] on: Error do: [:error |
+					self killDot.
 					self errors add: (each -> error).
 					Transcript show: each asString, ' errored'; cr.
 					SPOSystemWindow allInstances do: [:w | w delete]].
