@@ -7,15 +7,16 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 			self tracer stopTracing.
 			viewString := self getViewString: anObject.
 			self tracer addView: viewString to: self selectedView.
-			involvedObjects := {
+			involvedObjects := ({
 					anObject. "receiver"
 					anArrayOfObjects. "parameters"
-				} flatten asOrderedCollection.
+				}  flattenTo: 1) asOrderedCollection.
 			self tracer addView: (self getAllIdentitiesOf: involvedObjects) to: #allIdentities.
 			self tracer addView: (thisContext sender sender pc) to: #pc.
 			self tracer startTracing.
 			[result := self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.
-			(self tracer callgraphModel currentNode views at: #allIdentities) add: (self tracer idFor: result).
-			^ result] ensure: [self afterMethod]]
+			^ result] ensure: 
+				[(self tracer callgraphModel currentNode views at: #allIdentities) add: (self tracer idFor: result).
+				self afterMethod]]
 		
 	ifFalse: [^ self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects]

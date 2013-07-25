@@ -4,7 +4,7 @@ collectObjects
 	| id receiver proxy |
 	self objects add: (-1 -> (SPOObjectProxy model: self id: nil type: nil)).
 	self callgraph traverseCallGraph: self callgraph rootNode with: [:node |
-		id := (node views at: #allIdentities ifAbsent: [{-1}]) first. 
+		id := (node views at: #allIdentities) first.
 		receiver := node views at: #receiver.
 		proxy := SPOObjectProxy 
 			model: self 
