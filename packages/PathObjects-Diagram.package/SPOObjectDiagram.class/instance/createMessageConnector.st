@@ -10,6 +10,8 @@ createMessageConnector
 		to: calleeMorph ui objectMorph
 		step: step.
 	self messageConnectors add: connector.
-	connector showEnabled.
+	connector 
+		showEnabled;
+		goBehind.
 	self layouter edgeRouter route: connector.
 	^ connector
