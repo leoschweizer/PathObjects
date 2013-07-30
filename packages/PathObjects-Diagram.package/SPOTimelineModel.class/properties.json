@@ -8,8 +8,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"interactionModel",
-		"permanentStylers",
-		"searchResultStyler" ],
+		"visitors" ],
 	"name" : "SPOTimelineModel",
 	"pools" : [
 		 ],

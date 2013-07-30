@@ -1,5 +1,5 @@
-as yet unclassified
-applyTo: aMorph representing: aStep
+drawing
+drawMessageLengthOn: aMorph representing: aStep
 	
 	| loc maxHeight height |
 	loc := aStep callNode compiledMethod linesOfCode.

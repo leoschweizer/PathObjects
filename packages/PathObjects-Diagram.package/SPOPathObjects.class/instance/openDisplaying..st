@@ -7,6 +7,8 @@ openDisplaying: anInteractionModel
 	self timeline 
 		listSpec: SPOTimelineItemSpec new;
 		model: (SPOTimelineModel on: self interactionModel).
+	self flag: #ugly. "Find better solution for initial metric application"
+	self onMetricChanged: 1.
 	self diagramArea widget: (SPOObjectDiagram displaying: anInteractionModel).
 	self
 		addMorph: self toolbar;

@@ -1,5 +1,5 @@
-as yet unclassified
-applyTo: aMorph representing: aStep
+drawing
+drawCallDepthOn: aMorph representing: aStep
 	
 	| maxHeight height |
 	maxHeight := aMorph height - 10.

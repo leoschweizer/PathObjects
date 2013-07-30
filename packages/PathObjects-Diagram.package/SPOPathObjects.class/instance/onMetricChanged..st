@@ -1,10 +1,12 @@
 signals-callbacks
 onMetricChanged: anIndex
 	
-	| newStyler |
-	anIndex == 1 ifTrue: [newStyler := SPOInverseCallDepthStyler new].
-	anIndex == 2 ifTrue: [newStyler := SPOCallDepthStyler new].
-	anIndex == 3 ifTrue: [newStyler := SPOCallDistanceStyler new].
-	anIndex == 4 ifTrue: [newStyler := SPOMessageLengthStyler new].
+	| metric |
+	anIndex == 1 ifTrue: [metric := #InverseCallDepth].
+	anIndex == 2 ifTrue: [metric := #CallDepth].
+	anIndex == 3 ifTrue: [metric := #CallDistance].
+	anIndex == 4 ifTrue: [metric := #MessageLength].
 	
-	self timeline model permanentStylers: (OrderedCollection with: newStyler).
+	self timeline model visitors removeAllSuchThat: [:each | each isKindOf: SPOTimelineStyleVisitor].
+	self timeline model visitors add: (SPOTimelineStyleVisitor new metric: metric).
+	self timeline model reset.

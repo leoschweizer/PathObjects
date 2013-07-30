@@ -1,10 +1,10 @@
-as yet unclassified
+building
 itemFor: aNode
 	
-	| step item stylers |
+	| step item visitors |
 	step := aNode at: #step.
-	stylers := aNode at: #stylers.
+	visitors := aNode at: #visitors.
 	item := SPOTimelineItem new.
 	item setProperty: #selectable toValue: true.
-	stylers do: [:each | each applyTo: item representing: step].
+	visitors do: [:each | each visitTimelineItem: item representing: step].
 	^ item

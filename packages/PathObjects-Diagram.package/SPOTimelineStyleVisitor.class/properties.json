@@ -1,14 +1,14 @@
 {
-	"category" : "PathObjects-Diagram-Stylers",
+	"category" : "PathObjects-Diagram-Visitors",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SPOInverseCallDepthStyler",
+		"metric" ],
+	"name" : "SPOTimelineStyleVisitor",
 	"pools" : [
 		 ],
-	"super" : "SPOTimelineItemStyler",
+	"super" : "SPOVisitor",
 	"type" : "normal" }
