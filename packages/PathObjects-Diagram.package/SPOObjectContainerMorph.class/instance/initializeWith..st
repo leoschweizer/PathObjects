@@ -1,7 +1,6 @@
 initialization
-initializeWith: anObjectProxy and: aMorph
+initializeWith: anObjectProxy
 	
 	self ui objectMorph objectProxy: anObjectProxy.
-	self diagram: aMorph.
 	"workaround for shrink wrapping"
 	self extent: self fullBounds extent.

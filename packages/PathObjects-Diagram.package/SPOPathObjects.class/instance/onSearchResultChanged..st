@@ -1,4 +1,4 @@
 signals-callbacks
 onSearchResultChanged: newResult
 	
-	self accept: (SPOSearchResultVisitor new searchResult: newResult).
+	self acceptTimeline: (SPOSearchResultVisitor new searchResult: newResult).
