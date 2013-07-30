@@ -6,6 +6,7 @@
 		"spoOpenArrow" : "ls 6/15/2013 23:17:47.043",
 		"spoSimpleArrow" : "ls 6/15/2013 23:19:34.691" },
 	"instance" : {
+		"accept:" : "ls 7/30/2013 11:30:42.295",
 		"addBasicArrowMenuItemsTo:event:" : "ls 6/15/2013 22:39:30.023",
 		"allowsDetachmentOfConstraint:" : "ls 6/15/2013 22:39:23.068",
 		"initialize" : "ls 6/4/2013 14:57:34.039",

@@ -5,6 +5,7 @@ markCurrentNode
 	currentStep := self interactionModel currentStep.
 	connector := self createMessageConnector.
 	self createMessageTailConnectors.
+	self accept: SPOEdgeStyleVisitor new.
 	
 	self label 
 		attachUnobnoxiouslyTo: connector at: connector midpoint;
@@ -14,6 +15,7 @@ markCurrentNode
 		ifTrue: [self label beSendLabel]
 		ifFalse: [self label beReturnLabel].
 	
+	self accept: SPONodeStyleVisitor new.
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
 		thenDo: [:each | each 

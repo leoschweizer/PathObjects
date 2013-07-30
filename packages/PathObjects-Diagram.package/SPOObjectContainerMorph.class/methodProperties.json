@@ -3,6 +3,7 @@
 		"on:diagram:" : "ls 4/24/2013 11:41:59.238" },
 	"instance" : {
 		"aboutToBeGrabbedBy:" : "ls 7/12/2013 09:43:38.769",
+		"accept:" : "ls 7/30/2013 11:55:58.086",
 		"diagram" : "ls 4/24/2013 11:40:09.369",
 		"diagram:" : "ls 4/24/2013 11:40:18.811",
 		"fullyHide" : "ls 7/5/2013 13:04:42.786",
@@ -24,8 +25,8 @@
 		"positionChangedNonDragging:" : "ls 7/2/2013 17:18:05.004",
 		"referenceConnectors" : "ls 4/24/2013 11:45:58.096",
 		"referenceConnectors:" : "ls 4/24/2013 11:37:48.51",
-		"showDisabled" : "ls 5/23/2013 21:28:23.065",
-		"showEnabled" : "ls 5/23/2013 21:28:32.758",
+		"showDisabled" : "ls 7/30/2013 12:27:46.247",
+		"showEnabled" : "ls 7/30/2013 12:28:32.199",
 		"showHoverMenu" : "ls 7/12/2013 09:46:13.869",
 		"showReferenceConnectors" : "ls 7/12/2013 09:46:18.428",
 		"ui" : "ls 7/12/2013 09:44:56.87",

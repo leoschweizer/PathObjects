@@ -1,4 +1,4 @@
-as yet unclassified
+protected-policy
 wantsToDetachEnd: index fromMorph: aMorph
 	
 	^ false
