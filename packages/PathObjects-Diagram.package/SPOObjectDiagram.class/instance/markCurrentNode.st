@@ -15,9 +15,6 @@ markCurrentNode
 		ifTrue: [self label beSendLabel]
 		ifFalse: [self label beReturnLabel].
 	
-	self accept: SPONodeStyleVisitor new.
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each 
-			showEnabled;
-			updateState].
+		thenDo: [:each | each updateState].

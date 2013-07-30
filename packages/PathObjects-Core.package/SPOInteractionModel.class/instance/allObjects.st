@@ -2,4 +2,4 @@ accessing
 allObjects
 	"access to objects bypassing all filters"
 	
-	^ objects ifNil: [objects := OrderedCollection new]
+	^ objects ifNil: [objects := Dictionary new]

@@ -10,8 +10,10 @@ initializeWith: anObjectDiagram
 			position: (each ui objectMorph position / self scale) ceiling;
 			yourself.
 		self 
-			connect: each signal: #positionChangedNonDragging: toSelector: #morph:hasChangedPositionTo: pattern: #(0 1);
-			connect: each signal: #visibilityChanged: toSelector: #morph:hasChangedVisibilityTo: pattern: #(0 1).
+			connect: each 
+			signal: #positionChangedNonDragging: 
+			toSelector: #morph:hasChangedPositionTo: 
+			pattern: #(0 1).
 		self addMorphBack: morph.
 		morph]).
 	

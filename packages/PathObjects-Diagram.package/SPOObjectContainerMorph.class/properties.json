@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"referenceConnectors",
 		"diagram",
 		"isBeingDragged" ],
 	"name" : "SPOObjectContainerMorph",

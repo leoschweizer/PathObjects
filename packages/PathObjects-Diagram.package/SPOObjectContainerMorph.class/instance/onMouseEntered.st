@@ -1,6 +1,4 @@
 signals-callbacks
 onMouseEntered
 	
-	self
-		"showReferenceConnectors;"
-		showHoverMenu.
+	self showHoverMenu.

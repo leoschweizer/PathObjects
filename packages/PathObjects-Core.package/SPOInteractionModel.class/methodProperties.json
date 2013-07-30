@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"allObjects" : "ls 7/2/2013 15:10:11.145",
+		"allObjects" : "ls 7/30/2013 14:03:04.28",
 		"allSteps" : "ls 7/2/2013 15:10:00.836",
 		"callgraph" : "ls 4/22/2013 13:45:12.977",
 		"callgraph:" : "ls 4/22/2013 13:45:16.914",
 		"canStepBackward" : "ls 7/9/2013 11:16:10.409",
 		"canStepForward" : "ls 7/9/2013 11:16:26.059",
-		"collectObjects" : "ls 7/25/2013 15:03:23.971",
+		"collectObjects" : "ls 7/30/2013 14:04:43.165",
 		"currentStep" : "ls 4/22/2013 13:45:33.058",
 		"currentStep:" : "ls 4/22/2013 13:45:36.957",
 		"filterChain" : "ls 7/2/2013 15:12:00.041",

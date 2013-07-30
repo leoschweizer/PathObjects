@@ -7,6 +7,7 @@ drawInvolvedStyleOn: aMorph representing: aProxy
 	aMorph ui label color: Color white.
 	
 	roles := aProxy currentRoles.
+	aMorph ui indicatorContainer submorphs do: [:each | each form: UiSilkIcons bulletWhiteIcon].
 	(roles includes: #sender) ifTrue: [aMorph ui senderIndicator form: UiSilkIcons bulletBlackIcon].
 	(roles includes: #receiver) ifTrue: [aMorph ui receiverIndicator form: UiSilkIcons bulletBlackIcon].
 	(roles includes: #parameter) ifTrue: [aMorph ui argumentIndicator form: UiSilkIcons bulletBlackIcon].
