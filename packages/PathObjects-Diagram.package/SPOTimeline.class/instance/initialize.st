@@ -5,4 +5,5 @@ initialize
 	
 	self
 		color: (Color white alpha: 0.95);
-		scrollBarThickness: 6.
+		scrollBarThickness: 6;
+		initializeSignals.

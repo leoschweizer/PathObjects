@@ -7,4 +7,5 @@ itemFor: aNode
 	item := SPOTimelineItem new.
 	item setProperty: #selectable toValue: true.
 	visitors do: [:each | each visitTimelineItem: item representing: step].
+	(aNode at: #highlight) ifTrue: [item colorBar color: Color red].
 	^ item

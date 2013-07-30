@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "ls 6/4/2013 11:52:13.252",
+		"highlightedNodes" : "ls 7/30/2013 17:22:39.024",
+		"initialize" : "ls 7/30/2013 17:18:40.877",
+		"initializeSignals" : "ls 7/30/2013 17:17:49.904",
+		"onNodeHovered:" : "ls 7/30/2013 17:59:22.782",
 		"optimalHeight" : "ls 6/1/2013 23:31:02.987",
 		"optimalWidth" : "ls 6/1/2013 21:12:00.527" } }

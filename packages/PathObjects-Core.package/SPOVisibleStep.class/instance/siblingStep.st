@@ -1,0 +1,4 @@
+accessing
+siblingStep
+	
+	^  self subclassResponsibility

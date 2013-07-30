@@ -1,0 +1,4 @@
+accessing
+highlightedNode
+	
+	^ highlightedNode

@@ -1,7 +1,7 @@
 initialization
 parse: aCallNode on: aCollection callDepth: aNumber
 	
-	| identities step |
+	| identities step returnStep |
 	"ifAbsent blocks are reuiqred since the root node of a callgraph doesn't 
 	have an #allIdentities view"
 	identities := (aCallNode views at: #allIdentities ifAbsent: [{-1}]) asOrderedCollection.
@@ -22,12 +22,14 @@ parse: aCallNode on: aCollection callDepth: aNumber
 	aCallNode nextCalls do: [:each | self parse: each on: aCollection callDepth: (aNumber + 1)].
 	
 	"method return step"
-	aCollection add: (SPOReturnStep new
+	returnStep := SPOReturnStep new
 		allInvolvedObjects: identities;
 		returnTo: step;
 		interactionModel: self;  
 		callNode: aCallNode;
 		callDepth: aNumber;
-		yourself).
+		yourself.
+	aCollection add: returnStep.
+	step returnStep: returnStep.
 		
 	^ aCollection
