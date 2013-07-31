@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metric" ],
+	"name" : "SPOMetricVisitor",
+	"pools" : [
+		 ],
+	"super" : "SPOVisitor",
+	"type" : "normal" }

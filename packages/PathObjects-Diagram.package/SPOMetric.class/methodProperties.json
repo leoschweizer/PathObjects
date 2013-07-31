@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"on:" : "ls 7/31/2013 14:37:02.65" },
+	"instance" : {
+		"calculateMetric" : "ls 7/31/2013 14:35:42.195",
+		"interactionModel" : "ls 7/31/2013 14:33:44.388",
+		"interactionModel:" : "ls 7/31/2013 14:33:44.402",
+		"maxMessageValue" : "ls 7/31/2013 15:08:10.515",
+		"maxObjectValue" : "ls 7/31/2013 15:07:33.79",
+		"messageValues" : "ls 7/31/2013 14:36:42.396",
+		"minMessageValue" : "ls 7/31/2013 15:08:22.234",
+		"minObjectValue" : "ls 7/31/2013 15:07:52.197",
+		"objectValues" : "ls 7/31/2013 14:36:30.773",
+		"valueOfMessage:" : "ls 7/31/2013 14:54:09.946",
+		"valueOfObject:" : "ls 7/31/2013 14:54:01.503",
+		"values" : "ls 7/31/2013 14:36:07.084" } }

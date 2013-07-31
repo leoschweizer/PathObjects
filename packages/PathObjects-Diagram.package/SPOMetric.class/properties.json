@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Diagram-Metrics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"interactionModel",
+		"values" ],
+	"name" : "SPOMetric",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
