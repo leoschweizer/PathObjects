@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 alignment: aSymbol
 	
 	self setProperty: #alignment toValue: aSymbol.

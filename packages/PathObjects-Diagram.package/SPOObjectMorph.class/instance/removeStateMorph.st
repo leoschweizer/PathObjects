@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 removeStateMorph
 
 	self ui panel submorphs withIndexDo: [:each :index | 

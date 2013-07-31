@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 colorBar
 	
 	^ colorBar ifNil: [colorBar := BorderedMorph new

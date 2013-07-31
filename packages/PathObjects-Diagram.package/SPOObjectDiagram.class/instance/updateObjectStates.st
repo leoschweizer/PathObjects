@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 updateObjectStates
 	
 	self interactionModel currentStep involvedObjects 

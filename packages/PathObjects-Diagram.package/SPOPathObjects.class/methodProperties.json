@@ -5,7 +5,7 @@
 		"openOn:class:selector:" : "ls 7/29/2013 18:24:18.98" },
 	"instance" : {
 		"accept:" : "ls 7/30/2013 15:11:34.883",
-		"acceptTimeline:" : "ls 7/30/2013 15:12:21.154",
+		"acceptTimeline:" : "ls 7/31/2013 12:18:31.312",
 		"backwardBtn" : "ls 6/1/2013 23:33:48.419",
 		"diagram" : "ls 6/1/2013 21:58:47.837",
 		"diagramArea" : "ls 6/1/2013 22:11:14.65",
@@ -18,7 +18,7 @@
 		"onMetricChanged:" : "ls 7/30/2013 13:17:10.77",
 		"onModelChanged" : "ls 7/9/2013 11:12:03.84",
 		"onPathViewSelectionChanged:" : "ls 6/29/2013 13:02:21.803",
-		"onSearchResultChanged:" : "ls 7/30/2013 15:12:38.419",
+		"onSearchResultChanged:" : "ls 7/31/2013 12:21:13.918",
 		"onSteppedBackward" : "ls 7/2/2013 15:03:25.999",
 		"onSteppedForward" : "ls 7/2/2013 15:03:15.472",
 		"onTimelineClicked:" : "ls 6/4/2013 14:39:33.087",
