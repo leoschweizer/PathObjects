@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 layout: searchEdit in: newBounds
 	
 	searchEdit submorphsDo: [:s | s fullBounds].

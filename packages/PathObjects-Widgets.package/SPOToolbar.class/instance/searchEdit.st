@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 searchEdit
 	
 	^ searchEdit ifNil: [searchEdit := SPOSearchEdit new]

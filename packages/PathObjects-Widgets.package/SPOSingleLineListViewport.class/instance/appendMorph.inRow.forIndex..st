@@ -1,4 +1,4 @@
-as yet unclassified
+add/remove - appending
 appendMorph: aMorph inRow: aRowInfo forIndex: aModelIndex
 	
 	super appendMorph: aMorph inRow: aRowInfo forIndex: aModelIndex.

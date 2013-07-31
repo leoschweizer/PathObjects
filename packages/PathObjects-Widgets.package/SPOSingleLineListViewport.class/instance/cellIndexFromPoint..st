@@ -1,4 +1,4 @@
-as yet unclassified
+rows/columns - to cell
 cellIndexFromPoint: aPoint
 	"Given a point in pixel coordinates."
 	

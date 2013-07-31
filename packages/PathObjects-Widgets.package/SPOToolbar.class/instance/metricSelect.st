@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 metricSelect
 	
 	^ metricSelect ifNil: [metricSelect := self buildMetricSelect]

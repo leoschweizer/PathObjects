@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addMessageResult: aMessageName
 	
 	resultList model addChild: (

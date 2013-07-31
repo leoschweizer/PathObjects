@@ -1,4 +1,4 @@
-as yet unclassified
+layouting
 updateSingleColumnHorizontalLayout
 	
 	| cell hOffset previousItemWidth |

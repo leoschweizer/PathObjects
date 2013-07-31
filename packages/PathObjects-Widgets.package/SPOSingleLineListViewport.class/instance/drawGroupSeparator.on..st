@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawGroupSeparator: aMorph on: aCanvas
 		
 	aCanvas fullDrawMorph: aMorph.

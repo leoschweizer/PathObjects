@@ -1,5 +1,5 @@
-as yet unclassified
-mouseEntered
+signals-callbacks
+onMouseEntered
 	
 	self enabled ifFalse: [^ self].
 	super form: self originalForm.  

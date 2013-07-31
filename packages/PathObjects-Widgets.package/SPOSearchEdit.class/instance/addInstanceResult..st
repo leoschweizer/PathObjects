@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addInstanceResult: anInstanceName
 	
 	resultList model addChild: (

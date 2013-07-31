@@ -1,4 +1,4 @@
-as yet unclassified
-mouseLeft
+signals-callbacks
+onMouseLeft
 	
 	super form: self dimmedForm.

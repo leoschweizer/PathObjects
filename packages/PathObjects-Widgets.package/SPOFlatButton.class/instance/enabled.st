@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 enabled
 	
 	^ enabled ifNil: [enabled := true]

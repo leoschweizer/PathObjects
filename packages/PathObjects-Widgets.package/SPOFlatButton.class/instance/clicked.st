@@ -1,4 +1,4 @@
-as yet unclassified
+signals
 clicked
 	
 	self enabled ifFalse: [^ self].

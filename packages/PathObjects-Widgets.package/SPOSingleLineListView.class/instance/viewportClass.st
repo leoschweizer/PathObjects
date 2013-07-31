@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - private
 viewportClass
 
 	^ SPOSingleLineListViewport
