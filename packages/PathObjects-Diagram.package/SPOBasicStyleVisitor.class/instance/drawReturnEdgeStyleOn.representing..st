@@ -1,5 +1,5 @@
 drawing
-drawReturnStyleOn: aMorph representing: aStep
+drawReturnEdgeStyleOn: aMorph representing: aStep
 	
 	aMorph 
 		arrowNames: #(spoOpenArrow noArrow);

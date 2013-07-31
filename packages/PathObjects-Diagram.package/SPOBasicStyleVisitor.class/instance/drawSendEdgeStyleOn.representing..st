@@ -1,4 +1,4 @@
 drawing
-drawSendStyleOn: aMorph representing: aStep
+drawSendEdgeStyleOn: aMorph representing: aStep
 	
 	aMorph arrowNames: #(noArrow spoSimpleArrow).

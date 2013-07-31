@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawBasicEdgeStyleOn:representing:" : "ls 7/31/2013 16:29:53.475",
+		"drawBasicObjectStyleOn:representing:" : "ls 7/31/2013 16:30:56.764",
+		"drawCurrentEdgeStyleOn:representing:" : "ls 7/31/2013 16:29:51.484",
+		"drawHistoryEdgeStyleOn:representing:" : "ls 7/31/2013 16:29:48.768",
+		"drawInvolvedObjectStyleOn:representing:" : "ls 7/31/2013 16:31:08.742",
+		"drawReturnEdgeStyleOn:representing:" : "ls 7/31/2013 16:29:45.959",
+		"drawSendEdgeStyleOn:representing:" : "ls 7/31/2013 16:29:43.404",
+		"drawUninvolvedObjectStyleOn:representing:" : "ls 7/31/2013 16:31:19.513",
+		"visitEdge:representing:" : "ls 7/31/2013 16:31:57.749",
+		"visitMiniMapObject:representing:" : "ls 7/30/2013 14:25:16.457",
+		"visitObject:representing:" : "ls 7/31/2013 16:31:39.731",
+		"visitObjectContainer:representing:" : "ls 7/30/2013 14:34:47.448",
+		"visitsMessages" : "ls 7/31/2013 16:28:27.087",
+		"visitsMiniMap" : "ls 7/31/2013 16:23:36.93",
+		"visitsObjects" : "ls 7/31/2013 16:35:26.451" } }

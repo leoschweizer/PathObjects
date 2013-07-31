@@ -1,5 +1,5 @@
 drawing
-drawInvolvedStyleOn: aMorph representing: aProxy
+drawInvolvedObjectStyleOn: aMorph representing: aProxy
 	
 	| roles |
 	aMorph ui panel borderColor: Color black.

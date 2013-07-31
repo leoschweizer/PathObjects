@@ -6,7 +6,7 @@ stepTo: aStep
 		centerAround: (self diagram focusRect center + (0@self timeline height))
 		duration: 200.
 	self refreshControllers.
-	self accept: SPONodeStyleVisitor new.
+	self accept: SPOBasicStyleVisitor new.
 	
 	"Create a thumbnail for the step if not already present"
 	"[self thumbnailFor: aStep] forkAt: Processor userBackgroundPriority."

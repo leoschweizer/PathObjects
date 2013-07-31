@@ -5,7 +5,6 @@ markCurrentNode
 	currentStep := self interactionModel currentStep.
 	connector := self createMessageConnector.
 	self createMessageTailConnectors.
-	self accept: SPOEdgeStyleVisitor new.
 	
 	self label 
 		attachUnobnoxiouslyTo: connector at: connector midpoint;

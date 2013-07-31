@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOEdgeStyleVisitor",
+	"name" : "SPOBasicStyleVisitor",
 	"pools" : [
 		 ],
 	"super" : "SPOVisitor",
