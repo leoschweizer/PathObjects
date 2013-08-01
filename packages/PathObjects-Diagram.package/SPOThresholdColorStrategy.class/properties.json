@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOCallCountMetric",
+	"name" : "SPOThresholdColorStrategy",
 	"pools" : [
 		 ],
-	"super" : "SPOObjectMetric",
+	"super" : "SPOColorStrategy",
 	"type" : "normal" }

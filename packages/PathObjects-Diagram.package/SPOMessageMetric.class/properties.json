@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOCallCountMetric",
+	"name" : "SPOMessageMetric",
 	"pools" : [
 		 ],
-	"super" : "SPOObjectMetric",
+	"super" : "SPOMetric",
 	"type" : "normal" }
