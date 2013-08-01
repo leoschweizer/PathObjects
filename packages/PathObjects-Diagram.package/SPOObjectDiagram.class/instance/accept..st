@@ -6,5 +6,5 @@ accept: aVisitor
 			each accept: aVisitor.
 			each ui objectMorph accept: aVisitor]].
 	
-	aVisitor visitsMessages 
+	aVisitor visitsEdges 
 		ifTrue: [self messageConnectors do: [:each | each accept: aVisitor]].

@@ -1,4 +1,4 @@
 testing
-visitsMessages
+visitsEdges
 	
 	^  false

@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"visitEdge:representing:" : "ls 7/31/2013 16:37:46.585",
-		"visitMiniMapObject:representing:" : "ls 7/31/2013 16:37:51.987",
-		"visitObject:representing:" : "ls 7/31/2013 16:37:54.925",
-		"visitObjectContainer:representing:" : "ls 7/31/2013 16:37:58.278",
-		"visitTimelineItem:representing:" : "ls 7/31/2013 16:38:01.992",
-		"visitsMessages" : "ls 7/31/2013 16:20:53.914",
+		"visitEdge:representing:" : "ls 8/1/2013 14:27:28.666",
+		"visitMiniMapObject:representing:" : "ls 8/1/2013 14:27:33.189",
+		"visitObject:representing:" : "ls 8/1/2013 14:27:37.24",
+		"visitObjectContainer:representing:" : "ls 8/1/2013 14:27:42.023",
+		"visitTimelineItem:representing:" : "ls 8/1/2013 14:27:45.68",
+		"visitsEdges" : "ls 8/1/2013 14:25:17.983",
 		"visitsMiniMap" : "ls 7/31/2013 16:21:02.877",
 		"visitsObjects" : "ls 7/31/2013 16:20:48.626",
 		"visitsTimeline" : "ls 7/31/2013 16:20:58.05" } }
