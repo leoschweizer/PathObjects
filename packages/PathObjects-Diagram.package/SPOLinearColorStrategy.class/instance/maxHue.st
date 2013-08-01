@@ -1,4 +1,4 @@
 as yet unclassified
 maxHue
 	
-	^ 240
+	^ maxHue ifNil: [maxHue := 240]

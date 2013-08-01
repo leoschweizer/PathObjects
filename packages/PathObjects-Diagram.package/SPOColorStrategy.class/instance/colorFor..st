@@ -1,4 +1,4 @@
 as yet unclassified
-colorFor: aValue of: aMetric
+colorFor: aValue
 	
 	^ self subclassResponsibility

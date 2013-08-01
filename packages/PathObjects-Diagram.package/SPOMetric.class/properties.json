@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"interactionModel",
-		"values" ],
+		"values",
+		"colorStrategy" ],
 	"name" : "SPOMetric",
 	"pools" : [
 		 ],

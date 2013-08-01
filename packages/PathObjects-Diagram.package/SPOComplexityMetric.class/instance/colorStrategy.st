@@ -3,7 +3,7 @@ colorStrategy
 	
 	^ colorStrategy ifNil: 
 		[colorStrategy := SPOThresholdColorStrategy new
-			low: 7;
-			average: 13;
-			high: 19;
+			low: 1;
+			average: 3;
+			high: 5;
 			yourself]

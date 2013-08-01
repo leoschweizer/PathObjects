@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"min",
-		"max",
-		"maxHue",
-		"saturation" ],
-	"name" : "SPOLinearColorStrategy",
+		 ],
+	"name" : "SPOComplexityMetric",
 	"pools" : [
 		 ],
-	"super" : "SPOColorStrategy",
+	"super" : "SPOMessageMetric",
 	"type" : "normal" }

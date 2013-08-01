@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"low",
+		"average",
+		"high" ],
 	"name" : "SPOThresholdColorStrategy",
 	"pools" : [
 		 ],
