@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 saturation
 	
 	^ saturation ifNil: [saturation := 0.75]

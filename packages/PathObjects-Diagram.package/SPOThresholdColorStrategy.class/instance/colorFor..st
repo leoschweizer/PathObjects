@@ -1,4 +1,4 @@
-as yet unclassified
+public api
 colorFor: aValue
 	
 	aValue <= self low ifTrue: [^ Color green].
