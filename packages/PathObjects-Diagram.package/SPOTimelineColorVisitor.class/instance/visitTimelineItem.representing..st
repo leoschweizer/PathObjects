@@ -1,4 +1,4 @@
-as yet unclassified
+visitors
 visitTimelineItem: aMorph representing: aStep
 	
 	| color |

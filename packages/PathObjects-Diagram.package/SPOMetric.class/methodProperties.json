@@ -4,6 +4,8 @@
 	"instance" : {
 		"calculateMetric" : "ls 7/31/2013 14:35:42.195",
 		"colorStrategy" : "ls 8/1/2013 12:20:22.876",
+		"coversMessages" : "ls 8/1/2013 12:39:18.22",
+		"coversObjects" : "ls 8/1/2013 12:39:30.793",
 		"interactionModel" : "ls 7/31/2013 14:33:44.388",
 		"interactionModel:" : "ls 7/31/2013 14:33:44.402",
 		"maxValue" : "ls 8/1/2013 12:26:35.502",
