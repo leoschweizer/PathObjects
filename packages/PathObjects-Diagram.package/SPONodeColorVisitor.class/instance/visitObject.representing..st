@@ -5,4 +5,5 @@ visitObject: aMorph representing: anObjectProxy
 	metricValue := self metric valueOf: anObjectProxy.
 	color := self metric colorStrategy colorFor: metricValue.
 	aMorph ui header color: color.
+	aMorph ui label color: color contrastColor.
 	
