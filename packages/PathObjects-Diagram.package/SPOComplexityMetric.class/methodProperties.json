@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"average" : "ls 8/5/2013 13:41:38.843",
 		"calculateMetric" : "ls 8/1/2013 13:35:04.942",
-		"colorStrategy" : "ls 8/1/2013 13:42:59.851" } }
+		"coversMessages" : "ls 8/5/2013 13:46:18.406",
+		"high" : "ls 8/5/2013 13:41:47.409",
+		"isThresholdBased" : "ls 8/5/2013 13:41:21.357",
+		"low" : "ls 8/5/2013 13:41:31.022" } }

@@ -10,5 +10,5 @@
 	"name" : "SPOLastChangeMetric",
 	"pools" : [
 		 ],
-	"super" : "SPOMessageMetric",
+	"super" : "SPOMetric",
 	"type" : "normal" }

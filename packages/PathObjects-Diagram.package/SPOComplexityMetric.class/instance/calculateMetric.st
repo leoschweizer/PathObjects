@@ -1,4 +1,4 @@
-as yet unclassified
+private api
 calculateMetric
 	
 	self interactionModel steps do: [:each | 

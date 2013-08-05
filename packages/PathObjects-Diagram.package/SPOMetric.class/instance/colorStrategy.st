@@ -1,4 +1,4 @@
 private api
 colorStrategy
 	
-	^ self subclassResponsibility
+	^ colorStrategy ifNil: [colorStrategy := SPOColorStrategy on: self]
