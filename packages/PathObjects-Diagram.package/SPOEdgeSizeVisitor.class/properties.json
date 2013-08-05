@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOEdgeSizeVisitor",
+	"pools" : [
+		 ],
+	"super" : "SPOMetricVisitor",
+	"type" : "normal" }

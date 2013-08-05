@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Metrics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOInverseStackSizeMetric",
+	"pools" : [
+		 ],
+	"super" : "SPOMessageMetric",
+	"type" : "normal" }
