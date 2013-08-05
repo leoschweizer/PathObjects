@@ -9,7 +9,9 @@
 		"metricBox",
 		"visitorBox",
 		"addOverlayBtn",
-		"overlayList" ],
+		"overlayList",
+		"removeOverlayBtn",
+		"okBtn" ],
 	"name" : "SPOOverlayDialogUi",
 	"pools" : [
 		 ],

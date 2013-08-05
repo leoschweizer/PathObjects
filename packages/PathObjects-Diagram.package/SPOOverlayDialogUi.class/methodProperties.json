@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addOverlayBtn" : "ls 8/5/2013 18:42:00.405",
-		"initializePanel" : "ls 8/5/2013 18:42:00.449",
-		"metricBox" : "ls 8/5/2013 18:42:00.376",
-		"overlayList" : "ls 8/5/2013 18:42:00.417",
-		"visitorBox" : "ls 8/5/2013 18:42:00.392" } }
+		"addOverlayBtn" : "ls 8/5/2013 20:36:36.804",
+		"initializePanel" : "ls 8/5/2013 20:36:36.875",
+		"metricBox" : "ls 8/5/2013 20:36:36.778",
+		"okBtn" : "ls 8/5/2013 20:36:36.843",
+		"overlayList" : "ls 8/5/2013 20:36:36.817",
+		"removeOverlayBtn" : "ls 8/5/2013 20:36:36.829",
+		"visitorBox" : "ls 8/5/2013 20:36:36.791" } }

@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 unnamedMorph6 unnamedMorph7 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -229,7 +229,7 @@ initializePanel
 	overlayList horizontalHeaderVisible: (true).
 	overlayList verticalHeaderVisible: (false).
 	overlayList selectionBehavior: (#selectRows).
-	overlayList selectionMode: (UiViewMultiSelection).
+	overlayList selectionMode: (UiViewSingleSelection).
 	overlayList listOrientation: (#default).
 	overlayList hAlignment: (#left).
 	overlayList vAlignment: (#top).
@@ -263,20 +263,52 @@ initializePanel
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
 	unnamedMorph4 borderColor: (Color black).
-	unnamedMorph5 := UiPushButton new.
-	unnamedMorph5 changeTableLayout.
-	unnamedMorph5 extent: (134@20).
-	unnamedMorph5 position: (2@275).
-	unnamedMorph5 hResizing: (#shrinkWrap).
-	unnamedMorph5 vResizing: (#shrinkWrap).
+	removeOverlayBtn := UiPushButton new.
+	removeOverlayBtn changeTableLayout.
+	removeOverlayBtn extent: (134@20).
+	removeOverlayBtn position: (2@275).
+	removeOverlayBtn hResizing: (#shrinkWrap).
+	removeOverlayBtn vResizing: (#shrinkWrap).
+	removeOverlayBtn minWidth: (2).
+	removeOverlayBtn minHeight: (2).
+	removeOverlayBtn cellInset: (4).
+	removeOverlayBtn cellPositioning: (#center).
+	removeOverlayBtn cellSpacing: (#none).
+	removeOverlayBtn layoutInset: (2@0 corner: 2@0).
+	removeOverlayBtn listCentering: (#topLeft).
+	removeOverlayBtn listDirection: (#leftToRight).
+	removeOverlayBtn listSpacing: (#none).
+	removeOverlayBtn maxCellSize: (1073741823).
+	removeOverlayBtn minCellSize: (0).
+	removeOverlayBtn wrapCentering: (#topLeft).
+	removeOverlayBtn wrapDirection: (#none).
+	removeOverlayBtn frameFractions: (0@0 corner: 1@1).
+	removeOverlayBtn frameOffsets: (0@0 corner: 0@0).
+	removeOverlayBtn balloonText: (nil).
+	removeOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	removeOverlayBtn enabled: (true).
+	removeOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons deleteIcon'.
+	removeOverlayBtn icon: (UiSilkIcons deleteIcon).
+	removeOverlayBtn text: ('Remove Selected').
+	removeOverlayBtn color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	removeOverlayBtn checkable: (false).
+	removeOverlayBtn checked: (false).
+	removeOverlayBtn autoExclusive: (false).
+	removeOverlayBtn setProperty: #objectName toValue: 'removeOverlayBtn'.
+	unnamedMorph4 addChild: removeOverlayBtn.
+	unnamedMorph5 := UiSpacer new.
+	unnamedMorph5 extent: (286@20).
+	unnamedMorph5 position: (142@276).
+	unnamedMorph5 hResizing: (#spaceFill).
+	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (2).
 	unnamedMorph5 minHeight: (2).
-	unnamedMorph5 cellInset: (4).
+	unnamedMorph5 cellInset: (0).
 	unnamedMorph5 cellPositioning: (#center).
 	unnamedMorph5 cellSpacing: (#none).
-	unnamedMorph5 layoutInset: (2@0 corner: 2@0).
+	unnamedMorph5 layoutInset: (0).
 	unnamedMorph5 listCentering: (#topLeft).
-	unnamedMorph5 listDirection: (#leftToRight).
+	unnamedMorph5 listDirection: (#topToBottom).
 	unnamedMorph5 listSpacing: (#none).
 	unnamedMorph5 maxCellSize: (1073741823).
 	unnamedMorph5 minCellSize: (0).
@@ -285,75 +317,45 @@ initializePanel
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
-	unnamedMorph5 enabled: (true).
-	unnamedMorph5 setProperty: #iconByDesigner toValue: 'UiSilkIcons deleteIcon'.
-	unnamedMorph5 icon: (UiSilkIcons deleteIcon).
-	unnamedMorph5 text: ('Remove Selected').
-	unnamedMorph5 color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	unnamedMorph5 checkable: (false).
-	unnamedMorph5 checked: (false).
-	unnamedMorph5 autoExclusive: (false).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph5 color: (Color blue).
+	unnamedMorph5 borderWidth: (0).
+	unnamedMorph5 borderStyle2: (#simple).
+	unnamedMorph5 borderColor: (Color black).
+	unnamedMorph5 orientation: (#horizontal).
 	unnamedMorph4 addChild: unnamedMorph5.
-	unnamedMorph6 := UiSpacer new.
-	unnamedMorph6 extent: (286@20).
-	unnamedMorph6 position: (142@276).
-	unnamedMorph6 hResizing: (#spaceFill).
-	unnamedMorph6 vResizing: (#rigid).
-	unnamedMorph6 minWidth: (2).
-	unnamedMorph6 minHeight: (2).
-	unnamedMorph6 cellInset: (0).
-	unnamedMorph6 cellPositioning: (#center).
-	unnamedMorph6 cellSpacing: (#none).
-	unnamedMorph6 layoutInset: (0).
-	unnamedMorph6 listCentering: (#topLeft).
-	unnamedMorph6 listDirection: (#topToBottom).
-	unnamedMorph6 listSpacing: (#none).
-	unnamedMorph6 maxCellSize: (1073741823).
-	unnamedMorph6 minCellSize: (0).
-	unnamedMorph6 wrapCentering: (#topLeft).
-	unnamedMorph6 wrapDirection: (#none).
-	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
-	unnamedMorph6 color: (Color blue).
-	unnamedMorph6 borderWidth: (0).
-	unnamedMorph6 borderStyle2: (#simple).
-	unnamedMorph6 borderColor: (Color black).
-	unnamedMorph6 orientation: (#horizontal).
-	unnamedMorph4 addChild: unnamedMorph6.
-	unnamedMorph7 := UiPushButton new.
-	unnamedMorph7 changeTableLayout.
-	unnamedMorph7 extent: (44@20).
-	unnamedMorph7 position: (432@275).
-	unnamedMorph7 hResizing: (#shrinkWrap).
-	unnamedMorph7 vResizing: (#shrinkWrap).
-	unnamedMorph7 minWidth: (2).
-	unnamedMorph7 minHeight: (2).
-	unnamedMorph7 cellInset: (4).
-	unnamedMorph7 cellPositioning: (#center).
-	unnamedMorph7 cellSpacing: (#none).
-	unnamedMorph7 layoutInset: (2@0 corner: 2@0).
-	unnamedMorph7 listCentering: (#topLeft).
-	unnamedMorph7 listDirection: (#leftToRight).
-	unnamedMorph7 listSpacing: (#none).
-	unnamedMorph7 maxCellSize: (1073741823).
-	unnamedMorph7 minCellSize: (0).
-	unnamedMorph7 wrapCentering: (#topLeft).
-	unnamedMorph7 wrapDirection: (#none).
-	unnamedMorph7 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph7 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph7 balloonText: (nil).
-	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
-	unnamedMorph7 enabled: (true).
-	unnamedMorph7 setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
-	unnamedMorph7 icon: (UiSilkIcons acceptIcon).
-	unnamedMorph7 text: ('OK').
-	unnamedMorph7 color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	unnamedMorph7 checkable: (false).
-	unnamedMorph7 checked: (false).
-	unnamedMorph7 autoExclusive: (false).
-	unnamedMorph4 addChild: unnamedMorph7.
+	okBtn := UiPushButton new.
+	okBtn changeTableLayout.
+	okBtn extent: (44@20).
+	okBtn position: (432@275).
+	okBtn hResizing: (#shrinkWrap).
+	okBtn vResizing: (#shrinkWrap).
+	okBtn minWidth: (2).
+	okBtn minHeight: (2).
+	okBtn cellInset: (4).
+	okBtn cellPositioning: (#center).
+	okBtn cellSpacing: (#none).
+	okBtn layoutInset: (2@0 corner: 2@0).
+	okBtn listCentering: (#topLeft).
+	okBtn listDirection: (#leftToRight).
+	okBtn listSpacing: (#none).
+	okBtn maxCellSize: (1073741823).
+	okBtn minCellSize: (0).
+	okBtn wrapCentering: (#topLeft).
+	okBtn wrapDirection: (#none).
+	okBtn frameFractions: (0@0 corner: 1@1).
+	okBtn frameOffsets: (0@0 corner: 0@0).
+	okBtn balloonText: (nil).
+	okBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	okBtn enabled: (true).
+	okBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
+	okBtn icon: (UiSilkIcons acceptIcon).
+	okBtn text: ('OK').
+	okBtn color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	okBtn checkable: (false).
+	okBtn checked: (false).
+	okBtn autoExclusive: (false).
+	okBtn setProperty: #objectName toValue: 'okBtn'.
+	unnamedMorph4 addChild: okBtn.
 	panel addChild: unnamedMorph4.
 	panel setProperty: #uiClassName toValue: 'SPOOverlayDialog'.

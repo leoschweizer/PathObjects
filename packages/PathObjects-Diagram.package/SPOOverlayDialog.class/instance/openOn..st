@@ -3,7 +3,8 @@ openOn: PathObjects
 	
 	self pathObjects: PathObjects.
 	
-	self 
+	self
 		initializeSelectionBoxes;
 		initializeOverlayList;
-		openInWindowLabeled: 'Overlays'.
+		window: (self openInWindowLabeled: 'Overlays').
+	self window center: self pathObjects center.

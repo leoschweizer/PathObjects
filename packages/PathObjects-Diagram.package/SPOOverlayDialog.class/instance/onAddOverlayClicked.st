@@ -9,7 +9,9 @@ onAddOverlayClicked
 		(UiPropertyItemNode new
 			at: #visitor put: visitor;
 			at: #name put: 'User Defined';
-			at: #removeable put: true;
+			at: #metric put: metric class displayName;
+			at: #target put: visitor class displayName;
+			at: #removable put: true;
 			yourself).
 	
 	self updateOverlayList.
