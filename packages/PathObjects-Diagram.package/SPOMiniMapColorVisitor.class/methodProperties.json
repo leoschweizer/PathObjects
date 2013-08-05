@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"canVisualize:" : "ls 8/2/2013 11:09:57.588" },
+		"canVisualize:" : "ls 8/2/2013 11:09:57.588",
+		"displayName" : "ls 8/5/2013 18:01:55.34" },
 	"instance" : {
 		"visitMiniMapObject:representing:" : "ls 8/2/2013 11:09:40.144",
 		"visitsMiniMap" : "ls 8/2/2013 11:09:13.721" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"openOn:" : "ls 8/5/2013 19:03:54.415" },
+	"instance" : {
+		"initialize" : "ls 8/5/2013 18:27:40.303",
+		"initializeOverlayList" : "ls 8/5/2013 19:43:39.096",
+		"initializeSelectionBoxes" : "ls 8/5/2013 19:28:04",
+		"initializeVisitorBoxFor:" : "ls 8/5/2013 18:17:59.643",
+		"metrics" : "ls 8/5/2013 18:10:30.966",
+		"onAddOverlayClicked" : "ls 8/5/2013 19:44:05.642",
+		"onSelectedMetricChanged:text:" : "ls 8/5/2013 18:30:47.637",
+		"onSelectedVisitorChanged:text:" : "ls 8/5/2013 18:30:15.875",
+		"openOn:" : "ls 8/5/2013 19:05:37.786",
+		"pathObjects" : "ls 8/5/2013 19:05:13.416",
+		"pathObjects:" : "ls 8/5/2013 19:05:05.432",
+		"ui" : "ls 8/5/2013 17:32:58.115",
+		"updateButtonStates" : "ls 8/5/2013 18:21:40.933",
+		"updateOverlayList" : "ls 8/5/2013 19:43:52.707",
+		"visitors" : "ls 8/5/2013 18:10:36.733" } }

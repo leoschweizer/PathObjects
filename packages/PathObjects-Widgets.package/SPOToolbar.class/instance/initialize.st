@@ -16,7 +16,8 @@ initialize
 		cellInset: 5.
 		
 	self
-		addMetricSelect;
+		addMorphBack: (self buildSpacer: 0);
+		addOverlayButton;
 		addSeparator;
 		addFilterIcons;
 		addSeparator;

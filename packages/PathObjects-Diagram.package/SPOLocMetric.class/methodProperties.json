@@ -1,10 +1,10 @@
 {
 	"class" : {
-		 },
+		"coversMessages" : "ls 8/5/2013 17:58:04.49",
+		"displayName" : "ls 8/5/2013 17:53:27.543" },
 	"instance" : {
 		"average" : "ls 8/5/2013 13:43:06.691",
 		"calculateMetric" : "ls 8/1/2013 12:27:25.568",
-		"coversMessages" : "ls 8/5/2013 13:46:32.252",
 		"high" : "ls 8/5/2013 13:43:15.15",
 		"isThresholdBased" : "ls 8/5/2013 13:42:53.152",
 		"low" : "ls 8/5/2013 13:43:00.341" } }

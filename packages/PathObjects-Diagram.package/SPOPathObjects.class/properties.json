@@ -14,9 +14,10 @@
 		"timeline",
 		"diagramArea",
 		"backwardBtn",
-		"forwardBtn" ],
+		"forwardBtn",
+		"overlays" ],
 	"name" : "SPOPathObjects",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SPOUserInterface",
 	"type" : "normal" }

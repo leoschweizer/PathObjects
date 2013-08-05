@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"canVisualize:" : "ls 8/5/2013 12:55:43.24" },
+		"canVisualize:" : "ls 8/5/2013 12:55:43.24",
+		"displayName" : "ls 8/5/2013 18:02:43.121" },
 	"instance" : {
 		"visitTimelineItem:representing:" : "ls 8/5/2013 13:01:00.573",
 		"visitsTimeline" : "ls 8/5/2013 12:55:17.039" } }

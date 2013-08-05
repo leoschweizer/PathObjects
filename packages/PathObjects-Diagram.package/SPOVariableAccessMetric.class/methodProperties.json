@@ -1,7 +1,7 @@
 {
 	"class" : {
-		 },
+		"coversMessages" : "ls 8/5/2013 17:58:18.918",
+		"displayName" : "ls 8/5/2013 17:53:52.85" },
 	"instance" : {
 		"calculateMetric" : "ls 8/2/2013 11:18:18.365",
-		"coversMessages" : "ls 8/5/2013 13:46:45.94",
 		"isLinear" : "ls 8/5/2013 13:43:47.195" } }

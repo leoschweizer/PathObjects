@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"pathObjects" ],
+	"name" : "SPOOverlayDialog",
+	"pools" : [
+		 ],
+	"super" : "SPOUserInterface",
+	"type" : "normal" }

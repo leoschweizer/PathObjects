@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Diagram-Designs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metricBox",
+		"visitorBox",
+		"addOverlayBtn",
+		"overlayList" ],
+	"name" : "SPOOverlayDialogUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
