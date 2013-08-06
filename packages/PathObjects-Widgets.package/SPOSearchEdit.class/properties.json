@@ -7,8 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"input",
-		"backwardBtn",
-		"forwardBtn",
 		"clearBtn",
 		"resultList",
 		"resultListDecorator" ],
