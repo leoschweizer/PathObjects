@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"on:" : "ls 5/18/2013 23:02:32.717" },
+		"on:" : "ls 8/6/2013 10:57:33.291" },
 	"instance" : {
 		"childAt:inGroup:" : "ls 7/30/2013 17:57:06.359",
 		"childCountInGroup:" : "ls 5/18/2013 23:39:41.995",
@@ -8,9 +8,9 @@
 		"highlightNode:" : "ls 7/30/2013 18:53:16.995",
 		"highlightedNode" : "ls 7/30/2013 17:54:38.601",
 		"highlightedNode:" : "ls 7/30/2013 17:54:38.614",
-		"interactionModel" : "ls 5/18/2013 23:03:00.089",
-		"interactionModel:" : "ls 5/18/2013 23:03:00.102",
+		"interactionModel" : "ls 8/6/2013 10:56:53.968",
+		"pathObjects" : "ls 8/6/2013 10:56:42.944",
+		"pathObjects:" : "ls 8/6/2013 10:56:42.959",
 		"reset" : "ls 7/1/2013 16:40:24.507",
 		"steps" : "ls 7/9/2013 11:22:00.75",
-		"visitors" : "ls 7/30/2013 12:59:57.919",
-		"visitors:" : "ls 7/30/2013 12:52:45.442" } }
+		"visitors" : "ls 8/6/2013 10:59:09.366" } }

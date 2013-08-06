@@ -1,4 +1,6 @@
 accessing
 visitors
 	
-	^ visitors ifNil: [visitors := OrderedCollection new]
+	^ self pathObjects overlays
+		collect: [:each | each at: #visitor]
+		thenSelect: [:each | each visitsTimeline]

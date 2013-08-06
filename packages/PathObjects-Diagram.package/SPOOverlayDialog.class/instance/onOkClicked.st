@@ -1,5 +1,6 @@
 signals-callbacks
 onOkClicked
 	
-	self pathObjects stepTo: self pathObjects interactionModel currentStep.
+	self pathObjects applyOverlays.
+	self pathObjects timeline model reset.
 	self window closeBoxHit.

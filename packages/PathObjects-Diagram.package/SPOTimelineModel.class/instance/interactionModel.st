@@ -1,4 +1,4 @@
 accessing
 interactionModel
 	
-	^ interactionModel
+	^ self pathObjects interactionModel

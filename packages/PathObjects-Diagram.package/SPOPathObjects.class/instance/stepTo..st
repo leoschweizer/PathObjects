@@ -7,7 +7,7 @@ stepTo: aStep
 		duration: 200.
 	self refreshControllers.
 	
-	self overlays do: [:each | self accept: (each at: #visitor)].
+	self applyOverlays.
 	
 	"Create a thumbnail for the step if not already present"
 	"[self thumbnailFor: aStep] forkAt: Processor userBackgroundPriority."

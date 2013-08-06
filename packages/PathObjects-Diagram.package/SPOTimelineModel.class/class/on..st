@@ -1,4 +1,4 @@
 as yet unclassified
-on: anInteractionModel
+on: PathObjects
 	
-	^ self new interactionModel: anInteractionModel  
+	^ self new pathObjects: PathObjects

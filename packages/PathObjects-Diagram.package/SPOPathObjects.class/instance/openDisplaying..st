@@ -4,20 +4,11 @@ openDisplaying: anInteractionModel
 	| window |
 	self interactionModel: anInteractionModel.
 	window := self openInWindowLabeled: self title.
-	self timeline 
-		listSpec: SPOTimelineItemSpec new;
-		model: (SPOTimelineModel on: self interactionModel).
-	self diagramArea widget: (SPOObjectDiagram displaying: anInteractionModel).
-	self overlays
-		add: self basicStyleOverlay;
-		add: self basicTimelineOverlay.
 	self
-		addMorph: self toolbar;
-		addMorph: self diagramArea;
-		addMorph: self miniMap;
-		addMorph: self timeline;
-		addMorph: self backwardBtn;
-		addMorph: self forwardBtn;
+		initializeOverlays;
+		initializeTimeline;
+		initializeDiagram;
+		initializeUi;
 		initializeSignals;
 		stepTo: anInteractionModel currentStep.
 	^ window
