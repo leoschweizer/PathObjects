@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"on:" : "ls 8/6/2013 17:05:51.777" },
+	"instance" : {
+		"initialize" : "ls 8/6/2013 18:26:47.156",
+		"label" : "ls 8/6/2013 18:35:26.674",
+		"legends" : "ls 8/6/2013 17:15:32.448",
+		"onLegendHovered:event:" : "ls 8/6/2013 18:08:23.32",
+		"onLegendHoveredOut:" : "ls 8/6/2013 18:35:52.779",
+		"pathObjects" : "ls 8/6/2013 17:02:00.236",
+		"pathObjects:" : "ls 8/6/2013 17:02:00.25",
+		"refreshColorLegends" : "ls 8/6/2013 18:35:38.084" } }

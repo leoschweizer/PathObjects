@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"canVisualize:" : "ls 8/2/2013 11:09:57.588",
-		"displayName" : "ls 8/5/2013 18:01:55.34" },
+		"displayName" : "ls 8/5/2013 18:01:55.34",
+		"providesColorLegend" : "ls 8/6/2013 17:07:13.611" },
 	"instance" : {
 		"visitMiniMapObject:representing:" : "ls 8/2/2013 11:09:40.144",
 		"visitsMiniMap" : "ls 8/2/2013 11:09:13.721" } }

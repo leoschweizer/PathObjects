@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colors" ],
+	"name" : "SPOColorLegendMorph",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }

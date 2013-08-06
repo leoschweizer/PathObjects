@@ -17,7 +17,7 @@ initialize
 		
 	self
 		addMorphBack: (self buildSpacer: 0);
-		addOverlayButton;
+		addOverlayButtons;
 		addSeparator;
 		addFilterIcons;
 		addSeparator;

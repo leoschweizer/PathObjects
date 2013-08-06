@@ -8,5 +8,6 @@ layout: mainWindow in: newBounds
 		layoutToolbarIn: newBounds;
 		layoutDiagramAreaIn: newBounds;
 		layoutMiniMapIn: newBounds;
+		layoutLegendIn: newBounds;
 		layoutTimelineIn: newBounds;
 		layoutSteppingButtonsIn: newBounds.

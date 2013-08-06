@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"providesColorLegend" : "ls 8/6/2013 17:06:29.303" },
 	"instance" : {
 		"visitEdge:representing:" : "ls 8/1/2013 14:27:28.666",
 		"visitMiniMapObject:representing:" : "ls 8/1/2013 14:27:33.189",

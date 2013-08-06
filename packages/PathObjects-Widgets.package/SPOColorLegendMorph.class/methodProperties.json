@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"colors" : "ls 8/6/2013 16:39:50.139",
+		"colors:" : "ls 8/6/2013 16:37:58.321",
+		"convertToRelativePosition:" : "ls 8/6/2013 17:43:15.678",
+		"defaultBorderColor" : "ls 8/6/2013 16:35:19.763",
+		"defaultBorderWidth" : "ls 8/6/2013 16:35:30.323",
+		"drawBordersOn:" : "ls 8/6/2013 16:36:21.811",
+		"drawColorsOn:" : "ls 8/6/2013 16:37:26.385",
+		"drawOn:" : "ls 8/6/2013 16:36:01.702",
+		"handleMouseMove:" : "ls 8/6/2013 17:28:05.624",
+		"handlesMouseOver:" : "ls 8/6/2013 17:27:33.262",
+		"initialize" : "ls 8/6/2013 17:38:38.831" } }

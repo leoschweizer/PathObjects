@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Diagram",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pathObjects",
+		"legends",
+		"label" ],
+	"name" : "SPOLegendContainer",
+	"pools" : [
+		 ],
+	"super" : "UiContainer",
+	"type" : "normal" }

@@ -4,7 +4,7 @@ addMiniMapToggle
 	| button |
 	button := self 
 		buildButtonWith: UiFugueIcons mapMediumIcon
-		and: 'toggle minimap'.
+		and: 'Toggle minimap'.
 	button
 		checkable: true;
 		checked: true.

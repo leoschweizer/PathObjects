@@ -5,8 +5,9 @@ addFilterIcons
 	group := self buildGroup.
 	
 	button1 := self 
-		buildButtonWith: UiFugueIcons funnelPencilIcon 
-		and: 'Configure message filter'.
+		buildTextButton: 'Edit Filter'
+		with: UiFugueIcons funnelPencilIcon 
+		and: nil.
 	button2 := self 
 		buildButtonWith: UiSilkIcons arrowRefreshSmallIcon 
 		and: 'Refresh layout'.
