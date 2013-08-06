@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"metricSelect",
 		"searchEdit" ],
 	"name" : "SPOToolbar",
 	"pools" : [

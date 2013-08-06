@@ -1,4 +1,0 @@
-signals
-editFilterClicked
-	
-	self emitAlways.

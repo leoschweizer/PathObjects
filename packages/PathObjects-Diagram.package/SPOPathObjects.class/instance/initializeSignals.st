@@ -1,7 +1,7 @@
 initialization
 initializeSignals
 	
-	self 
+	self
 		connect: self backwardBtn signal: #clicked toSelector: #onSteppedBackward;
 		connect: self forwardBtn signal: #clicked toSelector: #onSteppedForward;
 		connect: self timeline signal: #currentNodeChanged: toSelector: #onTimelineClicked:.
@@ -11,8 +11,7 @@ initializeSignals
 		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:;
 		connect: self diagram signal: #extentChanged: toSelector: #updateExtent:.
 	
-	self 
-		connect: self toolbar metricSelect signal: #currentIndexChanged:text: toSelector: #onMetricChanged: pattern: #(1);
+	self
 		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #onSearchResultChanged:;
 		connect: self toolbar signal: #actionTriggered: toSelector: #onToolbarAction:.
 	
