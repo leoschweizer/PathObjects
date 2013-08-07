@@ -8,4 +8,5 @@ initializeSignals
 		connect: self ui spacer eventHandler signal: #mouseLeft: toSelector: #onMouseLeft;
 		connect: self ui spacer eventHandler signal: #mouseLeftDragging: toSelector: #onMouseLeft;
 		connect: self ui updateStateBtn signal: #clicked: toSelector: #onUpdateStateToggled;
+		connect: self ui trackReferencesBtn signal: #clicked: toSelector: #onTrackReferencesToggled;
 		connect: self ui searchBtn signal: #clicked: toSelector: #onSearchClicked.

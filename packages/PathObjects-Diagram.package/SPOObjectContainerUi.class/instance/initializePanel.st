@@ -62,8 +62,8 @@ initializePanel
 	spacer setProperty: #objectName toValue: 'spacer'.
 	menuContainer := UiContainer new.
 	menuContainer changeTableLayout.
-	menuContainer extent: (41@19).
-	menuContainer position: (58@3).
+	menuContainer extent: (67@19).
+	menuContainer position: (45@3).
 	menuContainer hResizing: (#shrinkWrap).
 	menuContainer vResizing: (#shrinkWrap).
 	menuContainer minWidth: (2).
@@ -91,7 +91,7 @@ initializePanel
 	updateStateBtn := UiToolButton new.
 	updateStateBtn changeTableLayout.
 	updateStateBtn extent: (18@18).
-	updateStateBtn position: (58@3).
+	updateStateBtn position: (45@3).
 	updateStateBtn hResizing: (#shrinkWrap).
 	updateStateBtn vResizing: (#shrinkWrap).
 	updateStateBtn minWidth: (2).
@@ -109,11 +109,11 @@ initializePanel
 	updateStateBtn wrapDirection: (#none).
 	updateStateBtn frameFractions: (0@0 corner: 1@1).
 	updateStateBtn frameOffsets: (0@0 corner: 0@0).
-	updateStateBtn balloonText: (nil).
+	updateStateBtn balloonText: ('Track object state changes').
 	updateStateBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	updateStateBtn enabled: (true).
-	updateStateBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons arrowRefreshSmallIcon'.
-	updateStateBtn icon: (UiSilkIcons arrowRefreshSmallIcon).
+	updateStateBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeDeleteChildIcon'.
+	updateStateBtn icon: (UiFugueIcons nodeDeleteChildIcon).
 	updateStateBtn text: ('ToolButton').
 	updateStateBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
 	updateStateBtn checkable: (true).
@@ -123,10 +123,45 @@ initializePanel
 	updateStateBtn buttonStyle: (#iconOnly).
 	updateStateBtn setProperty: #objectName toValue: 'updateStateBtn'.
 	menuContainer addChild: updateStateBtn.
+	trackReferencesBtn := UiToolButton new.
+	trackReferencesBtn changeTableLayout.
+	trackReferencesBtn extent: (22@18).
+	trackReferencesBtn position: (67@3).
+	trackReferencesBtn hResizing: (#shrinkWrap).
+	trackReferencesBtn vResizing: (#shrinkWrap).
+	trackReferencesBtn minWidth: (2).
+	trackReferencesBtn minHeight: (2).
+	trackReferencesBtn cellInset: (4).
+	trackReferencesBtn cellPositioning: (#center).
+	trackReferencesBtn cellSpacing: (#none).
+	trackReferencesBtn layoutInset: (2@0 corner: 2@0).
+	trackReferencesBtn listCentering: (#topLeft).
+	trackReferencesBtn listDirection: (#leftToRight).
+	trackReferencesBtn listSpacing: (#none).
+	trackReferencesBtn maxCellSize: (1073741823).
+	trackReferencesBtn minCellSize: (0).
+	trackReferencesBtn wrapCentering: (#topLeft).
+	trackReferencesBtn wrapDirection: (#none).
+	trackReferencesBtn frameFractions: (0@0 corner: 1@1).
+	trackReferencesBtn frameOffsets: (0@0 corner: 0@0).
+	trackReferencesBtn balloonText: ('Track outgoing references').
+	trackReferencesBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	trackReferencesBtn enabled: (true).
+	trackReferencesBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeSelectChildIcon'.
+	trackReferencesBtn icon: (UiFugueIcons nodeSelectChildIcon).
+	trackReferencesBtn text: ('ToolButton').
+	trackReferencesBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
+	trackReferencesBtn checkable: (true).
+	trackReferencesBtn checked: (false).
+	trackReferencesBtn autoExclusive: (false).
+	trackReferencesBtn autoRaise: (true).
+	trackReferencesBtn buttonStyle: (#iconOnly).
+	trackReferencesBtn setProperty: #objectName toValue: 'trackReferencesBtn'.
+	menuContainer addChild: trackReferencesBtn.
 	searchBtn := UiToolButton new.
 	searchBtn changeTableLayout.
 	searchBtn extent: (18@18).
-	searchBtn position: (80@3).
+	searchBtn position: (93@3).
 	searchBtn hResizing: (#shrinkWrap).
 	searchBtn vResizing: (#shrinkWrap).
 	searchBtn minWidth: (2).
@@ -144,11 +179,11 @@ initializePanel
 	searchBtn wrapDirection: (#none).
 	searchBtn frameFractions: (0@0 corner: 1@1).
 	searchBtn frameOffsets: (0@0 corner: 0@0).
-	searchBtn balloonText: (nil).
+	searchBtn balloonText: ('Perform quick search').
 	searchBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	searchBtn enabled: (true).
-	searchBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons magnifierIcon'.
-	searchBtn icon: (UiSilkIcons magnifierIcon).
+	searchBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeMagnifierIcon'.
+	searchBtn icon: (UiFugueIcons nodeMagnifierIcon).
 	searchBtn text: ('').
 	searchBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
 	searchBtn checkable: (false).

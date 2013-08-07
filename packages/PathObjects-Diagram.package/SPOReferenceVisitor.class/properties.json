@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceObject",
+		"color",
+		"references" ],
+	"name" : "SPOReferenceVisitor",
+	"pools" : [
+		 ],
+	"super" : "SPOVisitor",
+	"type" : "normal" }
