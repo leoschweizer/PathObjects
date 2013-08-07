@@ -1,4 +1,4 @@
 drawing
 drawHistoryEdgeStyleOn: aMorph representing: aStep
 	
-	aMorph  lineColor: (Color black alpha: 0.1).
+	aMorph lineColor: (Color black alpha: 0.1).
