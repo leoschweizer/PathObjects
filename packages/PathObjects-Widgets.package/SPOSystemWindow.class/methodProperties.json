@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWindowMenu" : "ls 5/19/2013 21:39:33.649",
+		"buildWindowMenu" : "ls 8/7/2013 13:06:34.246",
+		"child" : "ls 8/7/2013 13:04:12.591",
+		"child:" : "ls 8/7/2013 13:04:12.605",
 		"defaultBackgroundColor" : "ls 7/9/2013 17:04:50.445",
 		"model" : "ls 7/9/2013 17:05:19.392" } }
