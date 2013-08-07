@@ -13,3 +13,4 @@ onTrackReferencesToggled
 		at: #metric put: self objectProxy label;
 		at: #target put: '-';
 		yourself).
+	self pathObjects applyOverlays.

@@ -2,10 +2,9 @@
 	"class" : {
 		"on:inClass:waitingCalls:withTracer:" : "ls 7/19/2013 23:07:29.396" },
 	"instance" : {
+		"outboundPointersOf:" : "ls 8/7/2013 17:35:05.79",
 		"references" : "ls 7/19/2013 22:43:24.473",
-		"referencesAfter" : "ls 7/19/2013 22:44:06.482",
-		"referencesBefore" : "ls 7/19/2013 22:43:54.985",
-		"traceReferencesOf:into:" : "ls 7/19/2013 23:08:02.137",
+		"traceReferencesOf:into:" : "ls 8/7/2013 20:12:42.315",
 		"tracer" : "ls 7/19/2013 23:06:39.61",
 		"tracer:" : "ls 7/19/2013 23:06:42.658",
-		"valueWithReceiver:arguments:" : "ls 7/19/2013 23:19:12.232" } }
+		"valueWithReceiver:arguments:" : "ls 8/7/2013 20:11:13.442" } }

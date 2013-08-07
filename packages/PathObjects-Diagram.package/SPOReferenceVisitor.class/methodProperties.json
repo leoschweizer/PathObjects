@@ -4,8 +4,9 @@
 	"instance" : {
 		"color" : "ls 8/7/2013 15:45:44.35",
 		"color:" : "ls 8/7/2013 15:36:15.671",
-		"references" : "ls 8/7/2013 15:39:17.22",
+		"invalidateStep" : "ls 8/7/2013 16:58:47.676",
+		"references" : "ls 8/7/2013 16:58:59.531",
 		"sourceObject" : "ls 8/7/2013 15:36:35.488",
 		"sourceObject:" : "ls 8/7/2013 15:36:35.503",
-		"visitObject:representing:" : "ls 8/7/2013 15:35:44.693",
+		"visitObject:representing:" : "ls 8/7/2013 17:13:46.353",
 		"visitsObjects" : "ls 8/7/2013 15:34:54.997" } }

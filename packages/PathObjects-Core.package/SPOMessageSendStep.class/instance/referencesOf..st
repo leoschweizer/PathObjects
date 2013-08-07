@@ -1,6 +1,9 @@
 as yet unclassified
 referencesOf: anObjectProxy
 	
-	| refs |
-	refs := self interactionModel callgraph tracer exploreReferences: #foo on: self callNode.
-	self halt.
+	| roles |
+	roles := anObjectProxy rolesInStep: self.
+	(roles includes: #receiver) ifTrue: [^ (self callNode exploreReferences: #referencesBefore)].
+	(roles includes: #sender) ifTrue: [^ (self callNode fromSender exploreReferences: #referencesBefore)].
+	
+	^ self previousStep referencesOf: anObjectProxy
