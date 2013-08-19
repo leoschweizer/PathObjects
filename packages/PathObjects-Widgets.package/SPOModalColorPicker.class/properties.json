@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore",
+		"pickedColor" ],
+	"name" : "SPOModalColorPicker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
