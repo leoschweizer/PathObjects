@@ -1,5 +1,5 @@
-public api
-legendLabelFor: aPosition
+legend
+thresholdLabelFor: aPosition
 	
 	aPosition x < 0.25
 		ifTrue: [^ ('\<= ', self low asString)].

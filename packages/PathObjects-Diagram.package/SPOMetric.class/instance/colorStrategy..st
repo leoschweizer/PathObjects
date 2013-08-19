@@ -1,4 +1,4 @@
-private api
+accessing
 colorStrategy: aStrategy
 	
 	colorStrategy := aStrategy.

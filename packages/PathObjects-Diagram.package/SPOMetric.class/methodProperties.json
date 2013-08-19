@@ -13,7 +13,11 @@
 		"isLinear" : "ls 8/5/2013 13:36:49.445",
 		"isLogarithmic" : "ls 8/5/2013 13:36:57.439",
 		"isThresholdBased" : "ls 8/5/2013 13:37:05.035",
+		"legendLabelFor:" : "ls 8/19/2013 15:42:08.497",
+		"linearLabelFor:" : "ls 8/19/2013 15:40:04.95",
+		"logarithmicLabelFor:" : "ls 8/19/2013 15:41:55.165",
 		"maxValue" : "ls 8/1/2013 12:26:35.502",
 		"minValue" : "ls 8/1/2013 12:26:44.857",
+		"thresholdLabelFor:" : "ls 8/19/2013 15:39:52.585",
 		"valueOf:" : "ls 8/1/2013 12:27:04.693",
 		"values" : "ls 7/31/2013 14:36:07.084" } }
