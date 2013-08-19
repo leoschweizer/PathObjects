@@ -1,4 +1,4 @@
-as yet unclassified
+search
 searchResultFor: key in: index
 	
 	index = #unknown 

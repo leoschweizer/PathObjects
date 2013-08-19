@@ -1,4 +1,4 @@
-as yet unclassified
+public api
 letUserPickFor: anObject
 	
 	self semaphore: Semaphore new.
@@ -10,7 +10,7 @@ letUserPickFor: anObject
 		selector: #onColorPicked:;
 		originalColor: self originalColor;		
 		putUpFor: anObject
-		near: anObject fullBoundsInWorld] fork.
+		near: self origin] fork.
 	self semaphore wait.
 	
 	^ self pickedColor

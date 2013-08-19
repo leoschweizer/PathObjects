@@ -1,4 +1,6 @@
 accessing
 originalColor
 	
-	^ Color red
+	^ self properties
+		at: #originalColor
+		ifAbsent: [Color red]

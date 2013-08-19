@@ -1,4 +1,6 @@
 accessing
 pickedColor
 	
-	^ pickedColor
+	^ self properties
+		at: #pickedColor
+		ifAbsent: [nil]

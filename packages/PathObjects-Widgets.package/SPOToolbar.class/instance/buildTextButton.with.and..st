@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildTextButton: text with: icon and: helpText
 	
 	^ UiToolButton new

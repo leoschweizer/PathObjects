@@ -1,4 +1,6 @@
 accessing
-pickedColor: anObject
+pickedColor: aColor
 	
-	pickedColor := anObject.
+	self properties
+		at: #pickedColor
+		put: aColor.

@@ -1,4 +1,4 @@
-as yet unclassified
+search
 hideResults
 
 	resultListDecorator owner ifNil: [^ self].

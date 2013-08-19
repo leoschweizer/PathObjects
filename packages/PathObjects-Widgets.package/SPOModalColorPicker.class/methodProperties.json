@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"letUserPickFor:" : "ls 8/19/2013 20:20:14.182",
+		"letUserPickFor:" : "ls 8/19/2013 22:52:28.356",
 		"onColorPicked:" : "ls 8/19/2013 20:13:35.316",
-		"originalColor" : "ls 8/19/2013 20:16:29.424",
-		"pickedColor" : "ls 8/19/2013 20:13:24.461",
-		"pickedColor:" : "ls 8/19/2013 20:13:24.474",
+		"origin" : "ls 8/19/2013 22:52:09.904",
+		"originalColor" : "ls 8/19/2013 22:49:59.13",
+		"pickedColor" : "ls 8/19/2013 22:48:39.136",
+		"pickedColor:" : "ls 8/19/2013 22:49:05.985",
+		"properties" : "ls 8/19/2013 22:48:14.037",
 		"semaphore" : "ls 8/19/2013 20:11:12.95",
 		"semaphore:" : "ls 8/19/2013 20:11:12.964" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+events-processing
 handleMouseMove: anEvent
 	
 	anEvent wasHandled: true.
