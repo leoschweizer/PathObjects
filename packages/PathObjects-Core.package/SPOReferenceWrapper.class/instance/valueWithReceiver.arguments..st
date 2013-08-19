@@ -5,6 +5,7 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 	be incorrect"
 	
 	| result |
+	Transcript show: (anObject class asString); cr.
 	self traceReferencesOf: anObject into: #referencesBefore.
 	self decrementCallCount.
 	^	[result := self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.

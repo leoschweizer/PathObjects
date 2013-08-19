@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"createReferenceWrapper:on:" : "ls 7/19/2013 23:07:46.415",
+		"existingIdFor:" : "ls 8/19/2013 16:12:26.86",
 		"exploreReferences:on:" : "ls 8/7/2013 17:13:13.089",
+		"getCallWrapperClass" : "ls 8/19/2013 17:48:34.721",
 		"idFor:" : "ls 7/11/2013 21:53:04.813",
 		"idGenerator" : "ls 7/11/2013 21:52:24.231",
 		"resetIdGenerator" : "ls 8/7/2013 16:42:22.033" } }

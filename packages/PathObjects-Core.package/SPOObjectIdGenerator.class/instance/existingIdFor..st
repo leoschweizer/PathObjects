@@ -3,4 +3,4 @@ existingIdFor: anObject
 	
 	^ self objectIds
 		at: anObject
-		ifAbsent: [self halt]
+		ifAbsent: [-999]

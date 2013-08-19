@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOCallWrapper",
+	"pools" : [
+		 ],
+	"super" : "SCallWrapper",
+	"type" : "normal" }

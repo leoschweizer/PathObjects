@@ -3,9 +3,7 @@ openOn: aProject class: aTestClass selector: aSelector
 	
 	| tracer window |
 	tracer := SPOCallgraphTracer on: aProject.
-	tracer
-		callgraphModel: (SCallgraphModel on: tracer);
-		viewMode: #identities.
+	tracer callgraphModel: (SCallgraphModel on: tracer).
 	
 	'Analyzing unit test...'
 		displayProgressFrom: 0 to: 3
