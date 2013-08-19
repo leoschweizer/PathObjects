@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createReferenceWrapper:on:" : "ls 7/19/2013 23:07:46.415",
 		"existingIdFor:" : "ls 8/19/2013 16:12:26.86",
-		"exploreReferences:on:" : "ls 8/7/2013 17:13:13.089",
+		"exploreReferences:on:" : "ls 8/19/2013 19:49:26.759",
+		"findReferences:on:" : "ls 8/19/2013 20:00:53.911",
 		"getCallWrapperClass" : "ls 8/19/2013 17:48:34.721",
 		"idFor:" : "ls 7/11/2013 21:53:04.813",
 		"idGenerator" : "ls 7/11/2013 21:52:24.231",
-		"resetIdGenerator" : "ls 8/7/2013 16:42:22.033" } }
+		"references" : "ls 8/19/2013 18:24:47.235",
+		"targetNodeId" : "ls 8/19/2013 18:09:22.279",
+		"targetNodeId:" : "ls 8/19/2013 18:09:22.291",
+		"traceReferences" : "ls 8/19/2013 18:12:22.309",
+		"traceReferences:" : "ls 8/19/2013 18:06:13.186" } }

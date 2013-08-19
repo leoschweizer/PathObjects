@@ -1,4 +1,4 @@
-evaluating
+tracing
 outboundPointersOf: anObject
 	
 	| result |

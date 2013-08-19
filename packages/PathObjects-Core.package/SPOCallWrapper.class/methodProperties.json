@@ -3,4 +3,7 @@
 		 },
 	"instance" : {
 		"getAllIdentitiesOf:" : "ls 8/19/2013 17:44:49.995",
-		"valueWithReceiver:arguments:" : "ls 8/19/2013 17:45:47.131" } }
+		"outboundPointersOf:" : "ls 8/19/2013 18:16:33.61",
+		"shouldTraceReferences" : "ls 8/19/2013 19:57:20.782",
+		"traceReferencesOf:into:" : "ls 8/19/2013 19:44:18.712",
+		"valueWithReceiver:arguments:" : "ls 8/19/2013 18:18:18.711" } }

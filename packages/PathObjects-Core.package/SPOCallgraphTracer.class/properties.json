@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"idGenerator" ],
+		"idGenerator",
+		"traceReferences",
+		"targetNodeId",
+		"references" ],
 	"name" : "SPOCallgraphTracer",
 	"pools" : [
 		 ],

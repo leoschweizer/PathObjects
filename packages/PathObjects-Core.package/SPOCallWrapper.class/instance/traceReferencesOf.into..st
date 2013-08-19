@@ -1,9 +1,9 @@
-evaluating
+tracing
 traceReferencesOf: anObject into: aSymbol
 	
 	| pointers |
-	self isSpecificCall ifFalse: [^ self].
+	self shouldTraceReferences ifFalse: [^ self].
 	pointers := (self outboundPointersOf: anObject) collect: [:each | self tracer existingIdFor: each].
-	self references
+	self tracer references
 		at: aSymbol
-		put: pointers
+		put: pointers.
