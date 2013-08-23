@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 from: aMorph to: otherMorph step: aStep
 	
 	^ self new 

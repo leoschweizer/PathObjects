@@ -1,4 +1,4 @@
-as yet unclassified
+style table
 subduedStyleTable
 
 	^ self defaultStyleTable

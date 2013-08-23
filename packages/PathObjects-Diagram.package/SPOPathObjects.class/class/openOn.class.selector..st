@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 openOn: aProject class: aTestClass selector: aSelector
 	
 	| tracer window |

@@ -1,4 +1,4 @@
-as yet unclassified
+style table
 defaultStyleTable
 	"color can be a valid argument to Color class>>colorFrom: , or nil to
 	use the editor text color.

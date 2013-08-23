@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: anObjectProxy
 	
 	^ self new initializeWith: anObjectProxy
