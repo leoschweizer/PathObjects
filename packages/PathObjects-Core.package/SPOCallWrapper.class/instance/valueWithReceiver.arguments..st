@@ -17,7 +17,7 @@ valueWithReceiver: anObject arguments: anArrayOfObjects
 			[result := self clientMethod valueWithReceiver: anObject arguments: anArrayOfObjects.
 			self traceReferencesOf: result into: #referencesReturn.
 			^ result] ensure: 
-				[(self tracer callgraphModel currentNode views at: #allIdentities) add: (self tracer idFor: result).
+				[(self tracer callTreeModel currentNode views at: #allIdentities) add: (self tracer idFor: result).
 				self traceReferencesOf: anObject into: #referencesAfter.
 				self afterMethod]]
 	

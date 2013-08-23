@@ -13,5 +13,5 @@
 	"name" : "SPOCallgraphTracer",
 	"pools" : [
 		 ],
-	"super" : "SCallgraphTracer",
+	"super" : "SCallTreeTracer",
 	"type" : "normal" }

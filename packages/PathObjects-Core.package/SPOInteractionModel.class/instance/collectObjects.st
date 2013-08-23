@@ -3,7 +3,7 @@ collectObjects
 	
 	| id receiver |
 	self objects add: (-1 -> (SPOObjectProxy model: self id: nil type: nil)).
-	self callgraph traverseCallGraph: self callgraph rootNode with: [:node |
+	self callgraph traverseCallTree: self callgraph rootNode with: [:node |
 		id := (node views at: #allIdentities) first.
 		receiver := node views at: #receiver.
 		self objects

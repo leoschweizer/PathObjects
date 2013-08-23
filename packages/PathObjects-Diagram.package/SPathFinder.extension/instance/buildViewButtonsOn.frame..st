@@ -8,6 +8,6 @@ buildViewButtonsOn: aBuilder frame: aRectangle
 			#('PathView' #openPathViewOnTrace #isGraphAvailable).
 			#('PathObjects' #openObjectViewOnTrace #isGraphAvailable)
 		}
-		model: self callgraphModel.
+		model: self callTreeModel.
 	buttonSpec frame: aRectangle.
 	self windowSpec children add: buttonSpec.

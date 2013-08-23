@@ -8,10 +8,10 @@ findReferences: aSymbol on: aCallNode
 	| tracer newGraph |
 	tracer := SPOCallgraphTracer on: self project.
 	tracer
-		callgraphModel: (SCallgraphModel on: tracer);
+		callTreeModel: (SCallTreeModel on: tracer);
 		targetNodeId: aCallNode id;
 		traceReferences: true.	
 	newGraph := tracer
-		traceTest: self callgraphModel rootNode clientClass
-		method: self callgraphModel rootNode clientSelector.
+		traceTest: self callTreeModel rootNode clientClass
+		method: self callTreeModel rootNode clientSelector.
 	^ (tracer references at: aSymbol) asSet
