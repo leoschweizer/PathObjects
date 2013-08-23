@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"drawSegmentedDashedCurveOn:aaCanvas:color:borderColor:" : "ls 7/29/2013 19:36:47.264" } }
+		"drawSegmentedCurveOnAACanvas:canvas:isShadow:" : "ls 8/23/2013 17:48:54.093",
+		"drawSegmentedDashedCurveOn:aaCanvas:color:borderColor:" : "ls 7/29/2013 19:36:47.264",
+		"drawSegmentedDashedCurveOn:color:borderColor:" : "ls 8/23/2013 17:49:41.602" } }
