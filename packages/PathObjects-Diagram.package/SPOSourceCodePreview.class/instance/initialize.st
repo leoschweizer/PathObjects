@@ -3,7 +3,6 @@ initialize
 
 	super initialize.
 	self ui setupUi: self.
-	self shouldHide: true.
 	self 
 		initializeSignals;
 		updateButtons.

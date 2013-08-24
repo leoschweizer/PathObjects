@@ -14,3 +14,4 @@ popUpOn: aStep
 	
 	ActiveWorld addMorphFront: instance.
 	instance topLeft: ActiveHand position.
+	^ instance

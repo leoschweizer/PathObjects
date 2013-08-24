@@ -11,8 +11,7 @@
 		"contextRange",
 		"method",
 		"methodRange",
-		"currentMethod",
-		"shouldHide" ],
+		"currentMethod" ],
 	"name" : "SPOSourceCodePreview",
 	"pools" : [
 		 ],
