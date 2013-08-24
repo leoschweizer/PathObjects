@@ -14,4 +14,5 @@ popUpOn: aStep
 	
 	ActiveWorld addMorphFront: instance.
 	instance topLeft: ActiveHand position.
+	instance ui sourcePane grabKeyboard.
 	^ instance

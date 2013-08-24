@@ -284,7 +284,7 @@ initializePanel
 	sourcePane outerBorderWidth: (0).
 	sourcePane scrollBarThickness: (9).
 	sourcePane theText: ('').
-	sourcePane readOnly: (true).
+	sourcePane readOnly: (false).
 	sourcePane autoConvert: (false).
 	sourcePane autoAccept: (false).
 	sourcePane acceptOnFocusLost: (false).

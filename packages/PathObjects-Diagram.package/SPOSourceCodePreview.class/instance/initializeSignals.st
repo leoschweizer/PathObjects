@@ -7,4 +7,5 @@ initializeSignals
 		connect: self ui contextBtn signal: #clicked: toSelector: #showMessageContext;
 		connect: self ui messageBtn signal: #clicked: toSelector: #showMessage;
 		connect: self ui browseBtn signal: #clicked: toSelector: #browseSelection;
-		connect: self ui closeBtn signal: #clicked: toSelector: #close.
+		connect: self ui closeBtn signal: #clicked: toSelector: #close;
+		connect: self ui sourcePane eventHandler signal: #focusLost toSelector: #close.

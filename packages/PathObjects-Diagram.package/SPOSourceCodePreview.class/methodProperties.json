@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"popUpOn:" : "ls 8/24/2013 14:48:24.209" },
+		"popUpOn:" : "ls 8/24/2013 15:33:18.262" },
 	"instance" : {
 		"browseSelection" : "ls 4/28/2013 10:40:09.768",
 		"classOrMetaClass" : "ls 5/25/2013 11:19:16.078",
@@ -12,8 +12,8 @@
 		"contextRange:" : "ls 4/28/2013 09:35:36.019",
 		"currentMethod" : "ls 4/28/2013 10:39:19.809",
 		"currentMethod:" : "ls 4/28/2013 10:39:19.82",
-		"initialize" : "ls 8/24/2013 14:51:14.326",
-		"initializeSignals" : "ls 8/24/2013 14:52:18.771",
+		"initialize" : "ls 8/24/2013 15:32:01.543",
+		"initializeSignals" : "ls 8/24/2013 15:36:24.787",
 		"method" : "ls 4/28/2013 09:35:36.03",
 		"method:" : "ls 4/28/2013 09:40:11.912",
 		"methodRange" : "ls 4/28/2013 10:39:19.785",
