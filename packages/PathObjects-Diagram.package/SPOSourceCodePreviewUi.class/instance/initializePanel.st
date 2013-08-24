@@ -112,7 +112,7 @@ initializePanel
 	contextBtn enabled: (true).
 	contextBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons mailsStackIcon'.
 	contextBtn icon: (UiFugueIcons mailsStackIcon).
-	contextBtn text: ('Message Context').
+	contextBtn text: ('Message').
 	contextBtn color: ((Color r: 1.0 g: 0.871 b: 0.0)).
 	contextBtn checkable: (true).
 	contextBtn checked: (true).
@@ -147,7 +147,7 @@ initializePanel
 	messageBtn enabled: (true).
 	messageBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons mailOpenDocumentTextIcon'.
 	messageBtn icon: (UiFugueIcons mailOpenDocumentTextIcon).
-	messageBtn text: ('Message').
+	messageBtn text: ('Method').
 	messageBtn color: ((Color r: 1.0 g: 0.871 b: 0.0)).
 	messageBtn checkable: (false).
 	messageBtn checked: (false).
