@@ -2,6 +2,6 @@
 	"class" : {
 		"widgetClassName" : "or 6/24/2013 14:49:43.206" },
 	"instance" : {
-		"hasKeyboard" : "or 6/24/2013 14:44:50.271",
-		"initialize" : "or 6/24/2013 15:11:52.38",
-		"initializeEventHandler" : "or 6/24/2013 14:44:19.792" } }
+		"hasKeyboard" : "ls 8/24/2013 15:43:50.074",
+		"initialize" : "ls 8/24/2013 15:41:55.159",
+		"initializeSignals" : "ls 8/24/2013 15:41:07.487" } }
