@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"doRuntimeProfiling" : "ls 8/25/2013 21:53:55.364",
 		"existingIdFor:" : "ls 8/19/2013 16:12:26.86",
 		"exploreReferences:on:" : "ls 8/19/2013 19:49:26.759",
 		"findReferences:on:" : "ls 8/23/2013 17:26:49.992",
