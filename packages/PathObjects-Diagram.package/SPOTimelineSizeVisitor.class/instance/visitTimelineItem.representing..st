@@ -5,5 +5,6 @@ visitTimelineItem: aMorph representing: aStep
 	maxHeight := aMorph height - 10.
 	metric := self metric valueOf: aStep.
 	metricMax := self metric maxValue.
-	height := ((metric / metricMax) * maxHeight) rounded.
+	metricMax = 0 ifTrue: [aMorph colorBar height: 6. ^ self].
+	height := 6+ ((metric / metricMax) * maxHeight) rounded.
 	aMorph colorBar height: height.
