@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openOn: PathObjects
 	
 	self pathObjects: PathObjects.

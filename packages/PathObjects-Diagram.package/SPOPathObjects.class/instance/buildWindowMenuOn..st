@@ -1,4 +1,4 @@
-as yet unclassified
+window menu
 buildWindowMenuOn: aMenu
 	
 	aMenu addLine.
