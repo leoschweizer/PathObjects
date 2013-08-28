@@ -9,6 +9,3 @@ stepTo: aStep
 	
 	self overlays do: [:each | (each at: #visitor) invalidateStep].
 	self applyOverlays.
-	
-	"Create a thumbnail for the step if not already present"
-	"[self thumbnailFor: aStep] forkAt: Processor userBackgroundPriority."
