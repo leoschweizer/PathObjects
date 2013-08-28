@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Examples-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOReferenceExample",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "PathObjects-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alias",
+		"knows" ],
+	"name" : "SPOObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
