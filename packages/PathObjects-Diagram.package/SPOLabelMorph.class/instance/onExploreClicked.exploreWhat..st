@@ -4,7 +4,7 @@ onExploreClicked: sender exploreWhat: aSymbol
 	| proxy objects parameterIndex |
 	aSymbol = #parameter ifTrue: 
 		[parameterIndex := sender valueOfProperty: #parameterIndex.
-		proxy := self interactionModel currentStep arguments at: parameterIndex.
+		proxy := (self interactionModel currentStep arguments at: parameterIndex) first.
 		(self pathObjects displays: proxy)
 			ifTrue: [self pathObjects scrollToAndExplore: proxy]
 			ifFalse: 
@@ -12,7 +12,7 @@ onExploreClicked: sender exploreWhat: aSymbol
 				(objects first at: parameterIndex) explore]].
 	
 	aSymbol = #return ifTrue:
-		[proxy := self interactionModel currentStep returnValue.
+		[proxy := self interactionModel currentStep returnValue first.
 		(self pathObjects displays: proxy)
 			ifTrue: [self pathObjects scrollToAndExplore: proxy]
 			ifFalse: 

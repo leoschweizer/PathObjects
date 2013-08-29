@@ -5,5 +5,5 @@ allInvolvedObjects
 		self sender.
 		self receiver.
 		self arguments.
-		self returnValue
+		self returnValue.
 	} flatten
