@@ -16,4 +16,6 @@ markCurrentNode
 	
 	currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each updateState].
+		thenDo: [:each | each
+			updateRoleLabels;
+			updateState].
