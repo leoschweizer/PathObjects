@@ -2,11 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"argumentIndicator" : "ls 6/6/2013 15:22:48.064",
-		"header" : "ls 6/6/2013 15:22:48.006",
-		"indicatorContainer" : "ls 6/6/2013 15:22:48.03",
-		"initializePanel" : "ls 6/6/2013 15:22:48.101",
-		"label" : "ls 6/6/2013 15:22:48.019",
-		"receiverIndicator" : "ls 6/6/2013 15:22:48.052",
-		"returnIndicator" : "ls 6/6/2013 15:22:48.075",
-		"senderIndicator" : "ls 6/6/2013 15:22:48.041" } }
+		"header" : "ls 8/29/2013 23:21:24.049",
+		"initializePanel" : "ls 8/29/2013 23:21:24.092",
+		"label" : "ls 8/29/2013 23:21:24.066" } }

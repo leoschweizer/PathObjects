@@ -196,7 +196,7 @@ initializePanel
 	spacer addChild: menuContainer.
 	objectMorph := SPOObjectMorph new.
 	objectMorph changeTableLayout.
-	objectMorph extent: (152@36).
+	objectMorph extent: (152@34).
 	objectMorph position: (2@24).
 	objectMorph hResizing: (#shrinkWrap).
 	objectMorph vResizing: (#shrinkWrap).

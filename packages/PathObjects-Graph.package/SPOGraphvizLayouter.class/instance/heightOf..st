@@ -1,4 +1,4 @@
 as yet unclassified
 heightOf: aNode
 	
-	^ 36 / GraphViz pointsPerInch
+	^ 34 / GraphViz pointsPerInch

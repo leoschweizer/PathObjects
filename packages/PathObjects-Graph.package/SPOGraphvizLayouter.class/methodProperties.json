@@ -3,15 +3,15 @@
 		 },
 	"instance" : {
 		"addEdgeFor:to:" : "ls 8/29/2013 15:50:04.452",
-		"addNodeFor:to:" : "ls 6/18/2013 16:42:35.359",
+		"addNodeFor:to:" : "ls 8/29/2013 22:51:52.572",
 		"addSelfLoopFor:to:" : "ls 8/29/2013 15:50:33.248",
 		"edgeRouter" : "ls 6/15/2013 15:11:41.869",
 		"generateGraph" : "ls 6/18/2013 16:42:58.132",
 		"generateLayout" : "ls 6/13/2013 20:03:11.338",
-		"heightOf:" : "ls 6/15/2013 12:32:45.909",
+		"heightOf:" : "ls 8/29/2013 23:27:08.683",
 		"layout" : "ls 6/12/2013 21:05:12.606",
 		"layout:in:" : "ls 6/28/2013 11:03:52.066",
 		"layoutedGraph" : "ls 6/12/2013 21:01:04.83",
 		"layoutedGraph:" : "ls 6/12/2013 20:59:06.439",
 		"updateCanvas:" : "ls 6/15/2013 14:44:52.534",
-		"widthOf:" : "ls 6/15/2013 15:05:02.421" } }
+		"widthOf:" : "ls 8/29/2013 22:52:02.515" } }

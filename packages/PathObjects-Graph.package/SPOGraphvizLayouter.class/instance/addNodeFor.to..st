@@ -2,7 +2,7 @@ as yet unclassified
 addNodeFor: aProxy to: aGraph
 	
 	aGraph add: aProxy objectId with: {
-		#label -> aProxy label.
+		#label -> aProxy label lines first.
 		#shape -> #none.
 		#width -> (self widthOf: aProxy).
 		#height -> (self heightOf: aProxy).
