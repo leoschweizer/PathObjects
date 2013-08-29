@@ -145,7 +145,7 @@ initializePanel
 	trackReferencesBtn frameFractions: (0@0 corner: 1@1).
 	trackReferencesBtn frameOffsets: (0@0 corner: 0@0).
 	trackReferencesBtn balloonText: ('Track outgoing references').
-	trackReferencesBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	trackReferencesBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	trackReferencesBtn enabled: (true).
 	trackReferencesBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeSelectChildIcon'.
 	trackReferencesBtn icon: (UiFugueIcons nodeSelectChildIcon).

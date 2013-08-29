@@ -9,7 +9,7 @@ currentArgumentRoles
 		(arg includes: self) ifTrue: [indices add: i]].
 	node := (RBParser parseMethod: self interactionModel 
 		currentStep callNode compiledMethod getSource).
-	roles := indices collect: [:i | (node selectorParts at: i) value -> (node argumentNames at: i)].
+	roles := indices collect: [:i | ((node selectorParts at: i) value, ' ') -> (node argumentNames at: i)].
 	
-	(self currentRoles includes: #return) ifTrue: [roles add: ('return' -> 'value')].
+	(self currentRoles includes: #return) ifTrue: [roles add: ('' -> 'return value')].
 	^ roles
