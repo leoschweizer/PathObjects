@@ -5,5 +5,9 @@
 		"getAllIdentitiesOf:" : "ls 8/19/2013 17:44:49.995",
 		"outboundPointersOf:" : "ls 8/19/2013 18:16:33.61",
 		"shouldTraceReferences" : "ls 8/23/2013 17:25:15.434",
+		"traceArguments:" : "ls 8/29/2013 15:12:26.718",
+		"tracePc:" : "ls 8/29/2013 15:18:27.159",
+		"traceReceiver:" : "ls 8/29/2013 15:13:03.763",
 		"traceReferencesOf:into:" : "ls 8/19/2013 19:44:18.712",
-		"valueWithReceiver:arguments:" : "ls 8/23/2013 17:25:22.425" } }
+		"traceReturnValue:" : "ls 8/29/2013 15:14:41.487",
+		"valueWithReceiver:arguments:" : "ls 8/29/2013 15:19:43.947" } }

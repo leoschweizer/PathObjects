@@ -1,19 +1,23 @@
 initialization
 parse: aCallNode on: aCollection callDepth: aNumber
 	
-	| identities step returnStep |
-	"ifAbsent blocks are reuiqred since the root node of a callgraph doesn't 
-	have an #allIdentities view"
-	identities := (aCallNode views at: #allIdentities ifAbsent: [{-1}]) asOrderedCollection.
-	aCallNode fromSender 
-		ifNil: [identities addFirst: -1]
-		ifNotNil: [:sender | identities addFirst: (sender views at: #allIdentities ifAbsent: [{-1}]) first].
-	identities := identities collect: [:each | self objectProxyFor: each].
+	| sender receiver returnValue arguments step returnStep |
+	"ifAbsent blocks are reuiqred since not all nodes will have all views
+	(especially root nodes)"
+	receiver := self objectProxyFor: (aCallNode views at: #receiverId ifAbsent: [-1]).
+	sender := self objectProxyFor: (aCallNode fromSender 
+		ifNil: [-1]
+		ifNotNil: [:s | s views at: #receiverId ifAbsent: [-1]]).
+	returnValue := (aCallNode views at: #returnValueIds ifAbsent: [{}]) collect: [:each | self objectProxyFor: each].
+	arguments := (aCallNode views at: #argumentIds ifAbsent: [{}]) collect: [:each |
+		each collect: [:id | self objectProxyFor: id]].
 	
 	"method send step"
 	step := SPOMessageSendStep new
 		"don't include returned object here, since we have a dedicated return step"
-		allInvolvedObjects: identities allButLast;
+		sender: sender;
+		receiver: receiver;
+		arguments: arguments;
 		interactionModel: self;  
 		callNode: aCallNode;
 		callDepth: aNumber.
@@ -23,7 +27,10 @@ parse: aCallNode on: aCollection callDepth: aNumber
 	
 	"method return step"
 	returnStep := SPOReturnStep new
-		allInvolvedObjects: identities;
+		sender: sender;
+		receiver: receiver;
+		arguments: arguments;
+		returnValue: returnValue;
 		returnTo: step;
 		interactionModel: self;  
 		callNode: aCallNode;

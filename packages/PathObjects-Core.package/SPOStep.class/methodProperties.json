@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"allInvolvedObjects" : "ls 4/15/2013 13:53:32.877",
-		"allInvolvedObjects:" : "ls 4/15/2013 13:53:40.217",
+		"allInvolvedObjects" : "ls 8/29/2013 15:33:46.364",
+		"arguments" : "ls 8/29/2013 15:32:13.069",
+		"arguments:" : "ls 8/29/2013 15:32:17.412",
 		"callDepth" : "ls 5/30/2013 20:07:46.347",
 		"callDepth:" : "ls 5/30/2013 20:06:34.748",
 		"callNode" : "ls 4/13/2013 13:41:40.955",
@@ -22,9 +23,14 @@
 		"objectsOccurringAfterMe" : "ls 4/15/2013 12:15:05.552",
 		"objectsOccurringSolelyAfterMe" : "ls 4/19/2013 11:20:31.126",
 		"objectsOccurringUpToMe" : "ls 4/15/2013 12:01:25.704",
-		"parameterObjects" : "ls 4/19/2013 11:08:21.374",
 		"previousStep" : "ls 7/2/2013 15:25:29.008",
 		"previousStep:" : "ls 4/13/2013 11:51:34.344",
 		"previousSteps" : "ls 7/2/2013 15:23:43.808",
+		"receiver" : "ls 8/29/2013 15:31:54.545",
+		"receiver:" : "ls 8/29/2013 15:31:58.946",
 		"referencesOf:" : "ls 7/19/2013 22:53:53.799",
+		"returnValue" : "ls 8/29/2013 15:32:22.317",
+		"returnValue:" : "ls 8/29/2013 15:32:26.137",
+		"sender" : "ls 8/29/2013 15:32:02.988",
+		"sender:" : "ls 8/29/2013 15:32:07.609",
 		"stateOf:" : "ls 7/9/2013 11:19:21.078" } }

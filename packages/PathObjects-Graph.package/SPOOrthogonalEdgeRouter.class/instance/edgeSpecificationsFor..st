@@ -3,7 +3,7 @@ edgeSpecificationsFor: anEdge
 	
 	| candidates |
 	candidates := self edges select: [:each |
-		(each id = (anEdge interactionStep senderObject objectId -> anEdge interactionStep receiverObject objectId))].
+		(each id = (anEdge interactionStep sender objectId -> anEdge interactionStep receiver objectId))].
 	
 	^ candidates collect: [:each | | posString |
 		posString := each attributes at: 'pos'.

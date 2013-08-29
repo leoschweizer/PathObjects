@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEdgeFor:to:" : "ls 7/9/2013 15:05:28.391",
+		"addEdgeFor:to:" : "ls 8/29/2013 15:50:04.452",
 		"addNodeFor:to:" : "ls 6/18/2013 16:42:35.359",
-		"addSelfLoopFor:to:" : "ls 7/9/2013 15:02:24.746",
+		"addSelfLoopFor:to:" : "ls 8/29/2013 15:50:33.248",
 		"edgeRouter" : "ls 6/15/2013 15:11:41.869",
 		"generateGraph" : "ls 6/18/2013 16:42:58.132",
 		"generateLayout" : "ls 6/13/2013 20:03:11.338",

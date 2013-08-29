@@ -1,4 +1,9 @@
 accessing
 allInvolvedObjects
 	
-	^ allInvolvedObjects ifNil: [allInvolvedObjects := OrderedCollection new]
+	^ {
+		self sender.
+		self receiver.
+		self arguments.
+		self returnValue
+	} flatten

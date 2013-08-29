@@ -4,7 +4,7 @@ indexParametersFor: aStep
 	| index |
 	index := self parameterIndex.
 	
-	aStep parameterObjects 
+	aStep arguments flatten 
 		select: [:each | each isObjectProxy]
 		thenDo: [:each | | refs |
 			refs := index

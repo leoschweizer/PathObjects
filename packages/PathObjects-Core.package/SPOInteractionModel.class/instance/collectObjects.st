@@ -1,11 +1,11 @@
 initialization
 collectObjects
 	
-	| id receiver |
+	| receiverId receiver |
 	self objects add: (-1 -> (SPOObjectProxy model: self id: nil type: nil)).
 	self callgraph traverseCallTree: self callgraph rootNode with: [:node |
-		id := (node views at: #allIdentities) first.
+		receiverId := (node views at: #receiverId).
 		receiver := node views at: #receiver.
 		self objects
-			at: id
-			ifAbsentPut: [SPOObjectProxy model: self id: id type: receiver]].
+			at: receiverId
+			ifAbsentPut: [SPOObjectProxy model: self id: receiverId type: receiver]].

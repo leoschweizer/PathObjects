@@ -4,8 +4,8 @@ mapEdgesToGroups
 	self interactionModel steps do: [:each | | superGroup |
 		superGroup := self superGroups 
 			at: (Set newFrom: {
-				each senderObject objectId.
-				each receiverObject objectId})
+				each sender objectId.
+				each receiver objectId})
 			ifAbsentPut: Dictionary new.
 			
 		(self isLeftToRight: each) ifTrue: [self add: each toGroup: #top inSuperGroup: superGroup].

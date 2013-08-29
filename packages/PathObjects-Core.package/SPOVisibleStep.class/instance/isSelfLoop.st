@@ -1,4 +1,4 @@
 testing
 isSelfLoop
 	
-	^ self senderObject = self receiverObject
+	^ self sender = self receiver

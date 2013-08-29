@@ -5,9 +5,9 @@ rolesInStep: aStep
 	(aStep isEntryStep or: [aStep isExitStep]) ifTrue: [^ OrderedCollection empty].
 	
 	roles := OrderedCollection new.
-	aStep senderObject == self ifTrue: [roles add: #sender].
-	aStep receiverObject == self ifTrue: [roles add: #receiver].
-	(aStep parameterObjects includes: self) ifTrue: [roles add: #parameter].
+	aStep sender == self ifTrue: [roles add: #sender].
+	aStep receiver == self ifTrue: [roles add: #receiver].
+	(aStep arguments flatten includes: self) ifTrue: [roles add: #parameter].
 	(aStep isReturnStep and: [aStep allInvolvedObjects last == self]) ifTrue: [roles add: #return].
 	
 	^ roles

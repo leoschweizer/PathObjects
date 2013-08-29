@@ -4,5 +4,5 @@ calculateMetric
 	self interactionModel steps 
 		select: [:each | each isMessageStep]
 		thenDo: [:each | self
-			incrementCountOf: each senderObject;
-			incrementCountOf: each receiverObject].
+			incrementCountOf: each sender;
+			incrementCountOf: each receiver].

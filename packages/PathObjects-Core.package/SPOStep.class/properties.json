@@ -11,7 +11,10 @@
 		"interactionModel",
 		"callNode",
 		"callDepth",
-		"allInvolvedObjects" ],
+		"sender",
+		"receiver",
+		"arguments",
+		"returnValue" ],
 	"name" : "SPOStep",
 	"pools" : [
 		 ],
