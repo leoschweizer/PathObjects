@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 currentReferences
 	
 	^ self referencesInStep: self interactionModel currentStep
