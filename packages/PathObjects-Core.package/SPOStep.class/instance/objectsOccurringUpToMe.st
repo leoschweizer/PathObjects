@@ -1,8 +1,4 @@
-as yet unclassified
+accessing
 objectsOccurringUpToMe
 	
-	| previousObjects |
-	previousObjects := self previousStep objectsOccurringUpToMe.
-	^ previousObjects
-		addAll: (self involvedObjects reject: [:each | previousObjects includes: each]);
-		yourself
+	^ objectsOccurringUpToMe ifNil: [objectsOccurringUpToMe := Set new]

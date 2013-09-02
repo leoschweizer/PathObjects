@@ -1,4 +1,4 @@
 accessing
 involvedObjects
-
-	self shouldNotImplement.
+	
+	^ OrderedCollection new

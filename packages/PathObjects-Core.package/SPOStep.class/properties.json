@@ -14,7 +14,8 @@
 		"sender",
 		"receiver",
 		"arguments",
-		"returnValue" ],
+		"returnValue",
+		"objectsOccurringUpToMe" ],
 	"name" : "SPOStep",
 	"pools" : [
 		 ],

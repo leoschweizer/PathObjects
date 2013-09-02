@@ -1,6 +1,6 @@
 as yet unclassified
 objectsOccurringUpToMe
 
-	^ OrderedCollection new
+	^ Set new
 
 	

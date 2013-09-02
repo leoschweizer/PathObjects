@@ -2,7 +2,7 @@ initialization
 parse: aCallNode on: aCollection callDepth: aNumber
 	
 	| sender receiver returnValue arguments step returnStep |
-	"ifAbsent blocks are reuiqred since not all nodes will have all views
+	"ifAbsent blocks are required since not all nodes will have all views
 	(especially root nodes)"
 	receiver := self objectProxyFor: (aCallNode views at: #receiverId ifAbsent: [-1]).
 	sender := self objectProxyFor: (aCallNode fromSender 
