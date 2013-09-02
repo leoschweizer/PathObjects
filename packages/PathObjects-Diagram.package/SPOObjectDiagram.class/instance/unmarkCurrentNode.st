@@ -7,4 +7,6 @@ unmarkCurrentNode
 		
 	self interactionModel currentStep involvedObjects
 		collect: [:each | self objectMorphs at: each objectId]
-		thenDo: [:each | each removeRoleLabels].
+		thenDo: [:each | each 
+			hideInheritanceInformation;
+			removeRoleLabels].

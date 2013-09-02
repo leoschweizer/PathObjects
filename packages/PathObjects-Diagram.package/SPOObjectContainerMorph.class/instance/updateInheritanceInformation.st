@@ -1,0 +1,4 @@
+drawing
+updateInheritanceInformation
+	
+	self ui objectMorph updateInheritanceInformation.
