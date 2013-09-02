@@ -1,6 +1,7 @@
 as yet unclassified
 widthOf: aNode
 	
-	| width |
-	width := 152 max: (UiLabel new textMorph textStyle defaultFont widthOfString: aNode label lines first).
+	| labelWidth width |
+	labelWidth := UiLabel new textMorph textStyle defaultFont widthOfString: aNode label lines first.
+	width := 152 max: (labelWidth + 4).
 	^ width / GraphViz pointsPerInch

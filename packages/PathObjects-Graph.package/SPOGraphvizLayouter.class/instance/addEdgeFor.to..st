@@ -10,8 +10,6 @@ addEdgeFor: aStep to: aGraph
 	the maximum number of edges at the same time"
 	slotUsers >= (self interactionModel tailLength + 1) ifTrue: [^ self].
 	
-	aStep isSelfLoop ifTrue: [^ self addSelfLoopFor: aStep to: aGraph].
-	
 	aGraph
 		add: (aStep sender objectId -> aStep receiver objectId) 
 		with: { #arrowhead -> #none }.

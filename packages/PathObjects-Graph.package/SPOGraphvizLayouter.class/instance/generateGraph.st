@@ -7,7 +7,7 @@ generateGraph
 		name: 'PathObjects';
 		beDirected;
 		addAttribute: #rankdir -> #LR;
-		addAttribute: #ranksep -> 2;
+		addAttribute: #ranksep -> 1.5;
 		addAttribute: #splines -> #ortho.
 	
 	self interactionModel objects

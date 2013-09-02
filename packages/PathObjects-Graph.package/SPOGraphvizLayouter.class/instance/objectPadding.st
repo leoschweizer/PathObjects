@@ -1,0 +1,4 @@
+accessing
+objectPadding
+	
+	^ 10

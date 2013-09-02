@@ -9,4 +9,4 @@ route: anEdge
 	"self addDebugConnector: spec to: anEdge pasteUpMorph."
 	
 	anEdge line setVertices: spec.
-	anEdge beStraightSegments.
+	anEdge beOrthogonal: true.
