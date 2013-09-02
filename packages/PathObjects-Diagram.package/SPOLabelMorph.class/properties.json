@@ -8,9 +8,7 @@
 	"instvars" : [
 		"indicatorButton",
 		"selectorContainer",
-		"returnContainer",
-		"callNode",
-		"inheritanceLabel" ],
+		"returnContainer" ],
 	"name" : "SPOLabelMorph",
 	"pools" : [
 		 ],

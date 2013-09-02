@@ -1,7 +1,6 @@
 initialization
 initialize
 	
-	| container |
 	super initialize.
 	
 	self
@@ -13,22 +12,8 @@ initialize
 		layoutInset: 0;
 		color: (Color white alpha: 0.9).
 	
-	container := UiContainer new
-		changeTableLayout;
-		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		listDirection: #leftToRight;
-		layoutInset: 0;
-		cellInset: 0;
-		yourself.
-	
-	container
+	self
 		addMorphBack: self indicatorButton;
 		addMorphBack: self selectorContainer;
-		addMorphBack: self returnContainer.
-	
-	self
-		"addMorphBack: self buildSeparator;
-		addMorphBack: (self buildSpacer: 6);"
-		addMorphBack: container;
+		addMorphBack: self returnContainer;
 		initializeSignals.

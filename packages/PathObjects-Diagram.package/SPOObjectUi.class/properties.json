@@ -6,9 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inheritanceContainer",
-		"inheritanceLabel",
-		"inheritanceLine",
 		"header",
 		"label" ],
 	"name" : "SPOObjectUi",

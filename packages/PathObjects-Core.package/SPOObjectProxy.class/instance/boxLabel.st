@@ -6,5 +6,11 @@ boxLabel
 	title := self type name.
 	self type isMeta ifFalse: [result nextPutAll: (title first isVowel ifTrue: ['an '] ifFalse: ['a '])].
 	result nextPutAll: title.
-	self type isMeta ifFalse: [result nextPutAll: ('<br><font size="8">(', self objectId, ')</font>')].
+	
+	self shouldDisplayInheritance ifTrue: 
+		[result 
+			nextPutAll: '<br><font size="8">(Inherited from <b>';
+			nextPutAll: self interactionModel currentStep callNode clientClass name;
+			nextPutAll: '</b>)</font>'].
+	
 	^ result contents asHtmlText
