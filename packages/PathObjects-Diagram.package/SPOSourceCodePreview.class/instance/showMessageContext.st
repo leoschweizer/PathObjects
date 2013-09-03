@@ -10,3 +10,5 @@ showMessageContext
 	self ui sourcePane
 		select: self contextRange;
 		scrollToShowSelection.
+	"ensure shrink wrapping"
+	self extent: 0@0.
