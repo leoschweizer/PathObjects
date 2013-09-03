@@ -43,7 +43,7 @@ initializePanel
 	header cellInset: (0).
 	header cellPositioning: (#center).
 	header cellSpacing: (#none).
-	header layoutInset: (2).
+	header layoutInset: (0).
 	header listCentering: (#center).
 	header listDirection: (#leftToRight).
 	header listSpacing: (#none).
@@ -62,9 +62,9 @@ initializePanel
 	header setProperty: #objectName toValue: 'header'.
 	label := UiLabel new.
 	label changeTableLayout.
-	label extent: (108@30).
-	label position: (23@3).
-	label hResizing: (#shrinkWrap).
+	label extent: (130@34).
+	label position: (1@1).
+	label hResizing: (#spaceFill).
 	label vResizing: (#spaceFill).
 	label minWidth: (2).
 	label minHeight: (2).
@@ -88,5 +88,34 @@ initializePanel
 	label form: (nil).
 	label setProperty: #objectName toValue: 'label'.
 	header addChild: label.
+	idContainer := UiContainer new.
+	idContainer changeTableLayout.
+	idContainer extent: (22@34).
+	idContainer position: (131@1).
+	idContainer hResizing: (#rigid).
+	idContainer vResizing: (#spaceFill).
+	idContainer minWidth: (2).
+	idContainer minHeight: (2).
+	idContainer cellInset: (0).
+	idContainer cellPositioning: (#rightCenter).
+	idContainer cellSpacing: (#none).
+	idContainer layoutInset: (0).
+	idContainer listCentering: (#center).
+	idContainer listDirection: (#rightToLeft).
+	idContainer listSpacing: (#none).
+	idContainer maxCellSize: (1073741823).
+	idContainer minCellSize: (0).
+	idContainer wrapCentering: (#center).
+	idContainer wrapDirection: (#none).
+	idContainer frameFractions: (0@0 corner: 1@1).
+	idContainer frameOffsets: (0@0 corner: 0@0).
+	idContainer balloonText: (nil).
+	idContainer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	idContainer color: (Color transparent).
+	idContainer borderWidth: (0).
+	idContainer borderStyle2: (#simple).
+	idContainer borderColor: (Color black).
+	idContainer setProperty: #objectName toValue: 'idContainer'.
+	header addChild: idContainer.
 	panel addChild: header.
 	panel setProperty: #uiClassName toValue: 'SPOObject'.

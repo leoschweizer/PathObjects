@@ -8,5 +8,4 @@ updateRoleLabels
 		self changeNoLayout; layoutChanged.
 		self roleLabels add: label.
 		self addMorphBack: label.
-		label position: self position + ((label width - 18) negated @ (28 + ((i - 1)* label height))).
-		label disableTableLayout; layoutChanged].
+		label position: self position + ((label width - 18) negated @ (28 + ((i - 1)* label height)))].

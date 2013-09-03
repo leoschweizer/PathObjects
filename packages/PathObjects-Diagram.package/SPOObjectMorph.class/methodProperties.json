@@ -4,11 +4,12 @@
 	"instance" : {
 		"accept:" : "ls 7/30/2013 11:56:18.34",
 		"explorer" : "ls 4/17/2013 22:19:20.369",
-		"hideInheritanceInformation" : "ls 9/2/2013 17:25:54.239",
+		"idLabel" : "ls 9/3/2013 11:20:44.951",
+		"idLabelPrototype" : "ls 9/3/2013 11:25:11.614",
+		"idLabelTransform" : "ls 9/3/2013 11:20:27.867",
 		"initialize" : "ls 9/2/2013 18:11:58.753",
 		"objectProxy" : "ls 4/17/2013 22:21:06.31",
-		"objectProxy:" : "ls 9/2/2013 17:57:35.403",
+		"objectProxy:" : "ls 9/3/2013 11:53:21.99",
 		"removeStateMorph" : "ls 4/18/2013 16:02:35.536",
 		"ui" : "ls 4/17/2013 21:44:17.396",
-		"updateInheritanceInformation" : "ls 9/2/2013 17:36:40.547",
 		"updateState" : "ls 4/18/2013 15:50:15.504" } }

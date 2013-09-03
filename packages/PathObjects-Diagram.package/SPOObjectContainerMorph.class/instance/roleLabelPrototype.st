@@ -9,5 +9,4 @@ roleLabelPrototype
 		backgroundColor: Color yellow muchLighter paler;
 		borderWidth: 1;
 		borderColor: (Color fromString: '#707070');
-		disableTableLayout;
 		yourself

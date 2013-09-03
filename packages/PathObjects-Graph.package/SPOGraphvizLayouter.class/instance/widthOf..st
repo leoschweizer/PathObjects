@@ -3,5 +3,6 @@ widthOf: aNode
 	
 	| labelWidth width |
 	labelWidth := UiLabel new textMorph textStyle defaultFont widthOfString: aNode label lines first.
-	width := 152 max: (labelWidth + 4).
+	"idLabelContainer = 22px, label margin 2px left & right"
+	width := 154 max: (labelWidth + 22 + 4).
 	^ width / GraphViz pointsPerInch
