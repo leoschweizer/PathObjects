@@ -1,0 +1,4 @@
+accessing
+geometryStrategy
+	
+	^ self subclassResponsibility

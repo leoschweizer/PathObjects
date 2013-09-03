@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceMin",
+		"sourceMax",
+		"min",
+		"max" ],
+	"name" : "SPOLinearGeometryStrategy",
+	"pools" : [
+		 ],
+	"super" : "SPOGeometryStrategy",
+	"type" : "normal" }

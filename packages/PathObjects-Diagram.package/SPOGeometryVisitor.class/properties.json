@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"geometryStrategy" ],
+	"name" : "SPOGeometryVisitor",
+	"pools" : [
+		 ],
+	"super" : "SPOMetricVisitor",
+	"type" : "normal" }

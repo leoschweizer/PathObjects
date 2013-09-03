@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Visitors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"colorStrategy" ],
+	"name" : "SPOColorVisitor",
+	"pools" : [
+		 ],
+	"super" : "SPOMetricVisitor",
+	"type" : "normal" }

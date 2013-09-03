@@ -10,5 +10,5 @@
 	"name" : "SPOTimelineSizeVisitor",
 	"pools" : [
 		 ],
-	"super" : "SPOMetricVisitor",
+	"super" : "SPOGeometryVisitor",
 	"type" : "normal" }

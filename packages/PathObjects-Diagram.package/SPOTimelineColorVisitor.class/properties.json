@@ -10,5 +10,5 @@
 	"name" : "SPOTimelineColorVisitor",
 	"pools" : [
 		 ],
-	"super" : "SPOMetricVisitor",
+	"super" : "SPOColorVisitor",
 	"type" : "normal" }

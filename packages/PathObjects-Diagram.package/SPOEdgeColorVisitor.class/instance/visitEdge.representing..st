@@ -1,6 +1,6 @@
-as yet unclassified
+visitors
 visitEdge: aMorph representing: aStep
 	
 	| color |
-	color := self metric colorStrategy colorFor: (self metric valueOf: aStep).
+	color := self colorStrategy colorFor: (self metric valueOf: aStep).
 	aMorph lineColor: color.

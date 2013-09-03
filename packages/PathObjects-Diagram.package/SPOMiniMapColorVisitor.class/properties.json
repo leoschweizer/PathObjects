@@ -10,5 +10,5 @@
 	"name" : "SPOMiniMapColorVisitor",
 	"pools" : [
 		 ],
-	"super" : "SPOMetricVisitor",
+	"super" : "SPOColorVisitor",
 	"type" : "normal" }

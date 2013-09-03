@@ -8,7 +8,7 @@ refreshColorLegends
 	self pathObjects overlays 
 		select: [:each | (each at: #visitor) class providesColorLegend]
 		thenDo: [:each | | legend |
-			legend := SPOColorLegendMorph new colors: (each at: #visitor) metric colorStrategy legendColors.
+			legend := SPOColorLegendMorph new colors: (each at: #visitor) colorStrategy legendColors.
 			legend
 				changeTableLayout;
 				hResizing: #spaceFill;
