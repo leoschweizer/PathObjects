@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "ls 8/29/2013 23:25:27.213",
-		"menuContainer" : "ls 8/29/2013 22:02:39.487",
-		"objectMorph" : "ls 8/29/2013 22:02:39.541",
-		"searchBtn" : "ls 8/29/2013 22:02:39.528",
-		"spacer" : "ls 8/29/2013 22:02:39.471",
-		"trackReferencesBtn" : "ls 8/29/2013 22:02:39.514",
-		"updateStateBtn" : "ls 8/29/2013 22:02:39.501" } }
+		"initializePanel" : "ls 9/3/2013 14:46:46.732",
+		"menuContainer" : "ls 9/3/2013 14:46:46.654",
+		"objectMorph" : "ls 9/3/2013 14:46:46.708",
+		"searchBtn" : "ls 9/3/2013 14:46:46.695",
+		"trackReferencesBtn" : "ls 9/3/2013 14:46:46.681",
+		"updateStateBtn" : "ls 9/3/2013 14:46:46.668" } }

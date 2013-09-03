@@ -32,34 +32,6 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	spacer := UiContainer new.
-	spacer changeTableLayout.
-	spacer extent: (152@58).
-	spacer position: (2@2).
-	spacer hResizing: (#shrinkWrap).
-	spacer vResizing: (#shrinkWrap).
-	spacer minWidth: (2).
-	spacer minHeight: (2).
-	spacer cellInset: (2).
-	spacer cellPositioning: (#center).
-	spacer cellSpacing: (#none).
-	spacer layoutInset: (0).
-	spacer listCentering: (#center).
-	spacer listDirection: (#topToBottom).
-	spacer listSpacing: (#none).
-	spacer maxCellSize: (1073741823).
-	spacer minCellSize: (0).
-	spacer wrapCentering: (#center).
-	spacer wrapDirection: (#none).
-	spacer frameFractions: (0@0 corner: 1@1).
-	spacer frameOffsets: (0@0 corner: 0@0).
-	spacer balloonText: (nil).
-	spacer balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	spacer color: (Color transparent).
-	spacer borderWidth: (0).
-	spacer borderStyle2: (#simple).
-	spacer borderColor: (Color black).
-	spacer setProperty: #objectName toValue: 'spacer'.
 	menuContainer := UiContainer new.
 	menuContainer changeTableLayout.
 	menuContainer extent: (67@19).
@@ -193,10 +165,10 @@ initializePanel
 	searchBtn buttonStyle: (#iconOnly).
 	searchBtn setProperty: #objectName toValue: 'searchBtn'.
 	menuContainer addChild: searchBtn.
-	spacer addChild: menuContainer.
+	panel addChild: menuContainer.
 	objectMorph := SPOObjectMorph new.
 	objectMorph changeTableLayout.
-	objectMorph extent: (152@34).
+	objectMorph extent: (152@36).
 	objectMorph position: (2@24).
 	objectMorph hResizing: (#shrinkWrap).
 	objectMorph vResizing: (#shrinkWrap).
@@ -218,6 +190,5 @@ initializePanel
 	objectMorph balloonText: (nil).
 	objectMorph balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	objectMorph setProperty: #objectName toValue: 'objectMorph'.
-	spacer addChild: objectMorph.
-	panel addChild: spacer.
+	panel addChild: objectMorph.
 	panel setProperty: #uiClassName toValue: 'SPOObjectContainer'.
