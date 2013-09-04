@@ -2,8 +2,8 @@ accessing
 geometryStrategy
 	
 	^ geometryStrategy ifNil: [geometryStrategy := SPOLinearGeometryStrategy new
-		sourceMin: self metric minValue;
+		sourceMin: (0 max: self metric minValue - 1);
 		sourceMax: self metric maxValue;
 		min: 5;
-		max: 60;
+		max: 55;
 		yourself]
