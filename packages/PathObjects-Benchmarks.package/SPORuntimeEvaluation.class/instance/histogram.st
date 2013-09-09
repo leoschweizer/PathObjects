@@ -1,5 +1,5 @@
 as yet unclassified
-histogramm
+histogram
 	
 	| times |
 	times := (self benchmark runtimes collect: [:each | each value roundUpTo: 1000]) sort.
