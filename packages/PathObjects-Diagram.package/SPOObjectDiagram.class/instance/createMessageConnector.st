@@ -10,5 +10,6 @@ createMessageConnector
 		to: calleeMorph ui objectMorph
 		step: step.
 	self messageConnectors add: connector.
+	self connect: connector signal: #verticesChanged: toSelector: #onConnector:changedVerticesTo: pattern: #(0 1).
 	self layouter edgeRouter route: connector.
 	^ connector

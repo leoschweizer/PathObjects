@@ -1,12 +1,16 @@
 edge routing
 edgeSpecificationsFor: anEdge
 	
-	| candidates |
+	| candidates t spec |
 	candidates := self edges select: [:each |
 		(each id = (anEdge interactionStep sender objectId -> anEdge interactionStep receiver objectId))].
 	
-	^ candidates collect: [:each | | posString |
+	t := candidates collect: [:each | | posString |
 		posString := each attributes at: 'pos'.
 		(posString splitBy: ' ') collect: [:v | | newVertex |
 			newVertex := Compiler evaluate: (v copyReplaceAll: ',' with: '@').
-			newVertex := newVertex translateBy: (anEdge owner extent / 4.0)]]
+			"add offset since nodes are centered in a bigger diagram area"
+			newVertex := newVertex translateBy: (anEdge owner extent / 4.0)]].
+	
+	spec := t at: (self slotIndexOf: anEdge).
+	^ self removeConsecutiveDuplicatesFrom: spec

@@ -3,8 +3,10 @@
 		"on:" : "ls 6/12/2013 20:52:07.331" },
 	"instance" : {
 		"addDebugConnector:to:" : "ls 6/15/2013 15:37:48.864",
-		"edgeSpecificationsFor:" : "ls 8/29/2013 15:51:22.575",
+		"cachedVertices" : "ls 9/4/2013 12:39:33.305",
+		"edgeSpecificationsFor:" : "ls 9/4/2013 13:02:10.666",
 		"edges" : "ls 6/15/2013 15:07:42.379",
 		"removeConsecutiveDuplicatesFrom:" : "ls 6/15/2013 15:33:39.897",
-		"route:" : "ls 9/3/2013 11:52:14.272",
-		"slotIndexOf:" : "ls 8/29/2013 15:51:51.427" } }
+		"route:" : "ls 9/5/2013 15:47:49.553",
+		"slotIndexOf:" : "ls 8/29/2013 15:51:51.427",
+		"updateSlotVerticesOf:with:" : "ls 9/4/2013 13:08:49.337" } }
