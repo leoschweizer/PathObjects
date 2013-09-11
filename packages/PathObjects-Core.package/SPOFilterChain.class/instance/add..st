@@ -1,8 +1,8 @@
 as yet unclassified
 add: aFilter
 	
-	aFilter source: self filters first.
-	self filters addFirst: aFilter.
+	self filters addLast: aFilter.
+	self updateFilterSources.
 	
 	self
 		connect: aFilter

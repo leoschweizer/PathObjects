@@ -1,4 +1,4 @@
 accessing
 steps
 	
-	^ self filters first steps
+	^ self filters last steps

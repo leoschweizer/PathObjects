@@ -1,4 +1,4 @@
 accessing
 objects
 	
-	^ self filters first objects
+	^ self filters last objects

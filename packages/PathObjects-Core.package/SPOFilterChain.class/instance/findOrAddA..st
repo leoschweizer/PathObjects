@@ -5,4 +5,4 @@ findOrAddA: aFilterClass
 		detect: [:each | each isKindOf: aFilterClass]
 		ifNone: 
 			[self add: aFilterClass new.
-			self filters first]
+			self filters last]
