@@ -8,6 +8,6 @@ onSearchClicked
 	self objectProxy type isMeta ifTrue: 
 		[searchTerm := searchTerm allButLast: 6.
 		searchIndex := #classIndex].
-	(self ownerThatIsA: SPOPathObjects)
+	self pathObjects
 		setSearchFilter: searchTerm
 		index: searchIndex.
