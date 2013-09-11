@@ -1,4 +1,4 @@
-as yet unclassified
+private api
 add: aFilter
 	
 	self filters addLast: aFilter.

@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addObject: anObjectId
 	
 	self includedObjects add: anObjectId.

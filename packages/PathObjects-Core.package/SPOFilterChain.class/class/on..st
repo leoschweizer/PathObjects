@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: anInteractionModel
 	
 	^ self new source: anInteractionModel

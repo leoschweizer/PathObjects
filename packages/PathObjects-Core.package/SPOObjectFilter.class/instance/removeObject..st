@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 removeObject: anObjectId
 	
 	self includedObjects remove: anObjectId.

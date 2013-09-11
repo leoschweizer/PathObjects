@@ -1,4 +1,4 @@
-as yet unclassified
+filter api
 removeAll: aFilterClass
 	
 	self filters removeAllSuchThat: [:each | each isKindOf: aFilterClass].

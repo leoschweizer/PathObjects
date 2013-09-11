@@ -1,4 +1,4 @@
-as yet unclassified
+filter api
 objects
 	"polymorphic with InteractionModel>>objects"
 	

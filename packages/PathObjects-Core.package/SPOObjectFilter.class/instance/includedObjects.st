@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 includedObjects
 	
 	^ includedObjects ifNil: [includedObjects := OrderedCollection new]

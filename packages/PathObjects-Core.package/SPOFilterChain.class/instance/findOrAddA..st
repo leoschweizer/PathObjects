@@ -1,4 +1,4 @@
-as yet unclassified
+filter api
 findOrAddA: aFilterClass
 	
 	^ self filters

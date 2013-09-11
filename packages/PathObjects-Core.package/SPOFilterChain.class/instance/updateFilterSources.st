@@ -1,4 +1,4 @@
-as yet unclassified
+private api
 updateFilterSources
 	
 	self filters allButFirst withIndexDo: [:each :index |
