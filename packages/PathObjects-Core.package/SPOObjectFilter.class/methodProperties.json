@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addObject:" : "ls 9/11/2013 17:53:55.141",
+		"filteredObjects" : "ls 9/11/2013 16:28:51.982",
+		"filteredObjects:" : "ls 9/11/2013 16:28:51.995",
+		"filteredSteps" : "ls 9/11/2013 16:28:51.955",
+		"filteredSteps:" : "ls 9/11/2013 16:28:51.969",
+		"includedObjects" : "ls 9/11/2013 16:25:56.434",
+		"objects" : "ls 9/11/2013 16:29:01.783",
+		"refreshFilterCache" : "ls 9/11/2013 17:53:44.357",
+		"removeObject:" : "ls 9/11/2013 17:54:43.865",
+		"steps" : "ls 9/11/2013 16:29:10.164" } }

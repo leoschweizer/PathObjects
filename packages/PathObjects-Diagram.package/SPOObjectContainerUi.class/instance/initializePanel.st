@@ -34,8 +34,8 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	menuContainer := UiContainer new.
 	menuContainer changeTableLayout.
-	menuContainer extent: (67@19).
-	menuContainer position: (45@3).
+	menuContainer extent: (101@19).
+	menuContainer position: (28@3).
 	menuContainer hResizing: (#shrinkWrap).
 	menuContainer vResizing: (#shrinkWrap).
 	menuContainer minWidth: (2).
@@ -62,8 +62,8 @@ initializePanel
 	menuContainer setProperty: #objectName toValue: 'menuContainer'.
 	updateStateBtn := UiToolButton new.
 	updateStateBtn changeTableLayout.
-	updateStateBtn extent: (18@18).
-	updateStateBtn position: (45@3).
+	updateStateBtn extent: (22@18).
+	updateStateBtn position: (28@3).
 	updateStateBtn hResizing: (#shrinkWrap).
 	updateStateBtn vResizing: (#shrinkWrap).
 	updateStateBtn minWidth: (2).
@@ -71,7 +71,7 @@ initializePanel
 	updateStateBtn cellInset: (2).
 	updateStateBtn cellPositioning: (#center).
 	updateStateBtn cellSpacing: (#none).
-	updateStateBtn layoutInset: (0@0 corner: 0@0).
+	updateStateBtn layoutInset: (2@0 corner: 2@0).
 	updateStateBtn listCentering: (#topLeft).
 	updateStateBtn listDirection: (#leftToRight).
 	updateStateBtn listSpacing: (#none).
@@ -98,12 +98,12 @@ initializePanel
 	trackReferencesBtn := UiToolButton new.
 	trackReferencesBtn changeTableLayout.
 	trackReferencesBtn extent: (22@18).
-	trackReferencesBtn position: (67@3).
+	trackReferencesBtn position: (54@3).
 	trackReferencesBtn hResizing: (#shrinkWrap).
 	trackReferencesBtn vResizing: (#shrinkWrap).
 	trackReferencesBtn minWidth: (2).
 	trackReferencesBtn minHeight: (2).
-	trackReferencesBtn cellInset: (4).
+	trackReferencesBtn cellInset: (2).
 	trackReferencesBtn cellPositioning: (#center).
 	trackReferencesBtn cellSpacing: (#none).
 	trackReferencesBtn layoutInset: (2@0 corner: 2@0).
@@ -130,18 +130,53 @@ initializePanel
 	trackReferencesBtn buttonStyle: (#iconOnly).
 	trackReferencesBtn setProperty: #objectName toValue: 'trackReferencesBtn'.
 	menuContainer addChild: trackReferencesBtn.
+	filterBtn := UiToolButton new.
+	filterBtn changeTableLayout.
+	filterBtn extent: (22@18).
+	filterBtn position: (80@3).
+	filterBtn hResizing: (#shrinkWrap).
+	filterBtn vResizing: (#shrinkWrap).
+	filterBtn minWidth: (2).
+	filterBtn minHeight: (2).
+	filterBtn cellInset: (2).
+	filterBtn cellPositioning: (#center).
+	filterBtn cellSpacing: (#none).
+	filterBtn layoutInset: (2@0 corner: 2@0).
+	filterBtn listCentering: (#topLeft).
+	filterBtn listDirection: (#leftToRight).
+	filterBtn listSpacing: (#none).
+	filterBtn maxCellSize: (1073741823).
+	filterBtn minCellSize: (0).
+	filterBtn wrapCentering: (#topLeft).
+	filterBtn wrapDirection: (#none).
+	filterBtn frameFractions: (0@0 corner: 1@1).
+	filterBtn frameOffsets: (0@0 corner: 0@0).
+	filterBtn balloonText: ('Set quick filter').
+	filterBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
+	filterBtn enabled: (true).
+	filterBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeDesignIcon'.
+	filterBtn icon: (UiFugueIcons nodeDesignIcon).
+	filterBtn text: ('ToolButton').
+	filterBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
+	filterBtn checkable: (true).
+	filterBtn checked: (false).
+	filterBtn autoExclusive: (false).
+	filterBtn autoRaise: (true).
+	filterBtn buttonStyle: (#iconOnly).
+	filterBtn setProperty: #objectName toValue: 'filterBtn'.
+	menuContainer addChild: filterBtn.
 	searchBtn := UiToolButton new.
 	searchBtn changeTableLayout.
-	searchBtn extent: (18@18).
-	searchBtn position: (93@3).
+	searchBtn extent: (22@18).
+	searchBtn position: (106@3).
 	searchBtn hResizing: (#shrinkWrap).
 	searchBtn vResizing: (#shrinkWrap).
 	searchBtn minWidth: (2).
 	searchBtn minHeight: (2).
-	searchBtn cellInset: (0).
+	searchBtn cellInset: (2).
 	searchBtn cellPositioning: (#center).
 	searchBtn cellSpacing: (#none).
-	searchBtn layoutInset: (0@0 corner: 0@0).
+	searchBtn layoutInset: (2@0 corner: 2@0).
 	searchBtn listCentering: (#topLeft).
 	searchBtn listDirection: (#leftToRight).
 	searchBtn listSpacing: (#none).

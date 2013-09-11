@@ -9,6 +9,7 @@
 		"menuContainer",
 		"updateStateBtn",
 		"trackReferencesBtn",
+		"filterBtn",
 		"searchBtn",
 		"objectMorph" ],
 	"name" : "SPOObjectContainerUi",

@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Core-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"includedObjects",
+		"filteredSteps",
+		"filteredObjects" ],
+	"name" : "SPOObjectFilter",
+	"pools" : [
+		 ],
+	"super" : "SPOFilter",
+	"type" : "normal" }
