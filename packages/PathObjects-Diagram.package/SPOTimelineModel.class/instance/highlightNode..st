@@ -2,6 +2,8 @@ as yet unclassified
 highlightNode: aNode
 	
 	| oldNode |
+	aNode ifNil: [^ self].
+	
 	oldNode := self highlightedNode.
 	self highlightedNode: nil.
 	"sibling nodes may be absent due to filtering"

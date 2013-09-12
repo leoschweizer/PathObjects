@@ -258,4 +258,4 @@ ramp
 		Color r: 255 g: 255 b: 244 range: 255.
 		Color r: 255 g: 255 b: 247 range: 255.
 		Color r: 255 g: 255 b: 255 range: 255.
-	}
+	} reversed

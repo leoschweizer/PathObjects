@@ -8,9 +8,7 @@
 	"instvars" : [
 		"min",
 		"max",
-		"colorScale",
-		"maxHue",
-		"saturation" ],
+		"colorScale" ],
 	"name" : "SPOLinearColorStrategy",
 	"pools" : [
 		 ],

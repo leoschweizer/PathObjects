@@ -11,6 +11,8 @@ initializeOverlayList
 					ifTrue: [('<font color="#AAAAAA"><i>', text, '</i></font>') asHtmlText]
 					ifFalse: [text]]);
 		addColumn: (UiItemViewColumnSpec newFrom: {#headerText -> 'Source'. #text -> #metric.});
-		addTextColumn: 'Target' selector: #target.
+		addTextColumn: 'Target' selector: #target;
+		addColumn: ((UiItemViewColumnSpec newFrom: {#headerText -> 'Color Scale'. #text -> #colorScale})
+			textConverter: [:text | text ifNil: ['-'] ifNotNil: [text displayName]]).
 	
 	self updateOverlayList.

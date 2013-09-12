@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"min",
+		"max" ],
 	"name" : "SPOLogarithmicColorStrategy",
 	"pools" : [
 		 ],
-	"super" : "SPOLinearColorStrategy",
+	"super" : "SPOColorStrategy",
 	"type" : "normal" }

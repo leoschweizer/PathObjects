@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (480@299).
+	panel extent: (608@340).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	panel color: ((Color r: 0.85 g: 0.85 b: 0.85)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (476@22).
+	unnamedMorph1 extent: (604@22).
 	unnamedMorph1 position: (2@2).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -80,7 +80,7 @@ initializePanel
 	metricBox frameFractions: (0@0 corner: 1@1).
 	metricBox frameOffsets: (0@0 corner: 0@0).
 	metricBox balloonText: (nil).
-	metricBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	metricBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	metricBox readOnly: (true).
 	metricBox setProperty: #objectName toValue: 'metricBox'.
 	unnamedMorph1 addChild: metricBox.
@@ -105,13 +105,38 @@ initializePanel
 	visitorBox frameFractions: (0@0 corner: 1@1).
 	visitorBox frameOffsets: (0@0 corner: 0@0).
 	visitorBox balloonText: (nil).
-	visitorBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	visitorBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	visitorBox readOnly: (true).
 	visitorBox setProperty: #objectName toValue: 'visitorBox'.
 	unnamedMorph1 addChild: visitorBox.
+	colorScaleBox := UiComboBox new.
+	colorScaleBox extent: (150@20).
+	colorScaleBox position: (314@2).
+	colorScaleBox hResizing: (#rigid).
+	colorScaleBox vResizing: (#rigid).
+	colorScaleBox minWidth: (2).
+	colorScaleBox minHeight: (2).
+	colorScaleBox cellInset: (0).
+	colorScaleBox cellPositioning: (#center).
+	colorScaleBox cellSpacing: (#none).
+	colorScaleBox layoutInset: (0).
+	colorScaleBox listCentering: (#topLeft).
+	colorScaleBox listDirection: (#topToBottom).
+	colorScaleBox listSpacing: (#none).
+	colorScaleBox maxCellSize: (1073741823).
+	colorScaleBox minCellSize: (0).
+	colorScaleBox wrapCentering: (#topLeft).
+	colorScaleBox wrapDirection: (#none).
+	colorScaleBox frameFractions: (0@0 corner: 1@1).
+	colorScaleBox frameOffsets: (0@0 corner: 0@0).
+	colorScaleBox balloonText: (nil).
+	colorScaleBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	colorScaleBox readOnly: (true).
+	colorScaleBox setProperty: #objectName toValue: 'colorScaleBox'.
+	unnamedMorph1 addChild: colorScaleBox.
 	unnamedMorph2 := UiSpacer new.
-	unnamedMorph2 extent: (57@20).
-	unnamedMorph2 position: (314@3).
+	unnamedMorph2 extent: (29@20).
+	unnamedMorph2 position: (470@3).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#rigid).
 	unnamedMorph2 minWidth: (2).
@@ -130,7 +155,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph2 color: (Color blue).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -140,7 +165,7 @@ initializePanel
 	addOverlayBtn := UiPushButton new.
 	addOverlayBtn changeTableLayout.
 	addOverlayBtn extent: (101@20).
-	addOverlayBtn position: (375@2).
+	addOverlayBtn position: (503@2).
 	addOverlayBtn hResizing: (#shrinkWrap).
 	addOverlayBtn vResizing: (#shrinkWrap).
 	addOverlayBtn minWidth: (2).
@@ -159,7 +184,7 @@ initializePanel
 	addOverlayBtn frameFractions: (0@0 corner: 1@1).
 	addOverlayBtn frameOffsets: (0@0 corner: 0@0).
 	addOverlayBtn balloonText: (nil).
-	addOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	addOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	addOverlayBtn enabled: (true).
 	addOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons addIcon'.
 	addOverlayBtn icon: (UiSilkIcons addIcon).
@@ -173,7 +198,7 @@ initializePanel
 	panel addChild: unnamedMorph1.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (476@243).
+	unnamedMorph3 extent: (604@284).
 	unnamedMorph3 position: (2@28).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#spaceFill).
@@ -193,13 +218,13 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
 	unnamedMorph3 borderColor: (Color black).
 	overlayList := UiTableView new.
-	overlayList extent: (476@243).
+	overlayList extent: (604@284).
 	overlayList position: (2@28).
 	overlayList hResizing: (#spaceFill).
 	overlayList vResizing: (#spaceFill).
@@ -219,7 +244,7 @@ initializePanel
 	overlayList frameFractions: (0@0 corner: 1@1).
 	overlayList frameOffsets: (0@0 corner: 0@0).
 	overlayList balloonText: (nil).
-	overlayList balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	overlayList balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	overlayList widgetResizable: (true).
 	overlayList horizontalScrollBarPolicy: (#alwaysOff).
 	overlayList verticalScrollBarPolicy: (#asNeeded).
@@ -235,8 +260,8 @@ initializePanel
 	panel addChild: unnamedMorph3.
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (476@22).
-	unnamedMorph4 position: (2@275).
+	unnamedMorph4 extent: (604@22).
+	unnamedMorph4 position: (2@316).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#shrinkWrap).
 	unnamedMorph4 minWidth: (2).
@@ -255,7 +280,7 @@ initializePanel
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph4 color: (Color transparent).
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
@@ -263,7 +288,7 @@ initializePanel
 	removeOverlayBtn := UiPushButton new.
 	removeOverlayBtn changeTableLayout.
 	removeOverlayBtn extent: (134@20).
-	removeOverlayBtn position: (2@275).
+	removeOverlayBtn position: (2@316).
 	removeOverlayBtn hResizing: (#shrinkWrap).
 	removeOverlayBtn vResizing: (#shrinkWrap).
 	removeOverlayBtn minWidth: (2).
@@ -282,7 +307,7 @@ initializePanel
 	removeOverlayBtn frameFractions: (0@0 corner: 1@1).
 	removeOverlayBtn frameOffsets: (0@0 corner: 0@0).
 	removeOverlayBtn balloonText: (nil).
-	removeOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	removeOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	removeOverlayBtn enabled: (true).
 	removeOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons deleteIcon'.
 	removeOverlayBtn icon: (UiSilkIcons deleteIcon).
@@ -294,8 +319,8 @@ initializePanel
 	removeOverlayBtn setProperty: #objectName toValue: 'removeOverlayBtn'.
 	unnamedMorph4 addChild: removeOverlayBtn.
 	unnamedMorph5 := UiSpacer new.
-	unnamedMorph5 extent: (286@20).
-	unnamedMorph5 position: (142@276).
+	unnamedMorph5 extent: (414@20).
+	unnamedMorph5 position: (142@317).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (2).
@@ -314,7 +339,7 @@ initializePanel
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	unnamedMorph5 color: (Color blue).
 	unnamedMorph5 borderWidth: (0).
 	unnamedMorph5 borderStyle2: (#simple).
@@ -324,7 +349,7 @@ initializePanel
 	okBtn := UiPushButton new.
 	okBtn changeTableLayout.
 	okBtn extent: (44@20).
-	okBtn position: (432@275).
+	okBtn position: (560@316).
 	okBtn hResizing: (#shrinkWrap).
 	okBtn vResizing: (#shrinkWrap).
 	okBtn minWidth: (2).
@@ -343,7 +368,7 @@ initializePanel
 	okBtn frameFractions: (0@0 corner: 1@1).
 	okBtn frameOffsets: (0@0 corner: 0@0).
 	okBtn balloonText: (nil).
-	okBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	okBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	okBtn enabled: (true).
 	okBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	okBtn icon: (UiSilkIcons acceptIcon).

@@ -1,0 +1,4 @@
+utilities
+adaptColorScale: aColorScale
+	
+	
