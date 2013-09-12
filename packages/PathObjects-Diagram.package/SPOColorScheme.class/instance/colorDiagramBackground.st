@@ -1,0 +1,4 @@
+diagram
+colorDiagramBackground
+	
+	^ Color transparent

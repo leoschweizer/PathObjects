@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOCodeStyler",
+	"name" : "SPODefaultColorScheme",
 	"pools" : [
 		 ],
-	"super" : "SHTextStylerST80",
+	"super" : "SPOColorScheme",
 	"type" : "normal" }

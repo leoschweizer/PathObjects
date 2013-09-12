@@ -1,4 +1,4 @@
 drawing
 drawCurrentEdgeStyleOn: aMorph representing: aStep
 	
-	aMorph lineColor: Color black lighter.
+	aMorph lineColor: SPOColorScheme default colorMessageActive.

@@ -3,6 +3,6 @@ initialize
 	
 	super initialize.
 	self
-		color: Color transparent;
-		borderColor: Color transparent;
+		color: SPOColorScheme default colorDiagramBackground;
+		borderColor: SPOColorScheme default colorDiagramBackground;
 		addMorph: self label.

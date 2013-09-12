@@ -9,12 +9,12 @@ initialize
 	
 	self ui sourcePane textMorph
 		font: Preferences standardCodeFont;
-		styler: SPOCodeStyler new;
+		styler: SPOColorScheme default codeStyler;
 		margins: (8@8 corner: 8@8).
 		
 	self ui sourcePane
 		displayMode: #highlight;
-		colorFocusBackground: Color yellow muchLighter paler;
-		colorHighlightedBackground: Color yellow muchLighter paler;
-		colorHighlightedBorder: Color yellow muchLighter paler;
+		colorFocusBackground: SPOColorScheme default colorCodePreviewBackground;
+		colorHighlightedBackground: SPOColorScheme default colorCodePreviewBackground;
+		colorHighlightedBorder: SPOColorScheme default colorCodePreviewBackground;
 		updateFocusColor: false.

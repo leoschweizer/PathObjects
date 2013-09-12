@@ -1,14 +1,14 @@
 {
 	"category" : "PathObjects-Diagram-Colors",
 	"classinstvars" : [
-		 ],
+		"default" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SPOCodeStyler",
+	"name" : "SPOColorScheme",
 	"pools" : [
 		 ],
-	"super" : "SHTextStylerST80",
+	"super" : "Object",
 	"type" : "normal" }

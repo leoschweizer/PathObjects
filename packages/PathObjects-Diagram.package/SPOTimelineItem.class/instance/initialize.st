@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	self
 		layoutPolicy: SPOTimelineItemLayout new;
-		color: Color transparent;
+		color: SPOColorScheme default colorTimelineItemBackground;
 		borderWidth: 0;
 		extent: 4@64;
 		addMorph: self colorBar.

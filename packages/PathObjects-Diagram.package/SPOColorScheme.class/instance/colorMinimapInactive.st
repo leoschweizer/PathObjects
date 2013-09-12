@@ -1,0 +1,4 @@
+minimap
+colorMinimapInactive
+	
+	^ Color black

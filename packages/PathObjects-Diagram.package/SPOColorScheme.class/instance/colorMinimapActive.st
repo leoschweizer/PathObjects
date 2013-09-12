@@ -1,0 +1,4 @@
+minimap
+colorMinimapActive
+	
+	^ self colorObjectHeaderActive

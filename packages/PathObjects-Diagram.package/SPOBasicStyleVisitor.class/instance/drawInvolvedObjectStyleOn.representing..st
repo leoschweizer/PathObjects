@@ -1,9 +1,9 @@
 drawing
 drawInvolvedObjectStyleOn: aMorph representing: aProxy
 	
-	aMorph ui panel borderColor: Color black.
-	aMorph ui header color: (Color r: 108 g: 157 b: 14 range: 255).
-	aMorph ui label color: Color white.
+	aMorph ui panel borderColor: SPOColorScheme default colorObjectBorderActive.
+	aMorph ui header color: SPOColorScheme default colorObjectHeaderActive.
+	aMorph ui label color: SPOColorScheme default colorObjectTextActive.
 	
 	aMorph ui idContainer color: aMorph ui header color darker.
-	aMorph idLabel textColor: Color white.
+	aMorph idLabel textColor: SPOColorScheme default colorObjectTextActive.
