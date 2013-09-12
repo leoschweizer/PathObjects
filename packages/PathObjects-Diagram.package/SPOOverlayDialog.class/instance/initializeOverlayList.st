@@ -2,7 +2,7 @@ initialization
 initializeOverlayList
 	
 	self ui overlayList
-		selectionBehavior: #selectRows;
+		showGrid: false;
 		model: UiPropertyItemNode new.
 	
 	self ui overlayList

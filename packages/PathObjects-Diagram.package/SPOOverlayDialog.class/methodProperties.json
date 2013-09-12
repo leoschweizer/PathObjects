@@ -2,8 +2,8 @@
 	"class" : {
 		"openOn:" : "ls 8/5/2013 19:03:54.415" },
 	"instance" : {
-		"initialize" : "ls 8/5/2013 20:48:21.705",
-		"initializeOverlayList" : "ls 8/5/2013 20:25:03.316",
+		"initialize" : "ls 9/12/2013 12:18:58.808",
+		"initializeOverlayList" : "ls 9/12/2013 12:20:12.764",
 		"initializeSelectionBoxes" : "ls 8/5/2013 19:28:04",
 		"initializeVisitorBoxFor:" : "ls 9/12/2013 00:56:48.425",
 		"metrics" : "ls 8/5/2013 18:10:30.966",

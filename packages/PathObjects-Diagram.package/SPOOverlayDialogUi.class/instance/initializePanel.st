@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	panel color: ((Color r: 0.85 g: 0.85 b: 0.85)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -80,7 +80,7 @@ initializePanel
 	metricBox frameFractions: (0@0 corner: 1@1).
 	metricBox frameOffsets: (0@0 corner: 0@0).
 	metricBox balloonText: (nil).
-	metricBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	metricBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	metricBox readOnly: (true).
 	metricBox setProperty: #objectName toValue: 'metricBox'.
 	unnamedMorph1 addChild: metricBox.
@@ -105,7 +105,7 @@ initializePanel
 	visitorBox frameFractions: (0@0 corner: 1@1).
 	visitorBox frameOffsets: (0@0 corner: 0@0).
 	visitorBox balloonText: (nil).
-	visitorBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	visitorBox balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	visitorBox readOnly: (true).
 	visitorBox setProperty: #objectName toValue: 'visitorBox'.
 	unnamedMorph1 addChild: visitorBox.
@@ -130,7 +130,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph2 color: (Color blue).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -159,7 +159,7 @@ initializePanel
 	addOverlayBtn frameFractions: (0@0 corner: 1@1).
 	addOverlayBtn frameOffsets: (0@0 corner: 0@0).
 	addOverlayBtn balloonText: (nil).
-	addOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	addOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	addOverlayBtn enabled: (true).
 	addOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons addIcon'.
 	addOverlayBtn icon: (UiSilkIcons addIcon).
@@ -193,12 +193,12 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
 	unnamedMorph3 borderColor: (Color black).
-	overlayList := UiListView new.
+	overlayList := UiTableView new.
 	overlayList extent: (476@243).
 	overlayList position: (2@28).
 	overlayList hResizing: (#spaceFill).
@@ -219,7 +219,7 @@ initializePanel
 	overlayList frameFractions: (0@0 corner: 1@1).
 	overlayList frameOffsets: (0@0 corner: 0@0).
 	overlayList balloonText: (nil).
-	overlayList balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	overlayList balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	overlayList widgetResizable: (true).
 	overlayList horizontalScrollBarPolicy: (#alwaysOff).
 	overlayList verticalScrollBarPolicy: (#asNeeded).
@@ -230,9 +230,6 @@ initializePanel
 	overlayList verticalHeaderVisible: (false).
 	overlayList selectionBehavior: (#selectRows).
 	overlayList selectionMode: (UiViewSingleSelection).
-	overlayList listOrientation: (#default).
-	overlayList hAlignment: (#left).
-	overlayList vAlignment: (#top).
 	overlayList setProperty: #objectName toValue: 'overlayList'.
 	unnamedMorph3 addChild: overlayList.
 	panel addChild: unnamedMorph3.
@@ -258,7 +255,7 @@ initializePanel
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph4 color: (Color transparent).
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
@@ -285,7 +282,7 @@ initializePanel
 	removeOverlayBtn frameFractions: (0@0 corner: 1@1).
 	removeOverlayBtn frameOffsets: (0@0 corner: 0@0).
 	removeOverlayBtn balloonText: (nil).
-	removeOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	removeOverlayBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	removeOverlayBtn enabled: (true).
 	removeOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons deleteIcon'.
 	removeOverlayBtn icon: (UiSilkIcons deleteIcon).
@@ -317,7 +314,7 @@ initializePanel
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	unnamedMorph5 color: (Color blue).
 	unnamedMorph5 borderWidth: (0).
 	unnamedMorph5 borderStyle2: (#simple).
@@ -346,7 +343,7 @@ initializePanel
 	okBtn frameFractions: (0@0 corner: 1@1).
 	okBtn frameOffsets: (0@0 corner: 0@0).
 	okBtn balloonText: (nil).
-	okBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
+	okBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
 	okBtn enabled: (true).
 	okBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons acceptIcon'.
 	okBtn icon: (UiSilkIcons acceptIcon).
