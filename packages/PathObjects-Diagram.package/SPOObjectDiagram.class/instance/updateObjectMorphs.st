@@ -14,4 +14,4 @@ updateObjectMorphs
 		morph owner ifNil: [self addMorph: morph].
 		morph hide].
 	
-	self layoutObjectMorphs.
+	self refreshLayout.
