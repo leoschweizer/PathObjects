@@ -3,8 +3,11 @@ highlightNode: aNode
 	
 	| oldNode |
 	oldNode := self highlightedNode.
-	self highlightedNode: aNode.
-	self childChanged: (aNode at: #siblingIndex).
+	self highlightedNode: nil.
+	"sibling nodes may be absent due to filtering"
+	((aNode at: #siblingIndex) = 0) ifFalse: 
+		[self highlightedNode: aNode.
+		self childChanged: (aNode at: #siblingIndex)].
 	
 	oldNode ifNotNilDo: [:node |
 		"make sure a node still exists at the given index (filtering

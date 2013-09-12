@@ -10,4 +10,4 @@ onFilterToggled
 	
 	enabled ifFalse: [self objectProxy interactionModel filterChain removeAll: SPOObjectFilter].
 	
-	self pathObjects diagram refreshLayout.
+	"self pathObjects diagram refreshLayout."
