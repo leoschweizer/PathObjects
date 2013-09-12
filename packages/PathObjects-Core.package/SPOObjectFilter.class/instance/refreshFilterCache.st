@@ -7,5 +7,3 @@ refreshFilterCache
 	
 	objects := self steps flatCollect: [:each | each involvedObjects].
 	self filteredObjects: (self source objects select: [:each | objects includes: each value]).
-	
-	self filterChanged.

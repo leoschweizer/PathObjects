@@ -1,4 +1,4 @@
 signals
 filterChanged
 	
-	self emit.
+	self emitAlways.
