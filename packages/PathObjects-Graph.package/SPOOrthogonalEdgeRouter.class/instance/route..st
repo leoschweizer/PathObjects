@@ -6,11 +6,11 @@ route: anEdge
 	receiverId := anEdge interactionStep receiver objectId.
 	slotIndex := self slotIndexOf: anEdge.
 	spec := self cachedVertices
-		at: (senderId -> receiverId -> slotIndex -> 0)
+		at: (senderId -> receiverId -> slotIndex)
 		ifAbsent: [self edgeSpecificationsFor: anEdge].
 	
 	"self addDebugConnector: spec to: anEdge pasteUpMorph."
 	
-	anEdge line setVertices: spec.
-	"anEdge beOrthogonal: true."
+	anEdge setVertices: spec.
+	anEdge beOrthogonal: true.
 	"anEdge beStraightSegments."

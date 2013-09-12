@@ -8,3 +8,5 @@ initialize
 		on: #mouseEnter send: #mouseEnter: to: self;
 		on: #mouseLeave send: #mouseLeave: to: self;
 		on: #mouseMove send: #mouseMove: to: self.
+	
+	self connect: self line signal: #verticesChanged: toSelector: #onLineVerticesChanged:.

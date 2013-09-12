@@ -1,14 +1,14 @@
 {
-	"category" : "PathObjects-Graph",
+	"category" : "PathObjects-Diagram",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cachedVertices" ],
-	"name" : "SPOOrthogonalEdgeRouter",
+		 ],
+	"name" : "SPOLineMorph",
 	"pools" : [
 		 ],
-	"super" : "SPOEdgeRouter",
+	"super" : "NCLineMorph",
 	"type" : "normal" }

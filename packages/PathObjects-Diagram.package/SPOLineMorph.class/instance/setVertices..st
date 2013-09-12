@@ -1,4 +1,4 @@
-accessing
+editing
 setVertices: newVertices
 	
 	self verticesChanged: newVertices.
