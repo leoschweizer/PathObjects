@@ -12,5 +12,5 @@ initializeOverlayList
 					ifFalse: [text]]);
 		addColumn: (UiItemViewColumnSpec newFrom: {#headerText -> 'Source'. #text -> #metric.});
 		addTextColumn: 'Target' selector: #target.
-		
+	
 	self updateOverlayList.

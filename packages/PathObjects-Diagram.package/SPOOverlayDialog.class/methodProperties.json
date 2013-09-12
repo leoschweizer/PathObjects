@@ -3,9 +3,9 @@
 		"openOn:" : "ls 8/5/2013 19:03:54.415" },
 	"instance" : {
 		"initialize" : "ls 9/12/2013 12:18:58.808",
-		"initializeOverlayList" : "ls 9/12/2013 12:20:12.764",
+		"initializeOverlayList" : "ls 9/12/2013 12:22:52.811",
 		"initializeSelectionBoxes" : "ls 8/5/2013 19:28:04",
-		"initializeVisitorBoxFor:" : "ls 9/12/2013 00:56:48.425",
+		"initializeVisitorBoxFor:" : "ls 9/12/2013 12:26:09.254",
 		"metrics" : "ls 8/5/2013 18:10:30.966",
 		"onAddOverlayClicked" : "ls 8/5/2013 20:46:10.484",
 		"onOkClicked" : "ls 8/6/2013 18:30:10.909",

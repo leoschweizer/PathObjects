@@ -8,5 +8,5 @@ initializeVisitorBoxFor: aMetric
 	visitors addFirst: 'Visualize how:'.
 	
 	self ui visitorBox
-		"clear;"
+		clear;
 		addTextList: visitors.
