@@ -1,0 +1,4 @@
+accessing
+ramp
+	
+	^ self subclassResponsibility

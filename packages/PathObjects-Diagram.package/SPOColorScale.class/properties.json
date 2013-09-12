@@ -1,0 +1,16 @@
+{
+	"category" : "PathObjects-Diagram-Colors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pixelRamp",
+		"minValue",
+		"maxValue" ],
+	"name" : "SPOColorScale",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

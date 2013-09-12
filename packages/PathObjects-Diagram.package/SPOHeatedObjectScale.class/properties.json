@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Colors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOHeatedObjectScale",
+	"pools" : [
+		 ],
+	"super" : "SPOColorScale",
+	"type" : "normal" }
