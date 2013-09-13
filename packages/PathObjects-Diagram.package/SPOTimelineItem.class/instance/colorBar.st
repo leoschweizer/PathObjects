@@ -3,6 +3,6 @@ colorBar
 	
 	^ colorBar ifNil: [colorBar := BorderedMorph new
 		extent: 2@64;
-		color: SPOColorScheme default colorTimelineItem;
+		color: SPOColorScheme colorTimelineItem;
 		borderWidth: 0.
 		colorBar]

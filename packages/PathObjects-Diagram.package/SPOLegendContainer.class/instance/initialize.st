@@ -14,4 +14,4 @@ initialize
 		layoutInset: 4;
 		cellInset: 4;
 		width: 130;
-		color:  SPOColorScheme default colorLegendBackground.
+		color:  SPOColorScheme colorLegendBackground.

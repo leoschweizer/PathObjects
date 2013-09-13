@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	
 	self
-		color: SPOColorScheme default colorTimelineBackground;
+		color: SPOColorScheme colorTimelineBackground;
 		scrollBarThickness: 6;
 		initializeSignals.

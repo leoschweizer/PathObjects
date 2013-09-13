@@ -2,4 +2,4 @@ initialization
 initialize
 	
 	super initialize.
-	self color: SPOColorScheme default colorMinimapBackground.
+	self color: SPOColorScheme colorMinimapBackground.

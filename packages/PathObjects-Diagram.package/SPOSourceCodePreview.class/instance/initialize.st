@@ -14,7 +14,7 @@ initialize
 		
 	self ui sourcePane
 		displayMode: #highlight;
-		colorFocusBackground: SPOColorScheme default colorCodePreviewBackground;
-		colorHighlightedBackground: SPOColorScheme default colorCodePreviewBackground;
-		colorHighlightedBorder: SPOColorScheme default colorCodePreviewBackground;
+		colorFocusBackground: SPOColorScheme colorCodePreviewBackground;
+		colorHighlightedBackground: SPOColorScheme colorCodePreviewBackground;
+		colorHighlightedBorder: SPOColorScheme colorCodePreviewBackground;
 		updateFocusColor: false.

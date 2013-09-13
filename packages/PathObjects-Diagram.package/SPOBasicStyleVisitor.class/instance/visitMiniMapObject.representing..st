@@ -2,8 +2,8 @@ visitors
 visitMiniMapObject: aMorph representing: aProxy
 	
 	aProxy isFutureObject
-		ifTrue: [aMorph color: SPOColorScheme default colorMinimapFuture.]
-		ifFalse: [aMorph color: SPOColorScheme default colorMinimapInactive].
+		ifTrue: [aMorph color: SPOColorScheme colorMinimapFuture.]
+		ifFalse: [aMorph color: SPOColorScheme colorMinimapInactive].
 	
 	aProxy isCurrentlyInvolved ifTrue:
-		[aMorph color: SPOColorScheme default colorMinimapActive].
+		[aMorph color: SPOColorScheme colorMinimapActive].
