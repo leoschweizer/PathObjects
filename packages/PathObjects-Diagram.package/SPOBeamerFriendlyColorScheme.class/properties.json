@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Colors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOBeamerFriendlyColorScheme",
+	"pools" : [
+		 ],
+	"super" : "SPOColorScheme",
+	"type" : "normal" }
