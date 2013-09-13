@@ -13,4 +13,4 @@ edgeSpecificationsFor: anEdge
 			newVertex := newVertex translateBy: (anEdge owner extent / 4.0)]].
 	
 	spec := t at: (self slotIndexOf: anEdge).
-	^ self removeConsecutiveDuplicatesFrom: spec
+	^ spec asOrderedCollection withoutConsecutiveDuplicates

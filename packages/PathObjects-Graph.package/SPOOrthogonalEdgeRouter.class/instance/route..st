@@ -11,6 +11,6 @@ route: anEdge
 	
 	"self addDebugConnector: spec to: anEdge pasteUpMorph."
 	
-	anEdge setVertices: spec.
+	anEdge line silentSetVertices: spec.
 	anEdge beOrthogonal: true.
 	"anEdge beStraightSegments."

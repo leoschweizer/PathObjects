@@ -1,9 +1,9 @@
-utilities
-removeConsecutiveDuplicatesFrom: aCollection
+*PathObjects-Core
+withoutConsecutiveDuplicates
 	
 	| newCollection |
-	newCollection := OrderedCollection new.
-	aCollection do: [:each |
+	newCollection := self species new.
+	self do: [:each |
 		(newCollection isEmpty or: [newCollection last ~= each])
 			ifTrue: [newCollection add: each]].
 	^ newCollection

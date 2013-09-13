@@ -9,7 +9,6 @@
 		"accept:" : "ls 7/30/2013 11:30:42.295",
 		"addBasicArrowMenuItemsTo:event:" : "ls 6/15/2013 22:39:30.023",
 		"allowsDetachmentOfConstraint:" : "ls 6/15/2013 22:39:23.068",
-		"fixDegenerateLine" : "ls 9/4/2013 13:42:36.338",
 		"initialize" : "ls 9/12/2013 14:20:15.159",
 		"interactionStep" : "ls 4/20/2013 17:54:44.771",
 		"interactionStep:" : "ls 4/20/2013 17:54:39.786",
@@ -22,8 +21,6 @@
 		"mouseMove:" : "ls 4/20/2013 18:10:33.988",
 		"mouseMoved:" : "ls 4/20/2013 18:10:42.506",
 		"onLineVerticesChanged:" : "ls 9/12/2013 14:20:39.099",
-		"orthogonalizeVertex:" : "ls 9/11/2013 15:42:00.815",
-		"reduceVertices" : "ls 9/4/2013 15:57:59.744",
-		"setVertices:" : "ls 9/12/2013 14:09:52.127",
+		"setVertices:" : "ls 9/13/2013 13:08:21.455",
 		"verticesChanged:" : "ls 9/12/2013 14:13:46.215",
 		"wantsToDetachEnd:fromMorph:" : "ls 6/15/2013 22:42:41.692" } }
