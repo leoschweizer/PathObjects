@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pixelRamp",
-		"minValue",
-		"maxValue" ],
+		"pixelRamp" ],
 	"name" : "SPOColorScale",
 	"pools" : [
 		 ],

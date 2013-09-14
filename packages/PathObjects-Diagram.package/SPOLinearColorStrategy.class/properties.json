@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"min",
-		"max",
 		"colorScale" ],
 	"name" : "SPOLinearColorStrategy",
 	"pools" : [

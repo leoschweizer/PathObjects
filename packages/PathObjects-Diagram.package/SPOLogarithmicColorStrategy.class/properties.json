@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"min",
-		"max" ],
+		 ],
 	"name" : "SPOLogarithmicColorStrategy",
 	"pools" : [
 		 ],

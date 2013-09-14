@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sourceMin",
-		"sourceMax",
 		"min",
 		"max" ],
 	"name" : "SPOLinearGeometryStrategy",

@@ -3,13 +3,14 @@ updateObjectMorphs
 	
 	self removeAllMorphs.
 	
-	self objectMorphs: (self diagram objectMorphs collect: [:each | | morph |
+	self objectMorphs: (self diagram interactionModel objects collect: [:object | | dm morph |
+		dm := self diagram objectMorphs at: object objectId.
 		morph := Morph new
-			extent: (each ui objectMorph extent / self scale) ceiling;
-			position: self topLeft + (each ui objectMorph position / self scale) ceiling;
+			extent: (dm ui objectMorph extent / self scale) ceiling;
+			position: self topLeft + (dm ui objectMorph position / self scale) ceiling;
 			yourself.
 		self 
-			connect: each 
+			connect: dm 
 			signal: #positionChangedNonDragging: 
 			toSelector: #morph:hasChangedPositionTo: 
 			pattern: #(0 1).
