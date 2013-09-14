@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"coversObjects" : "ls 8/5/2013 17:57:25.557",
+		"displayName" : "ls 9/14/2013 14:08:15.124" },
+	"instance" : {
+		"calculateMetric" : "ls 8/29/2013 15:48:36.506",
+		"incrementCountOf:" : "ls 8/1/2013 12:27:42.82",
+		"isLinear" : "ls 8/23/2013 17:54:06.48",
+		"minValue" : "ls 9/14/2013 14:07:21.555",
+		"valueOf:" : "ls 9/14/2013 14:06:17.798" } }

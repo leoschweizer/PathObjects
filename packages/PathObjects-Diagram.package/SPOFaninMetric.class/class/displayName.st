@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'FANINOUT'
+	^ 'Fanin'

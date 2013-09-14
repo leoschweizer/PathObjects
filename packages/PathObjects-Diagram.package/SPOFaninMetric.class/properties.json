@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Diagram-Metrics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOFaninMetric",
+	"pools" : [
+		 ],
+	"super" : "SPOFaninoutMetric",
+	"type" : "normal" }
