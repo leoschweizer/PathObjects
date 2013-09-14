@@ -8,7 +8,7 @@
 	"instvars" : [
 		"alias",
 		"knows" ],
-	"name" : "SPOObject",
+	"name" : "SPOSomeObject",
 	"pools" : [
 		 ],
 	"super" : "Object",

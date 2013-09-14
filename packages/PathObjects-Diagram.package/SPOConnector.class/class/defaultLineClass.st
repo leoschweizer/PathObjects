@@ -1,4 +1,4 @@
 defaults
 defaultLineClass
 	
-	^ SPOLineMorph
+	^ SPOConnectorLine

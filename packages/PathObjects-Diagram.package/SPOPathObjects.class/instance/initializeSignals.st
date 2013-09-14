@@ -6,7 +6,7 @@ initializeSignals
 		connect: self forwardBtn signal: #clicked toSelector: #onSteppedForward;
 		connect: self timeline signal: #currentNodeChanged: toSelector: #onTimelineClicked:.
 	
-	self miniMap
+	self minimap
 		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
 		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:;
 		connect: self diagram signal: #extentChanged: toSelector: #updateExtent:.

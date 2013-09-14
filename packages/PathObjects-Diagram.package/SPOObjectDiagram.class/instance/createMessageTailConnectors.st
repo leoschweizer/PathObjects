@@ -5,7 +5,7 @@ createMessageTailConnectors
 	self interactionModel messageTail do: [:each | 
 		callerMorph := self objectMorphs at: each sender objectId.
 		calleeMorph := self objectMorphs at: each receiver objectId.
-		connector := SPOConnectorMorph
+		connector := SPOConnector
 			from: callerMorph ui objectMorph
 			to: calleeMorph ui objectMorph
 			step: each.

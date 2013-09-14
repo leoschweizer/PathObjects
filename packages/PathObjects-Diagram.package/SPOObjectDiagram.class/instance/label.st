@@ -1,4 +1,4 @@
 accessing
 label
 	
-	^ label ifNil: [label := SPOLabelMorph new]
+	^ label ifNil: [label := SPOMessageLabel new]

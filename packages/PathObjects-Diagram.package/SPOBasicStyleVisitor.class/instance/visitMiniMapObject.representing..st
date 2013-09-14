@@ -1,5 +1,5 @@
 visitors
-visitMiniMapObject: aMorph representing: aProxy
+visitMinimapObject: aMorph representing: aProxy
 	
 	aProxy isFutureObject
 		ifTrue: [aMorph color: SPOColorScheme colorMinimapFuture.]

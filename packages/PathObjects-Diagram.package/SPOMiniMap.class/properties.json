@@ -10,7 +10,7 @@
 		"objectMorphs",
 		"viewportMorph",
 		"scale" ],
-	"name" : "SPOMiniMap",
+	"name" : "SPOMinimap",
 	"pools" : [
 		 ],
 	"super" : "Morph",

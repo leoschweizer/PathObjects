@@ -1,4 +1,4 @@
 visitors
-visitMiniMapObject: aMorph representing: aProxy
+visitMinimapObject: aMorph representing: aProxy
 	
 	

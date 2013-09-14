@@ -10,7 +10,7 @@ updateObjectMorphs
 	self interactionModel objects values do: [:object | | morph |
 		morph := self objectMorphs
 			at: object objectId
-			ifAbsentPut: (SPOObjectContainerMorph on: object).
+			ifAbsentPut: (SPOObjectContainer on: object).
 		morph owner ifNil: [self addMorph: morph].
 		morph hide].
 	

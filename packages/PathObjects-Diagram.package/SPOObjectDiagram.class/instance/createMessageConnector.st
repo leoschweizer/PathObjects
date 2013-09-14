@@ -5,7 +5,7 @@ createMessageConnector
 	step := self interactionModel currentStep.
 	callerMorph := self objectMorphs at: step sender objectId.
 	calleeMorph := self objectMorphs at: step receiver objectId.
-	connector := SPOConnectorMorph
+	connector := SPOConnector
 		from: callerMorph ui objectMorph
 		to: calleeMorph ui objectMorph
 		step: step.

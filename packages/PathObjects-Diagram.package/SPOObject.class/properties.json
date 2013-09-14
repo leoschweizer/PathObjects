@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"explorer",
+		"idLabel",
 		"ui",
-		"isBeingDragged",
-		"roleLabels" ],
-	"name" : "SPOObjectContainerMorph",
+		"objectProxy" ],
+	"name" : "SPOObject",
 	"pools" : [
 		 ],
 	"super" : "Morph",

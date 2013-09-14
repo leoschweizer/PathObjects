@@ -1,4 +1,4 @@
 testing
-visitsMiniMap
+visitsMinimap
 	
 	^ true

@@ -201,7 +201,7 @@ initializePanel
 	searchBtn setProperty: #objectName toValue: 'searchBtn'.
 	menuContainer addChild: searchBtn.
 	panel addChild: menuContainer.
-	objectMorph := SPOObjectMorph new.
+	objectMorph := SPOObject new.
 	objectMorph changeTableLayout.
 	objectMorph extent: (152@36).
 	objectMorph position: (2@24).

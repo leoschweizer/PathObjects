@@ -4,7 +4,7 @@ initializeUi
 	self
 		addMorph: self toolbar;
 		addMorph: self diagramArea;
-		addMorph: self miniMap;
+		addMorph: self minimap;
 		addMorph: self legend;
 		addMorph: self timeline;
 		addMorph: self backwardBtn;

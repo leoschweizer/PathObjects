@@ -1,4 +1,4 @@
 public api
 maxValue
 	
-	^ self values values max
+	^ maxValue ifNil: [maxValue := self values values max]

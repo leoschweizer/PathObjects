@@ -1,5 +1,5 @@
 visitors
-visitMiniMapObject: aMorph representing: anObjectProxy
+visitMinimapObject: aMorph representing: anObjectProxy
 	
 	| metricValue color |
 	metricValue := self metric valueOf: anObjectProxy.

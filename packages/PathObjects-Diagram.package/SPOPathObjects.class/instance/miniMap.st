@@ -1,4 +1,4 @@
 accessing
-miniMap
+minimap
 	
-	^ miniMap ifNil: [self diagram ifNotNil: [miniMap := SPOMiniMap on: self diagram]]
+	^ minimap ifNil: [self diagram ifNotNil: [minimap := SPOMinimap on: self diagram]]

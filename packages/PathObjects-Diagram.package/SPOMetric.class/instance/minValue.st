@@ -1,4 +1,4 @@
 public api
 minValue
 	
-	^ self values values min
+	^minValue ifNil: [minValue := self values values min]

@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"canVisualize:" : "ls 9/3/2013 15:58:06.411",
-		"displayName" : "ls 9/3/2013 16:00:08.281" },
+		"displayName" : "ls 9/3/2013 16:00:08.281",
+		"providesColorLegend" : "ls 9/14/2013 18:23:35.986" },
 	"instance" : {
 		"adaptColorScale:" : "ls 9/12/2013 19:58:03.096",
 		"colorStrategy" : "ls 9/3/2013 15:55:34.216",

@@ -10,7 +10,7 @@ onModelChanged
 	self timeline model reset.
 	self timeline width: self timeline optimalWidth.
 	self diagram updateObjectMorphs.
-	self miniMap updateObjectMorphs.
+	self minimap updateObjectMorphs.
 	
 	"make sure the model doesn't stay in an invalid state, where the current
 	state is a filtered state"

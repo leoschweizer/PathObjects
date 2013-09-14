@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SPOLineMorph",
+		"ui",
+		"isBeingDragged",
+		"roleLabels" ],
+	"name" : "SPOObjectContainer",
 	"pools" : [
 		 ],
-	"super" : "NCLineMorph",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -9,7 +9,7 @@
 		"indicatorButton",
 		"selectorContainer",
 		"returnContainer" ],
-	"name" : "SPOLabelMorph",
+	"name" : "SPOMessageLabel",
 	"pools" : [
 		 ],
 	"super" : "NCOffsetConstraintMorph",

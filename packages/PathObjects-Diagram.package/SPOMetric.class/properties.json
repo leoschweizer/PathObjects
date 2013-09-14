@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"interactionModel",
-		"values" ],
+		"values",
+		"minValue",
+		"maxValue" ],
 	"name" : "SPOMetric",
 	"pools" : [
 		 ],

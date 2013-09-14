@@ -7,7 +7,7 @@ createObjectMorphs
 		thenDo: [:object | 
 			morph := self objectMorphs
 				at: object objectId
-				put: (SPOObjectContainerMorph on: object).
+				put: (SPOObjectContainer on: object).
 			self addMorph: morph.
 			morph hide].
 	

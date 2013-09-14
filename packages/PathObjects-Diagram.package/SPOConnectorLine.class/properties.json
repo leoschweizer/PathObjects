@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"explorer",
-		"idLabel",
-		"ui",
-		"objectProxy" ],
-	"name" : "SPOObjectMorph",
+		 ],
+	"name" : "SPOConnectorLine",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "NCLineMorph",
 	"type" : "normal" }
