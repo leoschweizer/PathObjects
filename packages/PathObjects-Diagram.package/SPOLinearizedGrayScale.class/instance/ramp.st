@@ -2,7 +2,7 @@ accessing
 ramp
 	
 	^ {
-		Color r: 255 g: 255 b: 255 range: 255.
+		"Color r: 255 g: 255 b: 255 range: 255.
 		Color r: 252 g: 252 b: 252 range: 255.
 		Color r: 252 g: 252 b: 252 range: 255.
 		Color r: 252 g: 252 b: 252 range: 255.
@@ -11,7 +11,7 @@ ramp
 		Color r: 243 g: 243 b: 243 range: 255.
 		Color r: 243 g: 243 b: 243 range: 255.
 		Color r: 243 g: 243 b: 243 range: 255.
-		Color r: 237 g: 237 b: 237 range: 255.
+		Color r: 237 g: 237 b: 237 range: 255."
 		Color r: 237 g: 237 b: 237 range: 255.
 		Color r: 230 g: 230 b: 230 range: 255.
 		Color r: 230 g: 230 b: 230 range: 255.
