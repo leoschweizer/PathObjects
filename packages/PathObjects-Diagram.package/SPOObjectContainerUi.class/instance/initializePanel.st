@@ -154,8 +154,8 @@ initializePanel
 	filterBtn balloonText: ('Set quick filter').
 	filterBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	filterBtn enabled: (true).
-	filterBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeDesignIcon'.
-	filterBtn icon: (UiFugueIcons nodeDesignIcon).
+	filterBtn setProperty: #iconByDesigner toValue: 'UiFugueIcons nodeFunnelIcon'.
+	filterBtn icon: (UiFugueIcons nodeFunnelIcon).
 	filterBtn text: ('ToolButton').
 	filterBtn color: ((Color r: 1 g: 0.871 b: 0.0)).
 	filterBtn checkable: (true).

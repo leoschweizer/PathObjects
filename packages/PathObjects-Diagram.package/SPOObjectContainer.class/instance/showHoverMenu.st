@@ -2,4 +2,4 @@ drawing
 showHoverMenu
 	
 	self objectProxy isEnvironment ifTrue: [^ self].
-	self ui menuContainer fadeIn.
+	self ui menuContainer show.
