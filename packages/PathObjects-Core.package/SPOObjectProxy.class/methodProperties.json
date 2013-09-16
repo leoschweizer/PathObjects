@@ -4,10 +4,11 @@
 	"instance" : {
 		"=" : "ls 7/9/2013 14:09:22.447",
 		"boxLabel" : "ls 9/2/2013 18:07:47.362",
-		"currentArgumentRoles" : "ls 9/16/2013 15:42:10.895",
+		"currentArgumentRoles" : "ls 9/16/2013 16:01:29.793",
 		"currentReferences" : "ls 7/19/2013 22:56:02.514",
 		"currentRoles" : "ls 4/22/2013 13:43:04.313",
 		"currentState" : "ls 7/19/2013 22:56:09.052",
+		"extractSelectorPartsFrom:at:" : "ls 9/16/2013 15:59:41.642",
 		"initialize" : "ls 4/22/2013 13:43:15.952",
 		"interactionModel" : "ls 4/22/2013 13:43:29.549",
 		"interactionModel:" : "ls 4/22/2013 13:43:24.464",
