@@ -11,7 +11,7 @@ setSelector: aSelector
 		numArgs > 0 ifTrue: 
 			[explorer := self buildButtonWith: self parameterIcon.
 			explorer setProperty: #parameterIndex toValue: index.
-			self connect: explorer signal: #clicked: toSelector: #onExploreClicked:exploreWhat: pattern: #(0 =parameter).
+			self connect: explorer signal: #clicked: toSelector: #onExploreClicked:exploreWhat: pattern: #(0 =argument).
 			self selectorContainer
 			addMorphBack: explorer;
 			addMorphBack: (self buildSpacer: 2)]].

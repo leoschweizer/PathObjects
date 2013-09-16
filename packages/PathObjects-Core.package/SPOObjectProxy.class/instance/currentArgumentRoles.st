@@ -2,7 +2,7 @@ accessing
 currentArgumentRoles
 	
 	| indices node roles |
-	(self currentRoles includesAnyOf: #(parameter return)) ifFalse: [^ {}].
+	(self currentRoles includesAnyOf: #(argument returnValue)) ifFalse: [^ {}].
 	
 	indices := OrderedCollection new.
 	self interactionModel currentStep arguments withIndexDo: [:arg :i |
@@ -11,5 +11,5 @@ currentArgumentRoles
 		currentStep callNode compiledMethod getSource).
 	roles := indices collect: [:i | ((node selectorParts at: i) value, ' ') -> (node argumentNames at: i)].
 	
-	(self currentRoles includes: #return) ifTrue: [roles add: ('' -> 'return value')].
+	(self currentRoles includes: #returnValue) ifTrue: [roles add: ('' -> 'return value')].
 	^ roles

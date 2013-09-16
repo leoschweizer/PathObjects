@@ -2,7 +2,7 @@ signals-callbacks
 onExploreClicked: sender exploreWhat: aSymbol
 	
 	| proxy objects parameterIndex |
-	aSymbol = #parameter ifTrue: 
+	aSymbol = #argument ifTrue: 
 		[parameterIndex := sender valueOfProperty: #parameterIndex.
 		proxy := (self interactionModel currentStep arguments at: parameterIndex) first.
 		(self pathObjects displays: proxy)
@@ -11,7 +11,7 @@ onExploreClicked: sender exploreWhat: aSymbol
 				[objects := self interactionModel currentStep callNode explore: #arguments.
 				(objects first at: parameterIndex) explore]].
 	
-	aSymbol = #return ifTrue:
+	aSymbol = #returnValue ifTrue:
 		[proxy := self interactionModel currentStep returnValue first.
 		(self pathObjects displays: proxy)
 			ifTrue: [self pathObjects scrollToAndExplore: proxy]
