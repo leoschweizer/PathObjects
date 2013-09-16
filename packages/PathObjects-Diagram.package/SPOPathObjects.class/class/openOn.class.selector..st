@@ -10,8 +10,15 @@ openOn: aProject class: aTestClass selector: aSelector
 		during: [:bar |
 			bar value: 1.
 			tracer traceTest: aTestClass method: aSelector.
+			
 			bar value: 2.
+			tracer callTreeModel rootNode nextCalls
+				ifEmpty: [(UiMessage information: 'Trace is empty!')
+					center: ActiveWorld center;
+					openInWorld.
+					^ nil].
 			window :=  self new openDisplaying: (SPOInteractionModel new initializeWith: tracer callTreeModel).
+			
 			bar value: 3].
 	
 	^  window
