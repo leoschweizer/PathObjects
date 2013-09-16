@@ -1,7 +1,8 @@
 {
 	"class" : {
+		"defaultTestList" : "ls 9/16/2013 20:48:42.859",
 		"initialize" : "ls 5/19/2013 15:22:22.207",
-		"open" : "ls 6/2/2013 19:14:14.989",
+		"open" : "ls 9/16/2013 20:50:10.481",
 		"openOn:class:selector:" : "ls 8/23/2013 17:21:21.195" },
 	"instance" : {
 		"accept:" : "ls 9/14/2013 18:36:35.24",

@@ -9,8 +9,8 @@ open
 		^ self].
 	
 	test := UIManager default 
-		chooseFrom: SProject current allTests
-		values: SProject current allTests
+		chooseFrom: self defaultTestList
+		values: self defaultTestList
 		lines: #() 
 		title: 'Choose Test Case'.
 	test ifNil: [^ nil].

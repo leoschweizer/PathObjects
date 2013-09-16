@@ -3,7 +3,7 @@ run
 	
 	| tests |
 	tests := self testCases select: [:each | 
-		(self blacklist includes: (each actualClass -> each methodSymbol)) not].
+		(self class blacklist includes: (each actualClass -> each methodSymbol)) not].
 	
 	tests do: [:each | | window time |		
 			time := 
