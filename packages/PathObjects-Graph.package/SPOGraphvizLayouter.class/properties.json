@@ -8,7 +8,8 @@
 	"instvars" : [
 		"layoutedGraph",
 		"layout",
-		"router" ],
+		"router",
+		"diff" ],
 	"name" : "SPOGraphvizLayouter",
 	"pools" : [
 		 ],

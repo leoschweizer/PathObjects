@@ -8,6 +8,8 @@ generateGraph
 		beDirected;
 		addAttribute: #rankdir -> #LR;
 		addAttribute: #ranksep -> 1.5;
+		addAttribute: #margin -> 0;
+		addAttribute: #pad -> 0;
 		addAttribute: #splines -> #ortho.
 	
 	self interactionModel objects

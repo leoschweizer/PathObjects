@@ -11,4 +11,5 @@ openDisplaying: anInteractionModel
 		initializeUi;
 		initializeSignals;
 		stepTo: anInteractionModel currentStep.
+	self connect: window signal: #extentChanged: toSelector: #onExtentChanged:.
 	^ window

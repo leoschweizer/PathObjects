@@ -10,5 +10,3 @@ createObjectMorphs
 				put: (SPOObjectContainer on: object).
 			self addMorph: morph.
 			morph hide].
-	
-	self layoutObjectMorphs.

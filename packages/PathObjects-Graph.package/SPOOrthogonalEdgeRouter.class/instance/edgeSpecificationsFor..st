@@ -10,7 +10,7 @@ edgeSpecificationsFor: anEdge
 		(posString splitBy: ' ') collect: [:v | | newVertex |
 			newVertex := Compiler evaluate: (v copyReplaceAll: ',' with: '@').
 			"add offset since nodes are centered in a bigger diagram area"
-			newVertex := newVertex translateBy: (anEdge owner extent / 4.0)]].
+			newVertex := newVertex + (self layouter diff / 2) asIntegerPoint + self layouter padding]].
 	
 	spec := t at: (self slotIndexOf: anEdge).
 	^ spec asOrderedCollection withoutConsecutiveDuplicates
