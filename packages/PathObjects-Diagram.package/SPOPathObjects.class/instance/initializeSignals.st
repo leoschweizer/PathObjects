@@ -5,12 +5,11 @@ initializeSignals
 		connect: self backwardBtn signal: #clicked toSelector: #onSteppedBackward;
 		connect: self forwardBtn signal: #clicked toSelector: #onSteppedForward;
 		connect: self timeline signal: #currentNodeChanged: toSelector: #onTimelineClicked:;
-		connect: self diagramArea signal: #extentChanged: toSelector: #onExtentChanged:.
+		connect: self diagram signal: #extentChanged: toSelector: #onDiagramExtentChanged:;
+		connect: self diagramArea transformMorph signal: #extentChanged: toSelector: #onDiagramAreaExtentChanged:.
 	
 	self minimap
-		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:;
-		connect: self diagramArea signal: #extentChanged: toSelector: #updateViewportExtent:;
-		connect: self diagram signal: #extentChanged: toSelector: #updateExtent:.
+		connect: self diagramArea transformMorph signal: #offsetChanged: toSelector: #updateViewport:.
 	
 	self
 		connect: self toolbar searchEdit signal: #searchResultChanged: toSelector: #onSearchResultChanged:;

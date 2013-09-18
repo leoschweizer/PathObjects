@@ -1,10 +1,10 @@
 signals-callbacks
-onExtentChanged: newExtent
+onDiagramAreaExtentChanged: newExtent
 	
 	self diagram
 		layoutObjectMorphs;
 		layoutMessageMorphs.
 	
-	self minimap 
+	self minimap
 		updateViewportExtent: self diagramArea extent;
 		updateViewport: self diagramArea transformMorph offset.

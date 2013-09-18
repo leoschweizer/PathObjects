@@ -2,7 +2,7 @@ visitors
 accept: aVisitor
 	
 	| model |
-	model := (self ownerThatIsA: SPOPathObjects) interactionModel.
+	model := self pathObjects interactionModel.
 	self objectMorphs keysAndValuesDo: [:key :value | 
 		aVisitor 
 			visitMinimapObject: value 
