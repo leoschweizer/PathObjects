@@ -7,4 +7,5 @@ updateCanvas: aCanvas
 	scale := (1 max: scale x) @ (1 max: scale y).
 	extent := self layoutExtent * scale.
 	self diff: (extent - self layoutExtent).
+	self edgeRouter cachedVertices removeAll.
 	aCanvas extent: (extent + (self padding * 2)).
