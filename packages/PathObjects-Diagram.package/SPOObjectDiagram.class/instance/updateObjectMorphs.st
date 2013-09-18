@@ -2,9 +2,10 @@ drawing
 updateObjectMorphs
 	
 	"remove morphs that are no longer present in the model"
-	self objectMorphs keysAndValuesDo: [:id :morph |
-		(self interactionModel objects includesKey: id)
-			ifFalse: [morph delete. self objectMorphs removeKey: id]].
+	self objectMorphs copy keysAndValuesDo: [:id :morph |
+		(self interactionModel objects includesKey: id) ifFalse: 
+			[morph delete.
+			self objectMorphs removeKey: id]].
 	
 	"add missing morphs"
 	self interactionModel objects values do: [:object | | morph |
