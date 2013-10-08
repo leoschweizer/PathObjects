@@ -1,5 +1,5 @@
 signals-callbacks
 onSelectedColorScaleChanged: index text: text
 	
-	(index = 0) ifTrue: [^ self].
 	self updateButtonStates.
+	(index = 0) ifTrue: [^ self].

@@ -13,3 +13,5 @@ initializeColorScaleBox
 	
 	self colorScales keysAndValuesDo: [:name :class |
 		self ui colorScaleBox addIcon: class previewForm text: name].
+	
+	self updateButtonStates.
