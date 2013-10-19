@@ -5,7 +5,8 @@ run
 	tests := self testCases select: [:each | 
 		(self class blacklist includes: (each actualClass -> each methodSymbol)) not].
 	
-	tests do: [:each | | window time |		
+	tests do: [:each | | window time |
+			window := nil.	
 			time := 
 				[[window := SPOPathObjects 
 					openOn: SProject current 
@@ -20,15 +21,15 @@ run
 			window ifNotNilDo: [:w | | model |
 				model := (w findA: SPOPathObjects) interactionModel.
 				w delete.
-				self runtimes add: (each -> time).
-				self counters add: (each -> {
+				self runtimes add: (each asString -> time).
+				self counters add: (each asString -> {
 					model steps size.
 					model objects size.
 					(model steps collect: [:s | s allInvolvedObjects size])
 						inject: 0 into: [:a :c | a + c].
 				}).
-				Transcript show: each asString, ' time: ', time, 'ms'; cr].
+				"Transcript show: each asString, ' time: ', time, 'ms'; cr"].
 		
-			Smalltalk garbageCollect]
+			3 timesRepeat: [Smalltalk garbageCollect]]
 		
 		displayingProgress: [:each | 'Running ', each].
