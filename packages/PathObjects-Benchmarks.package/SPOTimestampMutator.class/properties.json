@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Benchmarks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methods" ],
+	"name" : "SPOTimestampMutator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
