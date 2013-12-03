@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'Timeline Item Size'
+	^ 'Timeline Item Height'

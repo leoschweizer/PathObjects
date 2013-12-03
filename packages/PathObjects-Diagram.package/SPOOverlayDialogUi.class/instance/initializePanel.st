@@ -188,7 +188,7 @@ initializePanel
 	addOverlayBtn enabled: (true).
 	addOverlayBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons addIcon'.
 	addOverlayBtn icon: (UiSilkIcons addIcon).
-	addOverlayBtn text: ('Add Overlay').
+	addOverlayBtn text: ('Add Layer').
 	addOverlayBtn color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	addOverlayBtn checkable: (false).
 	addOverlayBtn checked: (false).

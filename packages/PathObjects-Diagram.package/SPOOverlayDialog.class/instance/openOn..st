@@ -6,7 +6,7 @@ openOn: PathObjects
 	self
 		initializeSelectionBoxes;
 		initializeOverlayList;
-		window: (self openInWindowLabeled: 'Overlays').
+		window: (self openInWindowLabeled: 'Information Layers').
 	self window 
 		center: self pathObjects center;
 		deleteCloseBox.

@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'Node Size'
+	^ 'Object Size'

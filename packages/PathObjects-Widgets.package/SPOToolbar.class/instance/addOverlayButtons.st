@@ -5,7 +5,7 @@ addOverlayButtons
 	group := self buildGroup.
 	
 	button1 := self 
-		buildTextButton: 'Manage Overlays'
+		buildTextButton: 'Information Layers'
 		with: UiFugueIcons layersStackArrangeBackIcon
 		and: nil.
 	

@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'Inverse Stack Size'
+	^ 'Inverse Stack Depth'

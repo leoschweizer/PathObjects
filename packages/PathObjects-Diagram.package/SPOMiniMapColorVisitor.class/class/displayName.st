@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'Minimap Color'
+	^ 'Mini-Map Color'

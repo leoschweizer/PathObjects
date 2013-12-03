@@ -1,4 +1,4 @@
 accessing
 displayName
 	
-	^ 'Edge Color'
+	^ 'Message Color'
