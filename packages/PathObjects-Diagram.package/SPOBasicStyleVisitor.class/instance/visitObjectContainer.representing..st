@@ -1,6 +1,7 @@
 visitors
 visitObjectContainer: aMorph representing: anObjectProxy
 	
-	anObjectProxy isFutureObject
+	"anObjectProxy isFutureObject
 		ifTrue: [aMorph hide]
-		ifFalse: [aMorph show].
+		ifFalse: [aMorph show]."
+	aMorph show.
