@@ -8,5 +8,5 @@ updateState
 	
 	self removeStateMorph.
 	morph := self explorer explorerListMorphFor: objectState.
-	morph width: self ui panel width - 2.
+	morph width: self ui panel width - 3.
 	self ui panel addChild: morph.

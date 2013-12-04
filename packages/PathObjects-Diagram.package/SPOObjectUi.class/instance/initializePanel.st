@@ -27,7 +27,7 @@ initializePanel
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
 	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	panel color: (Color transparent).
+	panel color: (Color white).
 	panel borderWidth: (1).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
@@ -82,7 +82,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -108,7 +108,7 @@ initializePanel
 	label frameFractions: (0@0 corner: 1@1).
 	label frameOffsets: (0@0 corner: 0@0).
 	label balloonText: (nil).
-	label balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.949)).
+	label balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.945)).
 	label setProperty: #objectName toValue: 'label'.
 	unnamedMorph1 addChild: label.
 	header addChild: unnamedMorph1.
