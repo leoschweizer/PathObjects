@@ -1,4 +1,0 @@
-accessing
-displayName
-	
-	^ 'Object Size'
