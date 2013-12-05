@@ -6,3 +6,4 @@ removeStateMorph
 			[self ui panel removeMorph: each.
 			self height: 32]].
 	self ui panel layoutChanged.
+	
