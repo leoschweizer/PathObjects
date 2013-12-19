@@ -1,4 +1,4 @@
-as yet unclassified
+layouting
 layout: aNode in: aCanvas
 	
 	| layout position |

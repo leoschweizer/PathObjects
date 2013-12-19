@@ -1,4 +1,4 @@
-as yet unclassified
+layouting
 edgeRouter
 	
 	^ router ifNil: [router := SPONativeEdgeRouter new]

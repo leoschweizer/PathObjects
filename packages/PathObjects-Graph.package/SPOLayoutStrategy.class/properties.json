@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"layout",
-		"view",
-		"router",
-		"diff" ],
-	"name" : "SPONativeLayouter",
+		"interactionModel",
+		"canvas" ],
+	"name" : "SPOLayoutStrategy",
 	"pools" : [
 		 ],
-	"super" : "SPOGraphLayouter",
+	"super" : "Object",
 	"type" : "normal" }

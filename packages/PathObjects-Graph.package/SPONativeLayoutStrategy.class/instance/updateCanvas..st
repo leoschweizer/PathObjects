@@ -1,4 +1,4 @@
-as yet unclassified
+layouting
 updateCanvas: aCanvas
 	
 	| minExtent scale extent |

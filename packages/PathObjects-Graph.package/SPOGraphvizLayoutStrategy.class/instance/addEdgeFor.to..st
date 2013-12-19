@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addEdgeFor: aStep to: aGraph
 	
 	| slotUsers |

@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addNodeFor: aProxy to: aGraph
 	
 	aGraph add: aProxy objectId with: {

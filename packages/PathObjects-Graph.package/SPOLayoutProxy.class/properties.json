@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"interactionModel",
-		"canvas" ],
-	"name" : "SPOGraphLayouter",
+		"strategy" ],
+	"name" : "SPOLayoutProxy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SPOLayoutStrategy",
 	"type" : "normal" }

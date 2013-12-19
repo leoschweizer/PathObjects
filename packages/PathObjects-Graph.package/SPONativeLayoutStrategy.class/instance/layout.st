@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 layout
 	
 	^ layout ifNil: [layout := self generateLayout]

@@ -10,8 +10,8 @@
 		"layout",
 		"router",
 		"diff" ],
-	"name" : "SPOGraphvizLayouter",
+	"name" : "SPOGraphvizLayoutStrategy",
 	"pools" : [
 		 ],
-	"super" : "SPOGraphLayouter",
+	"super" : "SPOLayoutStrategy",
 	"type" : "normal" }

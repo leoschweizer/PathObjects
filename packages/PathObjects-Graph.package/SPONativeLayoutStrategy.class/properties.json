@@ -1,0 +1,17 @@
+{
+	"category" : "PathObjects-Graph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layout",
+		"view",
+		"router",
+		"diff" ],
+	"name" : "SPONativeLayoutStrategy",
+	"pools" : [
+		 ],
+	"super" : "SPOLayoutStrategy",
+	"type" : "normal" }
