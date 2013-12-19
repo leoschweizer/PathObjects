@@ -1,0 +1,4 @@
+platform-tests
+testAvailabilityMac
+	
+	^ false
