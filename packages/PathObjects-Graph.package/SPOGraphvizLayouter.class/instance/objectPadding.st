@@ -1,4 +1,0 @@
-accessing
-objectPadding
-	
-	^ 10

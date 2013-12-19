@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Graph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPONativeEdgeRouter",
+	"pools" : [
+		 ],
+	"super" : "SPOEdgeRouter",
+	"type" : "normal" }
