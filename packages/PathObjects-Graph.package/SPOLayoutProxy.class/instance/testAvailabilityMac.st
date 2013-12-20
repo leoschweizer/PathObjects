@@ -1,4 +1,4 @@
-platform-tests
+platform-testing
 testAvailabilityMac
 	
 	^ false

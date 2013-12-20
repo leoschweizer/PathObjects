@@ -1,4 +1,4 @@
-platform-tests
+platform-testing
 testAvailabilityWindows
 	
 	| result |

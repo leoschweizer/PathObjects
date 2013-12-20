@@ -1,4 +1,4 @@
-platform-tests
+platform-testing
 supportedPlatforms
 	
 	^ Dictionary newFrom: {

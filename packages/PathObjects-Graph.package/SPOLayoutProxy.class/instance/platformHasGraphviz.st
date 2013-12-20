@@ -1,4 +1,4 @@
-platform-tests
+platform-testing
 platformHasGraphviz
 	
 	| platform test |

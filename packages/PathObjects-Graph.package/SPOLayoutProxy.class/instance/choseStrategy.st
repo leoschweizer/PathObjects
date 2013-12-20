@@ -2,7 +2,7 @@ accessing
 choseStrategy
 	
 	| strategy |
-	strategy := self platformHasGraphviz
+	strategy := self useGraphviz
 		ifTrue: [SPOGraphvizLayoutStrategy]
 		ifFalse: [SPONativeLayoutStrategy].
 	
