@@ -1,0 +1,14 @@
+{
+	"category" : "PathObjects-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Preferences" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPOPreferences",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
