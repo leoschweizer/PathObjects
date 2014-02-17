@@ -1,6 +1,6 @@
 accessing
 layouter
 	
-	^ layouter ifNil: [layouter := SPOGraphvizLayouter
+	^ layouter ifNil: [layouter := SPOLayoutProxy
 		layout: self interactionModel
 		in: self]
