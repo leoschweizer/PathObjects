@@ -5,8 +5,8 @@ coverageListIndex: anInteger
 	testReference := self cacheCoverage at: anInteger.
 	choice := testMode 
 		ifNil: [(UIManager default 
-				chooseFrom: {'PathFinder'. 'PathObjects'. 'Debugger'. 'Browser'} 
-				values: {#openPathFinderOn:. #openPathObjectsOn:. #openDebuggerOn:. #openBrowserOn:} 
+				chooseFrom: {'PathObjects'. 'PathFinder'. 'Debugger'. 'Browser'} 
+				values: {#openPathObjectsOn:. #openPathFinderOn:. #openDebuggerOn:. #openBrowserOn:} 
 				lines: #() 
 				title: 'Choose tool')]
 		ifNotNil: [testMode].		
