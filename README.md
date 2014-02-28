@@ -1,13 +1,14 @@
 PathObjects
 ===========
 
-### Installation
+***
+
+### Installing
 
 #### Metacello
 
-A Metacello mirror of this repository for the use with Metacello is available [here](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/PathObjects).
-
-To install PathObjects in a vanilla Squeak 4.4 image, execute:
+A Monticello mirror of this repository for the use with Metacello is available [here](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/PathObjects). 
+To install PathObjects from this mirror in a vanilla Squeak 4.4 image, execute:
 ```smalltalk
 (Installer mc http: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/')
 	project: 'PathObjects';
@@ -26,14 +27,16 @@ Installer squeaksource
 
 #### Manual Installation
 
-- This repository was created with [filetree](https://github.com/dalehenrich/filetree). Add filetree to your Squeak 4.4 image and clone this repository.
-- Install the following dependencies:
-    - PathTools
-    - OSProcess
-    - SGraphViz
-    - Announcements
-    - Roassal
-- Load the PathTools packages in the following order: `foo`
+- This repository was created with [filetree](https://github.com/dalehenrich/filetree). Add filetree to your Squeak 4.4 image and clone this repository with git.
+- Add the following dependencies to your Squeak image:
+    - [PathTools](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/PathTools/)
+    - [OSProcess](http://wiki.squeak.org/squeak/708)
+    - [SGraphViz](https://github.com/leoschweizer/SGraphViz)
+    - [Announcements](http://www.squeaksource.com/AXAnnouncements/)
+    - [Roassal](http://www.moosetechnology.org/tools/roassal)
+- Load the following PathTools packages via filetree and Monticello in the specified order: `Core`, `Widgets`, `Diagram`
+- Load the remaining packages in random order
+- Entry points to PathObjects can be found via `Apps > PathObjects` or from within `PathBrowser`
 
 ***
 
