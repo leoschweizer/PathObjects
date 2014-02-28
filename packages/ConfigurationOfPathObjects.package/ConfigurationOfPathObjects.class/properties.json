@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfPathObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfPathObjects",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
