@@ -7,6 +7,8 @@ This repository contains the Squeak/Smalltalk implementation of [PathObjects](ht
   <img src="https://leoschweizer.github.io/PathObjects/PathObjects.png" alt="FastForward"/>
 </p>
 
+This project was started as a master's thesis at HPI's [Software Architecture Group](http://www.hpi.uni-potsdam.de/hirschfeld/).
+
 ***
 
 ### Installing
