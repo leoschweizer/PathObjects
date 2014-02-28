@@ -1,6 +1,10 @@
 PathObjects
 ===========
 
+<p align="center">
+  <img src="https://leoschweizer.github.io/PathObjects/PathObjects.png" alt="FastForward"/>
+</p>
+
 ***
 
 ### Installing
