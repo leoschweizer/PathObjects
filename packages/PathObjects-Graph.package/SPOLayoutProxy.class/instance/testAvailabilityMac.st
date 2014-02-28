@@ -1,4 +1,4 @@
 platform-testing
 testAvailabilityMac
 	
-	^ false
+	^ FileDirectory new fileExists: '/usr/local/bin/dot'
