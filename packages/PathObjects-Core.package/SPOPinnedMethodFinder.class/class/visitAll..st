@@ -1,4 +1,4 @@
-*PathObjects-Core-Filters
+visiting
 visitAll: aCollection
 	
 	| instance |
