@@ -1,6 +1,8 @@
 PathObjects
 ===========
 
+This repository contains the Squeak/Smalltalk implementation of [PathObjects](https://github.com/leoschweizer/PathObjects-Thesis), a concept of interactively diagraming object interactions to assist developers in object-oriented program comprehension.
+
 <p align="center">
   <img src="https://leoschweizer.github.io/PathObjects/PathObjects.png" alt="FastForward"/>
 </p>
@@ -28,6 +30,14 @@ Installer squeaksource
 	install: 'ConfigurationOfMetacello'. 
 (Smalltalk at: #ConfigurationOfMetacello) perform: #load.
 ```
+
+#### Graphviz Interoperability
+PathObjects can use [Graphviz](http://graphviz.org) to improve the drawing of object interactions significantly.
+Currently, Windows and MacOS are supported as host operating systems:
+- Windows: install Graphviz, add the path of the `dot` executable to your `PATH` variable, and restart your Squeak environment.
+- MacOS: install Graphviz and make `dot` available in `/usr/local/bin`.
+
+Graphviz will be utilized automatically unless specified otherwise through the Squeak preferences.
 
 #### Manual Installation
 
