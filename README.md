@@ -50,7 +50,7 @@ Graphviz will be utilized automatically unless specified otherwise through the S
     - [SGraphViz](https://github.com/leoschweizer/SGraphViz)
     - [Announcements](http://www.squeaksource.com/AXAnnouncements/)
     - [Roassal](http://www.moosetechnology.org/tools/roassal)
-- Load the following PathTools packages via filetree and Monticello in the specified order: `Core`, `Widgets`, `Diagram`
+- Load the following PathObjects packages via filetree and Monticello in the specified order: `Core`, `Widgets`, `Diagram`
 - Load the remaining packages in random order
 - Entry points to PathObjects can be found via `Apps > PathObjects` or from within `PathBrowser`
 
