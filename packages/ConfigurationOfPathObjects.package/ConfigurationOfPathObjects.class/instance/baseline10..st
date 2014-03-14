@@ -38,10 +38,10 @@ baseline10: spec
 			package: 'GraphViz' with: [spec requires: #('OSProcess')];
 			package: 'PathObjects-Benchmarks';
 			package: 'PathObjects-Core' with: [spec requires: #('PathTools')];
-			package: 'PathObjects-Diagram' with: [spec requires: #('PathObjects-Widgets')];
+			package: 'PathObjects-Diagram' with: [spec requires: #('PathObjects-Widgets'); postLoadDoIt: #postLoadConnectorsArrows];
 			package: 'PathObjects-Export' with: [spec requires: #('GraphViz')];
 			package: 'PathObjects-Graph' with: [spec requires: #('Announcements' 'Roassal' 'GraphViz')];
-			package: 'PathObjects-Widgets'.
+			package: 'PathObjects-Widgets' with: [spec requires: #('Signals' 'Animations' 'Widgets')].
 		
 		spec
 			group: 'default' with: #('Core');

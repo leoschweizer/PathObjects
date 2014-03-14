@@ -25,14 +25,6 @@ To install PathObjects from this mirror in a vanilla Squeak 4.4 image, execute:
 (Smalltalk at: #ConfigurationOfPathObjects) load.
 ```
 
-If Metacello bootstrapping fails, it can be installed via:
-```smalltalk
-Installer squeaksource
-	project: 'MetacelloRepository';
-	install: 'ConfigurationOfMetacello'. 
-(Smalltalk at: #ConfigurationOfMetacello) perform: #load.
-```
-
 #### Graphviz Interoperability
 PathObjects can use [Graphviz](http://graphviz.org) to improve the drawing of object interactions significantly.
 Currently, Windows and MacOS are supported as host operating systems:
@@ -50,9 +42,10 @@ Graphviz will be utilized automatically unless specified otherwise through the S
     - [SGraphViz](https://github.com/leoschweizer/SGraphViz)
     - [Announcements](http://www.squeaksource.com/AXAnnouncements/)
     - [Roassal](http://www.moosetechnology.org/tools/roassal)
+- Load `Signals-mt.46`, `Animations-mt.31` and `Widgets-mt.452` from the [SwaUtilities repository](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities/)
 - Load the following PathObjects packages via filetree and Monticello in the specified order: `Core`, `Widgets`, `Diagram`
-- Load the remaining packages in random order
-- Entry points to PathObjects can be found via `Apps > PathObjects` or from within `PathBrowser`
+- Load the remaining packages in any order
+- Execute `SPOConnector initializeArrowDictionary`
 
 ***
 
