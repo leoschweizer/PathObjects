@@ -12,6 +12,11 @@ baseline10: spec
 				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/PathTools/';
 				versionString: '1.8'].
 		
+		spec
+			package: 'Signals' with: [spec repository: self swaUtilities; file: 'Signals-mt.46'];
+			package: 'Animations' with: [spec repository: self swaUtilities; file: 'Animations-mt.31'];
+			package: 'Widgets' with: [spec repository: self swaUtilities; file: 'Widgets-mt.452'].
+		
 		spec project: 'OSProcess' with: [
 			spec
 				className: 'ConfigurationOfOSProcess';
